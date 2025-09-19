@@ -636,7 +636,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument("--token", default="", help="FinMind token，可留空")
     parser.add_argument(
         "--stocks",
-        default="2330,2317",
+        default="1519,2379,2383,2454,3035,3293,6231,6643,8358,8932,2344,2308,3535",
         help="股票代號清單，以逗號分隔",
     )
     parser.add_argument(
