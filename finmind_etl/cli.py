@@ -194,10 +194,11 @@ def main() -> None:
     else:
         LOGGER.info("使用者設定不輸出合併寬表。")
 
-    external_merged_path = "/mnt/data/_merged.csv"
+    external_merged_path = os.path.join(args.outdir, "_merged.csv")
     if os.path.exists(external_merged_path):
         LOGGER.info("偵測到 %s，開始整理每日寬表。", external_merged_path)
         raw_external = _read_raw_merged(external_merged_path)
+
         if raw_external.empty:
             LOGGER.warning("外部合併檔案無資料，跳過每日寬表清理。")
         else:
@@ -216,8 +217,9 @@ def main() -> None:
                     display_df["date"] = date_series.dt.strftime("%Y-%m-%d")
                 _print_summary(display_df)
 
-                output_path = "/mnt/data/_clean_daily_wide.csv"
-                output_min_path = "/mnt/data/_clean_daily_wide_min.csv"
+                output_path = os.path.join(args.outdir, "_clean_daily_wide.csv")
+                output_min_path = os.path.join(args.outdir, "_clean_daily_wide_min.csv")
+
 
                 export_df = merged_daily.copy()
                 if "date" in export_df.columns:
