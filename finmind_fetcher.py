@@ -71,6 +71,15 @@ DATASET_CATALOG: Dict[str, Dict[str, object]] = {
     },
 }
 
+# 針對輸出的檔名提供簡潔的辨識標籤，便於快速分辨資料內容
+DATASET_FILENAME_TAG: Dict[str, str] = {
+    "TaiwanStockPrice": "stockprice",
+    "TaiwanStockPriceAdj": "stockprice_adj",
+    "TaiwanStockInstitutionalInvestorsBuySell": "buysell",
+    "TaiwanStockMarginPurchaseShortSale": "margin_short",
+    "TaiwanStockMonthRevenue": "monthrevenue",
+}
+
 # 欄位對映定義區，針對不同 dataset 指定原始欄位與標準欄位的關係
 COLUMN_MAP: Dict[str, Dict[str, str]] = {
     "TaiwanStockPrice": {
@@ -747,9 +756,12 @@ def main() -> None:
             aggregated_frames.setdefault(dataset, []).append(cleaned_df)
 
             dataset_dir = os.path.join(args.outdir, dataset)
-            csv_path = os.path.join(dataset_dir, f"{stock}.csv")
+            tag = DATASET_FILENAME_TAG.get(dataset, dataset.lower())
+            csv_path = os.path.join(dataset_dir, f"{stock}_{tag}.csv")
             parquet_path = (
-                os.path.join(dataset_dir, f"{stock}.parquet") if args.parquet else None
+                os.path.join(dataset_dir, f"{stock}_{tag}.parquet")
+                if args.parquet
+                else None
             )
             save_frame(cleaned_df, csv_path, parquet_path)
 
