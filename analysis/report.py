@@ -82,22 +82,25 @@ def _plot_price(df: pd.DataFrame, stock_id: str) -> plt.Figure:
     fig, axes = plt.subplots(4, 1, figsize=(10, 12), sharex=True)
     price_ax, volume_ax, macd_ax, rsi_ax = axes
 
-    price_ax.plot(df["date"], df["close"], label="收盤價", color="#1f77b4")
+    # Price with MAs
+    price_ax.plot(df["date"], df["close"], label="Close", color="#1f77b4")
     for window in [5, 20, 60]:
         ma_col = f"MA{window}"
         if ma_col in df.columns:
             price_ax.plot(df["date"], df[ma_col], label=f"MA{window}")
-    price_ax.set_ylabel("價格")
-    price_ax.set_title(f"{stock_id} 價格與均線")
+    price_ax.set_ylabel("Price")
+    price_ax.set_title(f"{stock_id} Price & Moving Averages")
     price_ax.legend(loc="upper left")
     price_ax.grid(True, linestyle="--", alpha=0.3)
 
-    volume_ax.bar(df["date"], df["volume"], color="#ff7f0e", label="成交量")
+    # Volume
+    volume_ax.bar(df["date"], df["volume"], color="#ff7f0e", label="Volume")
     if "VOL_MA20" in df.columns:
-        volume_ax.plot(df["date"], df["VOL_MA20"], color="#2ca02c", label="20日均量")
-    volume_ax.set_ylabel("成交量")
+        volume_ax.plot(df["date"], df["VOL_MA20"], color="#2ca02c", label="20-day Avg Volume")
+    volume_ax.set_ylabel("Volume")
     volume_ax.legend(loc="upper left")
 
+    # MACD
     macd_ax.plot(df["date"], df.get("DIF"), label="DIF")
     macd_ax.plot(df["date"], df.get("DEA"), label="DEA")
     macd_ax.bar(
@@ -110,11 +113,12 @@ def _plot_price(df: pd.DataFrame, stock_id: str) -> plt.Figure:
     macd_ax.set_ylabel("MACD")
     macd_ax.legend(loc="upper left")
 
-    rsi_ax.plot(df["date"], df.get("RSI14"), label="RSI14", color="#9467bd")
+    # RSI
+    rsi_ax.plot(df["date"], df.get("RSI14"), label="RSI(14)", color="#9467bd")
     rsi_ax.axhline(70, color="red", linestyle="--", alpha=0.5)
     rsi_ax.axhline(30, color="green", linestyle="--", alpha=0.5)
     rsi_ax.set_ylabel("RSI")
-    rsi_ax.set_xlabel("日期")
+    rsi_ax.set_xlabel("Date")
     rsi_ax.legend(loc="upper left")
 
     for ax in axes:
@@ -126,18 +130,19 @@ def _plot_price(df: pd.DataFrame, stock_id: str) -> plt.Figure:
 
 def _plot_chip(df: pd.DataFrame, stock_id: str) -> plt.Figure:
     fig, ax = plt.subplots(figsize=(10, 4))
-    ax.plot(df["date"], df.get("net_foreign_5"), label="外資 5 日累計")
-    ax.plot(df["date"], df.get("net_it_5"), label="投信 5 日累計")
-    ax.plot(df["date"], df.get("net_dealer_total_5"), label="自營商 5 日累計")
-    ax.plot(df["date"], df.get("net_all_5"), label="三大法人合計 5 日")
+    ax.plot(df["date"], df.get("net_foreign_5"), label="Foreign (5-day sum)")
+    ax.plot(df["date"], df.get("net_it_5"), label="Investment Trust (5-day sum)")
+    ax.plot(df["date"], df.get("net_dealer_total_5"), label="Dealer Total (5-day sum)")
+    ax.plot(df["date"], df.get("net_all_5"), label="All (5-day sum)")
     ax.axhline(0, color="black", linewidth=0.8)
-    ax.set_title(f"{stock_id} 籌碼累計")
-    ax.set_ylabel("單位：股數/張數")
-    ax.set_xlabel("日期")
+    ax.set_title(f"{stock_id} Institutional Flow (5-day sums)")
+    ax.set_ylabel("Shares / Contracts")
+    ax.set_xlabel("Date")
     ax.legend(loc="upper left")
     ax.tick_params(axis="x", rotation=15)
     fig.tight_layout()
     return fig
+
 
 
 # -- 報告 -------------------------------------------------------------------

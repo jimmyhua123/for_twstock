@@ -103,3 +103,4 @@ python main.py \
 
 ---
 
+python -m analysis --input .\finmind_out\_clean_daily_wide.csv --outdir outputs --with-charts --html-report
