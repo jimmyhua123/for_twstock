@@ -173,6 +173,13 @@ class FinMindClient:
                 self._sleep_backoff(attempt)
                 continue
 
+            if not isinstance(payload, dict):
+                last_error = FinMindAPIError(f"非預期回應格式：{payload!r}")
+                if attempt == self.max_retries:
+                    break
+                self._sleep_backoff(attempt)
+                continue
+
             if payload.get("status") != 200:
                 last_error = FinMindAPIError(str(payload.get("msg", "未知錯誤")))
                 if attempt == self.max_retries:
