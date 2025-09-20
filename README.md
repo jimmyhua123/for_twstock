@@ -81,7 +81,23 @@ python main.py \
   * `output/_clean_daily_wide.csv`
   * `output/_clean_daily_wide_min.csv`
 
-### 4️⃣ 檢視摘要
+### 4️⃣ 擴充基本面與市場熱度欄位
+
+```bash
+python -m finmind_fetch \
+  --input finmind_out/_clean_daily_wide.csv \
+  --fetch-fundamentals \
+  --since 2024-01-01 \
+  --finmind-token $FINMIND_TOKEN
+```
+
+這個步驟會透過 FinMind API 抓取月營收與財報資料，自動計算
+`revenue_yoy`、`revenue_mom`、`eps`、`eps_ttm` 等欄位，同時計算全市場的
+`turnover_rank_pct`、`volume_rank_pct`、`volume_ratio`、`turnover_change_5d`、
+`transactions_change_5d` 等資金熱度指標，並更新 `_clean_daily_wide.csv`
+與 `_clean_daily_wide_min.csv`。
+
+### 5️⃣ 檢視摘要
 
 程式會在終端機輸出：
 
@@ -103,4 +119,12 @@ python main.py \
 
 ---
 
-python -m analysis --input .\finmind_out\_clean_daily_wide.csv --outdir outputs --with-charts --html-report
+```bash
+python -m analysis \
+  --input ./finmind_out/_clean_daily_wide.csv \
+  --outdir outputs \
+  --with-charts \
+  --html-report \
+  --fetch-fundamentals \
+  --since 2024-01-01
+```

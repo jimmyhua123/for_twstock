@@ -29,23 +29,59 @@ def calculate_capital_metrics(df: pd.DataFrame) -> pd.DataFrame:
 
     df = _prepare(df)
 
-    df["turnover_rank_pct"] = df.groupby("date")[["turnover"]].transform(percentile_rank)
+    if "turnover_rank_pct" not in df.columns:
+        df["turnover_rank_pct"] = df.groupby("date")[["turnover"]].transform(percentile_rank)
+    else:
+        df["turnover_rank_pct"] = pd.to_numeric(df["turnover_rank_pct"], errors="coerce")
 
-    df["turnover_ma5"] = df.groupby("stock_id")[["turnover"]].transform(
-        lambda s: s.rolling(window=ROLLING_WINDOW, min_periods=1).mean()
-    )
-    df["volume_ma5"] = df.groupby("stock_id")[["volume"]].transform(
-        lambda s: s.rolling(window=ROLLING_WINDOW, min_periods=1).mean()
-    )
-    df["transactions_ma5"] = df.groupby("stock_id")[["TaiwanStockPrice_transactions"]].transform(
-        lambda s: s.rolling(window=ROLLING_WINDOW, min_periods=1).mean()
-    )
+    if "volume_rank_pct" not in df.columns:
+        df["volume_rank_pct"] = df.groupby("date")[["volume"]].transform(percentile_rank)
+    else:
+        df["volume_rank_pct"] = pd.to_numeric(df["volume_rank_pct"], errors="coerce")
 
-    df["turnover_change_5d"] = (df["turnover"] - df["turnover_ma5"]) / df["turnover_ma5"].replace(0, np.nan)
-    df["volume_change_5d"] = (df["volume"] - df["volume_ma5"]) / df["volume_ma5"].replace(0, np.nan)
-    df["transactions_change_5d"] = (
-        (df["TaiwanStockPrice_transactions"] - df["transactions_ma5"]) / df["transactions_ma5"].replace(0, np.nan)
+    if "volume_ma20" not in df.columns:
+        df["volume_ma20"] = df.groupby("stock_id")[["volume"]].transform(
+            lambda s: s.rolling(window=20, min_periods=5).mean()
+        )
+
+    if "volume_ratio" not in df.columns:
+        df["volume_ratio"] = df["volume"] / df["volume_ma20"].replace(0, np.nan)
+
+    df["turnover_change_5d"] = pd.to_numeric(
+        df.get("turnover_change_5d"), errors="coerce"
     )
+    if df["turnover_change_5d"].isna().all():
+        df["turnover_ma5"] = df.groupby("stock_id")[["turnover"]].transform(
+            lambda s: s.rolling(window=ROLLING_WINDOW, min_periods=1).mean()
+        )
+        df["turnover_change_5d"] = (
+            df["turnover"] - df["turnover_ma5"]
+        ) / df["turnover_ma5"].replace(0, np.nan)
+
+    df["transactions_change_5d"] = pd.to_numeric(
+        df.get("transactions_change_5d"), errors="coerce"
+    )
+    if df["transactions_change_5d"].isna().all():
+        df["transactions_ma5"] = df.groupby("stock_id")[["TaiwanStockPrice_transactions"]].transform(
+            lambda s: s.rolling(window=ROLLING_WINDOW, min_periods=1).mean()
+        )
+        df["transactions_change_5d"] = (
+            df["TaiwanStockPrice_transactions"] - df["transactions_ma5"]
+        ) / df["transactions_ma5"].replace(0, np.nan)
+
+    if "volume_change_5d" in df.columns:
+        df["volume_change_5d"] = pd.to_numeric(df["volume_change_5d"], errors="coerce")
+        if df["volume_change_5d"].isna().all() and "volume_ratio" in df.columns:
+            df["volume_change_5d"] = df["volume_ratio"] - 1
+    elif "volume_ratio" in df.columns:
+        df["volume_change_5d"] = df["volume_ratio"] - 1
+    else:
+        df["volume_ma5"] = df.groupby("stock_id")[["volume"]].transform(
+            lambda s: s.rolling(window=ROLLING_WINDOW, min_periods=1).mean()
+        )
+        df["volume_change_5d"] = (
+            df["volume"] - df["volume_ma5"]
+        ) / df["volume_ma5"].replace(0, np.nan)
 
     df[["turnover_change_5d", "volume_change_5d", "transactions_change_5d"]] = df[
         ["turnover_change_5d", "volume_change_5d", "transactions_change_5d"]
@@ -72,6 +108,14 @@ def _score_capital(df: pd.DataFrame) -> pd.Series:
 
     score += np.where(df["turnover_rank_pct"] >= 0.9, 0.2, 0.0)
     score += np.where(df["turnover_rank_pct"] <= 0.1, -0.2, 0.0)
+
+    if "volume_rank_pct" in df.columns:
+        score += np.where(df["volume_rank_pct"] >= 0.8, 0.2, 0.0)
+        score += np.where(df["volume_rank_pct"] <= 0.2, -0.2, 0.0)
+
+    if "volume_ratio" in df.columns:
+        score += np.where(df["volume_ratio"] >= 2.0, 0.2, 0.0)
+        score += np.where(df["volume_ratio"] <= 0.8, -0.2, 0.0)
 
     return score.apply(lambda v: clip_score(v, 0.0, 3.0))
 

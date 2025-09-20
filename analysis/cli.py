@@ -10,6 +10,8 @@ from typing import Iterable, List
 
 import pandas as pd
 
+from finmind_fetch.enrich import EnrichConfig, enrich_clean_daily
+
 from . import get_logger
 from .capital import calculate_capital_metrics
 from .chips import ChipSummary, calculate_chip_metrics, summarize_chip
@@ -50,6 +52,31 @@ def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
         "--fundamentals-dir",
         help="基本面 CSV 所在資料夾，例如 month_revenue.csv",
     )
+    parser.add_argument(
+        "--fetch-fundamentals",
+        action="store_true",
+        help="分析前先透過 FinMind 更新基本面與市場熱度欄位",
+    )
+    parser.add_argument(
+        "--force-refresh",
+        action="store_true",
+        help="搭配 --fetch-fundamentals 使用，忽略快取重新抓取",
+    )
+    parser.add_argument(
+        "--strict-fundamentals",
+        action="store_true",
+        help="基本面缺資料時中止流程",
+    )
+    parser.add_argument(
+        "--cache-dir",
+        help="FinMind 快取目錄，預設為 finmind_cache",
+    )
+    parser.add_argument(
+        "--align-strategy",
+        choices=["forward_fill", "month_end"],
+        default="forward_fill",
+        help="基本面月資料對齊策略",
+    )
     return parser.parse_args(argv)
 
 
@@ -74,7 +101,41 @@ def _prepare_fundamental_analyzer(args: argparse.Namespace) -> FundamentalAnalyz
     )
 
 
+def _maybe_refresh_with_finmind(args: argparse.Namespace) -> None:
+    """視需要在分析前觸發 `finmind_fetch` 擴充流程。"""
+
+    if not getattr(args, "fetch_fundamentals", False):
+        return
+
+    input_path = Path(args.input)
+    if not input_path.exists():
+        LOGGER.error("找不到輸入檔案，無法更新基本面：%s", input_path)
+        sys.exit(1)
+
+    stocks_list = args.stocks.split(",") if args.stocks else None
+    cache_dir = Path(args.cache_dir) if args.cache_dir else None
+
+    align_strategy = getattr(args, "align_strategy", "forward_fill")
+    config = EnrichConfig(
+        input_path=input_path,
+        output_path=input_path,
+        min_output_path=None,
+        fetch_fundamentals=True,
+        since=args.since,
+        stocks=stocks_list,
+        token=args.finmind_token or None,
+        force_refresh=args.force_refresh,
+        strict=args.strict_fundamentals,
+        align_strategy=align_strategy,
+        cache_dir=cache_dir,
+    )
+
+    LOGGER.info("偵測到 --fetch-fundamentals，開始擴充寬表欄位。")
+    enrich_clean_daily(config)
+
+
 def run_analysis(args: argparse.Namespace) -> list[StockAnalysis]:
+    _maybe_refresh_with_finmind(args)
     df = load_wide_csv(args.input)
 
     stocks_list = args.stocks.split(",") if args.stocks else None
