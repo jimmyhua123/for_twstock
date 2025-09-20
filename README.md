@@ -64,14 +64,15 @@ pip install pandas requests pyarrow
 
 ```bash
 python main.py \
-  --token <你的 FinMind token> \
-  --stocks 2330,2317,2454 \
-  --start 2024-01-01 \
+  --tickers 2330,2317,2454 \
+  --since 2024-01-01 \
+  --finmind-token $FINMIND_TOKEN \
   --end 2024-12-31 \
-  --datasets TaiwanStockPrice,TaiwanStockInstitutionalInvestorsBuySell \
-  --outdir ./output \
-  --merge
+  --outdir ./finmind_out
 ```
+
+* `--finmind-token` 可選，用於提升 FinMind API 的使用額度。
+* 未提供 `--end` 時預設抓到當日；未提供 `--outdir` 時輸出在 `./finmind_out`。
 
 ### 3️⃣ 清理輸出
 
