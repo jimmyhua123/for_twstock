@@ -31,8 +31,8 @@ def add_market_heat(df: pd.DataFrame) -> pd.DataFrame:
 
     會針對每日全市場計算成交值、成交量之百分位排名，並比較當日值與
     過去 20 日均值的相對變化，衍生 `turnover_rank_pct`、`volume_rank_pct`、
-    `volume_ma20`、`volume_ratio`、`turnover_change_5d`、`transactions_change_5d`
-    等欄位。
+    `volume_ma20`、`volume_ratio`、`turnover_change_vs_ma20`、
+    `transactions_change_vs_ma20` 等欄位。
     """
 
     df = df.copy()
@@ -74,13 +74,11 @@ def add_market_heat(df: pd.DataFrame) -> pd.DataFrame:
 
     df["volume_ma20"] = volume_ma20
     df["volume_ratio"] = df["volume"] / volume_ma20
-    df["turnover_change_5d"] = df["turnover"] / turnover_ma20 - 1
-    df["transactions_change_5d"] = (
-        df["TaiwanStockPrice_transactions"] / transactions_ma20 - 1
-    )
+    df["turnover_change_vs_ma20"] = df["turnover"] / turnover_ma20 - 1
+    df["transactions_change_vs_ma20"] = df["TaiwanStockPrice_transactions"] / transactions_ma20 - 1
 
-    df[["volume_ratio", "turnover_change_5d", "transactions_change_5d"]] = df[
-        ["volume_ratio", "turnover_change_5d", "transactions_change_5d"]
+    df[["volume_ratio", "turnover_change_vs_ma20", "transactions_change_vs_ma20"]] = df[
+        ["volume_ratio", "turnover_change_vs_ma20", "transactions_change_vs_ma20"]
     ].replace([np.inf, -np.inf], np.nan)
 
     return df
@@ -200,13 +198,15 @@ def enrich_clean_daily(config: EnrichConfig) -> pd.DataFrame:
         LOGGER.info("未啟用基本面抓取，僅計算市場熱度欄位")
 
     df = add_market_heat(df)
+    if "country" in df.columns:
+        df.drop(columns=["country"], inplace=True)
     heat_columns = [
         "turnover_rank_pct",
         "volume_rank_pct",
         "volume_ma20",
         "volume_ratio",
-        "turnover_change_5d",
-        "transactions_change_5d",
+        "turnover_change_vs_ma20",
+        "transactions_change_vs_ma20",
     ]
     added_columns.extend([col for col in heat_columns if col in df.columns])
 

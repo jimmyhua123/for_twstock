@@ -70,12 +70,15 @@ def fetch_eps_and_income(
     end: str,
     client: FinMindClient,
 ) -> pd.DataFrame:
-    """抓取財報資料並轉為寬表，至少包含 EPS。
-
-    會過濾 ``type`` 屬於 EPS、Revenue、GrossProfit、OperatingIncome、
-    NetIncome 等常用欄位，最後輸出 ``stock_id``、``date`` 與指標欄位
-    的寬表，並額外計算 ``eps_ttm``（最近四季 EPS 累計）。
     """
+    從 TaiwanStockFinancialStatements 抓 EPS 與常見損益科目。
+    - 放寬欄位名稱：若沒有 'type'，改用 'origin_name' 或 'column_name'
+    - 放寬 EPS 偵測：type 或 origin_name 含 "EPS" / "每股盈餘" 即視為 EPS
+    - 回傳寬表，至少含 date, stock_id, eps（若抓到），並計算 eps_ttm
+    """
+
+    import pandas as pd
+    import numpy as np
 
     frames: list[pd.DataFrame] = []
     for stock in stocks:
@@ -84,42 +87,70 @@ def fetch_eps_and_income(
                 "TaiwanStockFinancialStatements",
                 {"data_id": stock, "start_date": start, "end_date": end},
             )
-        except Exception as exc:  # noqa: BLE001 - 外部 API 可能失敗
+        except Exception as exc:  # 外部 API 可能失敗
             LOGGER.warning("財報抓取失敗：%s %s", stock, exc)
             continue
-        if df.empty:
+        if df is None or df.empty:
             LOGGER.warning("財報無資料：%s", stock)
             continue
-        df = _ensure_datetime(df)
-        df["type"] = df["type"].astype(str).str.lower()
-        df = df[df["type"].isin(TARGET_FIN_TYPES)]
-        if df.empty:
-            continue
+
+        # 欄位小寫化，並後援補齊 type/value 欄位
+        df = df.copy()
+        df.columns = [c.lower() for c in df.columns]
+        if "type" not in df.columns:
+            if "origin_name" in df.columns:
+                df["type"] = df["origin_name"]
+            elif "column_name" in df.columns:
+                df["type"] = df["column_name"]
+            else:
+                LOGGER.warning("財報資料缺少 'type' 欄位：%s（略過）", stock)
+                continue
+        if "value" not in df.columns:
+            candidate_value_cols = [c for c in ("amount", "val", "data_value") if c in df.columns]
+            if candidate_value_cols:
+                df["value"] = df[candidate_value_cols[0]]
+            else:
+                LOGGER.warning("財報資料缺少 'value' 欄位：%s（略過）", stock)
+                continue
+
+        df["stock_id"] = df.get("stock_id", stock)
+        df["stock_id"] = df["stock_id"].astype(str).str.zfill(4)
+        df["date"] = pd.to_datetime(df.get("date"), errors="coerce")
+        df = df.dropna(subset=["date"])
+        df["type"] = df["type"].astype(str).str.strip().str.lower()
         df["value"] = pd.to_numeric(df["value"], errors="coerce")
-        frames.append(df)
+
+        # 放寬 EPS 偵測條件
+        mask_eps = df["type"].str.contains("eps", case=False, na=False)
+        if "origin_name" in df.columns:
+            mask_eps |= df["origin_name"].astype(str).str.contains("eps|每股盈餘", case=False, na=False)
+
+        # 常見損益科目
+        fin_mask = df["type"].isin(TARGET_FIN_TYPES)
+
+        df = df.loc[mask_eps | fin_mask, ["stock_id", "date", "type", "value"]]
+        if not df.empty:
+            frames.append(df)
+
     if not frames:
         return pd.DataFrame(columns=["stock_id", "date", "eps"])
+
     merged = pd.concat(frames, ignore_index=True)
     pivot = (
-        merged.pivot_table(
-            index=["stock_id", "date"],
-            columns="type",
-            values="value",
-            aggfunc="last",
-        )
+        merged.pivot_table(index=["stock_id", "date"], columns="type", values="value", aggfunc="last")
         .sort_index()
         .reset_index()
     )
     pivot.columns = [col if isinstance(col, str) else "_".join(col).strip() for col in pivot.columns]
-    rename_map = {col: col.lower() for col in pivot.columns if isinstance(col, str)}
-    pivot = pivot.rename(columns=rename_map)
-    for column in pivot.columns:
-        if column not in {"stock_id", "date"}:
-            pivot[column] = pd.to_numeric(pivot[column], errors="coerce")
+    pivot = pivot.rename(columns={c: c.lower() for c in pivot.columns})
+    for c in pivot.columns:
+        if c not in {"stock_id", "date"}:
+            pivot[c] = pd.to_numeric(pivot[c], errors="coerce")
+
+    # 近四季 EPS 加總（TTM 近似）
     if "eps" in pivot.columns:
-        pivot["eps_ttm"] = pivot.groupby("stock_id")["eps"].transform(
-            lambda s: s.rolling(window=4, min_periods=1).sum()
-        )
+        pivot["eps_ttm"] = pivot.groupby("stock_id")["eps"].transform(lambda s: s.rolling(window=4, min_periods=1).sum())
+
     return pivot
 
 
@@ -209,6 +240,12 @@ def prepare_fundamental_daily(
     combined = combined.drop_duplicates(subset=["stock_id", "date"], keep="last")
 
     daily = align_monthly_to_daily(combined, trading_daily, strategy=strategy)
+
+    # 新增：對齊後針對每檔做前向填補，避免公告日造成斷裂
+    if not daily.empty:
+        num_cols = [c for c in daily.columns if c not in {"stock_id", "date"}]
+        daily[num_cols] = daily.groupby("stock_id")[num_cols].ffill()
+
     return daily
 
 
