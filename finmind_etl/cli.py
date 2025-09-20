@@ -5,15 +5,14 @@ from __future__ import annotations
 import argparse
 import logging
 from pathlib import Path
-from typing import Dict, Iterable, List
+from typing import Iterable, List
 
 import pandas as pd
 
 from .api import APIClient
 from .chip import fetch_chip_data
-from .derivative import fetch_derivative_data
-from .enrich import build_daily_wide, build_minimal_view
 from .fundamentals import fetch_fundamental_data
+from .merge import build_minimal_view, merge_all
 from .technical import fetch_technical_data
 
 LOGGER = logging.getLogger("finmind_etl.cli")
@@ -43,14 +42,6 @@ def _parse_tickers(value: str) -> List[str]:
     return [ticker.zfill(4) for ticker in tickers]
 
 
-def _snake_case(value: str) -> str:
-    import re
-
-    text = re.sub(r"[^0-9A-Za-z]+", "_", value.strip())
-    text = re.sub(r"([a-z0-9])([A-Z])", r"\1_\2", text)
-    return re.sub(r"_+", "_", text).strip("_").lower()
-
-
 def _write_dataframe(df: pd.DataFrame, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     export = df.copy()
@@ -74,25 +65,15 @@ def main(argv: Iterable[str] | None = None) -> None:
     technical = fetch_technical_data(tickers, args.since, client, end_date=args.end)
     fundamentals = fetch_fundamental_data(tickers, args.since, client, end_date=args.end)
     chip = fetch_chip_data(tickers, args.since, client, end_date=args.end)
-    derivative = fetch_derivative_data(tickers, args.since, client, end_date=args.end)
-
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
 
-    raw_frames: Dict[str, pd.DataFrame] = {}
-    raw_frames.update(technical)
-    raw_frames.update(fundamentals)
-    raw_frames.update(chip)
-    raw_frames.update(derivative)
+    for category in (technical, fundamentals, chip):
+        for dataset, result in category.items():
+            raw_path = outdir / f"raw_{dataset}.csv"
+            _write_dataframe(result.raw, raw_path)
 
-    for dataset, df in raw_frames.items():
-        if df is None:
-            continue
-        safe_name = _snake_case(dataset)
-        path = outdir / f"raw_{safe_name}.csv"
-        _write_dataframe(df, path)
-
-    daily_wide = build_daily_wide(tickers, technical, fundamentals, chip, derivative)
+    daily_wide = merge_all(tickers, technical, fundamentals, chip)
     if daily_wide.empty:
         LOGGER.warning("合併後資料為空，請檢查輸入參數或 API 回應。")
         return
