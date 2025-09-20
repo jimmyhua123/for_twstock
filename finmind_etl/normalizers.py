@@ -1,13 +1,16 @@
-"""資料清洗函式集合。"""
+"""Legacy normalisation helpers built on top of the dataset utilities."""
 
 from __future__ import annotations
 
-from typing import Iterable, Optional
+from typing import Callable, Dict, Iterable, Optional
 
 import numpy as np
 import pandas as pd
 
-from .datasets import COLUMN_MAP, DATASET_CATALOG, NUMERIC_COLUMN_HINTS
+from .datasets import ALL_SPECS, DatasetSpec, clean_dataset, get_spec
+
+
+Normalizer = Callable[[pd.DataFrame], pd.DataFrame]
 
 
 def coerce_numeric_columns(
@@ -63,161 +66,72 @@ def ensure_columns(df: pd.DataFrame, columns: Iterable[str]) -> pd.DataFrame:
     return df
 
 
+def _normalize_with_spec(dataset_name: str, df: pd.DataFrame) -> pd.DataFrame:
+    """Run ``clean_dataset`` for a specific dataset name."""
+
+    spec = get_spec(dataset_name)
+    return clean_dataset(spec, df)
+
+
 def normalize_taiwan_stock_price(df: pd.DataFrame) -> pd.DataFrame:
     """清洗台股日價量資料。"""
 
-    if df.empty:
-        columns = ["date", "stock_id", "open", "high", "low", "close", "volume", "turnover"]
-        return pd.DataFrame(columns=columns)
-
-    df = df.rename(columns=COLUMN_MAP["TaiwanStockPrice"])
-    df = standardize_common_fields(df)
-    df = ensure_columns(
-        df,
-        ["open", "high", "low", "close", "volume", "turnover"],
-    )
-    coerce_numeric_columns(
-        df, target_columns=NUMERIC_COLUMN_HINTS["TaiwanStockPrice"]
-    )
-    df = df.sort_values("date").reset_index(drop=True)
-    return df
+    return _normalize_with_spec("TaiwanStockPrice", df)
 
 
 def normalize_taiwan_stock_price_adj(df: pd.DataFrame) -> pd.DataFrame:
     """清洗還原權息日價量資料。"""
 
-    if df.empty:
-        columns = [
-            "date",
-            "stock_id",
-            "open",
-            "high",
-            "low",
-            "close",
-            "volume",
-            "turnover",
-            "adj_close",
-        ]
-        return pd.DataFrame(columns=columns)
-
-    df = df.rename(columns=COLUMN_MAP["TaiwanStockPriceAdj"])
-    if "high" not in df.columns and "max" in df.columns:
-        df.rename(columns={"max": "high"}, inplace=True)
-    if "low" not in df.columns and "min" in df.columns:
-        df.rename(columns={"min": "low"}, inplace=True)
-    df = standardize_common_fields(df)
-    df = ensure_columns(
-        df,
-        ["open", "high", "low", "close", "volume", "turnover", "adj_close"],
-    )
-    coerce_numeric_columns(
-        df, target_columns=NUMERIC_COLUMN_HINTS["TaiwanStockPriceAdj"]
-    )
-    df = df.sort_values("date").reset_index(drop=True)
-    return df
+    return _normalize_with_spec("TaiwanStockPriceAdj", df)
 
 
 def normalize_institutional_investors(df: pd.DataFrame) -> pd.DataFrame:
     """清洗三大法人買賣超資料。"""
 
-    if df.empty:
-        columns = [
-            "date",
-            "stock_id",
-            "foreign",
-            "investment_trust",
-            "dealer",
-            "dealer_self",
-            "dealer_hedging",
-        ]
-        return pd.DataFrame(columns=columns)
-
-    df = df.rename(columns=COLUMN_MAP["TaiwanStockInstitutionalInvestorsBuySell"])
-    df = standardize_common_fields(df)
-    df = ensure_columns(
-        df,
-        ["foreign", "investment_trust", "dealer", "dealer_self", "dealer_hedging"],
-    )
-    coerce_numeric_columns(
-        df,
-        target_columns=NUMERIC_COLUMN_HINTS[
-            "TaiwanStockInstitutionalInvestorsBuySell"
-        ],
-    )
-    df = df.sort_values("date").reset_index(drop=True)
-    return df
+    return _normalize_with_spec("TaiwanStockInstitutionalInvestorsBuySell", df)
 
 
 def normalize_margin_short(df: pd.DataFrame) -> pd.DataFrame:
     """清洗融資融券資料。"""
 
-    if df.empty:
-        columns = [
-            "date",
-            "stock_id",
-            "margin_balance",
-            "short_balance",
-            "margin_change",
-            "short_change",
-        ]
-        return pd.DataFrame(columns=columns)
-
-    if "MarginPurchaseChange" not in df.columns and {
-        "MarginPurchaseTodayBalance",
-        "MarginPurchaseYesterdayBalance",
-    }.issubset(df.columns):
-        df["MarginPurchaseChange"] = (
-            pd.to_numeric(
-                df["MarginPurchaseTodayBalance"], errors="coerce"
-            )
-            - pd.to_numeric(df["MarginPurchaseYesterdayBalance"], errors="coerce")
-        )
-    if "ShortSaleChange" not in df.columns and {
-        "ShortSaleTodayBalance",
-        "ShortSaleYesterdayBalance",
-    }.issubset(df.columns):
-        df["ShortSaleChange"] = (
-            pd.to_numeric(df["ShortSaleTodayBalance"], errors="coerce")
-            - pd.to_numeric(df["ShortSaleYesterdayBalance"], errors="coerce")
-        )
-    df = df.rename(columns=COLUMN_MAP["TaiwanStockMarginPurchaseShortSale"])
-    df = standardize_common_fields(df)
-    df = ensure_columns(
-        df,
-        ["margin_balance", "short_balance", "margin_change", "short_change"],
-    )
-    coerce_numeric_columns(
-        df, target_columns=NUMERIC_COLUMN_HINTS["TaiwanStockMarginPurchaseShortSale"]
-    )
-    df = df.sort_values("date").reset_index(drop=True)
-    return df
+    return _normalize_with_spec("TaiwanStockMarginPurchaseShortSale", df)
 
 
 def normalize_month_revenue(df: pd.DataFrame) -> pd.DataFrame:
     """清洗月營收資料，並加入頻率欄位。"""
 
-    if df.empty:
-        columns = ["date", "stock_id", "freq", "revenue"]
-        return pd.DataFrame(columns=columns)
+    return _normalize_with_spec("TaiwanStockMonthRevenue", df)
 
-    df = df.rename(columns=COLUMN_MAP["TaiwanStockMonthRevenue"])
-    df = standardize_common_fields(df)
-    df["freq"] = "M"
-    coerce_numeric_columns(
-        df,
-        target_columns=NUMERIC_COLUMN_HINTS["TaiwanStockMonthRevenue"],
-        exclude=["freq"],
+
+def _make_normalizer(spec: DatasetSpec) -> Normalizer:
+    def _normalizer(df: pd.DataFrame, *, _spec: DatasetSpec = spec) -> pd.DataFrame:
+        return clean_dataset(_spec, df)
+
+    _normalizer.__name__ = f"normalize_{spec.name}"
+    return _normalizer
+
+
+def _build_normalizers() -> Dict[str, Normalizer]:
+    catalog: Dict[str, Normalizer] = {
+        name: _make_normalizer(spec) for name, spec in ALL_SPECS.items()
+    }
+    catalog.update(
+        {
+            "TaiwanStockPrice": normalize_taiwan_stock_price,
+            "TaiwanStockPriceAdj": normalize_taiwan_stock_price_adj,
+            "TaiwanStockInstitutionalInvestorsBuySell": normalize_institutional_investors,
+            "TaiwanStockMarginPurchaseShortSale": normalize_margin_short,
+            "TaiwanStockMonthRevenue": normalize_month_revenue,
+        }
     )
-    df = df.sort_values("date").reset_index(drop=True)
-    return df
+    return catalog
 
 
-NORMALIZERS = {
-    name: globals()[config["normalizer"]]
-    for name, config in DATASET_CATALOG.items()
-}
+NORMALIZERS: Dict[str, Normalizer] = _build_normalizers()
+
 
 __all__ = [
+    "Normalizer",
     "coerce_numeric_columns",
     "standardize_common_fields",
     "ensure_columns",
