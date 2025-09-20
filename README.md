@@ -1,66 +1,43 @@
 
 
-# 📖 README.md
+# 📖 FinMind 台股資料自動化流程
 
-## 專案簡介
+這個專案提供一套腳本與模組，協助你以 **FinMind API v4** 為來源，快速抓取、整理並擴充台股資料。輸出的資料可直接用於技術面、基本面、籌碼面與資金面等後續分析。
 
-這個專案的目的是 **自動化從 FinMind API 抓取台股資料**，並將原始資料清理整理後，輸出成適合進一步分析（例如技術面、基本面、籌碼面、資金面）的格式。
+## ✨ 核心能力
 
-目前流程：
+* 一次抓回指定股票、時間區間與多個 dataset 的原始資料。
+* 自動合併、清理欄位與日期格式，並將法人長表轉換成寬表。
+* 產生完整欄位與精簡欄位兩種 CSV，方便不同分析情境使用。
+* 透過額外的指令擴充基本面、財報與市場熱度指標。
 
-1. 透過 **FinMind API v4** 抓取日資料（每日股價、三大法人買賣、融資融券、月營收等）。
-2. 將 raw data 儲存為 **`_merged.csv`**。
-3. 進行清理與正規化：
+## 🔁 工作流程
 
-   * 統一欄位名稱與日期格式。
-   * 將法人買賣資料（長表）轉換為寬表（外資、投信、自營商自營、避險）。
-   * 去重、缺值處理。
-4. 輸出兩份清理後的檔案：
+1. 從 FinMind API 抓取日資料（股價、法人買賣、融資融券、月營收等）。
+2. 將原始資料整合為 `_merged.csv`。
+3. 進行欄位統一、去重、缺值處理，並輸出：
+   * `_clean_daily_wide.csv`：完整寬表資料。
+   * `_clean_daily_wide_min.csv`：常用欄位精簡版。
+4. （選用）再執行 `finmind_fetch` 模組，新增財報、月營收與市場熱度欄位。
 
-   * **`_clean_daily_wide.csv`**：完整寬表（價量＋法人等全部欄位）。
-   * **`_clean_daily_wide_min.csv`**：精簡版，僅保留分析最常用欄位。
+## 📁 主要輸出檔案
 
----
+| 檔名 | 內容重點 |
+| --- | --- |
+| `_merged.csv` | FinMind 回傳後的初步合併檔，日期＋股票代號可能有多筆資料。 |
+| `_clean_daily_wide.csv` | 清理後的寬表，每個日期＋股票代號唯一一列，包含價量、法人與衍生欄位。 |
+| `_clean_daily_wide_min.csv` | 精簡欄位版，保留 `date`, `stock_id`, `open/high/low/close`, `volume`, `turnover`, `inst_foreign`, `inst_investment_trust`, `inst_dealer_self`, `inst_dealer_hedging` 等常用指標。 |
 
-## 檔案說明
+## 🚀 快速開始
 
-* **`_merged.csv`**
-
-  * FinMind 抓回並初步合併的原始檔。
-  * 每個日期＋股票代號可能會有多筆（因法人為長表）。
-
-* **`_clean_daily_wide.csv`**
-
-  * 整理後的寬表。
-  * 每個日期＋股票代號唯一一行。
-  * 欄位包含完整價量、法人買賣、衍生欄位等。
-
-* **`_clean_daily_wide_min.csv`**
-
-  * 精簡版，欄位如下：
-
-    * `date`：日期
-    * `stock_id`：股票代號
-    * `open, high, low, close`：股價
-    * `volume`：成交量
-    * `turnover`：成交值
-    * `inst_foreign`：外資淨買賣超
-    * `inst_investment_trust`：投信淨買賣超
-    * `inst_dealer_self`：自營商自營淨買賣超
-    * `inst_dealer_hedging`：自營商避險淨買賣超
-
----
-
-## 使用方法
-
-### 1️⃣ 安裝環境
+### 1. 安裝依賴
 
 ```bash
 # 建議使用 Python 3.12
 pip install pandas requests pyarrow
 ```
 
-### 2️⃣ 抓取資料
+### 2. 抓取資料
 
 ```bash
 python main.py \
@@ -73,15 +50,13 @@ python main.py \
   --merge
 ```
 
-### 3️⃣ 清理輸出
+完成後會生成下列檔案：
 
-* 自動產生：
+* `output/_merged.csv`
+* `output/_clean_daily_wide.csv`
+* `output/_clean_daily_wide_min.csv`
 
-  * `output/_merged.csv`
-  * `output/_clean_daily_wide.csv`
-  * `output/_clean_daily_wide_min.csv`
-
-### 4️⃣ 擴充基本面與市場熱度欄位
+### 3. 擴充基本面與市場熱度欄位（選用）
 
 ```bash
 python -m finmind_fetch \
@@ -91,33 +66,21 @@ python -m finmind_fetch \
   --finmind-token $FINMIND_TOKEN
 ```
 
-這個步驟會透過 FinMind API 抓取月營收與財報資料，自動計算
-`revenue_yoy`、`revenue_mom`、`eps`、`eps_ttm` 等欄位，同時計算全市場的
-`turnover_rank_pct`、`volume_rank_pct`、`volume_ratio`、`turnover_change_5d`、
-`transactions_change_5d` 等資金熱度指標，並更新 `_clean_daily_wide.csv`
-與 `_clean_daily_wide_min.csv`。
+執行後將透過 FinMind API 取得月營收與財報資料，自動計算 `revenue_yoy`、`revenue_mom`、`eps`、`eps_ttm` 等基本面欄位，以及 `turnover_rank_pct`、`volume_rank_pct`、`volume_ratio`、`turnover_change_5d`、`transactions_change_5d` 等資金熱度指標。結果會回寫至 `_clean_daily_wide.csv` 與 `_clean_daily_wide_min.csv`。
 
-### 5️⃣ 檢視摘要
+### 4. 檢視摘要
 
-程式會在終端機輸出：
+流程結束後，終端機會輸出資料總筆數、股票數量、日期範圍、缺值比例與隨機樣本列，幫助你快速確認資料品質。
 
-* 資料總筆數
-* 股票數量
-* 日期範圍
-* 缺值比例
-* 隨機樣本列
+## 🧭 後續規劃
 
----
+* [ ] 加入常見技術指標（MA5、MA20、RSI、MACD…）。
+* [ ] 提供法人累計買賣超（3/5/10 日）。
+* [ ] 串接更多 FinMind dataset（融資融券、月營收、財報等）。
+* [ ] 建立 SQLite / PostgreSQL 等資料庫儲存模式。
+* [ ] 自動產生圖表與四大面向的分析報告。
 
-## 未來規劃
-
-* [ ] 加入技術指標（MA5、MA20、RSI、MACD…）。
-* [ ] 加入法人累計買賣超（3日 / 5日 / 10日）。
-* [ ] 串接更多 dataset（融資融券、月營收、財報）。
-* [ ] 建立資料庫（SQLite / PostgreSQL）管理。
-* [ ] 自動產生圖表與四大面向分析報告。
-
----
+## 📊 進階分析範例
 
 ```bash
 python -m analysis \
@@ -128,3 +91,5 @@ python -m analysis \
   --fetch-fundamentals \
   --since 2024-01-01
 ```
+
+以上命令會輸出圖表、HTML 報告，並可選擇同時更新基本面資料。
