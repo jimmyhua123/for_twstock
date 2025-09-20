@@ -1,163 +1,63 @@
-"""籌碼面資料抓取模組。"""
+"""Fetch chip (shareholding / institutional) datasets."""
 
 from __future__ import annotations
 
 import logging
+from dataclasses import dataclass
 from typing import Dict, List, Optional, Sequence
 
-import numpy as np
 import pandas as pd
 
 from .api import APIClient
-from .technical import _apply_translation, _ensure_datetime, _ensure_stock_id, _numeric
+from .datasets import DatasetResult, clean_dataset, iter_category_specs
 
 LOGGER = logging.getLogger("finmind_etl.chip")
 
 
-def _rename_with_candidates(df: pd.DataFrame, candidates: Dict[str, str]) -> pd.DataFrame:
-    rename_map: Dict[str, str] = {}
-    for column in df.columns:
-        lower = column.lower()
-        for pattern, target in candidates.items():
-            if pattern in lower:
-                rename_map[column] = target
-                break
-    if rename_map:
-        df = df.rename(columns=rename_map)
-    return df
+@dataclass
+class FetchOptions:
+    stocks: Sequence[str]
+    since: Optional[str]
+    until: Optional[str]
 
 
-def fetch_institutional(
-    stocks: Sequence[str],
+def _fetch_dataset(
     client: APIClient,
-    start: str,
-    end: str,
-) -> pd.DataFrame:
-    """抓取三大法人買賣超資料。"""
+    spec: DatasetSpec,
+    options: FetchOptions,
+) -> DatasetResult:
+    frames_raw: List[pd.DataFrame] = []
+    frames_clean: List[pd.DataFrame] = []
+    translation = client.try_translation(spec.name)
 
-    translation = client.try_translation("TaiwanStockInstitutionalInvestorsBuySell")
-    frames: List[pd.DataFrame] = []
-    for stock in stocks:
+    if spec.requires_stock:
+        for stock in options.stocks:
+            try:
+                raw = client.fetch_dataset(spec.name, stock, options.since, options.until)
+            except Exception as exc:  # noqa: BLE001
+                LOGGER.warning("%s 抓取失敗：%s", spec.name, exc)
+                continue
+            if raw.empty:
+                continue
+            frames_raw.append(raw.assign(stock_id=raw.get("stock_id", stock)))
+            clean = clean_dataset(spec, raw, translation)
+            if not clean.empty:
+                frames_clean.append(clean)
+    else:
         try:
-            df = client.fetch_dataset(
-                "TaiwanStockInstitutionalInvestorsBuySell",
-                stock,
-                start,
-                end,
-            )
+            raw = client.fetch_dataset(spec.name, None, options.since, options.until)
         except Exception as exc:  # noqa: BLE001
-            LOGGER.warning("法人資料抓取失敗：%s %s", stock, exc)
-            continue
-        if df.empty:
-            continue
-        df = _apply_translation(df, translation)
-        df = _ensure_datetime(df)
-        df = _ensure_stock_id(df)
-        df = _rename_with_candidates(
-            df,
-            {
-                "foreign_investor_net": "foreign_net",
-                "foreign_net_buy_sell": "foreign_net",
-                "foreign": "foreign_net",
-                "investment_trust_net": "invest_trust_net",
-                "investment_trust": "invest_trust_net",
-                "dealer_self": "dealer_self_net",
-                "dealer_hedging": "dealer_hedging_net",
-                "dealer_net": "dealer_net",
-                "dealer": "dealer_net",
-            },
-        )
-        frames.append(df)
-    if not frames:
-        columns = [
-            "date",
-            "stock_id",
-            "foreign_net",
-            "invest_trust_net",
-            "dealer_net",
-            "dealer_self_net",
-            "dealer_hedging_net",
-        ]
-        return pd.DataFrame(columns=columns)
-    merged = pd.concat(frames, ignore_index=True)
-    numeric_columns = [
-        "foreign_net",
-        "invest_trust_net",
-        "dealer_net",
-        "dealer_self_net",
-        "dealer_hedging_net",
-    ]
-    _numeric(merged, numeric_columns)
-    merged = merged.sort_values(["stock_id", "date"]).reset_index(drop=True)
-    for column in numeric_columns:
-        if column not in merged.columns:
-            merged[column] = np.nan
-    return merged[["date", "stock_id", *numeric_columns]]
+            LOGGER.warning("%s 抓取失敗：%s", spec.name, exc)
+            return DatasetResult(spec, pd.DataFrame(), pd.DataFrame())
+        frames_raw.append(raw)
+        frames_clean.append(clean_dataset(spec, raw, translation))
 
-
-def fetch_margin_short(
-    stocks: Sequence[str],
-    client: APIClient,
-    start: str,
-    end: str,
-) -> pd.DataFrame:
-    """抓取融資融券資料。"""
-
-    translation = client.try_translation("TaiwanStockMarginPurchaseShortSale")
-    frames: List[pd.DataFrame] = []
-    for stock in stocks:
-        try:
-            df = client.fetch_dataset(
-                "TaiwanStockMarginPurchaseShortSale",
-                stock,
-                start,
-                end,
-            )
-        except Exception as exc:  # noqa: BLE001
-            LOGGER.warning("融資融券抓取失敗：%s %s", stock, exc)
-            continue
-        if df.empty:
-            continue
-        df = _apply_translation(df, translation)
-        df = _ensure_datetime(df)
-        df = _ensure_stock_id(df)
-        df = _rename_with_candidates(
-            df,
-            {
-                "margin_purchase_today_balance": "margin_long",
-                "margin_purchase_change": "margin_long_change",
-                "short_sale_today_balance": "margin_short",
-                "short_sale_change": "margin_short_change",
-                "short_sale_volume": "short_selling",
-                "short_sale": "short_selling",
-            },
-        )
-        frames.append(df)
-    if not frames:
-        columns = [
-            "date",
-            "stock_id",
-            "margin_long",
-            "margin_short",
-            "margin_long_change",
-            "margin_short_change",
-            "short_selling",
-        ]
-        return pd.DataFrame(columns=columns)
-    merged = pd.concat(frames, ignore_index=True)
-    numeric_columns = [
-        "margin_long",
-        "margin_short",
-        "margin_long_change",
-        "margin_short_change",
-        "short_selling",
-    ]
-    _numeric(merged, numeric_columns)
-    merged = merged.sort_values(["stock_id", "date"]).reset_index(drop=True)
-    for column in numeric_columns:
-        if column not in merged.columns:
-            merged[column] = np.nan
-    return merged[["date", "stock_id", *numeric_columns]]
+    raw_df = pd.concat(frames_raw, ignore_index=True) if frames_raw else pd.DataFrame()
+    if frames_clean:
+        clean_df = pd.concat(frames_clean, ignore_index=True)
+    else:
+        clean_df = pd.DataFrame(columns=list(spec.required_fields))
+    return DatasetResult(spec=spec, raw=raw_df, clean=clean_df)
 
 
 def fetch_chip_data(
@@ -165,17 +65,16 @@ def fetch_chip_data(
     since: str,
     client: APIClient,
     end_date: Optional[str] = None,
-) -> Dict[str, pd.DataFrame]:
-    """取得籌碼面資料。"""
+) -> Dict[str, DatasetResult]:
+    options = FetchOptions(stocks=list({s.strip().zfill(4) for s in stocks}), since=since, until=end_date)
+    results: Dict[str, DatasetResult] = {}
 
-    end = end_date or pd.Timestamp.today().strftime("%Y-%m-%d")
-    LOGGER.info("抓取籌碼面資料：股票數量=%s", len(stocks))
-    institutional = fetch_institutional(stocks, client, since, end)
-    margin = fetch_margin_short(stocks, client, since, end)
-    return {
-        "TaiwanStockInstitutionalInvestorsBuySell": institutional,
-        "TaiwanStockMarginPurchaseShortSale": margin,
-    }
+    for spec in iter_category_specs("chip"):
+        LOGGER.info("抓取籌碼面資料：dataset=%s", spec.name)
+        results[spec.name] = _fetch_dataset(client, spec, options)
+
+    return results
 
 
-__all__ = ["fetch_chip_data", "fetch_institutional", "fetch_margin_short"]
+__all__ = ["fetch_chip_data"]
+
