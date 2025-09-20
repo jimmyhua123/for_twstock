@@ -92,15 +92,15 @@ class EnrichConfig:
 
     input_path: Path
     output_path: Path
-    min_output_path: Path | None = None
-    fetch_fundamentals: bool
-    since: str | None
-    stocks: Sequence[str] | None
-    token: str | None
-    force_refresh: bool
-    strict: bool
+    fetch_fundamentals: bool = False
+    since: str | None = None
+    stocks: Sequence[str] | None = None
+    token: str | None = None
+    force_refresh: bool = False
+    strict: bool = False
     align_strategy: str = "forward_fill"
     cache_dir: Path | None = None
+    min_output_path: Path | None = None
     update_min: bool = True
 
 
