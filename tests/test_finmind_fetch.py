@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 import pytest
 
 pd = pytest.importorskip("pandas")
 
+from finmind_fetch.api import FinMindAPIError, FinMindClient
 from finmind_fetch.fundamentals import align_monthly_to_daily, prepare_fundamental_daily
 from finmind_fetch.enrich import add_market_heat
 
@@ -82,3 +85,20 @@ def test_prepare_fundamental_daily_merges_sources() -> None:
     daily = prepare_fundamental_daily(revenue_df, financial_df, trading)
     assert set(["revenue", "revenue_yoy", "revenue_mom", "eps", "eps_ttm"]).issubset(daily.columns)
     assert daily.loc[0, "eps_ttm"] == 10.0
+
+
+def test_get_dataset_raises_on_non_dict_payload(tmp_path: Path) -> None:
+    client = FinMindClient(cache_dir=tmp_path, force_refresh=True, max_retries=1)
+
+    class DummyResponse:
+        status_code = 200
+        text = "non-dict"
+
+        @staticmethod
+        def json() -> str:
+            return "unexpected"
+
+    client._session.get = lambda *args, **kwargs: DummyResponse()  # type: ignore[assignment]
+
+    with pytest.raises(FinMindAPIError):
+        client.get_dataset("test_dataset", {"foo": "bar"})
