@@ -1,0 +1,32 @@
+{
+  "dataset": "TaiwanStockDividend",
+  "start_date": "2024-09-21",
+  "end_date": "2025-09-21",
+  "count": 1,
+  "data": [
+    {
+      "date": "2025-08-02",
+      "stock_id": "1519",
+      "year": "113年",
+      "StockEarningsDistribution": 1.0,
+      "StockStatutorySurplus": 0.0,
+      "StockExDividendTradingDate": "2025-07-25",
+      "TotalEmployeeStockDividend": 0.0,
+      "TotalEmployeeStockDividendAmount": 0.0,
+      "RatioOfEmployeeStockDividendOfTotal": 0.0,
+      "RatioOfEmployeeStockDividend": 0.0,
+      "CashEarningsDistribution": 9.0,
+      "CashStatutorySurplus": 0.0,
+      "CashExDividendTradingDate": "2025-07-25",
+      "CashDividendPaymentDate": "2025-08-29",
+      "TotalEmployeeCashDividend": 0.0,
+      "TotalNumberOfCashCapitalIncrease": 0.0,
+      "CashIncreaseSubscriptionRate": 0.0,
+      "CashIncreaseSubscriptionpRrice": 0.0,
+      "RemunerationOfDirectorsAndSupervisors": 0.0,
+      "ParticipateDistributionOfTotalShares": 287164403.0,
+      "AnnouncementDate": "2025-07-11",
+      "AnnouncementTime": "11:35:54"
+    }
+  ]
+}

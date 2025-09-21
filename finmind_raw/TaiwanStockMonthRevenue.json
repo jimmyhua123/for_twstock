@@ -1,0 +1,104 @@
+{
+  "dataset": "TaiwanStockMonthRevenue",
+  "start_date": "2024-09-21",
+  "end_date": "2025-09-21",
+  "count": 12,
+  "data": [
+    {
+      "date": "2024-10-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1765912000,
+      "revenue_month": 9,
+      "revenue_year": 2024
+    },
+    {
+      "date": "2024-11-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1968763000,
+      "revenue_month": 10,
+      "revenue_year": 2024
+    },
+    {
+      "date": "2024-12-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1685771000,
+      "revenue_month": 11,
+      "revenue_year": 2024
+    },
+    {
+      "date": "2025-01-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 3508025000,
+      "revenue_month": 12,
+      "revenue_year": 2024
+    },
+    {
+      "date": "2025-02-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1275049000,
+      "revenue_month": 1,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-03-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1176341000,
+      "revenue_month": 2,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-04-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1969871000,
+      "revenue_month": 3,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-05-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 2113986000,
+      "revenue_month": 4,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-06-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1628913000,
+      "revenue_month": 5,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-07-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 2330489000,
+      "revenue_month": 6,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-08-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 2235813000,
+      "revenue_month": 7,
+      "revenue_year": 2025
+    },
+    {
+      "date": "2025-09-01",
+      "stock_id": "1519",
+      "country": "Taiwan",
+      "revenue": 1703482000,
+      "revenue_month": 8,
+      "revenue_year": 2025
+    }
+  ]
+}

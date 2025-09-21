@@ -1,0 +1,456 @@
+{
+  "dataset": "TaiwanStockFinancialStatements",
+  "start_date": "2024-09-21",
+  "end_date": "2025-09-21",
+  "count": 64,
+  "data": [
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "OperatingExpenses",
+      "value": 636711000.0,
+      "origin_name": "營業費用"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "TAX",
+      "value": 319277000.0,
+      "origin_name": "所得稅費用（利益）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "EPS",
+      "value": 4.28,
+      "origin_name": "基本每股盈餘（元）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "PreTaxIncome",
+      "value": 1546154000.0,
+      "origin_name": "稅前淨利（淨損）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "IncomeFromContinuingOperations",
+      "value": 1226877000.0,
+      "origin_name": "繼續營業單位本期淨利（淨損）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "IncomeAfterTaxes",
+      "value": 1226877000.0,
+      "origin_name": "本期淨利（淨損）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "TotalConsolidatedProfitForThePeriod",
+      "value": 1222645000.0,
+      "origin_name": "本期綜合損益總額"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "Revenue",
+      "value": 5356877000.0,
+      "origin_name": "營業收入"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "CostOfGoodsSold",
+      "value": 3303919000.0,
+      "origin_name": "營業成本"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "OperatingIncome",
+      "value": 1416247000.0,
+      "origin_name": "營業利益（損失）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "TotalNonoperatingIncomeAndExpense",
+      "value": 129907000.0,
+      "origin_name": "營業外收入及支出"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "OtherComprehensiveIncome",
+      "value": -4232000.0,
+      "origin_name": "其他綜合損益（淨額）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "NoncontrollingInterests",
+      "value": -2795000.0,
+      "origin_name": "淨利（淨損）歸屬於非控制權益"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "ComprehensiveIncomeConsolidatedNetIncomeAttributedNonControllingInterest",
+      "value": -2795000.0,
+      "origin_name": "綜合損益總額歸屬於非控制權益"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "GrossProfit",
+      "value": 2052958000.0,
+      "origin_name": "營業毛利（毛損）"
+    },
+    {
+      "date": "2024-09-30",
+      "stock_id": "1519",
+      "type": "EquityAttributableToOwnersOfParent",
+      "value": 1229672000.0,
+      "origin_name": "淨利（淨損）歸屬於母公司業主"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "OperatingExpenses",
+      "value": 904929000.0,
+      "origin_name": "營業費用"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "TAX",
+      "value": 339366000.0,
+      "origin_name": "所得稅費用（利益）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "PreTaxIncome",
+      "value": 1899933000.0,
+      "origin_name": "稅前淨利（淨損）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "IncomeFromContinuingOperations",
+      "value": 1560567000.0,
+      "origin_name": "繼續營業單位本期淨利（淨損）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "IncomeAfterTaxes",
+      "value": 1560567000.0,
+      "origin_name": "本期淨利（淨損）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "TotalConsolidatedProfitForThePeriod",
+      "value": 1473944000.0,
+      "origin_name": "本期綜合損益總額"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "Revenue",
+      "value": 7162559000.0,
+      "origin_name": "營業收入"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "CostOfGoodsSold",
+      "value": 4554010000.0,
+      "origin_name": "營業成本"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "OperatingIncome",
+      "value": 1703620000.0,
+      "origin_name": "營業利益（損失）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "TotalNonoperatingIncomeAndExpense",
+      "value": 196313000.0,
+      "origin_name": "營業外收入及支出"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "OtherComprehensiveIncome",
+      "value": -86623000.0,
+      "origin_name": "其他綜合損益（淨額）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "ComprehensiveIncomeConsolidatedNetIncomeAttributedNonControllingInterest",
+      "value": -3602000.0,
+      "origin_name": "綜合損益總額歸屬於非控制權益"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "NoncontrollingInterests",
+      "value": -3602000.0,
+      "origin_name": "淨利（淨損）歸屬於非控制權益"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "EquityAttributableToOwnersOfParent",
+      "value": 1564169000.0,
+      "origin_name": "淨利（淨損）歸屬於母公司業主"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "GrossProfit",
+      "value": 2608549000.0,
+      "origin_name": "營業毛利（毛損）"
+    },
+    {
+      "date": "2024-12-31",
+      "stock_id": "1519",
+      "type": "EPS",
+      "value": 5.45,
+      "origin_name": "基本每股盈餘（元）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "OperatingExpenses",
+      "value": 617612000.0,
+      "origin_name": "營業費用"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "TAX",
+      "value": 225017000.0,
+      "origin_name": "所得稅費用（利益）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "EPS",
+      "value": 3.0,
+      "origin_name": "基本每股盈餘（元）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "PreTaxIncome",
+      "value": 1077565000.0,
+      "origin_name": "稅前淨利（淨損）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "IncomeFromContinuingOperations",
+      "value": 852548000.0,
+      "origin_name": "繼續營業單位本期淨利（淨損）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "IncomeAfterTaxes",
+      "value": 852548000.0,
+      "origin_name": "本期淨利（淨損）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "TotalConsolidatedProfitForThePeriod",
+      "value": 856111000.0,
+      "origin_name": "本期綜合損益總額"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "Revenue",
+      "value": 4421261000.0,
+      "origin_name": "營業收入"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "CostOfGoodsSold",
+      "value": 2836288000.0,
+      "origin_name": "營業成本"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "OperatingIncome",
+      "value": 967361000.0,
+      "origin_name": "營業利益（損失）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "TotalNonoperatingIncomeAndExpense",
+      "value": 110204000.0,
+      "origin_name": "營業外收入及支出"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "OtherComprehensiveIncome",
+      "value": 3563000.0,
+      "origin_name": "其他綜合損益（淨額）"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "NoncontrollingInterests",
+      "value": -7903000.0,
+      "origin_name": "淨利（淨損）歸屬於非控制權益"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "ComprehensiveIncomeConsolidatedNetIncomeAttributedNonControllingInterest",
+      "value": -7903000.0,
+      "origin_name": "綜合損益總額歸屬於非控制權益"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "EquityAttributableToOwnersOfParent",
+      "value": 860451000.0,
+      "origin_name": "淨利（淨損）歸屬於母公司業主"
+    },
+    {
+      "date": "2025-03-31",
+      "stock_id": "1519",
+      "type": "GrossProfit",
+      "value": 1584973000.0,
+      "origin_name": "營業毛利（毛損）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "OtherComprehensiveIncome",
+      "value": -77949000.0,
+      "origin_name": "其他綜合損益（淨額）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "TAX",
+      "value": 393984000.0,
+      "origin_name": "所得稅費用（利益）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "IncomeAfterTaxes",
+      "value": 782142000.0,
+      "origin_name": "本期淨利（淨損）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "TotalConsolidatedProfitForThePeriod",
+      "value": 704193000.0,
+      "origin_name": "本期綜合損益總額"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "EquityAttributableToOwnersOfParent",
+      "value": 790462000.0,
+      "origin_name": "淨利（淨損）歸屬於母公司業主"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "NoncontrollingInterests",
+      "value": -8320000.0,
+      "origin_name": "淨利（淨損）歸屬於非控制權益"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "OperatingIncome",
+      "value": 1501279000.0,
+      "origin_name": "營業利益（損失）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "TotalNonoperatingIncomeAndExpense",
+      "value": -325153000.0,
+      "origin_name": "營業外收入及支出"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "CostOfGoodsSold",
+      "value": 3621503000.0,
+      "origin_name": "營業成本"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "Revenue",
+      "value": 6073388000.0,
+      "origin_name": "營業收入"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "GrossProfit",
+      "value": 2451885000.0,
+      "origin_name": "營業毛利（毛損）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "OperatingExpenses",
+      "value": 950606000.0,
+      "origin_name": "營業費用"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "PreTaxIncome",
+      "value": 1176126000.0,
+      "origin_name": "稅前淨利（淨損）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "ComprehensiveIncomeConsolidatedNetIncomeAttributedNonControllingInterest",
+      "value": -8320000.0,
+      "origin_name": "綜合損益總額歸屬於非控制權益"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "IncomeFromContinuingOperations",
+      "value": 782142000.0,
+      "origin_name": "繼續營業單位本期淨利（淨損）"
+    },
+    {
+      "date": "2025-06-30",
+      "stock_id": "1519",
+      "type": "EPS",
+      "value": 2.23,
+      "origin_name": "基本每股盈餘（元）"
+    }
+  ]
+}

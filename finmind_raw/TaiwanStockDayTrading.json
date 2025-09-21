@@ -1,0 +1,1968 @@
+{
+  "dataset": "TaiwanStockDayTrading",
+  "start_date": "2024-09-21",
+  "end_date": "2025-09-21",
+  "count": 245,
+  "data": [
+    {
+      "stock_id": "1519",
+      "date": "2024-09-23",
+      "BuyAfterSale": "",
+      "Volume": 4808000,
+      "BuyAmount": 3062878000,
+      "SellAmount": 3078325000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-09-24",
+      "BuyAfterSale": "",
+      "Volume": 3687000,
+      "BuyAmount": 2346084000,
+      "SellAmount": 2348598000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-09-25",
+      "BuyAfterSale": "",
+      "Volume": 4623000,
+      "BuyAmount": 2945169000,
+      "SellAmount": 2946365000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-09-26",
+      "BuyAfterSale": "",
+      "Volume": 6031000,
+      "BuyAmount": 4066948000,
+      "SellAmount": 4069873000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-09-27",
+      "BuyAfterSale": "",
+      "Volume": 5165000,
+      "BuyAmount": 3447887000,
+      "SellAmount": 3448964000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-09-30",
+      "BuyAfterSale": "",
+      "Volume": 5437000,
+      "BuyAmount": 3531984000,
+      "SellAmount": 3532944000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-01",
+      "BuyAfterSale": "",
+      "Volume": 3674000,
+      "BuyAmount": 2340302000,
+      "SellAmount": 2343085000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-02",
+      "BuyAfterSale": "",
+      "Volume": 0,
+      "BuyAmount": 0,
+      "SellAmount": 0
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-04",
+      "BuyAfterSale": "",
+      "Volume": 2926000,
+      "BuyAmount": 1852151000,
+      "SellAmount": 1854045000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-07",
+      "BuyAfterSale": "",
+      "Volume": 3425000,
+      "BuyAmount": 2228285000,
+      "SellAmount": 2231167000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-08",
+      "BuyAfterSale": "",
+      "Volume": 2303000,
+      "BuyAmount": 1441676000,
+      "SellAmount": 1440052000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-09",
+      "BuyAfterSale": "",
+      "Volume": 2913000,
+      "BuyAmount": 1809883000,
+      "SellAmount": 1810584000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-11",
+      "BuyAfterSale": "",
+      "Volume": 2531000,
+      "BuyAmount": 1542627000,
+      "SellAmount": 1543113000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-14",
+      "BuyAfterSale": "",
+      "Volume": 3904000,
+      "BuyAmount": 2384631000,
+      "SellAmount": 2385636000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-15",
+      "BuyAfterSale": "",
+      "Volume": 2967000,
+      "BuyAmount": 1814229000,
+      "SellAmount": 1815649000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-16",
+      "BuyAfterSale": "",
+      "Volume": 2178000,
+      "BuyAmount": 1334585000,
+      "SellAmount": 1335088000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-17",
+      "BuyAfterSale": "",
+      "Volume": 1717000,
+      "BuyAmount": 1058158000,
+      "SellAmount": 1058004000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-18",
+      "BuyAfterSale": "",
+      "Volume": 1891000,
+      "BuyAmount": 1161077000,
+      "SellAmount": 1161714000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-21",
+      "BuyAfterSale": "",
+      "Volume": 964000,
+      "BuyAmount": 595583000,
+      "SellAmount": 595665000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-22",
+      "BuyAfterSale": "",
+      "Volume": 2359000,
+      "BuyAmount": 1402334000,
+      "SellAmount": 1399096000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-23",
+      "BuyAfterSale": "",
+      "Volume": 3545000,
+      "BuyAmount": 2136724000,
+      "SellAmount": 2141048000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-24",
+      "BuyAfterSale": "",
+      "Volume": 2159000,
+      "BuyAmount": 1268638000,
+      "SellAmount": 1269459000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-25",
+      "BuyAfterSale": "",
+      "Volume": 2046000,
+      "BuyAmount": 1199856000,
+      "SellAmount": 1201078000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-28",
+      "BuyAfterSale": "",
+      "Volume": 2282000,
+      "BuyAmount": 1305075000,
+      "SellAmount": 1305831000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-29",
+      "BuyAfterSale": "",
+      "Volume": 1954000,
+      "BuyAmount": 1092175000,
+      "SellAmount": 1090060000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-30",
+      "BuyAfterSale": "",
+      "Volume": 1814000,
+      "BuyAmount": 995315000,
+      "SellAmount": 995876000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-10-31",
+      "BuyAfterSale": "",
+      "Volume": 0,
+      "BuyAmount": 0,
+      "SellAmount": 0
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-01",
+      "BuyAfterSale": "",
+      "Volume": 1694000,
+      "BuyAmount": 935271000,
+      "SellAmount": 936950000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-04",
+      "BuyAfterSale": "",
+      "Volume": 1875000,
+      "BuyAmount": 1029349000,
+      "SellAmount": 1034227000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-05",
+      "BuyAfterSale": "",
+      "Volume": 3335000,
+      "BuyAmount": 1944804000,
+      "SellAmount": 1955127000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-06",
+      "BuyAfterSale": "",
+      "Volume": 1875000,
+      "BuyAmount": 1110437000,
+      "SellAmount": 1111341000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-07",
+      "BuyAfterSale": "",
+      "Volume": 3546000,
+      "BuyAmount": 2147664000,
+      "SellAmount": 2151510000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-08",
+      "BuyAfterSale": "",
+      "Volume": 3785000,
+      "BuyAmount": 2346334000,
+      "SellAmount": 2346885000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-11",
+      "BuyAfterSale": "",
+      "Volume": 3859000,
+      "BuyAmount": 2456153000,
+      "SellAmount": 2458745000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-12",
+      "BuyAfterSale": "",
+      "Volume": 5340000,
+      "BuyAmount": 3500816000,
+      "SellAmount": 3503032000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-13",
+      "BuyAfterSale": "",
+      "Volume": 3875000,
+      "BuyAmount": 2497993000,
+      "SellAmount": 2498849000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-14",
+      "BuyAfterSale": "",
+      "Volume": 3336000,
+      "BuyAmount": 2143519000,
+      "SellAmount": 2142079000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-15",
+      "BuyAfterSale": "",
+      "Volume": 3038000,
+      "BuyAmount": 1916504000,
+      "SellAmount": 1917407000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-18",
+      "BuyAfterSale": "",
+      "Volume": 3829000,
+      "BuyAmount": 2266894000,
+      "SellAmount": 2263935000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-19",
+      "BuyAfterSale": "",
+      "Volume": 1884000,
+      "BuyAmount": 1093925000,
+      "SellAmount": 1094439000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-20",
+      "BuyAfterSale": "",
+      "Volume": 2907000,
+      "BuyAmount": 1631740000,
+      "SellAmount": 1637120000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-21",
+      "BuyAfterSale": "",
+      "Volume": 2116000,
+      "BuyAmount": 1188656000,
+      "SellAmount": 1188678000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-22",
+      "BuyAfterSale": "",
+      "Volume": 2781000,
+      "BuyAmount": 1545649000,
+      "SellAmount": 1545437000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-25",
+      "BuyAfterSale": "",
+      "Volume": 2042000,
+      "BuyAmount": 1141645000,
+      "SellAmount": 1143286000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-26",
+      "BuyAfterSale": "",
+      "Volume": 1531000,
+      "BuyAmount": 858347000,
+      "SellAmount": 859120000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-27",
+      "BuyAfterSale": "",
+      "Volume": 1603000,
+      "BuyAmount": 893896000,
+      "SellAmount": 893866000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-28",
+      "BuyAfterSale": "",
+      "Volume": 2318000,
+      "BuyAmount": 1257739000,
+      "SellAmount": 1259369000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-11-29",
+      "BuyAfterSale": "",
+      "Volume": 1876000,
+      "BuyAmount": 1015069000,
+      "SellAmount": 1016598000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-02",
+      "BuyAfterSale": "",
+      "Volume": 1770000,
+      "BuyAmount": 995648000,
+      "SellAmount": 999055000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-03",
+      "BuyAfterSale": "",
+      "Volume": 2484000,
+      "BuyAmount": 1442731000,
+      "SellAmount": 1448091000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-04",
+      "BuyAfterSale": "",
+      "Volume": 2587000,
+      "BuyAmount": 1491647000,
+      "SellAmount": 1493722000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-05",
+      "BuyAfterSale": "",
+      "Volume": 1771000,
+      "BuyAmount": 1016247000,
+      "SellAmount": 1015089000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-06",
+      "BuyAfterSale": "",
+      "Volume": 2134000,
+      "BuyAmount": 1207389000,
+      "SellAmount": 1207063000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-09",
+      "BuyAfterSale": "",
+      "Volume": 1635000,
+      "BuyAmount": 926949000,
+      "SellAmount": 927070000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-10",
+      "BuyAfterSale": "",
+      "Volume": 1318000,
+      "BuyAmount": 747020000,
+      "SellAmount": 747736000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-11",
+      "BuyAfterSale": "",
+      "Volume": 2354000,
+      "BuyAmount": 1276925000,
+      "SellAmount": 1276999000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-12",
+      "BuyAfterSale": "",
+      "Volume": 2203000,
+      "BuyAmount": 1177719000,
+      "SellAmount": 1177890000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-13",
+      "BuyAfterSale": "",
+      "Volume": 1791000,
+      "BuyAmount": 948035000,
+      "SellAmount": 948781000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-16",
+      "BuyAfterSale": "",
+      "Volume": 2441000,
+      "BuyAmount": 1274748000,
+      "SellAmount": 1275397000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-17",
+      "BuyAfterSale": "",
+      "Volume": 2541000,
+      "BuyAmount": 1334803000,
+      "SellAmount": 1336445000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-18",
+      "BuyAfterSale": "",
+      "Volume": 3235000,
+      "BuyAmount": 1741295000,
+      "SellAmount": 1747457000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-19",
+      "BuyAfterSale": "",
+      "Volume": 2829000,
+      "BuyAmount": 1545585000,
+      "SellAmount": 1547176000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-20",
+      "BuyAfterSale": "",
+      "Volume": 1933000,
+      "BuyAmount": 1057843000,
+      "SellAmount": 1058671000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-23",
+      "BuyAfterSale": "",
+      "Volume": 1699000,
+      "BuyAmount": 930644000,
+      "SellAmount": 929699000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-24",
+      "BuyAfterSale": "",
+      "Volume": 1462000,
+      "BuyAmount": 792698000,
+      "SellAmount": 793276000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-25",
+      "BuyAfterSale": "",
+      "Volume": 2529000,
+      "BuyAmount": 1377948000,
+      "SellAmount": 1378080000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-26",
+      "BuyAfterSale": "",
+      "Volume": 1062000,
+      "BuyAmount": 583608000,
+      "SellAmount": 583619000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-27",
+      "BuyAfterSale": "",
+      "Volume": 1338000,
+      "BuyAmount": 725540000,
+      "SellAmount": 725169000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-30",
+      "BuyAfterSale": "",
+      "Volume": 3360000,
+      "BuyAmount": 1878801000,
+      "SellAmount": 1883848000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2024-12-31",
+      "BuyAfterSale": "",
+      "Volume": 2629000,
+      "BuyAmount": 1476065000,
+      "SellAmount": 1477351000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-02",
+      "BuyAfterSale": "",
+      "Volume": 3287000,
+      "BuyAmount": 1838407000,
+      "SellAmount": 1836843000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-03",
+      "BuyAfterSale": "",
+      "Volume": 1608000,
+      "BuyAmount": 873148000,
+      "SellAmount": 873153000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-06",
+      "BuyAfterSale": "",
+      "Volume": 1261000,
+      "BuyAmount": 689025000,
+      "SellAmount": 688931000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-07",
+      "BuyAfterSale": "",
+      "Volume": 759000,
+      "BuyAmount": 412337000,
+      "SellAmount": 412239000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-08",
+      "BuyAfterSale": "",
+      "Volume": 1842000,
+      "BuyAmount": 997145000,
+      "SellAmount": 996495000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-09",
+      "BuyAfterSale": "",
+      "Volume": 1391000,
+      "BuyAmount": 729245000,
+      "SellAmount": 730065000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-10",
+      "BuyAfterSale": "",
+      "Volume": 3816000,
+      "BuyAmount": 1933826500,
+      "SellAmount": 1935214000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-13",
+      "BuyAfterSale": "",
+      "Volume": 2467000,
+      "BuyAmount": 1198847500,
+      "SellAmount": 1200509500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-14",
+      "BuyAfterSale": "",
+      "Volume": 2316000,
+      "BuyAmount": 1129900000,
+      "SellAmount": 1129988500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-15",
+      "BuyAfterSale": "",
+      "Volume": 2260000,
+      "BuyAmount": 1101611000,
+      "SellAmount": 1102197000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-16",
+      "BuyAfterSale": "",
+      "Volume": 1527000,
+      "BuyAmount": 752687000,
+      "SellAmount": 753607500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-17",
+      "BuyAfterSale": "",
+      "Volume": 1471000,
+      "BuyAmount": 728167000,
+      "SellAmount": 729362500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-20",
+      "BuyAfterSale": "",
+      "Volume": 1462000,
+      "BuyAmount": 745726000,
+      "SellAmount": 746520000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-21",
+      "BuyAfterSale": "",
+      "Volume": 1354000,
+      "BuyAmount": 700704000,
+      "SellAmount": 700480000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-01-22",
+      "BuyAfterSale": "",
+      "Volume": 3569000,
+      "BuyAmount": 1948221000,
+      "SellAmount": 1956162000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-03",
+      "BuyAfterSale": "",
+      "Volume": 3083000,
+      "BuyAmount": 1679869000,
+      "SellAmount": 1682440000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-04",
+      "BuyAfterSale": "",
+      "Volume": 1631000,
+      "BuyAmount": 874936000,
+      "SellAmount": 875987000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-05",
+      "BuyAfterSale": "",
+      "Volume": 1251000,
+      "BuyAmount": 672868000,
+      "SellAmount": 674229000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-06",
+      "BuyAfterSale": "",
+      "Volume": 1126000,
+      "BuyAmount": 603485000,
+      "SellAmount": 603885000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-07",
+      "BuyAfterSale": "",
+      "Volume": 1158000,
+      "BuyAmount": 605575000,
+      "SellAmount": 605529000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-10",
+      "BuyAfterSale": "",
+      "Volume": 979000,
+      "BuyAmount": 502656000,
+      "SellAmount": 503533000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-11",
+      "BuyAfterSale": "",
+      "Volume": 1097000,
+      "BuyAmount": 571147000,
+      "SellAmount": 571972000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-12",
+      "BuyAfterSale": "",
+      "Volume": 876000,
+      "BuyAmount": 454820000,
+      "SellAmount": 455820000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-13",
+      "BuyAfterSale": "",
+      "Volume": 2017000,
+      "BuyAmount": 1062989000,
+      "SellAmount": 1065458000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-14",
+      "BuyAfterSale": "",
+      "Volume": 1197000,
+      "BuyAmount": 629525000,
+      "SellAmount": 629432000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-17",
+      "BuyAfterSale": "",
+      "Volume": 634000,
+      "BuyAmount": 335385000,
+      "SellAmount": 335798000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-18",
+      "BuyAfterSale": "",
+      "Volume": 499000,
+      "BuyAmount": 265857000,
+      "SellAmount": 266018000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-19",
+      "BuyAfterSale": "",
+      "Volume": 1999000,
+      "BuyAmount": 1110328000,
+      "SellAmount": 1117260000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-20",
+      "BuyAfterSale": "",
+      "Volume": 9810000,
+      "BuyAmount": 5896560000,
+      "SellAmount": 5920810000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-21",
+      "BuyAfterSale": "",
+      "Volume": 19846000,
+      "BuyAmount": 12876956000,
+      "SellAmount": 12929348000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-24",
+      "BuyAfterSale": "",
+      "Volume": 10661000,
+      "BuyAmount": 6982826000,
+      "SellAmount": 6992998000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-25",
+      "BuyAfterSale": "",
+      "Volume": 4759000,
+      "BuyAmount": 3077780000,
+      "SellAmount": 3080181000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-26",
+      "BuyAfterSale": "",
+      "Volume": 5235000,
+      "BuyAmount": 3330435000,
+      "SellAmount": 3330459000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-02-27",
+      "BuyAfterSale": "",
+      "Volume": 4822000,
+      "BuyAmount": 3060127000,
+      "SellAmount": 3062927000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-03",
+      "BuyAfterSale": "",
+      "Volume": 5240000,
+      "BuyAmount": 3235647000,
+      "SellAmount": 3248557000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-04",
+      "BuyAfterSale": "",
+      "Volume": 3311000,
+      "BuyAmount": 2005395000,
+      "SellAmount": 2009700000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-05",
+      "BuyAfterSale": "",
+      "Volume": 5074000,
+      "BuyAmount": 3179479000,
+      "SellAmount": 3189451000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-06",
+      "BuyAfterSale": "",
+      "Volume": 4104000,
+      "BuyAmount": 2606569000,
+      "SellAmount": 2603720000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-07",
+      "BuyAfterSale": "",
+      "Volume": 3586000,
+      "BuyAmount": 2223530000,
+      "SellAmount": 2221848000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-10",
+      "BuyAfterSale": "",
+      "Volume": 2503000,
+      "BuyAmount": 1526643000,
+      "SellAmount": 1526057000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-11",
+      "BuyAfterSale": "",
+      "Volume": 3376000,
+      "BuyAmount": 1943445000,
+      "SellAmount": 1940890000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-12",
+      "BuyAfterSale": "",
+      "Volume": 4497000,
+      "BuyAmount": 2491088000,
+      "SellAmount": 2490817000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-13",
+      "BuyAfterSale": "",
+      "Volume": 2469000,
+      "BuyAmount": 1365753000,
+      "SellAmount": 1366322000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-14",
+      "BuyAfterSale": "",
+      "Volume": 3191000,
+      "BuyAmount": 1729402000,
+      "SellAmount": 1730432000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-17",
+      "BuyAfterSale": "",
+      "Volume": 1994000,
+      "BuyAmount": 1070169000,
+      "SellAmount": 1070880000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-18",
+      "BuyAfterSale": "",
+      "Volume": 2925000,
+      "BuyAmount": 1554537000,
+      "SellAmount": 1555072000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-19",
+      "BuyAfterSale": "",
+      "Volume": 1380000,
+      "BuyAmount": 730410000,
+      "SellAmount": 731009000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-20",
+      "BuyAfterSale": "",
+      "Volume": 1568000,
+      "BuyAmount": 834913000,
+      "SellAmount": 835169000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-21",
+      "BuyAfterSale": "",
+      "Volume": 984000,
+      "BuyAmount": 521531000,
+      "SellAmount": 521517000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-24",
+      "BuyAfterSale": "",
+      "Volume": 2123000,
+      "BuyAmount": 1104457000,
+      "SellAmount": 1104621000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-25",
+      "BuyAfterSale": "",
+      "Volume": 1733000,
+      "BuyAmount": 897290000,
+      "SellAmount": 896881000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-26",
+      "BuyAfterSale": "",
+      "Volume": 2940000,
+      "BuyAmount": 1549469000,
+      "SellAmount": 1550720000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-27",
+      "BuyAfterSale": "",
+      "Volume": 1097000,
+      "BuyAmount": 571286000,
+      "SellAmount": 571195000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-28",
+      "BuyAfterSale": "",
+      "Volume": 2037000,
+      "BuyAmount": 1035324500,
+      "SellAmount": 1034848500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-03-31",
+      "BuyAfterSale": "",
+      "Volume": 2136000,
+      "BuyAmount": 982478000,
+      "SellAmount": 987660500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-01",
+      "BuyAfterSale": "",
+      "Volume": 5204000,
+      "BuyAmount": 2248612000,
+      "SellAmount": 2264240000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-02",
+      "BuyAfterSale": "",
+      "Volume": 9039000,
+      "BuyAmount": 4019589500,
+      "SellAmount": 4022343000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-07",
+      "BuyAfterSale": "",
+      "Volume": 0,
+      "BuyAmount": 0,
+      "SellAmount": 0
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-08",
+      "BuyAfterSale": "Y",
+      "Volume": 19000,
+      "BuyAmount": 6783000,
+      "SellAmount": 6783000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-09",
+      "BuyAfterSale": "Y",
+      "Volume": 1098000,
+      "BuyAmount": 359991000,
+      "SellAmount": 359331000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-10",
+      "BuyAfterSale": "Y",
+      "Volume": 68000,
+      "BuyAmount": 24038000,
+      "SellAmount": 24038000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-11",
+      "BuyAfterSale": "Y",
+      "Volume": 2985000,
+      "BuyAmount": 1068633000,
+      "SellAmount": 1090551500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-14",
+      "BuyAfterSale": "Y",
+      "Volume": 2329000,
+      "BuyAmount": 914733000,
+      "SellAmount": 909294500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-15",
+      "BuyAfterSale": "",
+      "Volume": 3511000,
+      "BuyAmount": 1421321500,
+      "SellAmount": 1432309500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-16",
+      "BuyAfterSale": "",
+      "Volume": 4146000,
+      "BuyAmount": 1699205500,
+      "SellAmount": 1703470000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-17",
+      "BuyAfterSale": "",
+      "Volume": 3389000,
+      "BuyAmount": 1322542000,
+      "SellAmount": 1324329000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-18",
+      "BuyAfterSale": "",
+      "Volume": 2175000,
+      "BuyAmount": 851520000,
+      "SellAmount": 851998500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-21",
+      "BuyAfterSale": "",
+      "Volume": 1996000,
+      "BuyAmount": 764421000,
+      "SellAmount": 765390000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-22",
+      "BuyAfterSale": "",
+      "Volume": 2370000,
+      "BuyAmount": 892643500,
+      "SellAmount": 894009000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-23",
+      "BuyAfterSale": "",
+      "Volume": 3135000,
+      "BuyAmount": 1219941000,
+      "SellAmount": 1221748000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-24",
+      "BuyAfterSale": "",
+      "Volume": 1953000,
+      "BuyAmount": 766202000,
+      "SellAmount": 766148500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-25",
+      "BuyAfterSale": "",
+      "Volume": 2688000,
+      "BuyAmount": 1088971000,
+      "SellAmount": 1089575500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-28",
+      "BuyAfterSale": "",
+      "Volume": 1202000,
+      "BuyAmount": 487858500,
+      "SellAmount": 488018500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-29",
+      "BuyAfterSale": "",
+      "Volume": 2597000,
+      "BuyAmount": 1077538000,
+      "SellAmount": 1082086000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-04-30",
+      "BuyAfterSale": "",
+      "Volume": 3626000,
+      "BuyAmount": 1538696500,
+      "SellAmount": 1541097500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-02",
+      "BuyAfterSale": "",
+      "Volume": 3405000,
+      "BuyAmount": 1537077500,
+      "SellAmount": 1546639500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-05",
+      "BuyAfterSale": "",
+      "Volume": 11835000,
+      "BuyAmount": 5536107000,
+      "SellAmount": 5546788500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-06",
+      "BuyAfterSale": "",
+      "Volume": 3953000,
+      "BuyAmount": 1800881500,
+      "SellAmount": 1802771000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-07",
+      "BuyAfterSale": "",
+      "Volume": 2031000,
+      "BuyAmount": 913879000,
+      "SellAmount": 914911000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-08",
+      "BuyAfterSale": "",
+      "Volume": 1532000,
+      "BuyAmount": 699564000,
+      "SellAmount": 699627000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-09",
+      "BuyAfterSale": "",
+      "Volume": 2311000,
+      "BuyAmount": 1061040500,
+      "SellAmount": 1061559500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-12",
+      "BuyAfterSale": "",
+      "Volume": 3733000,
+      "BuyAmount": 1821702000,
+      "SellAmount": 1827106000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-13",
+      "BuyAfterSale": "",
+      "Volume": 3628000,
+      "BuyAmount": 1769083500,
+      "SellAmount": 1767106500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-14",
+      "BuyAfterSale": "",
+      "Volume": 1439000,
+      "BuyAmount": 696609000,
+      "SellAmount": 697231500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-15",
+      "BuyAfterSale": "",
+      "Volume": 2129000,
+      "BuyAmount": 1046512500,
+      "SellAmount": 1048318000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-16",
+      "BuyAfterSale": "",
+      "Volume": 8034000,
+      "BuyAmount": 4086679500,
+      "SellAmount": 4083611500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-19",
+      "BuyAfterSale": "",
+      "Volume": 4053000,
+      "BuyAmount": 1996498500,
+      "SellAmount": 1995473500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-20",
+      "BuyAfterSale": "",
+      "Volume": 2300000,
+      "BuyAmount": 1096666000,
+      "SellAmount": 1098069000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-21",
+      "BuyAfterSale": "",
+      "Volume": 2090000,
+      "BuyAmount": 989469500,
+      "SellAmount": 990511000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-22",
+      "BuyAfterSale": "",
+      "Volume": 4636000,
+      "BuyAmount": 2232341000,
+      "SellAmount": 2231820500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-23",
+      "BuyAfterSale": "",
+      "Volume": 1524000,
+      "BuyAmount": 727345000,
+      "SellAmount": 727717000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-26",
+      "BuyAfterSale": "",
+      "Volume": 1877000,
+      "BuyAmount": 881234500,
+      "SellAmount": 882479000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-27",
+      "BuyAfterSale": "",
+      "Volume": 2960000,
+      "BuyAmount": 1408866500,
+      "SellAmount": 1409954500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-28",
+      "BuyAfterSale": "",
+      "Volume": 2619000,
+      "BuyAmount": 1241660000,
+      "SellAmount": 1241556000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-05-29",
+      "BuyAfterSale": "",
+      "Volume": 1965000,
+      "BuyAmount": 911511500,
+      "SellAmount": 912015000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-02",
+      "BuyAfterSale": "",
+      "Volume": 1404000,
+      "BuyAmount": 631590000,
+      "SellAmount": 631593000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-03",
+      "BuyAfterSale": "",
+      "Volume": 1607000,
+      "BuyAmount": 725406000,
+      "SellAmount": 727210500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-04",
+      "BuyAfterSale": "",
+      "Volume": 1006000,
+      "BuyAmount": 461409000,
+      "SellAmount": 461597000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-05",
+      "BuyAfterSale": "",
+      "Volume": 1992000,
+      "BuyAmount": 917456500,
+      "SellAmount": 916699500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-06",
+      "BuyAfterSale": "",
+      "Volume": 1641000,
+      "BuyAmount": 756005000,
+      "SellAmount": 756600000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-09",
+      "BuyAfterSale": "",
+      "Volume": 2812000,
+      "BuyAmount": 1328881500,
+      "SellAmount": 1330068500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-10",
+      "BuyAfterSale": "",
+      "Volume": 1958000,
+      "BuyAmount": 933148500,
+      "SellAmount": 933953500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-11",
+      "BuyAfterSale": "",
+      "Volume": 2826000,
+      "BuyAmount": 1377572000,
+      "SellAmount": 1377696000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-12",
+      "BuyAfterSale": "",
+      "Volume": 5365000,
+      "BuyAmount": 2706153000,
+      "SellAmount": 2722876500
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-13",
+      "BuyAfterSale": "",
+      "Volume": 2484000,
+      "BuyAmount": 1259247000,
+      "SellAmount": 1260032000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-16",
+      "BuyAfterSale": "",
+      "Volume": 6031000,
+      "BuyAmount": 3109687000,
+      "SellAmount": 3115481000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-17",
+      "BuyAfterSale": "",
+      "Volume": 8576000,
+      "BuyAmount": 4671649000,
+      "SellAmount": 4677347000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-18",
+      "BuyAfterSale": "",
+      "Volume": 11069000,
+      "BuyAmount": 6459591000,
+      "SellAmount": 6494453000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-19",
+      "BuyAfterSale": "",
+      "Volume": 7877000,
+      "BuyAmount": 4644505000,
+      "SellAmount": 4650756000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-20",
+      "BuyAfterSale": "",
+      "Volume": 3663000,
+      "BuyAmount": 2090268000,
+      "SellAmount": 2092360000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-23",
+      "BuyAfterSale": "",
+      "Volume": 4142000,
+      "BuyAmount": 2333620000,
+      "SellAmount": 2339588000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-24",
+      "BuyAfterSale": "",
+      "Volume": 3786000,
+      "BuyAmount": 2165997000,
+      "SellAmount": 2163705000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-25",
+      "BuyAfterSale": "",
+      "Volume": 1443000,
+      "BuyAmount": 821985000,
+      "SellAmount": 822088000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-26",
+      "BuyAfterSale": "",
+      "Volume": 4074000,
+      "BuyAmount": 2357644000,
+      "SellAmount": 2360067000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-27",
+      "BuyAfterSale": "",
+      "Volume": 2003000,
+      "BuyAmount": 1155396000,
+      "SellAmount": 1155848000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-06-30",
+      "BuyAfterSale": "",
+      "Volume": 1300000,
+      "BuyAmount": 736941000,
+      "SellAmount": 736664000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-01",
+      "BuyAfterSale": "",
+      "Volume": 1592000,
+      "BuyAmount": 915320000,
+      "SellAmount": 917439000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-02",
+      "BuyAfterSale": "",
+      "Volume": 1169000,
+      "BuyAmount": 672412000,
+      "SellAmount": 672380000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-03",
+      "BuyAfterSale": "",
+      "Volume": 1210000,
+      "BuyAmount": 699766000,
+      "SellAmount": 699909000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-04",
+      "BuyAfterSale": "",
+      "Volume": 1425000,
+      "BuyAmount": 801857000,
+      "SellAmount": 801792000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-07",
+      "BuyAfterSale": "",
+      "Volume": 1284000,
+      "BuyAmount": 704366000,
+      "SellAmount": 705097000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-08",
+      "BuyAfterSale": "",
+      "Volume": 1899000,
+      "BuyAmount": 1034109000,
+      "SellAmount": 1036847000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-09",
+      "BuyAfterSale": "",
+      "Volume": 1681000,
+      "BuyAmount": 944043000,
+      "SellAmount": 948453000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-10",
+      "BuyAfterSale": "",
+      "Volume": 2230000,
+      "BuyAmount": 1293571000,
+      "SellAmount": 1294567000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-11",
+      "BuyAfterSale": "",
+      "Volume": 3543000,
+      "BuyAmount": 2055912000,
+      "SellAmount": 2056921000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-14",
+      "BuyAfterSale": "",
+      "Volume": 10785000,
+      "BuyAmount": 6542974000,
+      "SellAmount": 6572040000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-15",
+      "BuyAfterSale": "",
+      "Volume": 8029000,
+      "BuyAmount": 5020262000,
+      "SellAmount": 5023028000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-16",
+      "BuyAfterSale": "",
+      "Volume": 3868000,
+      "BuyAmount": 2408404000,
+      "SellAmount": 2405732000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-17",
+      "BuyAfterSale": "",
+      "Volume": 2066000,
+      "BuyAmount": 1258666000,
+      "SellAmount": 1260775000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-18",
+      "BuyAfterSale": "",
+      "Volume": 2612000,
+      "BuyAmount": 1633445000,
+      "SellAmount": 1635771000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-21",
+      "BuyAfterSale": "",
+      "Volume": 1128000,
+      "BuyAmount": 710064000,
+      "SellAmount": 710695000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-22",
+      "BuyAfterSale": "Y",
+      "Volume": 1460000,
+      "BuyAmount": 915164000,
+      "SellAmount": 894618000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-23",
+      "BuyAfterSale": "Y",
+      "Volume": 3789000,
+      "BuyAmount": 2441612000,
+      "SellAmount": 2479729000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-24",
+      "BuyAfterSale": "Y",
+      "Volume": 3290000,
+      "BuyAmount": 2165012000,
+      "SellAmount": 2167344000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-25",
+      "BuyAfterSale": "Y",
+      "Volume": 3985000,
+      "BuyAmount": 2449304000,
+      "SellAmount": 2462256000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-28",
+      "BuyAfterSale": "Y",
+      "Volume": 2454000,
+      "BuyAmount": 1574044000,
+      "SellAmount": 1577343000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-29",
+      "BuyAfterSale": "",
+      "Volume": 6883000,
+      "BuyAmount": 4525727000,
+      "SellAmount": 4532613000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-30",
+      "BuyAfterSale": "",
+      "Volume": 3895000,
+      "BuyAmount": 2566093000,
+      "SellAmount": 2569192000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-07-31",
+      "BuyAfterSale": "",
+      "Volume": 2697000,
+      "BuyAmount": 1798151000,
+      "SellAmount": 1799274000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-01",
+      "BuyAfterSale": "",
+      "Volume": 2211000,
+      "BuyAmount": 1460560000,
+      "SellAmount": 1463115000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-04",
+      "BuyAfterSale": "",
+      "Volume": 1295000,
+      "BuyAmount": 838491000,
+      "SellAmount": 838672000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-05",
+      "BuyAfterSale": "",
+      "Volume": 1224000,
+      "BuyAmount": 795122000,
+      "SellAmount": 795398000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-06",
+      "BuyAfterSale": "",
+      "Volume": 972000,
+      "BuyAmount": 633536000,
+      "SellAmount": 633690000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-07",
+      "BuyAfterSale": "",
+      "Volume": 1851000,
+      "BuyAmount": 1231334000,
+      "SellAmount": 1233115000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-08",
+      "BuyAfterSale": "",
+      "Volume": 1578000,
+      "BuyAmount": 1059200000,
+      "SellAmount": 1059660000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-11",
+      "BuyAfterSale": "",
+      "Volume": 2760000,
+      "BuyAmount": 1879938000,
+      "SellAmount": 1881110000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-12",
+      "BuyAfterSale": "",
+      "Volume": 1959000,
+      "BuyAmount": 1300486000,
+      "SellAmount": 1304954000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-13",
+      "BuyAfterSale": "",
+      "Volume": 1327000,
+      "BuyAmount": 873374000,
+      "SellAmount": 873580000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-14",
+      "BuyAfterSale": "",
+      "Volume": 2572000,
+      "BuyAmount": 1627639000,
+      "SellAmount": 1630112000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-15",
+      "BuyAfterSale": "",
+      "Volume": 1131000,
+      "BuyAmount": 707325000,
+      "SellAmount": 707128000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-18",
+      "BuyAfterSale": "",
+      "Volume": 1407000,
+      "BuyAmount": 858948000,
+      "SellAmount": 859689000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-19",
+      "BuyAfterSale": "",
+      "Volume": 1666000,
+      "BuyAmount": 1025994000,
+      "SellAmount": 1025480000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-20",
+      "BuyAfterSale": "",
+      "Volume": 1586000,
+      "BuyAmount": 962751000,
+      "SellAmount": 964774000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-21",
+      "BuyAfterSale": "",
+      "Volume": 1103000,
+      "BuyAmount": 679136000,
+      "SellAmount": 679711000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-22",
+      "BuyAfterSale": "",
+      "Volume": 1303000,
+      "BuyAmount": 783114000,
+      "SellAmount": 783720000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-25",
+      "BuyAfterSale": "",
+      "Volume": 982000,
+      "BuyAmount": 595734000,
+      "SellAmount": 597271000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-26",
+      "BuyAfterSale": "",
+      "Volume": 603000,
+      "BuyAmount": 366843000,
+      "SellAmount": 367217000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-27",
+      "BuyAfterSale": "",
+      "Volume": 850000,
+      "BuyAmount": 527689000,
+      "SellAmount": 529440000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-28",
+      "BuyAfterSale": "",
+      "Volume": 957000,
+      "BuyAmount": 599280000,
+      "SellAmount": 598991000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-08-29",
+      "BuyAfterSale": "",
+      "Volume": 2456000,
+      "BuyAmount": 1577936000,
+      "SellAmount": 1584685000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-01",
+      "BuyAfterSale": "",
+      "Volume": 2540000,
+      "BuyAmount": 1610677000,
+      "SellAmount": 1602129000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-02",
+      "BuyAfterSale": "",
+      "Volume": 1566000,
+      "BuyAmount": 951268000,
+      "SellAmount": 950883000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-03",
+      "BuyAfterSale": "",
+      "Volume": 1090000,
+      "BuyAmount": 658928000,
+      "SellAmount": 659524000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-04",
+      "BuyAfterSale": "",
+      "Volume": 1759000,
+      "BuyAmount": 1099219000,
+      "SellAmount": 1101760000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-05",
+      "BuyAfterSale": "",
+      "Volume": 1186000,
+      "BuyAmount": 741081000,
+      "SellAmount": 739806000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-08",
+      "BuyAfterSale": "",
+      "Volume": 531000,
+      "BuyAmount": 330466000,
+      "SellAmount": 330916000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-09",
+      "BuyAfterSale": "",
+      "Volume": 937000,
+      "BuyAmount": 589347000,
+      "SellAmount": 587759000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-10",
+      "BuyAfterSale": "",
+      "Volume": 528000,
+      "BuyAmount": 330011000,
+      "SellAmount": 329972000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-11",
+      "BuyAfterSale": "",
+      "Volume": 1579000,
+      "BuyAmount": 967669000,
+      "SellAmount": 967639000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-12",
+      "BuyAfterSale": "",
+      "Volume": 522000,
+      "BuyAmount": 318371000,
+      "SellAmount": 318343000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-15",
+      "BuyAfterSale": "",
+      "Volume": 445000,
+      "BuyAmount": 268469000,
+      "SellAmount": 268578000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-16",
+      "BuyAfterSale": "",
+      "Volume": 498000,
+      "BuyAmount": 296842000,
+      "SellAmount": 296614000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-17",
+      "BuyAfterSale": "",
+      "Volume": 534000,
+      "BuyAmount": 313181000,
+      "SellAmount": 313474000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-18",
+      "BuyAfterSale": "",
+      "Volume": 569000,
+      "BuyAmount": 337025000,
+      "SellAmount": 337072000
+    },
+    {
+      "stock_id": "1519",
+      "date": "2025-09-19",
+      "BuyAfterSale": "",
+      "Volume": 471000,
+      "BuyAmount": 279886000,
+      "SellAmount": 280187000
+    }
+  ]
+}

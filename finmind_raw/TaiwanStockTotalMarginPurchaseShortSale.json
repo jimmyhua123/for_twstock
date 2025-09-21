@@ -1,0 +1,6567 @@
+{
+  "msg": "success",
+  "status": 200,
+  "data": [
+    {
+      "TodayBalance": 9380715,
+      "YesBalance": 9426643,
+      "buy": 318670,
+      "date": "2024-09-23",
+      "name": "MarginPurchase",
+      "Return": 3913,
+      "sell": 360685
+    },
+    {
+      "TodayBalance": 274991,
+      "YesBalance": 279636,
+      "buy": 21651,
+      "date": "2024-09-23",
+      "name": "ShortSale",
+      "Return": 6840,
+      "sell": 23846
+    },
+    {
+      "TodayBalance": 312767216000,
+      "YesBalance": 312311751000,
+      "buy": 12263968000,
+      "date": "2024-09-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 185296000,
+      "sell": 11623207000
+    },
+    {
+      "TodayBalance": 9352585,
+      "YesBalance": 9380712,
+      "buy": 317870,
+      "date": "2024-09-24",
+      "name": "MarginPurchase",
+      "Return": 4052,
+      "sell": 341945
+    },
+    {
+      "TodayBalance": 280587,
+      "YesBalance": 274991,
+      "buy": 19379,
+      "date": "2024-09-24",
+      "name": "ShortSale",
+      "Return": 2601,
+      "sell": 27576
+    },
+    {
+      "TodayBalance": 313757764000,
+      "YesBalance": 312767216000,
+      "buy": 12630600000,
+      "date": "2024-09-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 177884000,
+      "sell": 11462168000
+    },
+    {
+      "TodayBalance": 9254732,
+      "YesBalance": 9352584,
+      "buy": 365131,
+      "date": "2024-09-25",
+      "name": "MarginPurchase",
+      "Return": 7443,
+      "sell": 455540
+    },
+    {
+      "TodayBalance": 286451,
+      "YesBalance": 280587,
+      "buy": 19483,
+      "date": "2024-09-25",
+      "name": "ShortSale",
+      "Return": 3458,
+      "sell": 28805
+    },
+    {
+      "TodayBalance": 314113921000,
+      "YesBalance": 313757764000,
+      "buy": 16344203000,
+      "date": "2024-09-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 222652000,
+      "sell": 15765394000
+    },
+    {
+      "TodayBalance": 313195882000,
+      "YesBalance": 314113921000,
+      "buy": 15342319000,
+      "date": "2024-09-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 214144000,
+      "sell": 16046214000
+    },
+    {
+      "TodayBalance": 290926,
+      "YesBalance": 286451,
+      "buy": 19814,
+      "date": "2024-09-26",
+      "name": "ShortSale",
+      "Return": 3305,
+      "sell": 27594
+    },
+    {
+      "TodayBalance": 9200631,
+      "YesBalance": 9254727,
+      "buy": 357302,
+      "date": "2024-09-26",
+      "name": "MarginPurchase",
+      "Return": 7102,
+      "sell": 404296
+    },
+    {
+      "TodayBalance": 9201233,
+      "YesBalance": 9200624,
+      "buy": 418517,
+      "date": "2024-09-27",
+      "name": "MarginPurchase",
+      "Return": 5201,
+      "sell": 412707
+    },
+    {
+      "TodayBalance": 296346,
+      "YesBalance": 290926,
+      "buy": 24226,
+      "date": "2024-09-27",
+      "name": "ShortSale",
+      "Return": 1235,
+      "sell": 30881
+    },
+    {
+      "TodayBalance": 313272604000,
+      "YesBalance": 313195882000,
+      "buy": 15011679000,
+      "date": "2024-09-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 245220000,
+      "sell": 14689737000
+    },
+    {
+      "TodayBalance": 9225276,
+      "YesBalance": 9198725,
+      "buy": 386386,
+      "date": "2024-09-30",
+      "name": "MarginPurchase",
+      "Return": 4426,
+      "sell": 355409
+    },
+    {
+      "TodayBalance": 301453,
+      "YesBalance": 296346,
+      "buy": 24332,
+      "date": "2024-09-30",
+      "name": "ShortSale",
+      "Return": 1784,
+      "sell": 31223
+    },
+    {
+      "TodayBalance": 316576056000,
+      "YesBalance": 313272604000,
+      "buy": 15527730000,
+      "date": "2024-09-30",
+      "name": "MarginPurchaseMoney",
+      "Return": 186979000,
+      "sell": 12037299000
+    },
+    {
+      "TodayBalance": 9251672,
+      "YesBalance": 9225260,
+      "buy": 266350,
+      "date": "2024-10-01",
+      "name": "MarginPurchase",
+      "Return": 5056,
+      "sell": 234882
+    },
+    {
+      "TodayBalance": 298843,
+      "YesBalance": 301453,
+      "buy": 21088,
+      "date": "2024-10-01",
+      "name": "ShortSale",
+      "Return": 2595,
+      "sell": 21073
+    },
+    {
+      "TodayBalance": 317042572000,
+      "YesBalance": 316576056000,
+      "buy": 10279737000,
+      "date": "2024-10-01",
+      "name": "MarginPurchaseMoney",
+      "Return": 182891000,
+      "sell": 9630330000
+    },
+    {
+      "TodayBalance": 317287821000,
+      "YesBalance": 317042572000,
+      "buy": 13343218000,
+      "date": "2024-10-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 181710000,
+      "sell": 12916259000
+    },
+    {
+      "TodayBalance": 316179,
+      "YesBalance": 298843,
+      "buy": 34677,
+      "date": "2024-10-04",
+      "name": "ShortSale",
+      "Return": 5748,
+      "sell": 57761
+    },
+    {
+      "TodayBalance": 9184071,
+      "YesBalance": 9251665,
+      "buy": 402247,
+      "date": "2024-10-04",
+      "name": "MarginPurchase",
+      "Return": 3617,
+      "sell": 466224
+    },
+    {
+      "TodayBalance": 9273033,
+      "YesBalance": 9184066,
+      "buy": 462945,
+      "date": "2024-10-07",
+      "name": "MarginPurchase",
+      "Return": 5290,
+      "sell": 368688
+    },
+    {
+      "TodayBalance": 336769,
+      "YesBalance": 316179,
+      "buy": 30646,
+      "date": "2024-10-07",
+      "name": "ShortSale",
+      "Return": 1848,
+      "sell": 53084
+    },
+    {
+      "TodayBalance": 318935873000,
+      "YesBalance": 317287794000,
+      "buy": 14664290000,
+      "date": "2024-10-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 293449000,
+      "sell": 12722762000
+    },
+    {
+      "TodayBalance": 9351289,
+      "YesBalance": 9273025,
+      "buy": 484688,
+      "date": "2024-10-08",
+      "name": "MarginPurchase",
+      "Return": 7069,
+      "sell": 399355
+    },
+    {
+      "TodayBalance": 317096,
+      "YesBalance": 336769,
+      "buy": 41848,
+      "date": "2024-10-08",
+      "name": "ShortSale",
+      "Return": 10276,
+      "sell": 32451
+    },
+    {
+      "TodayBalance": 320397965000,
+      "YesBalance": 318935873000,
+      "buy": 13618492000,
+      "date": "2024-10-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 260378000,
+      "sell": 11896022000
+    },
+    {
+      "TodayBalance": 9371402,
+      "YesBalance": 9351277,
+      "buy": 447638,
+      "date": "2024-10-09",
+      "name": "MarginPurchase",
+      "Return": 6486,
+      "sell": 421027
+    },
+    {
+      "TodayBalance": 294713,
+      "YesBalance": 317096,
+      "buy": 44113,
+      "date": "2024-10-09",
+      "name": "ShortSale",
+      "Return": 1815,
+      "sell": 23545
+    },
+    {
+      "TodayBalance": 319321854000,
+      "YesBalance": 320397965000,
+      "buy": 14744928000,
+      "date": "2024-10-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 228723000,
+      "sell": 15592316000
+    },
+    {
+      "TodayBalance": 319102025000,
+      "YesBalance": 319321854000,
+      "buy": 12381346000,
+      "date": "2024-10-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 197847000,
+      "sell": 12403328000
+    },
+    {
+      "TodayBalance": 302228,
+      "YesBalance": 294713,
+      "buy": 16387,
+      "date": "2024-10-11",
+      "name": "ShortSale",
+      "Return": 2711,
+      "sell": 26613
+    },
+    {
+      "TodayBalance": 9418727,
+      "YesBalance": 9371392,
+      "buy": 337894,
+      "date": "2024-10-11",
+      "name": "MarginPurchase",
+      "Return": 4702,
+      "sell": 285857
+    },
+    {
+      "TodayBalance": 9427154,
+      "YesBalance": 9418721,
+      "buy": 280507,
+      "date": "2024-10-14",
+      "name": "MarginPurchase",
+      "Return": 5032,
+      "sell": 267042
+    },
+    {
+      "TodayBalance": 316149,
+      "YesBalance": 302228,
+      "buy": 17847,
+      "date": "2024-10-14",
+      "name": "ShortSale",
+      "Return": 2460,
+      "sell": 34228
+    },
+    {
+      "TodayBalance": 319539948000,
+      "YesBalance": 319102025000,
+      "buy": 11708537000,
+      "date": "2024-10-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 198454000,
+      "sell": 11072160000
+    },
+    {
+      "TodayBalance": 9434284,
+      "YesBalance": 9427150,
+      "buy": 331281,
+      "date": "2024-10-15",
+      "name": "MarginPurchase",
+      "Return": 6305,
+      "sell": 317842
+    },
+    {
+      "TodayBalance": 303401,
+      "YesBalance": 316149,
+      "buy": 27728,
+      "date": "2024-10-15",
+      "name": "ShortSale",
+      "Return": 2946,
+      "sell": 17926
+    },
+    {
+      "TodayBalance": 320019575000,
+      "YesBalance": 319539948000,
+      "buy": 14838021000,
+      "date": "2024-10-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 238106000,
+      "sell": 14120288000
+    },
+    {
+      "TodayBalance": 9476627,
+      "YesBalance": 9434277,
+      "buy": 321346,
+      "date": "2024-10-16",
+      "name": "MarginPurchase",
+      "Return": 8601,
+      "sell": 270395
+    },
+    {
+      "TodayBalance": 306261,
+      "YesBalance": 303401,
+      "buy": 22502,
+      "date": "2024-10-16",
+      "name": "ShortSale",
+      "Return": 4234,
+      "sell": 29596
+    },
+    {
+      "TodayBalance": 322938236000,
+      "YesBalance": 320019575000,
+      "buy": 13310637000,
+      "date": "2024-10-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 251101000,
+      "sell": 10140875000
+    },
+    {
+      "TodayBalance": 324936607000,
+      "YesBalance": 322938236000,
+      "buy": 13885555000,
+      "date": "2024-10-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 158264000,
+      "sell": 11728920000
+    },
+    {
+      "TodayBalance": 9476176,
+      "YesBalance": 9476622,
+      "buy": 288507,
+      "date": "2024-10-17",
+      "name": "MarginPurchase",
+      "Return": 4384,
+      "sell": 284569
+    },
+    {
+      "TodayBalance": 307984,
+      "YesBalance": 306261,
+      "buy": 15236,
+      "date": "2024-10-17",
+      "name": "ShortSale",
+      "Return": 3942,
+      "sell": 20901
+    },
+    {
+      "TodayBalance": 9512984,
+      "YesBalance": 9476170,
+      "buy": 331852,
+      "date": "2024-10-18",
+      "name": "MarginPurchase",
+      "Return": 6238,
+      "sell": 288800
+    },
+    {
+      "TodayBalance": 334458,
+      "YesBalance": 307984,
+      "buy": 20236,
+      "date": "2024-10-18",
+      "name": "ShortSale",
+      "Return": 8543,
+      "sell": 55253
+    },
+    {
+      "TodayBalance": 322282075000,
+      "YesBalance": 324936607000,
+      "buy": 14101266000,
+      "date": "2024-10-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 208764000,
+      "sell": 16547034000
+    },
+    {
+      "TodayBalance": 9562117,
+      "YesBalance": 9510847,
+      "buy": 299857,
+      "date": "2024-10-21",
+      "name": "MarginPurchase",
+      "Return": 28594,
+      "sell": 219993
+    },
+    {
+      "TodayBalance": 335642,
+      "YesBalance": 334458,
+      "buy": 12597,
+      "date": "2024-10-21",
+      "name": "ShortSale",
+      "Return": 15044,
+      "sell": 28825
+    },
+    {
+      "TodayBalance": 323009176000,
+      "YesBalance": 322282077000,
+      "buy": 12722098000,
+      "date": "2024-10-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 336750000,
+      "sell": 11658249000
+    },
+    {
+      "TodayBalance": 340162,
+      "YesBalance": 335643,
+      "buy": 14558,
+      "date": "2024-10-22",
+      "name": "ShortSale",
+      "Return": 2208,
+      "sell": 21285
+    },
+    {
+      "TodayBalance": 325455228000,
+      "YesBalance": 323009172000,
+      "buy": 15022611000,
+      "date": "2024-10-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 185920000,
+      "sell": 12390635000
+    },
+    {
+      "TodayBalance": 9579368,
+      "YesBalance": 9562091,
+      "buy": 325538,
+      "date": "2024-10-22",
+      "name": "MarginPurchase",
+      "Return": 6058,
+      "sell": 302203
+    },
+    {
+      "TodayBalance": 9596755,
+      "YesBalance": 9579350,
+      "buy": 280205,
+      "date": "2024-10-23",
+      "name": "MarginPurchase",
+      "Return": 13004,
+      "sell": 249796
+    },
+    {
+      "TodayBalance": 346351,
+      "YesBalance": 340162,
+      "buy": 12210,
+      "date": "2024-10-23",
+      "name": "ShortSale",
+      "Return": 9999,
+      "sell": 28398
+    },
+    {
+      "TodayBalance": 327082648000,
+      "YesBalance": 325455253000,
+      "buy": 12574031000,
+      "date": "2024-10-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 247181000,
+      "sell": 10699455000
+    },
+    {
+      "TodayBalance": 9614190,
+      "YesBalance": 9596736,
+      "buy": 330460,
+      "date": "2024-10-24",
+      "name": "MarginPurchase",
+      "Return": 4503,
+      "sell": 308503
+    },
+    {
+      "TodayBalance": 327981,
+      "YesBalance": 346351,
+      "buy": 27096,
+      "date": "2024-10-24",
+      "name": "ShortSale",
+      "Return": 10784,
+      "sell": 19510
+    },
+    {
+      "TodayBalance": 326043754000,
+      "YesBalance": 327082648000,
+      "buy": 14620918000,
+      "date": "2024-10-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 154124000,
+      "sell": 15505688000
+    },
+    {
+      "TodayBalance": 326961558000,
+      "YesBalance": 326043754000,
+      "buy": 11379640000,
+      "date": "2024-10-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 153640000,
+      "sell": 10308195000
+    },
+    {
+      "TodayBalance": 9612168,
+      "YesBalance": 9614173,
+      "buy": 241486,
+      "date": "2024-10-25",
+      "name": "MarginPurchase",
+      "Return": 5341,
+      "sell": 238150
+    },
+    {
+      "TodayBalance": 323583,
+      "YesBalance": 327981,
+      "buy": 14558,
+      "date": "2024-10-25",
+      "name": "ShortSale",
+      "Return": 9447,
+      "sell": 19607
+    },
+    {
+      "TodayBalance": 325668918000,
+      "YesBalance": 326961559000,
+      "buy": 11541900000,
+      "date": "2024-10-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 117898000,
+      "sell": 12716642000
+    },
+    {
+      "TodayBalance": 320320,
+      "YesBalance": 323583,
+      "buy": 20108,
+      "date": "2024-10-28",
+      "name": "ShortSale",
+      "Return": 1579,
+      "sell": 18424
+    },
+    {
+      "TodayBalance": 9601234,
+      "YesBalance": 9611144,
+      "buy": 268180,
+      "date": "2024-10-28",
+      "name": "MarginPurchase",
+      "Return": 2436,
+      "sell": 275654
+    },
+    {
+      "TodayBalance": 9576082,
+      "YesBalance": 9601222,
+      "buy": 251913,
+      "date": "2024-10-29",
+      "name": "MarginPurchase",
+      "Return": 2706,
+      "sell": 274347
+    },
+    {
+      "TodayBalance": 310875,
+      "YesBalance": 320320,
+      "buy": 24607,
+      "date": "2024-10-29",
+      "name": "ShortSale",
+      "Return": 3750,
+      "sell": 18912
+    },
+    {
+      "TodayBalance": 324572308000,
+      "YesBalance": 325668915000,
+      "buy": 10954282000,
+      "date": "2024-10-29",
+      "name": "MarginPurchaseMoney",
+      "Return": 149908000,
+      "sell": 11900981000
+    },
+    {
+      "TodayBalance": 9619694,
+      "YesBalance": 9576076,
+      "buy": 258475,
+      "date": "2024-10-30",
+      "name": "MarginPurchase",
+      "Return": 4659,
+      "sell": 210198
+    },
+    {
+      "TodayBalance": 302818,
+      "YesBalance": 310875,
+      "buy": 21411,
+      "date": "2024-10-30",
+      "name": "ShortSale",
+      "Return": 9999,
+      "sell": 23353
+    },
+    {
+      "TodayBalance": 325848781000,
+      "YesBalance": 324572308000,
+      "buy": 10171448000,
+      "date": "2024-10-30",
+      "name": "MarginPurchaseMoney",
+      "Return": 218515000,
+      "sell": 8676460000
+    },
+    {
+      "TodayBalance": 303057,
+      "YesBalance": 302818,
+      "buy": 24622,
+      "date": "2024-11-01",
+      "name": "ShortSale",
+      "Return": 5397,
+      "sell": 30258
+    },
+    {
+      "TodayBalance": 325833120000,
+      "YesBalance": 325848598000,
+      "buy": 10983488000,
+      "date": "2024-11-01",
+      "name": "MarginPurchaseMoney",
+      "Return": 397625000,
+      "sell": 10601341000
+    },
+    {
+      "TodayBalance": 9527295,
+      "YesBalance": 9619682,
+      "buy": 233399,
+      "date": "2024-11-01",
+      "name": "MarginPurchase",
+      "Return": 28361,
+      "sell": 297425
+    },
+    {
+      "TodayBalance": 9556577,
+      "YesBalance": 9527286,
+      "buy": 237978,
+      "date": "2024-11-04",
+      "name": "MarginPurchase",
+      "Return": 3782,
+      "sell": 204905
+    },
+    {
+      "TodayBalance": 303290,
+      "YesBalance": 303057,
+      "buy": 18130,
+      "date": "2024-11-04",
+      "name": "ShortSale",
+      "Return": 3326,
+      "sell": 21689
+    },
+    {
+      "TodayBalance": 326831753000,
+      "YesBalance": 325834706000,
+      "buy": 11053269000,
+      "date": "2024-11-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 157777000,
+      "sell": 9898445000
+    },
+    {
+      "TodayBalance": 9551071,
+      "YesBalance": 9556569,
+      "buy": 248073,
+      "date": "2024-11-05",
+      "name": "MarginPurchase",
+      "Return": 4752,
+      "sell": 248819
+    },
+    {
+      "TodayBalance": 324455,
+      "YesBalance": 303290,
+      "buy": 10666,
+      "date": "2024-11-05",
+      "name": "ShortSale",
+      "Return": 753,
+      "sell": 32584
+    },
+    {
+      "TodayBalance": 326564786000,
+      "YesBalance": 326831775000,
+      "buy": 10557673000,
+      "date": "2024-11-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 193725000,
+      "sell": 10630937000
+    },
+    {
+      "TodayBalance": 327205349000,
+      "YesBalance": 326564786000,
+      "buy": 13962196000,
+      "date": "2024-11-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 146518000,
+      "sell": 13175115000
+    },
+    {
+      "TodayBalance": 9621929,
+      "YesBalance": 9551067,
+      "buy": 377366,
+      "date": "2024-11-06",
+      "name": "MarginPurchase",
+      "Return": 2972,
+      "sell": 303532
+    },
+    {
+      "TodayBalance": 331179,
+      "YesBalance": 324455,
+      "buy": 30384,
+      "date": "2024-11-06",
+      "name": "ShortSale",
+      "Return": 995,
+      "sell": 38103
+    },
+    {
+      "TodayBalance": 343701,
+      "YesBalance": 331179,
+      "buy": 15409,
+      "date": "2024-11-07",
+      "name": "ShortSale",
+      "Return": 3847,
+      "sell": 31778
+    },
+    {
+      "TodayBalance": 329914462000,
+      "YesBalance": 327205349000,
+      "buy": 17012243000,
+      "date": "2024-11-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 121509000,
+      "sell": 14181621000
+    },
+    {
+      "TodayBalance": 9692181,
+      "YesBalance": 9621926,
+      "buy": 408817,
+      "date": "2024-11-07",
+      "name": "MarginPurchase",
+      "Return": 3241,
+      "sell": 335321
+    },
+    {
+      "TodayBalance": 328677500000,
+      "YesBalance": 329914462000,
+      "buy": 16620758000,
+      "date": "2024-11-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 155285000,
+      "sell": 17702435000
+    },
+    {
+      "TodayBalance": 9677902,
+      "YesBalance": 9692173,
+      "buy": 387423,
+      "date": "2024-11-08",
+      "name": "MarginPurchase",
+      "Return": 3583,
+      "sell": 398111
+    },
+    {
+      "TodayBalance": 323224,
+      "YesBalance": 343701,
+      "buy": 21340,
+      "date": "2024-11-08",
+      "name": "ShortSale",
+      "Return": 20078,
+      "sell": 20941
+    },
+    {
+      "TodayBalance": 9672257,
+      "YesBalance": 9679358,
+      "buy": 296601,
+      "date": "2024-11-11",
+      "name": "MarginPurchase",
+      "Return": 7407,
+      "sell": 296295
+    },
+    {
+      "TodayBalance": 312986,
+      "YesBalance": 323224,
+      "buy": 25523,
+      "date": "2024-11-11",
+      "name": "ShortSale",
+      "Return": 4982,
+      "sell": 20267
+    },
+    {
+      "TodayBalance": 328850933000,
+      "YesBalance": 328677497000,
+      "buy": 14109188000,
+      "date": "2024-11-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 159478000,
+      "sell": 13776274000
+    },
+    {
+      "TodayBalance": 9596049,
+      "YesBalance": 9672245,
+      "buy": 323641,
+      "date": "2024-11-12",
+      "name": "MarginPurchase",
+      "Return": 4421,
+      "sell": 395416
+    },
+    {
+      "TodayBalance": 312370,
+      "YesBalance": 312986,
+      "buy": 28649,
+      "date": "2024-11-12",
+      "name": "ShortSale",
+      "Return": 5218,
+      "sell": 33251
+    },
+    {
+      "TodayBalance": 326533679000,
+      "YesBalance": 328850933000,
+      "buy": 14281252000,
+      "date": "2024-11-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 185601000,
+      "sell": 16412905000
+    },
+    {
+      "TodayBalance": 304586,
+      "YesBalance": 312370,
+      "buy": 26568,
+      "date": "2024-11-13",
+      "name": "ShortSale",
+      "Return": 2977,
+      "sell": 21761
+    },
+    {
+      "TodayBalance": 327772341000,
+      "YesBalance": 326533679000,
+      "buy": 13136456000,
+      "date": "2024-11-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 237767000,
+      "sell": 11660027000
+    },
+    {
+      "TodayBalance": 9581042,
+      "YesBalance": 9596039,
+      "buy": 299535,
+      "date": "2024-11-13",
+      "name": "MarginPurchase",
+      "Return": 7393,
+      "sell": 307139
+    },
+    {
+      "TodayBalance": 9545977,
+      "YesBalance": 9581036,
+      "buy": 276022,
+      "date": "2024-11-14",
+      "name": "MarginPurchase",
+      "Return": 8810,
+      "sell": 302271
+    },
+    {
+      "TodayBalance": 311246,
+      "YesBalance": 304586,
+      "buy": 20267,
+      "date": "2024-11-14",
+      "name": "ShortSale",
+      "Return": 8348,
+      "sell": 35275
+    },
+    {
+      "TodayBalance": 326045610000,
+      "YesBalance": 327772480000,
+      "buy": 12460978000,
+      "date": "2024-11-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 391287000,
+      "sell": 13796561000
+    },
+    {
+      "TodayBalance": 9526451,
+      "YesBalance": 9545973,
+      "buy": 270813,
+      "date": "2024-11-15",
+      "name": "MarginPurchase",
+      "Return": 9978,
+      "sell": 280357
+    },
+    {
+      "TodayBalance": 311766,
+      "YesBalance": 311246,
+      "buy": 25629,
+      "date": "2024-11-15",
+      "name": "ShortSale",
+      "Return": 1981,
+      "sell": 28130
+    },
+    {
+      "TodayBalance": 326051673000,
+      "YesBalance": 326045496000,
+      "buy": 13400040000,
+      "date": "2024-11-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 356816000,
+      "sell": 13037047000
+    },
+    {
+      "TodayBalance": 321930102000,
+      "YesBalance": 326051671000,
+      "buy": 8882690000,
+      "date": "2024-11-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 264759000,
+      "sell": 12739500000
+    },
+    {
+      "TodayBalance": 9453655,
+      "YesBalance": 9526449,
+      "buy": 215106,
+      "date": "2024-11-18",
+      "name": "MarginPurchase",
+      "Return": 10590,
+      "sell": 277310
+    },
+    {
+      "TodayBalance": 305117,
+      "YesBalance": 311766,
+      "buy": 28683,
+      "date": "2024-11-18",
+      "name": "ShortSale",
+      "Return": 3130,
+      "sell": 25164
+    },
+    {
+      "TodayBalance": 290248,
+      "YesBalance": 305117,
+      "buy": 41389,
+      "date": "2024-11-19",
+      "name": "ShortSale",
+      "Return": 2149,
+      "sell": 28669
+    },
+    {
+      "TodayBalance": 322822398000,
+      "YesBalance": 321930169000,
+      "buy": 11088139000,
+      "date": "2024-11-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 415441000,
+      "sell": 9780469000
+    },
+    {
+      "TodayBalance": 9442369,
+      "YesBalance": 9453533,
+      "buy": 264019,
+      "date": "2024-11-19",
+      "name": "MarginPurchase",
+      "Return": 30791,
+      "sell": 244392
+    },
+    {
+      "TodayBalance": 9381189,
+      "YesBalance": 9442365,
+      "buy": 214479,
+      "date": "2024-11-20",
+      "name": "MarginPurchase",
+      "Return": 29584,
+      "sell": 246071
+    },
+    {
+      "TodayBalance": 288862,
+      "YesBalance": 290248,
+      "buy": 18931,
+      "date": "2024-11-20",
+      "name": "ShortSale",
+      "Return": 4230,
+      "sell": 21775
+    },
+    {
+      "TodayBalance": 322708274000,
+      "YesBalance": 322822469000,
+      "buy": 10710397000,
+      "date": "2024-11-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 410479000,
+      "sell": 10414113000
+    },
+    {
+      "TodayBalance": 9395874,
+      "YesBalance": 9381085,
+      "buy": 225993,
+      "date": "2024-11-21",
+      "name": "MarginPurchase",
+      "Return": 6862,
+      "sell": 204342
+    },
+    {
+      "TodayBalance": 287090,
+      "YesBalance": 288762,
+      "buy": 23871,
+      "date": "2024-11-21",
+      "name": "ShortSale",
+      "Return": 3316,
+      "sell": 25515
+    },
+    {
+      "TodayBalance": 324387630000,
+      "YesBalance": 322707221000,
+      "buy": 11085094000,
+      "date": "2024-11-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 185247000,
+      "sell": 9219438000
+    },
+    {
+      "TodayBalance": 325025883000,
+      "YesBalance": 324387606000,
+      "buy": 11922825000,
+      "date": "2024-11-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 256739000,
+      "sell": 11027809000
+    },
+    {
+      "TodayBalance": 9418692,
+      "YesBalance": 9395871,
+      "buy": 300487,
+      "date": "2024-11-22",
+      "name": "MarginPurchase",
+      "Return": 10896,
+      "sell": 266770
+    },
+    {
+      "TodayBalance": 290126,
+      "YesBalance": 287090,
+      "buy": 20165,
+      "date": "2024-11-22",
+      "name": "ShortSale",
+      "Return": 1525,
+      "sell": 24726
+    },
+    {
+      "TodayBalance": 326737650000,
+      "YesBalance": 325025883000,
+      "buy": 14297239000,
+      "date": "2024-11-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 137791000,
+      "sell": 12447681000
+    },
+    {
+      "TodayBalance": 286375,
+      "YesBalance": 290126,
+      "buy": 23841,
+      "date": "2024-11-25",
+      "name": "ShortSale",
+      "Return": 3145,
+      "sell": 23235
+    },
+    {
+      "TodayBalance": 9375709,
+      "YesBalance": 9418688,
+      "buy": 300815,
+      "date": "2024-11-25",
+      "name": "MarginPurchase",
+      "Return": 7113,
+      "sell": 336681
+    },
+    {
+      "TodayBalance": 9362554,
+      "YesBalance": 9375612,
+      "buy": 233898,
+      "date": "2024-11-26",
+      "name": "MarginPurchase",
+      "Return": 6135,
+      "sell": 240821
+    },
+    {
+      "TodayBalance": 286754,
+      "YesBalance": 286375,
+      "buy": 19321,
+      "date": "2024-11-26",
+      "name": "ShortSale",
+      "Return": 1984,
+      "sell": 21684
+    },
+    {
+      "TodayBalance": 327107468000,
+      "YesBalance": 326737650000,
+      "buy": 10847052000,
+      "date": "2024-11-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 200594000,
+      "sell": 10276640000
+    },
+    {
+      "TodayBalance": 324783934000,
+      "YesBalance": 327107468000,
+      "buy": 12691912000,
+      "date": "2024-11-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 182087000,
+      "sell": 14833359000
+    },
+    {
+      "TodayBalance": 9312084,
+      "YesBalance": 9362550,
+      "buy": 271071,
+      "date": "2024-11-27",
+      "name": "MarginPurchase",
+      "Return": 7148,
+      "sell": 314389
+    },
+    {
+      "TodayBalance": 285077,
+      "YesBalance": 286754,
+      "buy": 26583,
+      "date": "2024-11-27",
+      "name": "ShortSale",
+      "Return": 2869,
+      "sell": 27775
+    },
+    {
+      "TodayBalance": 278477,
+      "YesBalance": 285077,
+      "buy": 29181,
+      "date": "2024-11-28",
+      "name": "ShortSale",
+      "Return": 2607,
+      "sell": 25188
+    },
+    {
+      "TodayBalance": 320172537000,
+      "YesBalance": 324783934000,
+      "buy": 8933619000,
+      "date": "2024-11-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 199317000,
+      "sell": 13345699000
+    },
+    {
+      "TodayBalance": 9226977,
+      "YesBalance": 9312083,
+      "buy": 238230,
+      "date": "2024-11-28",
+      "name": "MarginPurchase",
+      "Return": 4645,
+      "sell": 318691
+    },
+    {
+      "TodayBalance": 322530203000,
+      "YesBalance": 320172537000,
+      "buy": 9851923000,
+      "date": "2024-11-29",
+      "name": "MarginPurchaseMoney",
+      "Return": 183584000,
+      "sell": 7310673000
+    },
+    {
+      "TodayBalance": 279353,
+      "YesBalance": 278477,
+      "buy": 22318,
+      "date": "2024-11-29",
+      "name": "ShortSale",
+      "Return": 2104,
+      "sell": 25298
+    },
+    {
+      "TodayBalance": 9225209,
+      "YesBalance": 9226972,
+      "buy": 206454,
+      "date": "2024-11-29",
+      "name": "MarginPurchase",
+      "Return": 4341,
+      "sell": 203876
+    },
+    {
+      "TodayBalance": 9229735,
+      "YesBalance": 9225207,
+      "buy": 238089,
+      "date": "2024-12-02",
+      "name": "MarginPurchase",
+      "Return": 16759,
+      "sell": 216802
+    },
+    {
+      "TodayBalance": 284111,
+      "YesBalance": 279353,
+      "buy": 17398,
+      "date": "2024-12-02",
+      "name": "ShortSale",
+      "Return": 669,
+      "sell": 22825
+    },
+    {
+      "TodayBalance": 323601502000,
+      "YesBalance": 322530203000,
+      "buy": 12319327000,
+      "date": "2024-12-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 263110000,
+      "sell": 10984918000
+    },
+    {
+      "TodayBalance": 9213745,
+      "YesBalance": 9229734,
+      "buy": 243209,
+      "date": "2024-12-03",
+      "name": "MarginPurchase",
+      "Return": 3548,
+      "sell": 255650
+    },
+    {
+      "TodayBalance": 287029,
+      "YesBalance": 284111,
+      "buy": 17961,
+      "date": "2024-12-03",
+      "name": "ShortSale",
+      "Return": 1016,
+      "sell": 21895
+    },
+    {
+      "TodayBalance": 324153588000,
+      "YesBalance": 323601471000,
+      "buy": 12969005000,
+      "date": "2024-12-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 139968000,
+      "sell": 12276920000
+    },
+    {
+      "TodayBalance": 296145,
+      "YesBalance": 287029,
+      "buy": 15354,
+      "date": "2024-12-04",
+      "name": "ShortSale",
+      "Return": 1224,
+      "sell": 25694
+    },
+    {
+      "TodayBalance": 325445363000,
+      "YesBalance": 324153588000,
+      "buy": 14472833000,
+      "date": "2024-12-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 730123000,
+      "sell": 12450935000
+    },
+    {
+      "TodayBalance": 9216049,
+      "YesBalance": 9213739,
+      "buy": 232466,
+      "date": "2024-12-04",
+      "name": "MarginPurchase",
+      "Return": 6208,
+      "sell": 223948
+    },
+    {
+      "TodayBalance": 9242093,
+      "YesBalance": 9216049,
+      "buy": 266954,
+      "date": "2024-12-05",
+      "name": "MarginPurchase",
+      "Return": 20203,
+      "sell": 220707
+    },
+    {
+      "TodayBalance": 292253,
+      "YesBalance": 296145,
+      "buy": 20735,
+      "date": "2024-12-05",
+      "name": "ShortSale",
+      "Return": 1268,
+      "sell": 18111
+    },
+    {
+      "TodayBalance": 328095552000,
+      "YesBalance": 325445363000,
+      "buy": 16715838000,
+      "date": "2024-12-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 369542000,
+      "sell": 13696107000
+    },
+    {
+      "TodayBalance": 9219742,
+      "YesBalance": 9242091,
+      "buy": 234158,
+      "date": "2024-12-06",
+      "name": "MarginPurchase",
+      "Return": 8386,
+      "sell": 248121
+    },
+    {
+      "TodayBalance": 296493,
+      "YesBalance": 292253,
+      "buy": 16144,
+      "date": "2024-12-06",
+      "name": "ShortSale",
+      "Return": 2014,
+      "sell": 22398
+    },
+    {
+      "TodayBalance": 328557734000,
+      "YesBalance": 328095552000,
+      "buy": 13776412000,
+      "date": "2024-12-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 279340000,
+      "sell": 13034890000
+    },
+    {
+      "TodayBalance": 9253247,
+      "YesBalance": 9219741,
+      "buy": 272543,
+      "date": "2024-12-09",
+      "name": "MarginPurchase",
+      "Return": 5589,
+      "sell": 233448
+    },
+    {
+      "TodayBalance": 295607,
+      "YesBalance": 296493,
+      "buy": 22149,
+      "date": "2024-12-09",
+      "name": "ShortSale",
+      "Return": 983,
+      "sell": 22246
+    },
+    {
+      "TodayBalance": 330172749000,
+      "YesBalance": 328557734000,
+      "buy": 14999537000,
+      "date": "2024-12-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 203815000,
+      "sell": 13180707000
+    },
+    {
+      "TodayBalance": 328048331000,
+      "YesBalance": 330172749000,
+      "buy": 11891472000,
+      "date": "2024-12-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 198239000,
+      "sell": 13817651000
+    },
+    {
+      "TodayBalance": 289142,
+      "YesBalance": 295602,
+      "buy": 21706,
+      "date": "2024-12-10",
+      "name": "ShortSale",
+      "Return": 3693,
+      "sell": 18939
+    },
+    {
+      "TodayBalance": 9223228,
+      "YesBalance": 9253243,
+      "buy": 253547,
+      "date": "2024-12-10",
+      "name": "MarginPurchase",
+      "Return": 5365,
+      "sell": 278197
+    },
+    {
+      "TodayBalance": 8686306,
+      "YesBalance": 8698377,
+      "buy": 217657,
+      "date": "2024-12-11",
+      "name": "MarginPurchase",
+      "Return": 5937,
+      "sell": 223791
+    },
+    {
+      "TodayBalance": 288868,
+      "YesBalance": 289142,
+      "buy": 23501,
+      "date": "2024-12-11",
+      "name": "ShortSale",
+      "Return": 5295,
+      "sell": 28522
+    },
+    {
+      "TodayBalance": 327759848000,
+      "YesBalance": 328048339000,
+      "buy": 11630029000,
+      "date": "2024-12-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 262493000,
+      "sell": 11656027000
+    },
+    {
+      "TodayBalance": 8687880,
+      "YesBalance": 8686369,
+      "buy": 242912,
+      "date": "2024-12-12",
+      "name": "MarginPurchase",
+      "Return": 5018,
+      "sell": 236383
+    },
+    {
+      "TodayBalance": 303700,
+      "YesBalance": 288868,
+      "buy": 18159,
+      "date": "2024-12-12",
+      "name": "ShortSale",
+      "Return": 782,
+      "sell": 33773
+    },
+    {
+      "TodayBalance": 327707322000,
+      "YesBalance": 327759838000,
+      "buy": 12579044000,
+      "date": "2024-12-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 205833000,
+      "sell": 12425727000
+    },
+    {
+      "TodayBalance": 305337,
+      "YesBalance": 303701,
+      "buy": 26786,
+      "date": "2024-12-13",
+      "name": "ShortSale",
+      "Return": 1573,
+      "sell": 29995
+    },
+    {
+      "TodayBalance": 8659162,
+      "YesBalance": 8687876,
+      "buy": 251035,
+      "date": "2024-12-13",
+      "name": "MarginPurchase",
+      "Return": 6698,
+      "sell": 273051
+    },
+    {
+      "TodayBalance": 324164354000,
+      "YesBalance": 327707322000,
+      "buy": 11382825000,
+      "date": "2024-12-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 354124000,
+      "sell": 14571669000
+    },
+    {
+      "TodayBalance": 8597261,
+      "YesBalance": 8659157,
+      "buy": 228722,
+      "date": "2024-12-16",
+      "name": "MarginPurchase",
+      "Return": 5394,
+      "sell": 285224
+    },
+    {
+      "TodayBalance": 307846,
+      "YesBalance": 305337,
+      "buy": 26305,
+      "date": "2024-12-16",
+      "name": "ShortSale",
+      "Return": 651,
+      "sell": 29465
+    },
+    {
+      "TodayBalance": 320204766000,
+      "YesBalance": 324164354000,
+      "buy": 13017087000,
+      "date": "2024-12-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 246921000,
+      "sell": 16729754000
+    },
+    {
+      "TodayBalance": 307631,
+      "YesBalance": 307846,
+      "buy": 29214,
+      "date": "2024-12-17",
+      "name": "ShortSale",
+      "Return": 757,
+      "sell": 29756
+    },
+    {
+      "TodayBalance": 320885324000,
+      "YesBalance": 320204764000,
+      "buy": 12233422000,
+      "date": "2024-12-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 248330000,
+      "sell": 11304532000
+    },
+    {
+      "TodayBalance": 8646135,
+      "YesBalance": 8597248,
+      "buy": 226887,
+      "date": "2024-12-17",
+      "name": "MarginPurchase",
+      "Return": 5661,
+      "sell": 172339
+    },
+    {
+      "TodayBalance": 300413,
+      "YesBalance": 307631,
+      "buy": 28239,
+      "date": "2024-12-18",
+      "name": "ShortSale",
+      "Return": 884,
+      "sell": 21905
+    },
+    {
+      "TodayBalance": 322704819000,
+      "YesBalance": 320886567000,
+      "buy": 12365737000,
+      "date": "2024-12-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 232421000,
+      "sell": 10315064000
+    },
+    {
+      "TodayBalance": 8662739,
+      "YesBalance": 8646263,
+      "buy": 199945,
+      "date": "2024-12-18",
+      "name": "MarginPurchase",
+      "Return": 7235,
+      "sell": 176234
+    },
+    {
+      "TodayBalance": 305527,
+      "YesBalance": 300413,
+      "buy": 24751,
+      "date": "2024-12-19",
+      "name": "ShortSale",
+      "Return": 2296,
+      "sell": 32161
+    },
+    {
+      "TodayBalance": 323617443000,
+      "YesBalance": 322704798000,
+      "buy": 11837800000,
+      "date": "2024-12-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 183090000,
+      "sell": 10742065000
+    },
+    {
+      "TodayBalance": 8664837,
+      "YesBalance": 8662735,
+      "buy": 229520,
+      "date": "2024-12-19",
+      "name": "MarginPurchase",
+      "Return": 5019,
+      "sell": 222399
+    },
+    {
+      "TodayBalance": 324670318000,
+      "YesBalance": 323617353000,
+      "buy": 12626694000,
+      "date": "2024-12-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 193973000,
+      "sell": 11379756000
+    },
+    {
+      "TodayBalance": 307018,
+      "YesBalance": 305527,
+      "buy": 24875,
+      "date": "2024-12-20",
+      "name": "ShortSale",
+      "Return": 2517,
+      "sell": 28883
+    },
+    {
+      "TodayBalance": 8679661,
+      "YesBalance": 8664831,
+      "buy": 258077,
+      "date": "2024-12-20",
+      "name": "MarginPurchase",
+      "Return": 6005,
+      "sell": 237242
+    },
+    {
+      "TodayBalance": 8659957,
+      "YesBalance": 8679656,
+      "buy": 197944,
+      "date": "2024-12-23",
+      "name": "MarginPurchase",
+      "Return": 5866,
+      "sell": 211777
+    },
+    {
+      "TodayBalance": 306747,
+      "YesBalance": 307018,
+      "buy": 18659,
+      "date": "2024-12-23",
+      "name": "ShortSale",
+      "Return": 4336,
+      "sell": 22724
+    },
+    {
+      "TodayBalance": 323358374000,
+      "YesBalance": 324670318000,
+      "buy": 10186034000,
+      "date": "2024-12-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 175352000,
+      "sell": 11322626000
+    },
+    {
+      "TodayBalance": 8639600,
+      "YesBalance": 8659953,
+      "buy": 200600,
+      "date": "2024-12-24",
+      "name": "MarginPurchase",
+      "Return": 3933,
+      "sell": 217020
+    },
+    {
+      "TodayBalance": 303147,
+      "YesBalance": 306747,
+      "buy": 19007,
+      "date": "2024-12-24",
+      "name": "ShortSale",
+      "Return": 7749,
+      "sell": 23156
+    },
+    {
+      "TodayBalance": 323230685000,
+      "YesBalance": 323358374000,
+      "buy": 11107776000,
+      "date": "2024-12-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 155323000,
+      "sell": 11080142000
+    },
+    {
+      "TodayBalance": 314855,
+      "YesBalance": 303147,
+      "buy": 14392,
+      "date": "2024-12-25",
+      "name": "ShortSale",
+      "Return": 1288,
+      "sell": 27388
+    },
+    {
+      "TodayBalance": 324809147000,
+      "YesBalance": 323230685000,
+      "buy": 12530433000,
+      "date": "2024-12-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 183042000,
+      "sell": 10768929000
+    },
+    {
+      "TodayBalance": 8665158,
+      "YesBalance": 8639597,
+      "buy": 236521,
+      "date": "2024-12-25",
+      "name": "MarginPurchase",
+      "Return": 6037,
+      "sell": 204923
+    },
+    {
+      "TodayBalance": 8674230,
+      "YesBalance": 8665156,
+      "buy": 220445,
+      "date": "2024-12-26",
+      "name": "MarginPurchase",
+      "Return": 8673,
+      "sell": 202698
+    },
+    {
+      "TodayBalance": 313348,
+      "YesBalance": 314855,
+      "buy": 16132,
+      "date": "2024-12-26",
+      "name": "ShortSale",
+      "Return": 1721,
+      "sell": 16346
+    },
+    {
+      "TodayBalance": 326328530000,
+      "YesBalance": 324809147000,
+      "buy": 12676897000,
+      "date": "2024-12-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 191222000,
+      "sell": 10966292000
+    },
+    {
+      "TodayBalance": 8675261,
+      "YesBalance": 8674224,
+      "buy": 190943,
+      "date": "2024-12-27",
+      "name": "MarginPurchase",
+      "Return": 4010,
+      "sell": 185896
+    },
+    {
+      "TodayBalance": 315165,
+      "YesBalance": 313348,
+      "buy": 17324,
+      "date": "2024-12-27",
+      "name": "ShortSale",
+      "Return": 5320,
+      "sell": 24461
+    },
+    {
+      "TodayBalance": 325477253000,
+      "YesBalance": 326328530000,
+      "buy": 11580614000,
+      "date": "2024-12-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 191320000,
+      "sell": 12240571000
+    },
+    {
+      "TodayBalance": 326441023000,
+      "YesBalance": 325477253000,
+      "buy": 9632782000,
+      "date": "2024-12-30",
+      "name": "MarginPurchaseMoney",
+      "Return": 177234000,
+      "sell": 8491778000
+    },
+    {
+      "TodayBalance": 8689333,
+      "YesBalance": 8675254,
+      "buy": 187245,
+      "date": "2024-12-30",
+      "name": "MarginPurchase",
+      "Return": 4142,
+      "sell": 169024
+    },
+    {
+      "TodayBalance": 324474,
+      "YesBalance": 315165,
+      "buy": 14566,
+      "date": "2024-12-30",
+      "name": "ShortSale",
+      "Return": 2763,
+      "sell": 26638
+    },
+    {
+      "TodayBalance": 330264,
+      "YesBalance": 324474,
+      "buy": 21241,
+      "date": "2024-12-31",
+      "name": "ShortSale",
+      "Return": 1482,
+      "sell": 28513
+    },
+    {
+      "TodayBalance": 327558296000,
+      "YesBalance": 326441018000,
+      "buy": 8500837000,
+      "date": "2024-12-31",
+      "name": "MarginPurchaseMoney",
+      "Return": 284574000,
+      "sell": 7098985000
+    },
+    {
+      "TodayBalance": 8713943,
+      "YesBalance": 8689327,
+      "buy": 178344,
+      "date": "2024-12-31",
+      "name": "MarginPurchase",
+      "Return": 6735,
+      "sell": 146993
+    },
+    {
+      "TodayBalance": 8738210,
+      "YesBalance": 8714282,
+      "buy": 235050,
+      "date": "2025-01-02",
+      "name": "MarginPurchase",
+      "Return": 8484,
+      "sell": 202638
+    },
+    {
+      "TodayBalance": 334574,
+      "YesBalance": 330264,
+      "buy": 28294,
+      "date": "2025-01-02",
+      "name": "ShortSale",
+      "Return": 4958,
+      "sell": 37562
+    },
+    {
+      "TodayBalance": 329543807000,
+      "YesBalance": 327575112000,
+      "buy": 12633136000,
+      "date": "2025-01-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 406069000,
+      "sell": 10258372000
+    },
+    {
+      "TodayBalance": 8723745,
+      "YesBalance": 8738199,
+      "buy": 209142,
+      "date": "2025-01-03",
+      "name": "MarginPurchase",
+      "Return": 4722,
+      "sell": 218874
+    },
+    {
+      "TodayBalance": 326815,
+      "YesBalance": 334574,
+      "buy": 24008,
+      "date": "2025-01-03",
+      "name": "ShortSale",
+      "Return": 5684,
+      "sell": 21933
+    },
+    {
+      "TodayBalance": 327869937000,
+      "YesBalance": 329543807000,
+      "buy": 9527832000,
+      "date": "2025-01-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 167072000,
+      "sell": 11034630000
+    },
+    {
+      "TodayBalance": 329747315000,
+      "YesBalance": 327869937000,
+      "buy": 14416460000,
+      "date": "2025-01-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 265928000,
+      "sell": 12273154000
+    },
+    {
+      "TodayBalance": 8740419,
+      "YesBalance": 8723737,
+      "buy": 238270,
+      "date": "2025-01-06",
+      "name": "MarginPurchase",
+      "Return": 6069,
+      "sell": 215519
+    },
+    {
+      "TodayBalance": 318051,
+      "YesBalance": 326815,
+      "buy": 23847,
+      "date": "2025-01-06",
+      "name": "ShortSale",
+      "Return": 5726,
+      "sell": 20809
+    },
+    {
+      "TodayBalance": 329173490000,
+      "YesBalance": 329747315000,
+      "buy": 13908131000,
+      "date": "2025-01-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 318799000,
+      "sell": 14163157000
+    },
+    {
+      "TodayBalance": 318783,
+      "YesBalance": 318051,
+      "buy": 22586,
+      "date": "2025-01-07",
+      "name": "ShortSale",
+      "Return": 8123,
+      "sell": 31441
+    },
+    {
+      "TodayBalance": 8763204,
+      "YesBalance": 8740416,
+      "buy": 245447,
+      "date": "2025-01-07",
+      "name": "MarginPurchase",
+      "Return": 5683,
+      "sell": 216976
+    },
+    {
+      "TodayBalance": 8716923,
+      "YesBalance": 8763198,
+      "buy": 193874,
+      "date": "2025-01-08",
+      "name": "MarginPurchase",
+      "Return": 6661,
+      "sell": 233488
+    },
+    {
+      "TodayBalance": 315817,
+      "YesBalance": 318783,
+      "buy": 19170,
+      "date": "2025-01-08",
+      "name": "ShortSale",
+      "Return": 8684,
+      "sell": 24888
+    },
+    {
+      "TodayBalance": 330129522000,
+      "YesBalance": 329173460000,
+      "buy": 12237811000,
+      "date": "2025-01-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 286165000,
+      "sell": 10995584000
+    },
+    {
+      "TodayBalance": 325643838000,
+      "YesBalance": 330129514000,
+      "buy": 12882963000,
+      "date": "2025-01-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 378119000,
+      "sell": 16990520000
+    },
+    {
+      "TodayBalance": 8641036,
+      "YesBalance": 8716921,
+      "buy": 223624,
+      "date": "2025-01-09",
+      "name": "MarginPurchase",
+      "Return": 7120,
+      "sell": 292389
+    },
+    {
+      "TodayBalance": 305124,
+      "YesBalance": 315817,
+      "buy": 33081,
+      "date": "2025-01-09",
+      "name": "ShortSale",
+      "Return": 8504,
+      "sell": 30892
+    },
+    {
+      "TodayBalance": 301335,
+      "YesBalance": 305124,
+      "buy": 23764,
+      "date": "2025-01-10",
+      "name": "ShortSale",
+      "Return": 5281,
+      "sell": 25256
+    },
+    {
+      "TodayBalance": 323066309000,
+      "YesBalance": 325643687000,
+      "buy": 9479119000,
+      "date": "2025-01-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 562272000,
+      "sell": 11494225000
+    },
+    {
+      "TodayBalance": 8589804,
+      "YesBalance": 8641083,
+      "buy": 162382,
+      "date": "2025-01-10",
+      "name": "MarginPurchase",
+      "Return": 11256,
+      "sell": 202405
+    },
+    {
+      "TodayBalance": 315535016000,
+      "YesBalance": 323066229000,
+      "buy": 11394578000,
+      "date": "2025-01-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 772997000,
+      "sell": 18152793000
+    },
+    {
+      "TodayBalance": 292675,
+      "YesBalance": 301335,
+      "buy": 37127,
+      "date": "2025-01-13",
+      "name": "ShortSale",
+      "Return": 1981,
+      "sell": 30448
+    },
+    {
+      "TodayBalance": 8423896,
+      "YesBalance": 8589800,
+      "buy": 218797,
+      "date": "2025-01-13",
+      "name": "MarginPurchase",
+      "Return": 13495,
+      "sell": 371206
+    },
+    {
+      "TodayBalance": 8394813,
+      "YesBalance": 8423948,
+      "buy": 139274,
+      "date": "2025-01-14",
+      "name": "MarginPurchase",
+      "Return": 17920,
+      "sell": 150489
+    },
+    {
+      "TodayBalance": 295624,
+      "YesBalance": 292675,
+      "buy": 23072,
+      "date": "2025-01-14",
+      "name": "ShortSale",
+      "Return": 626,
+      "sell": 26647
+    },
+    {
+      "TodayBalance": 314958672000,
+      "YesBalance": 315534811000,
+      "buy": 6857414000,
+      "date": "2025-01-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 1053961000,
+      "sell": 6379592000
+    },
+    {
+      "TodayBalance": 8363549,
+      "YesBalance": 8394809,
+      "buy": 131595,
+      "date": "2025-01-15",
+      "name": "MarginPurchase",
+      "Return": 6897,
+      "sell": 155958
+    },
+    {
+      "TodayBalance": 302765,
+      "YesBalance": 295624,
+      "buy": 20744,
+      "date": "2025-01-15",
+      "name": "ShortSale",
+      "Return": 1637,
+      "sell": 29522
+    },
+    {
+      "TodayBalance": 314732916000,
+      "YesBalance": 314958667000,
+      "buy": 7657930000,
+      "date": "2025-01-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 699998000,
+      "sell": 7183683000
+    },
+    {
+      "TodayBalance": 309791,
+      "YesBalance": 302765,
+      "buy": 19799,
+      "date": "2025-01-16",
+      "name": "ShortSale",
+      "Return": 1595,
+      "sell": 28420
+    },
+    {
+      "TodayBalance": 312466298000,
+      "YesBalance": 314732891000,
+      "buy": 8576642000,
+      "date": "2025-01-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 341459000,
+      "sell": 10501776000
+    },
+    {
+      "TodayBalance": 8319346,
+      "YesBalance": 8363540,
+      "buy": 163015,
+      "date": "2025-01-16",
+      "name": "MarginPurchase",
+      "Return": 9567,
+      "sell": 197642
+    },
+    {
+      "TodayBalance": 8315430,
+      "YesBalance": 8319339,
+      "buy": 153052,
+      "date": "2025-01-17",
+      "name": "MarginPurchase",
+      "Return": 7390,
+      "sell": 149571
+    },
+    {
+      "TodayBalance": 308826,
+      "YesBalance": 309791,
+      "buy": 18731,
+      "date": "2025-01-17",
+      "name": "ShortSale",
+      "Return": 1880,
+      "sell": 19646
+    },
+    {
+      "TodayBalance": 309772573000,
+      "YesBalance": 312466294000,
+      "buy": 7218698000,
+      "date": "2025-01-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 343058000,
+      "sell": 9569361000
+    },
+    {
+      "TodayBalance": 8293188,
+      "YesBalance": 8315425,
+      "buy": 151309,
+      "date": "2025-01-20",
+      "name": "MarginPurchase",
+      "Return": 8061,
+      "sell": 165485
+    },
+    {
+      "TodayBalance": 312303,
+      "YesBalance": 308826,
+      "buy": 20654,
+      "date": "2025-01-20",
+      "name": "ShortSale",
+      "Return": 765,
+      "sell": 24896
+    },
+    {
+      "TodayBalance": 309018640000,
+      "YesBalance": 309772569000,
+      "buy": 8168281000,
+      "date": "2025-01-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 392515000,
+      "sell": 8529695000
+    },
+    {
+      "TodayBalance": 307774487000,
+      "YesBalance": 309018640000,
+      "buy": 6465998000,
+      "date": "2025-01-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 586871000,
+      "sell": 7123280000
+    },
+    {
+      "TodayBalance": 8255538,
+      "YesBalance": 8293183,
+      "buy": 128194,
+      "date": "2025-01-21",
+      "name": "MarginPurchase",
+      "Return": 28875,
+      "sell": 136964
+    },
+    {
+      "TodayBalance": 314752,
+      "YesBalance": 312303,
+      "buy": 16314,
+      "date": "2025-01-21",
+      "name": "ShortSale",
+      "Return": 1851,
+      "sell": 20614
+    },
+    {
+      "TodayBalance": 307646,
+      "YesBalance": 314752,
+      "buy": 21253,
+      "date": "2025-01-22",
+      "name": "ShortSale",
+      "Return": 1345,
+      "sell": 15492
+    },
+    {
+      "TodayBalance": 305287551000,
+      "YesBalance": 307774487000,
+      "buy": 9301093000,
+      "date": "2025-01-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 800664000,
+      "sell": 10987365000
+    },
+    {
+      "TodayBalance": 8180157,
+      "YesBalance": 8255532,
+      "buy": 164565,
+      "date": "2025-01-22",
+      "name": "MarginPurchase",
+      "Return": 39141,
+      "sell": 200799
+    },
+    {
+      "TodayBalance": 8149138,
+      "YesBalance": 8174682,
+      "buy": 216535,
+      "date": "2025-02-03",
+      "name": "MarginPurchase",
+      "Return": 8272,
+      "sell": 233807
+    },
+    {
+      "TodayBalance": 315654,
+      "YesBalance": 306201,
+      "buy": 28703,
+      "date": "2025-02-03",
+      "name": "ShortSale",
+      "Return": 2783,
+      "sell": 40939
+    },
+    {
+      "TodayBalance": 305187136000,
+      "YesBalance": 304990014000,
+      "buy": 12425749000,
+      "date": "2025-02-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 374748000,
+      "sell": 11853879000
+    },
+    {
+      "TodayBalance": 8152114,
+      "YesBalance": 8149113,
+      "buy": 204804,
+      "date": "2025-02-04",
+      "name": "MarginPurchase",
+      "Return": 3831,
+      "sell": 197972
+    },
+    {
+      "TodayBalance": 311596,
+      "YesBalance": 315654,
+      "buy": 25190,
+      "date": "2025-02-04",
+      "name": "ShortSale",
+      "Return": 3851,
+      "sell": 24983
+    },
+    {
+      "TodayBalance": 305710074000,
+      "YesBalance": 305187136000,
+      "buy": 11213861000,
+      "date": "2025-02-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 221054000,
+      "sell": 10469869000
+    },
+    {
+      "TodayBalance": 305601281000,
+      "YesBalance": 305710045000,
+      "buy": 10178869000,
+      "date": "2025-02-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 176653000,
+      "sell": 10110980000
+    },
+    {
+      "TodayBalance": 8165802,
+      "YesBalance": 8152108,
+      "buy": 188059,
+      "date": "2025-02-05",
+      "name": "MarginPurchase",
+      "Return": 3511,
+      "sell": 170854
+    },
+    {
+      "TodayBalance": 322006,
+      "YesBalance": 311596,
+      "buy": 11884,
+      "date": "2025-02-05",
+      "name": "ShortSale",
+      "Return": 2398,
+      "sell": 24692
+    },
+    {
+      "TodayBalance": 305934753000,
+      "YesBalance": 305601146000,
+      "buy": 10104066000,
+      "date": "2025-02-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 182319000,
+      "sell": 9588140000
+    },
+    {
+      "TodayBalance": 332376,
+      "YesBalance": 322006,
+      "buy": 10317,
+      "date": "2025-02-06",
+      "name": "ShortSale",
+      "Return": 4167,
+      "sell": 24854
+    },
+    {
+      "TodayBalance": 8145236,
+      "YesBalance": 8165797,
+      "buy": 170823,
+      "date": "2025-02-06",
+      "name": "MarginPurchase",
+      "Return": 5217,
+      "sell": 186167
+    },
+    {
+      "TodayBalance": 8152765,
+      "YesBalance": 8145234,
+      "buy": 222337,
+      "date": "2025-02-07",
+      "name": "MarginPurchase",
+      "Return": 4247,
+      "sell": 210559
+    },
+    {
+      "TodayBalance": 338144,
+      "YesBalance": 332376,
+      "buy": 17253,
+      "date": "2025-02-07",
+      "name": "ShortSale",
+      "Return": 2949,
+      "sell": 25970
+    },
+    {
+      "TodayBalance": 306034473000,
+      "YesBalance": 305934753000,
+      "buy": 12162056000,
+      "date": "2025-02-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 175533000,
+      "sell": 11886803000
+    },
+    {
+      "TodayBalance": 308721920000,
+      "YesBalance": 306034473000,
+      "buy": 12366452000,
+      "date": "2025-02-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 125887000,
+      "sell": 9553118000
+    },
+    {
+      "TodayBalance": 8190425,
+      "YesBalance": 8152759,
+      "buy": 218102,
+      "date": "2025-02-10",
+      "name": "MarginPurchase",
+      "Return": 3739,
+      "sell": 176697
+    },
+    {
+      "TodayBalance": 338636,
+      "YesBalance": 338144,
+      "buy": 16516,
+      "date": "2025-02-10",
+      "name": "ShortSale",
+      "Return": 3713,
+      "sell": 20721
+    },
+    {
+      "TodayBalance": 337429,
+      "YesBalance": 338636,
+      "buy": 19788,
+      "date": "2025-02-11",
+      "name": "ShortSale",
+      "Return": 2027,
+      "sell": 20608
+    },
+    {
+      "TodayBalance": 309154193000,
+      "YesBalance": 308721920000,
+      "buy": 13046341000,
+      "date": "2025-02-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 623826000,
+      "sell": 11990242000
+    },
+    {
+      "TodayBalance": 8199181,
+      "YesBalance": 8190423,
+      "buy": 239716,
+      "date": "2025-02-11",
+      "name": "MarginPurchase",
+      "Return": 9497,
+      "sell": 221461
+    },
+    {
+      "TodayBalance": 336358,
+      "YesBalance": 337429,
+      "buy": 20581,
+      "date": "2025-02-12",
+      "name": "ShortSale",
+      "Return": 2655,
+      "sell": 22165
+    },
+    {
+      "TodayBalance": 311523857000,
+      "YesBalance": 309154271000,
+      "buy": 15048525000,
+      "date": "2025-02-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 142632000,
+      "sell": 12536307000
+    },
+    {
+      "TodayBalance": 8209958,
+      "YesBalance": 8199181,
+      "buy": 248036,
+      "date": "2025-02-12",
+      "name": "MarginPurchase",
+      "Return": 2766,
+      "sell": 234493
+    },
+    {
+      "TodayBalance": 8236162,
+      "YesBalance": 8209955,
+      "buy": 315605,
+      "date": "2025-02-13",
+      "name": "MarginPurchase",
+      "Return": 3347,
+      "sell": 286051
+    },
+    {
+      "TodayBalance": 345945,
+      "YesBalance": 336358,
+      "buy": 20690,
+      "date": "2025-02-13",
+      "name": "ShortSale",
+      "Return": 1539,
+      "sell": 31816
+    },
+    {
+      "TodayBalance": 313023678000,
+      "YesBalance": 311523857000,
+      "buy": 14006550000,
+      "date": "2025-02-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 145694000,
+      "sell": 12361035000
+    },
+    {
+      "TodayBalance": 8229788,
+      "YesBalance": 8236158,
+      "buy": 290040,
+      "date": "2025-02-14",
+      "name": "MarginPurchase",
+      "Return": 6223,
+      "sell": 290187
+    },
+    {
+      "TodayBalance": 348986,
+      "YesBalance": 345945,
+      "buy": 21753,
+      "date": "2025-02-14",
+      "name": "ShortSale",
+      "Return": 3051,
+      "sell": 27845
+    },
+    {
+      "TodayBalance": 313574044000,
+      "YesBalance": 313023678000,
+      "buy": 13611576000,
+      "date": "2025-02-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 159641000,
+      "sell": 12901569000
+    },
+    {
+      "TodayBalance": 358716,
+      "YesBalance": 348986,
+      "buy": 13675,
+      "date": "2025-02-17",
+      "name": "ShortSale",
+      "Return": 10841,
+      "sell": 34246
+    },
+    {
+      "TodayBalance": 314922889000,
+      "YesBalance": 313574044000,
+      "buy": 13649783000,
+      "date": "2025-02-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 175260000,
+      "sell": 12125678000
+    },
+    {
+      "TodayBalance": 8276765,
+      "YesBalance": 8229783,
+      "buy": 324900,
+      "date": "2025-02-17",
+      "name": "MarginPurchase",
+      "Return": 4002,
+      "sell": 273916
+    },
+    {
+      "TodayBalance": 8310376,
+      "YesBalance": 8276763,
+      "buy": 276731,
+      "date": "2025-02-18",
+      "name": "MarginPurchase",
+      "Return": 3069,
+      "sell": 240049
+    },
+    {
+      "TodayBalance": 367613,
+      "YesBalance": 358716,
+      "buy": 17541,
+      "date": "2025-02-18",
+      "name": "ShortSale",
+      "Return": 2288,
+      "sell": 28726
+    },
+    {
+      "TodayBalance": 316399005000,
+      "YesBalance": 314922833000,
+      "buy": 13015833000,
+      "date": "2025-02-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 121067000,
+      "sell": 11418594000
+    },
+    {
+      "TodayBalance": 8310762,
+      "YesBalance": 8263865,
+      "buy": 303770,
+      "date": "2025-02-19",
+      "name": "MarginPurchase",
+      "Return": 3303,
+      "sell": 253570
+    },
+    {
+      "TodayBalance": 362548,
+      "YesBalance": 367611,
+      "buy": 17987,
+      "date": "2025-02-19",
+      "name": "ShortSale",
+      "Return": 11663,
+      "sell": 24587
+    },
+    {
+      "TodayBalance": 319292844000,
+      "YesBalance": 316399036000,
+      "buy": 15675603000,
+      "date": "2025-02-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 142279000,
+      "sell": 12639516000
+    },
+    {
+      "TodayBalance": 321311666000,
+      "YesBalance": 319292844000,
+      "buy": 14538341000,
+      "date": "2025-02-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 134244000,
+      "sell": 12385275000
+    },
+    {
+      "TodayBalance": 8315377,
+      "YesBalance": 8310714,
+      "buy": 282332,
+      "date": "2025-02-20",
+      "name": "MarginPurchase",
+      "Return": 3843,
+      "sell": 273826
+    },
+    {
+      "TodayBalance": 353298,
+      "YesBalance": 362548,
+      "buy": 20906,
+      "date": "2025-02-20",
+      "name": "ShortSale",
+      "Return": 6407,
+      "sell": 18063
+    },
+    {
+      "TodayBalance": 346262,
+      "YesBalance": 353298,
+      "buy": 23288,
+      "date": "2025-02-21",
+      "name": "ShortSale",
+      "Return": 8932,
+      "sell": 25184
+    },
+    {
+      "TodayBalance": 321783865000,
+      "YesBalance": 321311666000,
+      "buy": 13015459000,
+      "date": "2025-02-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 211622000,
+      "sell": 12331638000
+    },
+    {
+      "TodayBalance": 8320215,
+      "YesBalance": 8315372,
+      "buy": 271742,
+      "date": "2025-02-21",
+      "name": "MarginPurchase",
+      "Return": 4898,
+      "sell": 262001
+    },
+    {
+      "TodayBalance": 8342894,
+      "YesBalance": 8320212,
+      "buy": 289995,
+      "date": "2025-02-24",
+      "name": "MarginPurchase",
+      "Return": 7348,
+      "sell": 259965
+    },
+    {
+      "TodayBalance": 332063,
+      "YesBalance": 346262,
+      "buy": 19918,
+      "date": "2025-02-24",
+      "name": "ShortSale",
+      "Return": 13248,
+      "sell": 18967
+    },
+    {
+      "TodayBalance": 323434570000,
+      "YesBalance": 321783865000,
+      "buy": 13464633000,
+      "date": "2025-02-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 256210000,
+      "sell": 11557718000
+    },
+    {
+      "TodayBalance": 8321116,
+      "YesBalance": 8342891,
+      "buy": 272226,
+      "date": "2025-02-25",
+      "name": "MarginPurchase",
+      "Return": 6231,
+      "sell": 287770
+    },
+    {
+      "TodayBalance": 326391,
+      "YesBalance": 332063,
+      "buy": 24144,
+      "date": "2025-02-25",
+      "name": "ShortSale",
+      "Return": 4293,
+      "sell": 22765
+    },
+    {
+      "TodayBalance": 324483022000,
+      "YesBalance": 323434570000,
+      "buy": 12737937000,
+      "date": "2025-02-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 289503000,
+      "sell": 11399982000
+    },
+    {
+      "TodayBalance": 325413294000,
+      "YesBalance": 324483022000,
+      "buy": 12193508000,
+      "date": "2025-02-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 299332000,
+      "sell": 10963904000
+    },
+    {
+      "TodayBalance": 8322511,
+      "YesBalance": 8321113,
+      "buy": 269999,
+      "date": "2025-02-26",
+      "name": "MarginPurchase",
+      "Return": 7508,
+      "sell": 261093
+    },
+    {
+      "TodayBalance": 319760,
+      "YesBalance": 326391,
+      "buy": 22442,
+      "date": "2025-02-26",
+      "name": "ShortSale",
+      "Return": 4563,
+      "sell": 20374
+    },
+    {
+      "TodayBalance": 324284623000,
+      "YesBalance": 325413294000,
+      "buy": 14351635000,
+      "date": "2025-02-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 298300000,
+      "sell": 15182006000
+    },
+    {
+      "TodayBalance": 313589,
+      "YesBalance": 319760,
+      "buy": 25154,
+      "date": "2025-02-27",
+      "name": "ShortSale",
+      "Return": 3504,
+      "sell": 22487
+    },
+    {
+      "TodayBalance": 8274243,
+      "YesBalance": 8322508,
+      "buy": 297741,
+      "date": "2025-02-27",
+      "name": "MarginPurchase",
+      "Return": 6732,
+      "sell": 339274
+    },
+    {
+      "TodayBalance": 8237209,
+      "YesBalance": 8274228,
+      "buy": 236341,
+      "date": "2025-03-03",
+      "name": "MarginPurchase",
+      "Return": 6007,
+      "sell": 267353
+    },
+    {
+      "TodayBalance": 291332,
+      "YesBalance": 313589,
+      "buy": 36349,
+      "date": "2025-03-03",
+      "name": "ShortSale",
+      "Return": 1628,
+      "sell": 15720
+    },
+    {
+      "TodayBalance": 324050396000,
+      "YesBalance": 324283915000,
+      "buy": 11175311000,
+      "date": "2025-03-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 372080000,
+      "sell": 11036750000
+    },
+    {
+      "TodayBalance": 326111501000,
+      "YesBalance": 324050396000,
+      "buy": 11743366000,
+      "date": "2025-03-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 183056000,
+      "sell": 9499205000
+    },
+    {
+      "TodayBalance": 8232390,
+      "YesBalance": 8237206,
+      "buy": 237152,
+      "date": "2025-03-04",
+      "name": "MarginPurchase",
+      "Return": 3540,
+      "sell": 238428
+    },
+    {
+      "TodayBalance": 280550,
+      "YesBalance": 291332,
+      "buy": 32972,
+      "date": "2025-03-04",
+      "name": "ShortSale",
+      "Return": 2789,
+      "sell": 24979
+    },
+    {
+      "TodayBalance": 284400,
+      "YesBalance": 280550,
+      "buy": 14577,
+      "date": "2025-03-05",
+      "name": "ShortSale",
+      "Return": 3491,
+      "sell": 21918
+    },
+    {
+      "TodayBalance": 328033352000,
+      "YesBalance": 326111501000,
+      "buy": 12442874000,
+      "date": "2025-03-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 320444000,
+      "sell": 10200579000
+    },
+    {
+      "TodayBalance": 8264389,
+      "YesBalance": 8232384,
+      "buy": 251929,
+      "date": "2025-03-05",
+      "name": "MarginPurchase",
+      "Return": 6095,
+      "sell": 213829
+    },
+    {
+      "TodayBalance": 328609499000,
+      "YesBalance": 328033352000,
+      "buy": 12498507000,
+      "date": "2025-03-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 150799000,
+      "sell": 11771561000
+    },
+    {
+      "TodayBalance": 294475,
+      "YesBalance": 284400,
+      "buy": 20281,
+      "date": "2025-03-06",
+      "name": "ShortSale",
+      "Return": 4169,
+      "sell": 34525
+    },
+    {
+      "TodayBalance": 8265994,
+      "YesBalance": 8264384,
+      "buy": 254502,
+      "date": "2025-03-06",
+      "name": "MarginPurchase",
+      "Return": 3136,
+      "sell": 249756
+    },
+    {
+      "TodayBalance": 8278483,
+      "YesBalance": 8265989,
+      "buy": 238976,
+      "date": "2025-03-07",
+      "name": "MarginPurchase",
+      "Return": 5634,
+      "sell": 220848
+    },
+    {
+      "TodayBalance": 292115,
+      "YesBalance": 294475,
+      "buy": 25606,
+      "date": "2025-03-07",
+      "name": "ShortSale",
+      "Return": 3224,
+      "sell": 26470
+    },
+    {
+      "TodayBalance": 327851463000,
+      "YesBalance": 328609499000,
+      "buy": 11019834000,
+      "date": "2025-03-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 279819000,
+      "sell": 11498051000
+    },
+    {
+      "TodayBalance": 8316150,
+      "YesBalance": 8278482,
+      "buy": 265729,
+      "date": "2025-03-10",
+      "name": "MarginPurchase",
+      "Return": 5855,
+      "sell": 222206
+    },
+    {
+      "TodayBalance": 269204,
+      "YesBalance": 292115,
+      "buy": 30384,
+      "date": "2025-03-10",
+      "name": "ShortSale",
+      "Return": 9980,
+      "sell": 17453
+    },
+    {
+      "TodayBalance": 327246302000,
+      "YesBalance": 327851463000,
+      "buy": 9908489000,
+      "date": "2025-03-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 238082000,
+      "sell": 10275568000
+    },
+    {
+      "TodayBalance": 251984,
+      "YesBalance": 269204,
+      "buy": 35758,
+      "date": "2025-03-11",
+      "name": "ShortSale",
+      "Return": 4066,
+      "sell": 22604
+    },
+    {
+      "TodayBalance": 325806691000,
+      "YesBalance": 327246302000,
+      "buy": 11118314000,
+      "date": "2025-03-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 223382000,
+      "sell": 12334543000
+    },
+    {
+      "TodayBalance": 8283606,
+      "YesBalance": 8316147,
+      "buy": 226685,
+      "date": "2025-03-11",
+      "name": "MarginPurchase",
+      "Return": 5313,
+      "sell": 253913
+    },
+    {
+      "TodayBalance": 8319529,
+      "YesBalance": 8283606,
+      "buy": 232750,
+      "date": "2025-03-12",
+      "name": "MarginPurchase",
+      "Return": 6972,
+      "sell": 189855
+    },
+    {
+      "TodayBalance": 250169,
+      "YesBalance": 251984,
+      "buy": 19733,
+      "date": "2025-03-12",
+      "name": "ShortSale",
+      "Return": 5443,
+      "sell": 23361
+    },
+    {
+      "TodayBalance": 327694493000,
+      "YesBalance": 325806691000,
+      "buy": 10718845000,
+      "date": "2025-03-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 303273000,
+      "sell": 8527771000
+    },
+    {
+      "TodayBalance": 8295830,
+      "YesBalance": 8319524,
+      "buy": 263414,
+      "date": "2025-03-13",
+      "name": "MarginPurchase",
+      "Return": 5050,
+      "sell": 282058
+    },
+    {
+      "TodayBalance": 235495,
+      "YesBalance": 250169,
+      "buy": 30638,
+      "date": "2025-03-13",
+      "name": "ShortSale",
+      "Return": 3241,
+      "sell": 19205
+    },
+    {
+      "TodayBalance": 326414588000,
+      "YesBalance": 327694493000,
+      "buy": 11052335000,
+      "date": "2025-03-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 240616000,
+      "sell": 12091624000
+    },
+    {
+      "TodayBalance": 325694534000,
+      "YesBalance": 326414581000,
+      "buy": 9523037000,
+      "date": "2025-03-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 195837000,
+      "sell": 10047247000
+    },
+    {
+      "TodayBalance": 8236645,
+      "YesBalance": 8295829,
+      "buy": 228067,
+      "date": "2025-03-14",
+      "name": "MarginPurchase",
+      "Return": 4064,
+      "sell": 283187
+    },
+    {
+      "TodayBalance": 235795,
+      "YesBalance": 235495,
+      "buy": 25113,
+      "date": "2025-03-14",
+      "name": "ShortSale",
+      "Return": 4282,
+      "sell": 29695
+    },
+    {
+      "TodayBalance": 226721,
+      "YesBalance": 235795,
+      "buy": 21015,
+      "date": "2025-03-17",
+      "name": "ShortSale",
+      "Return": 2786,
+      "sell": 14727
+    },
+    {
+      "TodayBalance": 325360733000,
+      "YesBalance": 325694533000,
+      "buy": 9171243000,
+      "date": "2025-03-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 198260000,
+      "sell": 9306783000
+    },
+    {
+      "TodayBalance": 8254100,
+      "YesBalance": 8236642,
+      "buy": 236000,
+      "date": "2025-03-17",
+      "name": "MarginPurchase",
+      "Return": 3117,
+      "sell": 215425
+    },
+    {
+      "TodayBalance": 8234768,
+      "YesBalance": 8254096,
+      "buy": 205364,
+      "date": "2025-03-18",
+      "name": "MarginPurchase",
+      "Return": 6586,
+      "sell": 218106
+    },
+    {
+      "TodayBalance": 228115,
+      "YesBalance": 226721,
+      "buy": 14592,
+      "date": "2025-03-18",
+      "name": "ShortSale",
+      "Return": 1919,
+      "sell": 17905
+    },
+    {
+      "TodayBalance": 324691148000,
+      "YesBalance": 325360733000,
+      "buy": 8084441000,
+      "date": "2025-03-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 603549000,
+      "sell": 8150477000
+    },
+    {
+      "TodayBalance": 8230663,
+      "YesBalance": 8234767,
+      "buy": 212324,
+      "date": "2025-03-19",
+      "name": "MarginPurchase",
+      "Return": 8375,
+      "sell": 208053
+    },
+    {
+      "TodayBalance": 216915,
+      "YesBalance": 228115,
+      "buy": 21961,
+      "date": "2025-03-19",
+      "name": "ShortSale",
+      "Return": 2476,
+      "sell": 13237
+    },
+    {
+      "TodayBalance": 324290100000,
+      "YesBalance": 324691148000,
+      "buy": 9341925000,
+      "date": "2025-03-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 432981000,
+      "sell": 9309992000
+    },
+    {
+      "TodayBalance": 324238426000,
+      "YesBalance": 324290087000,
+      "buy": 8649825000,
+      "date": "2025-03-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 322034000,
+      "sell": 8379452000
+    },
+    {
+      "TodayBalance": 8246605,
+      "YesBalance": 8230658,
+      "buy": 228287,
+      "date": "2025-03-20",
+      "name": "MarginPurchase",
+      "Return": 8091,
+      "sell": 204249
+    },
+    {
+      "TodayBalance": 205412,
+      "YesBalance": 216915,
+      "buy": 23341,
+      "date": "2025-03-20",
+      "name": "ShortSale",
+      "Return": 2405,
+      "sell": 14243
+    },
+    {
+      "TodayBalance": 324119474000,
+      "YesBalance": 324238426000,
+      "buy": 8033782000,
+      "date": "2025-03-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 254244000,
+      "sell": 7898490000
+    },
+    {
+      "TodayBalance": 170998,
+      "YesBalance": 205412,
+      "buy": 45701,
+      "date": "2025-03-21",
+      "name": "ShortSale",
+      "Return": 2887,
+      "sell": 14174
+    },
+    {
+      "TodayBalance": 8216354,
+      "YesBalance": 8246603,
+      "buy": 220863,
+      "date": "2025-03-21",
+      "name": "MarginPurchase",
+      "Return": 6108,
+      "sell": 245004
+    },
+    {
+      "TodayBalance": 8211568,
+      "YesBalance": 8216350,
+      "buy": 202039,
+      "date": "2025-03-24",
+      "name": "MarginPurchase",
+      "Return": 4878,
+      "sell": 201943
+    },
+    {
+      "TodayBalance": 170202,
+      "YesBalance": 170998,
+      "buy": 10037,
+      "date": "2025-03-24",
+      "name": "ShortSale",
+      "Return": 2025,
+      "sell": 11266
+    },
+    {
+      "TodayBalance": 323759132000,
+      "YesBalance": 324119474000,
+      "buy": 9070892000,
+      "date": "2025-03-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 249531000,
+      "sell": 9181703000
+    },
+    {
+      "TodayBalance": 322275801000,
+      "YesBalance": 323759132000,
+      "buy": 8140417000,
+      "date": "2025-03-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 178614000,
+      "sell": 9445134000
+    },
+    {
+      "TodayBalance": 8196303,
+      "YesBalance": 8211564,
+      "buy": 199370,
+      "date": "2025-03-25",
+      "name": "MarginPurchase",
+      "Return": 6254,
+      "sell": 208377
+    },
+    {
+      "TodayBalance": 165447,
+      "YesBalance": 170202,
+      "buy": 14000,
+      "date": "2025-03-25",
+      "name": "ShortSale",
+      "Return": 1942,
+      "sell": 11187
+    },
+    {
+      "TodayBalance": 168049,
+      "YesBalance": 165447,
+      "buy": 9320,
+      "date": "2025-03-26",
+      "name": "ShortSale",
+      "Return": 1355,
+      "sell": 13277
+    },
+    {
+      "TodayBalance": 321865442000,
+      "YesBalance": 322275801000,
+      "buy": 6566192000,
+      "date": "2025-03-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 185220000,
+      "sell": 6791331000
+    },
+    {
+      "TodayBalance": 8174727,
+      "YesBalance": 8196300,
+      "buy": 140200,
+      "date": "2025-03-26",
+      "name": "MarginPurchase",
+      "Return": 3914,
+      "sell": 157859
+    },
+    {
+      "TodayBalance": 178956,
+      "YesBalance": 168049,
+      "buy": 18148,
+      "date": "2025-03-27",
+      "name": "ShortSale",
+      "Return": 2307,
+      "sell": 31362
+    },
+    {
+      "TodayBalance": 321121581000,
+      "YesBalance": 321865442000,
+      "buy": 7499072000,
+      "date": "2025-03-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 364976000,
+      "sell": 7877957000
+    },
+    {
+      "TodayBalance": 8161437,
+      "YesBalance": 8174725,
+      "buy": 167680,
+      "date": "2025-03-27",
+      "name": "MarginPurchase",
+      "Return": 4962,
+      "sell": 176006
+    },
+    {
+      "TodayBalance": 316022604000,
+      "YesBalance": 321121612000,
+      "buy": 9346864000,
+      "date": "2025-03-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 755597000,
+      "sell": 13690274000
+    },
+    {
+      "TodayBalance": 173854,
+      "YesBalance": 178956,
+      "buy": 30682,
+      "date": "2025-03-28",
+      "name": "ShortSale",
+      "Return": 3217,
+      "sell": 28797
+    },
+    {
+      "TodayBalance": 8082421,
+      "YesBalance": 8161438,
+      "buy": 217276,
+      "date": "2025-03-28",
+      "name": "MarginPurchase",
+      "Return": 9796,
+      "sell": 286497
+    },
+    {
+      "TodayBalance": 7845133,
+      "YesBalance": 8082417,
+      "buy": 240410,
+      "date": "2025-03-31",
+      "name": "MarginPurchase",
+      "Return": 11147,
+      "sell": 466547
+    },
+    {
+      "TodayBalance": 171971,
+      "YesBalance": 173854,
+      "buy": 31280,
+      "date": "2025-03-31",
+      "name": "ShortSale",
+      "Return": 3413,
+      "sell": 32810
+    },
+    {
+      "TodayBalance": 300314124000,
+      "YesBalance": 316022422000,
+      "buy": 9954798000,
+      "date": "2025-03-31",
+      "name": "MarginPurchaseMoney",
+      "Return": 1622417000,
+      "sell": 24040679000
+    },
+    {
+      "TodayBalance": 7842648,
+      "YesBalance": 7845124,
+      "buy": 186429,
+      "date": "2025-04-01",
+      "name": "MarginPurchase",
+      "Return": 7743,
+      "sell": 181162
+    },
+    {
+      "TodayBalance": 168257,
+      "YesBalance": 171971,
+      "buy": 27994,
+      "date": "2025-04-01",
+      "name": "ShortSale",
+      "Return": 2733,
+      "sell": 27013
+    },
+    {
+      "TodayBalance": 298958157000,
+      "YesBalance": 300312922000,
+      "buy": 6745294000,
+      "date": "2025-04-01",
+      "name": "MarginPurchaseMoney",
+      "Return": 525730000,
+      "sell": 7574329000
+    },
+    {
+      "TodayBalance": 160485,
+      "YesBalance": 168257,
+      "buy": 24174,
+      "date": "2025-04-02",
+      "name": "ShortSale",
+      "Return": 1748,
+      "sell": 18150
+    },
+    {
+      "TodayBalance": 298816651000,
+      "YesBalance": 298957983000,
+      "buy": 5569913000,
+      "date": "2025-04-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 473084000,
+      "sell": 5238161000
+    },
+    {
+      "TodayBalance": 7838382,
+      "YesBalance": 7842637,
+      "buy": 132993,
+      "date": "2025-04-02",
+      "name": "MarginPurchase",
+      "Return": 13970,
+      "sell": 123278
+    },
+    {
+      "TodayBalance": 7489035,
+      "YesBalance": 7838376,
+      "buy": 198014,
+      "date": "2025-04-07",
+      "name": "MarginPurchase",
+      "Return": 59351,
+      "sell": 488004
+    },
+    {
+      "TodayBalance": 171217,
+      "YesBalance": 160485,
+      "buy": 29943,
+      "date": "2025-04-07",
+      "name": "ShortSale",
+      "Return": 1977,
+      "sell": 42652
+    },
+    {
+      "TodayBalance": 285252992000,
+      "YesBalance": 298816467000,
+      "buy": 2821794000,
+      "date": "2025-04-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 7095502000,
+      "sell": 9289767000
+    },
+    {
+      "TodayBalance": 7021974,
+      "YesBalance": 7488842,
+      "buy": 454088,
+      "date": "2025-04-08",
+      "name": "MarginPurchase",
+      "Return": 60573,
+      "sell": 860383
+    },
+    {
+      "TodayBalance": 130691,
+      "YesBalance": 171213,
+      "buy": 59506,
+      "date": "2025-04-08",
+      "name": "ShortSale",
+      "Return": 1415,
+      "sell": 20399
+    },
+    {
+      "TodayBalance": 256789020000,
+      "YesBalance": 285225570000,
+      "buy": 15935215000,
+      "date": "2025-04-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 8137781000,
+      "sell": 36233983000
+    },
+    {
+      "TodayBalance": 223785029000,
+      "YesBalance": 256744362000,
+      "buy": 13230697000,
+      "date": "2025-04-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 7219733000,
+      "sell": 38970297000
+    },
+    {
+      "TodayBalance": 6496847,
+      "YesBalance": 7021232,
+      "buy": 466251,
+      "date": "2025-04-09",
+      "name": "MarginPurchase",
+      "Return": 49912,
+      "sell": 940724
+    },
+    {
+      "TodayBalance": 126739,
+      "YesBalance": 130691,
+      "buy": 21495,
+      "date": "2025-04-09",
+      "name": "ShortSale",
+      "Return": 3410,
+      "sell": 20953
+    },
+    {
+      "TodayBalance": 114313,
+      "YesBalance": 126739,
+      "buy": 20252,
+      "date": "2025-04-10",
+      "name": "ShortSale",
+      "Return": 3190,
+      "sell": 11016
+    },
+    {
+      "TodayBalance": 222431725000,
+      "YesBalance": 223774825000,
+      "buy": 10931278000,
+      "date": "2025-04-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 3084858000,
+      "sell": 9189520000
+    },
+    {
+      "TodayBalance": 6421689,
+      "YesBalance": 6496817,
+      "buy": 298096,
+      "date": "2025-04-10",
+      "name": "MarginPurchase",
+      "Return": 47331,
+      "sell": 325893
+    },
+    {
+      "TodayBalance": 6334107,
+      "YesBalance": 6421671,
+      "buy": 294661,
+      "date": "2025-04-11",
+      "name": "MarginPurchase",
+      "Return": 23316,
+      "sell": 358909
+    },
+    {
+      "TodayBalance": 115570,
+      "YesBalance": 114313,
+      "buy": 21546,
+      "date": "2025-04-11",
+      "name": "ShortSale",
+      "Return": 3084,
+      "sell": 25887
+    },
+    {
+      "TodayBalance": 213955822000,
+      "YesBalance": 222431586000,
+      "buy": 11003408000,
+      "date": "2025-04-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 1146513000,
+      "sell": 18332659000
+    },
+    {
+      "TodayBalance": 6307382,
+      "YesBalance": 6334098,
+      "buy": 267889,
+      "date": "2025-04-14",
+      "name": "MarginPurchase",
+      "Return": 10239,
+      "sell": 284366
+    },
+    {
+      "TodayBalance": 135323,
+      "YesBalance": 115570,
+      "buy": 11617,
+      "date": "2025-04-14",
+      "name": "ShortSale",
+      "Return": 619,
+      "sell": 31989
+    },
+    {
+      "TodayBalance": 212803927000,
+      "YesBalance": 213955980000,
+      "buy": 11601630000,
+      "date": "2025-04-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 493009000,
+      "sell": 12260674000
+    },
+    {
+      "TodayBalance": 213994817000,
+      "YesBalance": 212803656000,
+      "buy": 9148706000,
+      "date": "2025-04-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 263917000,
+      "sell": 7693628000
+    },
+    {
+      "TodayBalance": 6328424,
+      "YesBalance": 6307378,
+      "buy": 224776,
+      "date": "2025-04-15",
+      "name": "MarginPurchase",
+      "Return": 6408,
+      "sell": 197322
+    },
+    {
+      "TodayBalance": 142049,
+      "YesBalance": 135323,
+      "buy": 12975,
+      "date": "2025-04-15",
+      "name": "ShortSale",
+      "Return": 1656,
+      "sell": 21357
+    },
+    {
+      "TodayBalance": 214549780000,
+      "YesBalance": 213994817000,
+      "buy": 8374906000,
+      "date": "2025-04-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 445448000,
+      "sell": 7374495000
+    },
+    {
+      "TodayBalance": 143240,
+      "YesBalance": 142049,
+      "buy": 15288,
+      "date": "2025-04-16",
+      "name": "ShortSale",
+      "Return": 10530,
+      "sell": 27009
+    },
+    {
+      "TodayBalance": 6379552,
+      "YesBalance": 6328421,
+      "buy": 239293,
+      "date": "2025-04-16",
+      "name": "MarginPurchase",
+      "Return": 7929,
+      "sell": 180233
+    },
+    {
+      "TodayBalance": 6369299,
+      "YesBalance": 6379976,
+      "buy": 174480,
+      "date": "2025-04-17",
+      "name": "MarginPurchase",
+      "Return": 9676,
+      "sell": 175481
+    },
+    {
+      "TodayBalance": 141183,
+      "YesBalance": 143240,
+      "buy": 21902,
+      "date": "2025-04-17",
+      "name": "ShortSale",
+      "Return": 4688,
+      "sell": 24533
+    },
+    {
+      "TodayBalance": 216020028000,
+      "YesBalance": 214556685000,
+      "buy": 7093301000,
+      "date": "2025-04-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 322135000,
+      "sell": 5307823000
+    },
+    {
+      "TodayBalance": 215979291000,
+      "YesBalance": 216020028000,
+      "buy": 5226821000,
+      "date": "2025-04-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 401664000,
+      "sell": 4865894000
+    },
+    {
+      "TodayBalance": 6372091,
+      "YesBalance": 6369296,
+      "buy": 136285,
+      "date": "2025-04-18",
+      "name": "MarginPurchase",
+      "Return": 10893,
+      "sell": 122597
+    },
+    {
+      "TodayBalance": 142742,
+      "YesBalance": 141183,
+      "buy": 11187,
+      "date": "2025-04-18",
+      "name": "ShortSale",
+      "Return": 4076,
+      "sell": 16822
+    },
+    {
+      "TodayBalance": 153581,
+      "YesBalance": 142741,
+      "buy": 12422,
+      "date": "2025-04-21",
+      "name": "ShortSale",
+      "Return": 1237,
+      "sell": 24499
+    },
+    {
+      "TodayBalance": 212486669000,
+      "YesBalance": 215979291000,
+      "buy": 5201109000,
+      "date": "2025-04-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 555517000,
+      "sell": 8138214000
+    },
+    {
+      "TodayBalance": 6332335,
+      "YesBalance": 6372091,
+      "buy": 158472,
+      "date": "2025-04-21",
+      "name": "MarginPurchase",
+      "Return": 12171,
+      "sell": 186057
+    },
+    {
+      "TodayBalance": 210932049000,
+      "YesBalance": 212486633000,
+      "buy": 5148393000,
+      "date": "2025-04-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 358796000,
+      "sell": 6344181000
+    },
+    {
+      "TodayBalance": 158935,
+      "YesBalance": 153581,
+      "buy": 17994,
+      "date": "2025-04-22",
+      "name": "ShortSale",
+      "Return": 453,
+      "sell": 23801
+    },
+    {
+      "TodayBalance": 6314432,
+      "YesBalance": 6332334,
+      "buy": 149313,
+      "date": "2025-04-22",
+      "name": "MarginPurchase",
+      "Return": 9690,
+      "sell": 157525
+    },
+    {
+      "TodayBalance": 6324830,
+      "YesBalance": 6314428,
+      "buy": 211137,
+      "date": "2025-04-23",
+      "name": "MarginPurchase",
+      "Return": 5752,
+      "sell": 194983
+    },
+    {
+      "TodayBalance": 171195,
+      "YesBalance": 158935,
+      "buy": 19579,
+      "date": "2025-04-23",
+      "name": "ShortSale",
+      "Return": 615,
+      "sell": 32454
+    },
+    {
+      "TodayBalance": 210393071000,
+      "YesBalance": 210931695000,
+      "buy": 7693236000,
+      "date": "2025-04-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 400660000,
+      "sell": 7831200000
+    },
+    {
+      "TodayBalance": 6315027,
+      "YesBalance": 6324827,
+      "buy": 166996,
+      "date": "2025-04-24",
+      "name": "MarginPurchase",
+      "Return": 6488,
+      "sell": 170308
+    },
+    {
+      "TodayBalance": 176034,
+      "YesBalance": 171195,
+      "buy": 13683,
+      "date": "2025-04-24",
+      "name": "ShortSale",
+      "Return": 2104,
+      "sell": 20626
+    },
+    {
+      "TodayBalance": 210093888000,
+      "YesBalance": 210393071000,
+      "buy": 5985134000,
+      "date": "2025-04-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 257523000,
+      "sell": 6026794000
+    },
+    {
+      "TodayBalance": 181743,
+      "YesBalance": 176034,
+      "buy": 14368,
+      "date": "2025-04-25",
+      "name": "ShortSale",
+      "Return": 7404,
+      "sell": 27481
+    },
+    {
+      "TodayBalance": 208844606000,
+      "YesBalance": 210093888000,
+      "buy": 8462948000,
+      "date": "2025-04-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 733624000,
+      "sell": 8978606000
+    },
+    {
+      "TodayBalance": 6287149,
+      "YesBalance": 6315024,
+      "buy": 205562,
+      "date": "2025-04-25",
+      "name": "MarginPurchase",
+      "Return": 15944,
+      "sell": 217493
+    },
+    {
+      "TodayBalance": 6257807,
+      "YesBalance": 6287144,
+      "buy": 143499,
+      "date": "2025-04-28",
+      "name": "MarginPurchase",
+      "Return": 7456,
+      "sell": 165380
+    },
+    {
+      "TodayBalance": 188107,
+      "YesBalance": 181740,
+      "buy": 12719,
+      "date": "2025-04-28",
+      "name": "ShortSale",
+      "Return": 1172,
+      "sell": 20258
+    },
+    {
+      "TodayBalance": 208154193000,
+      "YesBalance": 208844451000,
+      "buy": 6361410000,
+      "date": "2025-04-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 284010000,
+      "sell": 6767658000
+    },
+    {
+      "TodayBalance": 6288080,
+      "YesBalance": 6257805,
+      "buy": 200173,
+      "date": "2025-04-29",
+      "name": "MarginPurchase",
+      "Return": 10069,
+      "sell": 159829
+    },
+    {
+      "TodayBalance": 187901,
+      "YesBalance": 188087,
+      "buy": 12666,
+      "date": "2025-04-29",
+      "name": "ShortSale",
+      "Return": 7234,
+      "sell": 19714
+    },
+    {
+      "TodayBalance": 209008974000,
+      "YesBalance": 208154193000,
+      "buy": 7824410000,
+      "date": "2025-04-29",
+      "name": "MarginPurchaseMoney",
+      "Return": 270020000,
+      "sell": 6699609000
+    },
+    {
+      "TodayBalance": 209669672000,
+      "YesBalance": 209008974000,
+      "buy": 7993945000,
+      "date": "2025-04-30",
+      "name": "MarginPurchaseMoney",
+      "Return": 238141000,
+      "sell": 7095106000
+    },
+    {
+      "TodayBalance": 6324021,
+      "YesBalance": 6288075,
+      "buy": 209234,
+      "date": "2025-04-30",
+      "name": "MarginPurchase",
+      "Return": 6643,
+      "sell": 166645
+    },
+    {
+      "TodayBalance": 223452,
+      "YesBalance": 187901,
+      "buy": 15015,
+      "date": "2025-04-30",
+      "name": "ShortSale",
+      "Return": 3161,
+      "sell": 53727
+    },
+    {
+      "TodayBalance": 229893,
+      "YesBalance": 223452,
+      "buy": 16006,
+      "date": "2025-05-02",
+      "name": "ShortSale",
+      "Return": 5071,
+      "sell": 27518
+    },
+    {
+      "TodayBalance": 209351182000,
+      "YesBalance": 209669664000,
+      "buy": 10138925000,
+      "date": "2025-05-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 493632000,
+      "sell": 9963775000
+    },
+    {
+      "TodayBalance": 6363772,
+      "YesBalance": 6324018,
+      "buy": 256013,
+      "date": "2025-05-02",
+      "name": "MarginPurchase",
+      "Return": 14271,
+      "sell": 201988
+    },
+    {
+      "TodayBalance": 6419470,
+      "YesBalance": 6363771,
+      "buy": 328032,
+      "date": "2025-05-05",
+      "name": "MarginPurchase",
+      "Return": 8553,
+      "sell": 263780
+    },
+    {
+      "TodayBalance": 247807,
+      "YesBalance": 229893,
+      "buy": 21667,
+      "date": "2025-05-05",
+      "name": "ShortSale",
+      "Return": 4580,
+      "sell": 44161
+    },
+    {
+      "TodayBalance": 208867379000,
+      "YesBalance": 209350024000,
+      "buy": 10251610000,
+      "date": "2025-05-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 168534000,
+      "sell": 10565721000
+    },
+    {
+      "TodayBalance": 6407488,
+      "YesBalance": 6419466,
+      "buy": 193833,
+      "date": "2025-05-06",
+      "name": "MarginPurchase",
+      "Return": 5864,
+      "sell": 199947
+    },
+    {
+      "TodayBalance": 249405,
+      "YesBalance": 247807,
+      "buy": 13816,
+      "date": "2025-05-06",
+      "name": "ShortSale",
+      "Return": 13564,
+      "sell": 28978
+    },
+    {
+      "TodayBalance": 209482846000,
+      "YesBalance": 208867379000,
+      "buy": 7332828000,
+      "date": "2025-05-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 141259000,
+      "sell": 6576102000
+    },
+    {
+      "TodayBalance": 209439756000,
+      "YesBalance": 209482846000,
+      "buy": 6588812000,
+      "date": "2025-05-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 132348000,
+      "sell": 6499554000
+    },
+    {
+      "TodayBalance": 6426039,
+      "YesBalance": 6407488,
+      "buy": 197767,
+      "date": "2025-05-07",
+      "name": "MarginPurchase",
+      "Return": 3991,
+      "sell": 175225
+    },
+    {
+      "TodayBalance": 245334,
+      "YesBalance": 249405,
+      "buy": 12933,
+      "date": "2025-05-07",
+      "name": "ShortSale",
+      "Return": 14401,
+      "sell": 23263
+    },
+    {
+      "TodayBalance": 209567416000,
+      "YesBalance": 209439756000,
+      "buy": 7139092000,
+      "date": "2025-05-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 183217000,
+      "sell": 6828215000
+    },
+    {
+      "TodayBalance": 241520,
+      "YesBalance": 245334,
+      "buy": 12738,
+      "date": "2025-05-08",
+      "name": "ShortSale",
+      "Return": 9699,
+      "sell": 18623
+    },
+    {
+      "TodayBalance": 6446648,
+      "YesBalance": 6426039,
+      "buy": 171035,
+      "date": "2025-05-08",
+      "name": "MarginPurchase",
+      "Return": 3423,
+      "sell": 147003
+    },
+    {
+      "TodayBalance": 6452396,
+      "YesBalance": 6446646,
+      "buy": 184371,
+      "date": "2025-05-09",
+      "name": "MarginPurchase",
+      "Return": 5599,
+      "sell": 173022
+    },
+    {
+      "TodayBalance": 243892,
+      "YesBalance": 241520,
+      "buy": 11246,
+      "date": "2025-05-09",
+      "name": "ShortSale",
+      "Return": 9420,
+      "sell": 23038
+    },
+    {
+      "TodayBalance": 209817781000,
+      "YesBalance": 209567416000,
+      "buy": 8562656000,
+      "date": "2025-05-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 147881000,
+      "sell": 8164410000
+    },
+    {
+      "TodayBalance": 210111994000,
+      "YesBalance": 209817781000,
+      "buy": 10339095000,
+      "date": "2025-05-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 178221000,
+      "sell": 9866661000
+    },
+    {
+      "TodayBalance": 6440127,
+      "YesBalance": 6452394,
+      "buy": 219724,
+      "date": "2025-05-12",
+      "name": "MarginPurchase",
+      "Return": 6255,
+      "sell": 225736
+    },
+    {
+      "TodayBalance": 247936,
+      "YesBalance": 243892,
+      "buy": 11991,
+      "date": "2025-05-12",
+      "name": "ShortSale",
+      "Return": 3869,
+      "sell": 19904
+    },
+    {
+      "TodayBalance": 249365,
+      "YesBalance": 247936,
+      "buy": 15731,
+      "date": "2025-05-13",
+      "name": "ShortSale",
+      "Return": 9223,
+      "sell": 26383
+    },
+    {
+      "TodayBalance": 210508471000,
+      "YesBalance": 210111994000,
+      "buy": 13174764000,
+      "date": "2025-05-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 237304000,
+      "sell": 12540983000
+    },
+    {
+      "TodayBalance": 6432421,
+      "YesBalance": 6440126,
+      "buy": 285221,
+      "date": "2025-05-13",
+      "name": "MarginPurchase",
+      "Return": 9687,
+      "sell": 283239
+    },
+    {
+      "TodayBalance": 249025,
+      "YesBalance": 249365,
+      "buy": 15597,
+      "date": "2025-05-14",
+      "name": "ShortSale",
+      "Return": 6230,
+      "sell": 21487
+    },
+    {
+      "TodayBalance": 212011750000,
+      "YesBalance": 210508471000,
+      "buy": 15239881000,
+      "date": "2025-05-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 383436000,
+      "sell": 13353166000
+    },
+    {
+      "TodayBalance": 6467866,
+      "YesBalance": 6432419,
+      "buy": 319758,
+      "date": "2025-05-14",
+      "name": "MarginPurchase",
+      "Return": 7530,
+      "sell": 276781
+    },
+    {
+      "TodayBalance": 6516233,
+      "YesBalance": 6467865,
+      "buy": 273831,
+      "date": "2025-05-15",
+      "name": "MarginPurchase",
+      "Return": 7039,
+      "sell": 218424
+    },
+    {
+      "TodayBalance": 246762,
+      "YesBalance": 249025,
+      "buy": 14280,
+      "date": "2025-05-15",
+      "name": "ShortSale",
+      "Return": 4423,
+      "sell": 16440
+    },
+    {
+      "TodayBalance": 213312394000,
+      "YesBalance": 212011750000,
+      "buy": 11292961000,
+      "date": "2025-05-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 277905000,
+      "sell": 9714412000
+    },
+    {
+      "TodayBalance": 6576589,
+      "YesBalance": 6516231,
+      "buy": 295474,
+      "date": "2025-05-16",
+      "name": "MarginPurchase",
+      "Return": 9390,
+      "sell": 225726
+    },
+    {
+      "TodayBalance": 251631,
+      "YesBalance": 246762,
+      "buy": 13638,
+      "date": "2025-05-16",
+      "name": "ShortSale",
+      "Return": 5507,
+      "sell": 24014
+    },
+    {
+      "TodayBalance": 216410527000,
+      "YesBalance": 213312461000,
+      "buy": 13027341000,
+      "date": "2025-05-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 270390000,
+      "sell": 9658885000
+    },
+    {
+      "TodayBalance": 247001,
+      "YesBalance": 251631,
+      "buy": 15821,
+      "date": "2025-05-19",
+      "name": "ShortSale",
+      "Return": 6530,
+      "sell": 17721
+    },
+    {
+      "TodayBalance": 216535926000,
+      "YesBalance": 216410512000,
+      "buy": 10671252000,
+      "date": "2025-05-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 229221000,
+      "sell": 10316617000
+    },
+    {
+      "TodayBalance": 6590796,
+      "YesBalance": 6576586,
+      "buy": 249067,
+      "date": "2025-05-19",
+      "name": "MarginPurchase",
+      "Return": 6592,
+      "sell": 228265
+    },
+    {
+      "TodayBalance": 6577845,
+      "YesBalance": 6590793,
+      "buy": 184992,
+      "date": "2025-05-20",
+      "name": "MarginPurchase",
+      "Return": 7214,
+      "sell": 190726
+    },
+    {
+      "TodayBalance": 250220,
+      "YesBalance": 247001,
+      "buy": 9250,
+      "date": "2025-05-20",
+      "name": "ShortSale",
+      "Return": 10932,
+      "sell": 23401
+    },
+    {
+      "TodayBalance": 217435458000,
+      "YesBalance": 216535926000,
+      "buy": 8824663000,
+      "date": "2025-05-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 199543000,
+      "sell": 7725588000
+    },
+    {
+      "TodayBalance": 6581828,
+      "YesBalance": 6577844,
+      "buy": 214456,
+      "date": "2025-05-21",
+      "name": "MarginPurchase",
+      "Return": 8232,
+      "sell": 202240
+    },
+    {
+      "TodayBalance": 251121,
+      "YesBalance": 250220,
+      "buy": 15085,
+      "date": "2025-05-21",
+      "name": "ShortSale",
+      "Return": 3726,
+      "sell": 19712
+    },
+    {
+      "TodayBalance": 217856446000,
+      "YesBalance": 217435458000,
+      "buy": 9020046000,
+      "date": "2025-05-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 161698000,
+      "sell": 8437360000
+    },
+    {
+      "TodayBalance": 220045068000,
+      "YesBalance": 217856446000,
+      "buy": 10129285000,
+      "date": "2025-05-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 260094000,
+      "sell": 7680569000
+    },
+    {
+      "TodayBalance": 6625821,
+      "YesBalance": 6581826,
+      "buy": 242528,
+      "date": "2025-05-22",
+      "name": "MarginPurchase",
+      "Return": 4265,
+      "sell": 194268
+    },
+    {
+      "TodayBalance": 258703,
+      "YesBalance": 251121,
+      "buy": 16660,
+      "date": "2025-05-22",
+      "name": "ShortSale",
+      "Return": 4734,
+      "sell": 28976
+    },
+    {
+      "TodayBalance": 257650,
+      "YesBalance": 258703,
+      "buy": 14173,
+      "date": "2025-05-23",
+      "name": "ShortSale",
+      "Return": 7919,
+      "sell": 21039
+    },
+    {
+      "TodayBalance": 219546355000,
+      "YesBalance": 220045068000,
+      "buy": 9576443000,
+      "date": "2025-05-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 205390000,
+      "sell": 9869766000
+    },
+    {
+      "TodayBalance": 6639565,
+      "YesBalance": 6625819,
+      "buy": 194239,
+      "date": "2025-05-23",
+      "name": "MarginPurchase",
+      "Return": 4950,
+      "sell": 175543
+    },
+    {
+      "TodayBalance": 6671803,
+      "YesBalance": 6639559,
+      "buy": 204012,
+      "date": "2025-05-26",
+      "name": "MarginPurchase",
+      "Return": 4118,
+      "sell": 167650
+    },
+    {
+      "TodayBalance": 254589,
+      "YesBalance": 257650,
+      "buy": 16095,
+      "date": "2025-05-26",
+      "name": "ShortSale",
+      "Return": 10911,
+      "sell": 23945
+    },
+    {
+      "TodayBalance": 220657750000,
+      "YesBalance": 219546355000,
+      "buy": 9271290000,
+      "date": "2025-05-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 127500000,
+      "sell": 8032395000
+    },
+    {
+      "TodayBalance": 6682308,
+      "YesBalance": 6671802,
+      "buy": 195811,
+      "date": "2025-05-27",
+      "name": "MarginPurchase",
+      "Return": 6144,
+      "sell": 179161
+    },
+    {
+      "TodayBalance": 251091,
+      "YesBalance": 254589,
+      "buy": 15321,
+      "date": "2025-05-27",
+      "name": "ShortSale",
+      "Return": 8645,
+      "sell": 20468
+    },
+    {
+      "TodayBalance": 220599614000,
+      "YesBalance": 220657750000,
+      "buy": 8090045000,
+      "date": "2025-05-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 221238000,
+      "sell": 7926943000
+    },
+    {
+      "TodayBalance": 220246367000,
+      "YesBalance": 220599614000,
+      "buy": 8194148000,
+      "date": "2025-05-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 206366000,
+      "sell": 8341029000
+    },
+    {
+      "TodayBalance": 6692503,
+      "YesBalance": 6682307,
+      "buy": 191192,
+      "date": "2025-05-28",
+      "name": "MarginPurchase",
+      "Return": 4509,
+      "sell": 176487
+    },
+    {
+      "TodayBalance": 250868,
+      "YesBalance": 251091,
+      "buy": 15297,
+      "date": "2025-05-28",
+      "name": "ShortSale",
+      "Return": 5359,
+      "sell": 20433
+    },
+    {
+      "TodayBalance": 221181413000,
+      "YesBalance": 220246356000,
+      "buy": 9755653000,
+      "date": "2025-05-29",
+      "name": "MarginPurchaseMoney",
+      "Return": 211331000,
+      "sell": 8609265000
+    },
+    {
+      "TodayBalance": 253505,
+      "YesBalance": 250868,
+      "buy": 17058,
+      "date": "2025-05-29",
+      "name": "ShortSale",
+      "Return": 3955,
+      "sell": 23650
+    },
+    {
+      "TodayBalance": 6686786,
+      "YesBalance": 6692500,
+      "buy": 178251,
+      "date": "2025-05-29",
+      "name": "MarginPurchase",
+      "Return": 4448,
+      "sell": 179517
+    },
+    {
+      "TodayBalance": 6720366,
+      "YesBalance": 6686782,
+      "buy": 220966,
+      "date": "2025-06-02",
+      "name": "MarginPurchase",
+      "Return": 3932,
+      "sell": 183450
+    },
+    {
+      "TodayBalance": 241299,
+      "YesBalance": 253505,
+      "buy": 30104,
+      "date": "2025-06-02",
+      "name": "ShortSale",
+      "Return": 5664,
+      "sell": 23562
+    },
+    {
+      "TodayBalance": 221528741000,
+      "YesBalance": 221181413000,
+      "buy": 8699752000,
+      "date": "2025-06-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 214649000,
+      "sell": 8137775000
+    },
+    {
+      "TodayBalance": 221857705000,
+      "YesBalance": 221528741000,
+      "buy": 7940122000,
+      "date": "2025-06-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 160345000,
+      "sell": 7450813000
+    },
+    {
+      "TodayBalance": 6725980,
+      "YesBalance": 6720364,
+      "buy": 160929,
+      "date": "2025-06-03",
+      "name": "MarginPurchase",
+      "Return": 3301,
+      "sell": 152012
+    },
+    {
+      "TodayBalance": 258209,
+      "YesBalance": 241299,
+      "buy": 10614,
+      "date": "2025-06-03",
+      "name": "ShortSale",
+      "Return": 2393,
+      "sell": 29917
+    },
+    {
+      "TodayBalance": 258561,
+      "YesBalance": 258209,
+      "buy": 17888,
+      "date": "2025-06-04",
+      "name": "ShortSale",
+      "Return": 3333,
+      "sell": 21573
+    },
+    {
+      "TodayBalance": 222950998000,
+      "YesBalance": 221857705000,
+      "buy": 11971035000,
+      "date": "2025-06-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 215189000,
+      "sell": 10662553000
+    },
+    {
+      "TodayBalance": 6722847,
+      "YesBalance": 6725980,
+      "buy": 210263,
+      "date": "2025-06-04",
+      "name": "MarginPurchase",
+      "Return": 5209,
+      "sell": 208187
+    },
+    {
+      "TodayBalance": 222431847000,
+      "YesBalance": 222950998000,
+      "buy": 9326059000,
+      "date": "2025-06-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 151683000,
+      "sell": 9693527000
+    },
+    {
+      "TodayBalance": 255142,
+      "YesBalance": 258561,
+      "buy": 15839,
+      "date": "2025-06-05",
+      "name": "ShortSale",
+      "Return": 5183,
+      "sell": 17603
+    },
+    {
+      "TodayBalance": 6718078,
+      "YesBalance": 6722847,
+      "buy": 181074,
+      "date": "2025-06-05",
+      "name": "MarginPurchase",
+      "Return": 2611,
+      "sell": 183232
+    },
+    {
+      "TodayBalance": 6718618,
+      "YesBalance": 6718073,
+      "buy": 145106,
+      "date": "2025-06-06",
+      "name": "MarginPurchase",
+      "Return": 4656,
+      "sell": 139905
+    },
+    {
+      "TodayBalance": 253471,
+      "YesBalance": 255142,
+      "buy": 14117,
+      "date": "2025-06-06",
+      "name": "ShortSale",
+      "Return": 4334,
+      "sell": 16780
+    },
+    {
+      "TodayBalance": 222353111000,
+      "YesBalance": 222431847000,
+      "buy": 7850053000,
+      "date": "2025-06-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 183603000,
+      "sell": 7745186000
+    },
+    {
+      "TodayBalance": 6711081,
+      "YesBalance": 6718617,
+      "buy": 175584,
+      "date": "2025-06-09",
+      "name": "MarginPurchase",
+      "Return": 4466,
+      "sell": 178654
+    },
+    {
+      "TodayBalance": 258795,
+      "YesBalance": 253471,
+      "buy": 13647,
+      "date": "2025-06-09",
+      "name": "ShortSale",
+      "Return": 2045,
+      "sell": 21016
+    },
+    {
+      "TodayBalance": 222414142000,
+      "YesBalance": 222353111000,
+      "buy": 8495636000,
+      "date": "2025-06-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 190992000,
+      "sell": 8243613000
+    },
+    {
+      "TodayBalance": 257764,
+      "YesBalance": 258795,
+      "buy": 17376,
+      "date": "2025-06-10",
+      "name": "ShortSale",
+      "Return": 2056,
+      "sell": 18401
+    },
+    {
+      "TodayBalance": 220627683000,
+      "YesBalance": 222414142000,
+      "buy": 10620450000,
+      "date": "2025-06-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 129784000,
+      "sell": 12277125000
+    },
+    {
+      "TodayBalance": 6692737,
+      "YesBalance": 6711080,
+      "buy": 212397,
+      "date": "2025-06-10",
+      "name": "MarginPurchase",
+      "Return": 4479,
+      "sell": 226261
+    },
+    {
+      "TodayBalance": 6701904,
+      "YesBalance": 6692910,
+      "buy": 215051,
+      "date": "2025-06-11",
+      "name": "MarginPurchase",
+      "Return": 2908,
+      "sell": 203149
+    },
+    {
+      "TodayBalance": 241157,
+      "YesBalance": 257764,
+      "buy": 19117,
+      "date": "2025-06-11",
+      "name": "ShortSale",
+      "Return": 16410,
+      "sell": 18920
+    },
+    {
+      "TodayBalance": 222185864000,
+      "YesBalance": 220627683000,
+      "buy": 12681027000,
+      "date": "2025-06-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 127205000,
+      "sell": 10995641000
+    },
+    {
+      "TodayBalance": 6724738,
+      "YesBalance": 6701903,
+      "buy": 202194,
+      "date": "2025-06-12",
+      "name": "MarginPurchase",
+      "Return": 7256,
+      "sell": 172103
+    },
+    {
+      "TodayBalance": 255521,
+      "YesBalance": 241157,
+      "buy": 13963,
+      "date": "2025-06-12",
+      "name": "ShortSale",
+      "Return": 2898,
+      "sell": 31225
+    },
+    {
+      "TodayBalance": 223680596000,
+      "YesBalance": 222185864000,
+      "buy": 11220224000,
+      "date": "2025-06-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 226698000,
+      "sell": 9498794000
+    },
+    {
+      "TodayBalance": 223309479000,
+      "YesBalance": 223680596000,
+      "buy": 10792924000,
+      "date": "2025-06-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 174395000,
+      "sell": 10989646000
+    },
+    {
+      "TodayBalance": 6735453,
+      "YesBalance": 6724737,
+      "buy": 239106,
+      "date": "2025-06-13",
+      "name": "MarginPurchase",
+      "Return": 3863,
+      "sell": 224527
+    },
+    {
+      "TodayBalance": 277129,
+      "YesBalance": 255521,
+      "buy": 21452,
+      "date": "2025-06-13",
+      "name": "ShortSale",
+      "Return": 1049,
+      "sell": 44109
+    },
+    {
+      "TodayBalance": 259082,
+      "YesBalance": 277129,
+      "buy": 31766,
+      "date": "2025-06-16",
+      "name": "ShortSale",
+      "Return": 2607,
+      "sell": 16326
+    },
+    {
+      "TodayBalance": 224418003000,
+      "YesBalance": 223309933000,
+      "buy": 9019609000,
+      "date": "2025-06-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 172847000,
+      "sell": 7738692000
+    },
+    {
+      "TodayBalance": 6764455,
+      "YesBalance": 6735460,
+      "buy": 173087,
+      "date": "2025-06-16",
+      "name": "MarginPurchase",
+      "Return": 5237,
+      "sell": 138855
+    },
+    {
+      "TodayBalance": 6771412,
+      "YesBalance": 6764454,
+      "buy": 183504,
+      "date": "2025-06-17",
+      "name": "MarginPurchase",
+      "Return": 6632,
+      "sell": 169914
+    },
+    {
+      "TodayBalance": 240999,
+      "YesBalance": 259082,
+      "buy": 20284,
+      "date": "2025-06-17",
+      "name": "ShortSale",
+      "Return": 13723,
+      "sell": 15924
+    },
+    {
+      "TodayBalance": 224287636000,
+      "YesBalance": 224418003000,
+      "buy": 10952309000,
+      "date": "2025-06-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 198927000,
+      "sell": 10883749000
+    },
+    {
+      "TodayBalance": 6781132,
+      "YesBalance": 6777754,
+      "buy": 183018,
+      "date": "2025-06-18",
+      "name": "MarginPurchase",
+      "Return": 3668,
+      "sell": 175972
+    },
+    {
+      "TodayBalance": 249242,
+      "YesBalance": 240999,
+      "buy": 16678,
+      "date": "2025-06-18",
+      "name": "ShortSale",
+      "Return": 8396,
+      "sell": 33317
+    },
+    {
+      "TodayBalance": 224753502000,
+      "YesBalance": 224287636000,
+      "buy": 10823302000,
+      "date": "2025-06-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 199254000,
+      "sell": 10158182000
+    },
+    {
+      "TodayBalance": 225036136000,
+      "YesBalance": 224753502000,
+      "buy": 9757954000,
+      "date": "2025-06-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 289439000,
+      "sell": 9185881000
+    },
+    {
+      "TodayBalance": 6787542,
+      "YesBalance": 6781271,
+      "buy": 188909,
+      "date": "2025-06-19",
+      "name": "MarginPurchase",
+      "Return": 11439,
+      "sell": 171199
+    },
+    {
+      "TodayBalance": 249190,
+      "YesBalance": 249242,
+      "buy": 19798,
+      "date": "2025-06-19",
+      "name": "ShortSale",
+      "Return": 1829,
+      "sell": 21575
+    },
+    {
+      "TodayBalance": 224123342000,
+      "YesBalance": 225036136000,
+      "buy": 8942807000,
+      "date": "2025-06-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 350669000,
+      "sell": 9504932000
+    },
+    {
+      "TodayBalance": 239496,
+      "YesBalance": 249190,
+      "buy": 19249,
+      "date": "2025-06-20",
+      "name": "ShortSale",
+      "Return": 11954,
+      "sell": 21509
+    },
+    {
+      "TodayBalance": 6772583,
+      "YesBalance": 6787540,
+      "buy": 178357,
+      "date": "2025-06-20",
+      "name": "MarginPurchase",
+      "Return": 13923,
+      "sell": 179391
+    },
+    {
+      "TodayBalance": 6762840,
+      "YesBalance": 6767745,
+      "buy": 147785,
+      "date": "2025-06-23",
+      "name": "MarginPurchase",
+      "Return": 5027,
+      "sell": 147663
+    },
+    {
+      "TodayBalance": 233144,
+      "YesBalance": 239496,
+      "buy": 20180,
+      "date": "2025-06-23",
+      "name": "ShortSale",
+      "Return": 3635,
+      "sell": 17463
+    },
+    {
+      "TodayBalance": 224437558000,
+      "YesBalance": 224123355000,
+      "buy": 7307806000,
+      "date": "2025-06-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 151223000,
+      "sell": 6842380000
+    },
+    {
+      "TodayBalance": 224318492000,
+      "YesBalance": 224437549000,
+      "buy": 10810927000,
+      "date": "2025-06-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 177628000,
+      "sell": 10752356000
+    },
+    {
+      "TodayBalance": 6746897,
+      "YesBalance": 6762824,
+      "buy": 224552,
+      "date": "2025-06-24",
+      "name": "MarginPurchase",
+      "Return": 3791,
+      "sell": 236688
+    },
+    {
+      "TodayBalance": 234046,
+      "YesBalance": 233144,
+      "buy": 25701,
+      "date": "2025-06-24",
+      "name": "ShortSale",
+      "Return": 4644,
+      "sell": 31247
+    },
+    {
+      "TodayBalance": 234735,
+      "YesBalance": 234046,
+      "buy": 14542,
+      "date": "2025-06-25",
+      "name": "ShortSale",
+      "Return": 4452,
+      "sell": 19683
+    },
+    {
+      "TodayBalance": 224189539000,
+      "YesBalance": 224318492000,
+      "buy": 11531363000,
+      "date": "2025-06-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 120648000,
+      "sell": 11539668000
+    },
+    {
+      "TodayBalance": 6768567,
+      "YesBalance": 6746890,
+      "buy": 218289,
+      "date": "2025-06-25",
+      "name": "MarginPurchase",
+      "Return": 3338,
+      "sell": 193274
+    },
+    {
+      "TodayBalance": 225045,
+      "YesBalance": 234735,
+      "buy": 15689,
+      "date": "2025-06-26",
+      "name": "ShortSale",
+      "Return": 11653,
+      "sell": 17652
+    },
+    {
+      "TodayBalance": 224719022000,
+      "YesBalance": 224189539000,
+      "buy": 10143724000,
+      "date": "2025-06-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 155401000,
+      "sell": 9458840000
+    },
+    {
+      "TodayBalance": 6761707,
+      "YesBalance": 6768558,
+      "buy": 187226,
+      "date": "2025-06-26",
+      "name": "MarginPurchase",
+      "Return": 4068,
+      "sell": 190009
+    },
+    {
+      "TodayBalance": 225228402000,
+      "YesBalance": 224719554000,
+      "buy": 10378946000,
+      "date": "2025-06-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 240278000,
+      "sell": 9629820000
+    },
+    {
+      "TodayBalance": 6770919,
+      "YesBalance": 6761701,
+      "buy": 189534,
+      "date": "2025-06-27",
+      "name": "MarginPurchase",
+      "Return": 6643,
+      "sell": 173673
+    },
+    {
+      "TodayBalance": 221163,
+      "YesBalance": 225045,
+      "buy": 22757,
+      "date": "2025-06-27",
+      "name": "ShortSale",
+      "Return": 6539,
+      "sell": 25414
+    },
+    {
+      "TodayBalance": 6834497,
+      "YesBalance": 6813270,
+      "buy": 185087,
+      "date": "2025-06-30",
+      "name": "MarginPurchase",
+      "Return": 3438,
+      "sell": 160422
+    },
+    {
+      "TodayBalance": 222033,
+      "YesBalance": 221163,
+      "buy": 19095,
+      "date": "2025-06-30",
+      "name": "ShortSale",
+      "Return": 1375,
+      "sell": 21340
+    },
+    {
+      "TodayBalance": 226292649000,
+      "YesBalance": 225228402000,
+      "buy": 10173685000,
+      "date": "2025-06-30",
+      "name": "MarginPurchaseMoney",
+      "Return": 142431000,
+      "sell": 8967007000
+    },
+    {
+      "TodayBalance": 6812495,
+      "YesBalance": 6834529,
+      "buy": 185645,
+      "date": "2025-07-01",
+      "name": "MarginPurchase",
+      "Return": 4471,
+      "sell": 203208
+    },
+    {
+      "TodayBalance": 223896,
+      "YesBalance": 222033,
+      "buy": 15182,
+      "date": "2025-07-01",
+      "name": "ShortSale",
+      "Return": 2797,
+      "sell": 19842
+    },
+    {
+      "TodayBalance": 225161417000,
+      "YesBalance": 226292649000,
+      "buy": 10473703000,
+      "date": "2025-07-01",
+      "name": "MarginPurchaseMoney",
+      "Return": 202520000,
+      "sell": 11402415000
+    },
+    {
+      "TodayBalance": 224210,
+      "YesBalance": 223896,
+      "buy": 12689,
+      "date": "2025-07-02",
+      "name": "ShortSale",
+      "Return": 5927,
+      "sell": 18930
+    },
+    {
+      "TodayBalance": 225315996000,
+      "YesBalance": 225161417000,
+      "buy": 7586570000,
+      "date": "2025-07-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 146132000,
+      "sell": 7285859000
+    },
+    {
+      "TodayBalance": 6811689,
+      "YesBalance": 6812491,
+      "buy": 147285,
+      "date": "2025-07-02",
+      "name": "MarginPurchase",
+      "Return": 3126,
+      "sell": 144961
+    },
+    {
+      "TodayBalance": 6794172,
+      "YesBalance": 6811682,
+      "buy": 201053,
+      "date": "2025-07-03",
+      "name": "MarginPurchase",
+      "Return": 3677,
+      "sell": 214886
+    },
+    {
+      "TodayBalance": 233661,
+      "YesBalance": 224210,
+      "buy": 14888,
+      "date": "2025-07-03",
+      "name": "ShortSale",
+      "Return": 4911,
+      "sell": 29250
+    },
+    {
+      "TodayBalance": 225841159000,
+      "YesBalance": 225315996000,
+      "buy": 11139596000,
+      "date": "2025-07-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 172975000,
+      "sell": 10441457000
+    },
+    {
+      "TodayBalance": 6770065,
+      "YesBalance": 6794161,
+      "buy": 193329,
+      "date": "2025-07-04",
+      "name": "MarginPurchase",
+      "Return": 4483,
+      "sell": 212942
+    },
+    {
+      "TodayBalance": 234175,
+      "YesBalance": 233661,
+      "buy": 21934,
+      "date": "2025-07-04",
+      "name": "ShortSale",
+      "Return": 3841,
+      "sell": 26289
+    },
+    {
+      "TodayBalance": 223751212000,
+      "YesBalance": 225841159000,
+      "buy": 9311638000,
+      "date": "2025-07-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 214278000,
+      "sell": 11187307000
+    },
+    {
+      "TodayBalance": 221554232000,
+      "YesBalance": 223751199000,
+      "buy": 5649664000,
+      "date": "2025-07-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 119801000,
+      "sell": 7726830000
+    },
+    {
+      "TodayBalance": 6772395,
+      "YesBalance": 6770058,
+      "buy": 128752,
+      "date": "2025-07-07",
+      "name": "MarginPurchase",
+      "Return": 3108,
+      "sell": 123307
+    },
+    {
+      "TodayBalance": 239972,
+      "YesBalance": 234175,
+      "buy": 18987,
+      "date": "2025-07-07",
+      "name": "ShortSale",
+      "Return": 6562,
+      "sell": 31346
+    },
+    {
+      "TodayBalance": 246766,
+      "YesBalance": 239972,
+      "buy": 20897,
+      "date": "2025-07-08",
+      "name": "ShortSale",
+      "Return": 6516,
+      "sell": 34207
+    },
+    {
+      "TodayBalance": 222090108000,
+      "YesBalance": 221554232000,
+      "buy": 7165534000,
+      "date": "2025-07-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 160832000,
+      "sell": 6468826000
+    },
+    {
+      "TodayBalance": 6775062,
+      "YesBalance": 6772391,
+      "buy": 150622,
+      "date": "2025-07-08",
+      "name": "MarginPurchase",
+      "Return": 4711,
+      "sell": 143240
+    },
+    {
+      "TodayBalance": 6791753,
+      "YesBalance": 6775060,
+      "buy": 167204,
+      "date": "2025-07-09",
+      "name": "MarginPurchase",
+      "Return": 9026,
+      "sell": 141485
+    },
+    {
+      "TodayBalance": 267559,
+      "YesBalance": 246766,
+      "buy": 14464,
+      "date": "2025-07-09",
+      "name": "ShortSale",
+      "Return": 7213,
+      "sell": 42470
+    },
+    {
+      "TodayBalance": 222618366000,
+      "YesBalance": 222090108000,
+      "buy": 9091621000,
+      "date": "2025-07-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 177818000,
+      "sell": 8385545000
+    },
+    {
+      "TodayBalance": 6860473,
+      "YesBalance": 6791748,
+      "buy": 223260,
+      "date": "2025-07-10",
+      "name": "MarginPurchase",
+      "Return": 5349,
+      "sell": 149186
+    },
+    {
+      "TodayBalance": 273687,
+      "YesBalance": 267559,
+      "buy": 13323,
+      "date": "2025-07-10",
+      "name": "ShortSale",
+      "Return": 16593,
+      "sell": 36044
+    },
+    {
+      "TodayBalance": 224196382000,
+      "YesBalance": 222618366000,
+      "buy": 10255137000,
+      "date": "2025-07-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 173450000,
+      "sell": 8503671000
+    },
+    {
+      "TodayBalance": 224058848000,
+      "YesBalance": 224196382000,
+      "buy": 8804425000,
+      "date": "2025-07-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 228597000,
+      "sell": 8713362000
+    },
+    {
+      "TodayBalance": 6878150,
+      "YesBalance": 6860469,
+      "buy": 207223,
+      "date": "2025-07-11",
+      "name": "MarginPurchase",
+      "Return": 5727,
+      "sell": 183815
+    },
+    {
+      "TodayBalance": 276681,
+      "YesBalance": 273685,
+      "buy": 15300,
+      "date": "2025-07-11",
+      "name": "ShortSale",
+      "Return": 25236,
+      "sell": 43532
+    },
+    {
+      "TodayBalance": 224437905000,
+      "YesBalance": 224058848000,
+      "buy": 8510443000,
+      "date": "2025-07-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 156664000,
+      "sell": 7974722000
+    },
+    {
+      "TodayBalance": 274459,
+      "YesBalance": 276681,
+      "buy": 15697,
+      "date": "2025-07-14",
+      "name": "ShortSale",
+      "Return": 14930,
+      "sell": 28405
+    },
+    {
+      "TodayBalance": 6903343,
+      "YesBalance": 6878148,
+      "buy": 163495,
+      "date": "2025-07-14",
+      "name": "MarginPurchase",
+      "Return": 4144,
+      "sell": 134156
+    },
+    {
+      "TodayBalance": 6951668,
+      "YesBalance": 6903343,
+      "buy": 204788,
+      "date": "2025-07-15",
+      "name": "MarginPurchase",
+      "Return": 2992,
+      "sell": 153471
+    },
+    {
+      "TodayBalance": 277895,
+      "YesBalance": 274459,
+      "buy": 16925,
+      "date": "2025-07-15",
+      "name": "ShortSale",
+      "Return": 21071,
+      "sell": 41432
+    },
+    {
+      "TodayBalance": 226722755000,
+      "YesBalance": 224437905000,
+      "buy": 10103964000,
+      "date": "2025-07-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 109913000,
+      "sell": 7709201000
+    },
+    {
+      "TodayBalance": 226872563000,
+      "YesBalance": 226722755000,
+      "buy": 11118370000,
+      "date": "2025-07-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 200242000,
+      "sell": 10768320000
+    },
+    {
+      "TodayBalance": 6943972,
+      "YesBalance": 6951662,
+      "buy": 196791,
+      "date": "2025-07-16",
+      "name": "MarginPurchase",
+      "Return": 4975,
+      "sell": 199506
+    },
+    {
+      "TodayBalance": 298336,
+      "YesBalance": 277895,
+      "buy": 10932,
+      "date": "2025-07-16",
+      "name": "ShortSale",
+      "Return": 15213,
+      "sell": 46586
+    },
+    {
+      "TodayBalance": 298989,
+      "YesBalance": 298336,
+      "buy": 13514,
+      "date": "2025-07-17",
+      "name": "ShortSale",
+      "Return": 16483,
+      "sell": 30650
+    },
+    {
+      "TodayBalance": 227981188000,
+      "YesBalance": 226872563000,
+      "buy": 10086211000,
+      "date": "2025-07-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 182509000,
+      "sell": 8795077000
+    },
+    {
+      "TodayBalance": 6956005,
+      "YesBalance": 6943969,
+      "buy": 201672,
+      "date": "2025-07-17",
+      "name": "MarginPurchase",
+      "Return": 3928,
+      "sell": 185708
+    },
+    {
+      "TodayBalance": 228111365000,
+      "YesBalance": 227981188000,
+      "buy": 11922842000,
+      "date": "2025-07-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 239486000,
+      "sell": 11553179000
+    },
+    {
+      "TodayBalance": 298361,
+      "YesBalance": 298989,
+      "buy": 10969,
+      "date": "2025-07-18",
+      "name": "ShortSale",
+      "Return": 30266,
+      "sell": 40607
+    },
+    {
+      "TodayBalance": 6968522,
+      "YesBalance": 6956005,
+      "buy": 216807,
+      "date": "2025-07-18",
+      "name": "MarginPurchase",
+      "Return": 7038,
+      "sell": 197252
+    },
+    {
+      "TodayBalance": 6970999,
+      "YesBalance": 6971061,
+      "buy": 191129,
+      "date": "2025-07-21",
+      "name": "MarginPurchase",
+      "Return": 5353,
+      "sell": 185838
+    },
+    {
+      "TodayBalance": 288493,
+      "YesBalance": 298363,
+      "buy": 15548,
+      "date": "2025-07-21",
+      "name": "ShortSale",
+      "Return": 15903,
+      "sell": 21581
+    },
+    {
+      "TodayBalance": 229477188000,
+      "YesBalance": 228221800000,
+      "buy": 10794775000,
+      "date": "2025-07-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 147860000,
+      "sell": 9391527000
+    },
+    {
+      "TodayBalance": 6932379,
+      "YesBalance": 6970598,
+      "buy": 246736,
+      "date": "2025-07-22",
+      "name": "MarginPurchase",
+      "Return": 5035,
+      "sell": 279920
+    },
+    {
+      "TodayBalance": 279593,
+      "YesBalance": 288493,
+      "buy": 15945,
+      "date": "2025-07-22",
+      "name": "ShortSale",
+      "Return": 20625,
+      "sell": 27670
+    },
+    {
+      "TodayBalance": 224554075000,
+      "YesBalance": 229461412000,
+      "buy": 11579406000,
+      "date": "2025-07-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 195120000,
+      "sell": 16291623000
+    },
+    {
+      "TodayBalance": 288242,
+      "YesBalance": 279593,
+      "buy": 12374,
+      "date": "2025-07-23",
+      "name": "ShortSale",
+      "Return": 4683,
+      "sell": 25706
+    },
+    {
+      "TodayBalance": 227983846000,
+      "YesBalance": 224554075000,
+      "buy": 11803322000,
+      "date": "2025-07-23",
+      "name": "MarginPurchaseMoney",
+      "Return": 173090000,
+      "sell": 8200461000
+    },
+    {
+      "TodayBalance": 6961426,
+      "YesBalance": 6932375,
+      "buy": 245578,
+      "date": "2025-07-23",
+      "name": "MarginPurchase",
+      "Return": 7188,
+      "sell": 209339
+    },
+    {
+      "TodayBalance": 6860489,
+      "YesBalance": 6854277,
+      "buy": 236305,
+      "date": "2025-07-24",
+      "name": "MarginPurchase",
+      "Return": 32736,
+      "sell": 197357
+    },
+    {
+      "TodayBalance": 262652,
+      "YesBalance": 288242,
+      "buy": 35188,
+      "date": "2025-07-24",
+      "name": "ShortSale",
+      "Return": 9814,
+      "sell": 19412
+    },
+    {
+      "TodayBalance": 229227323000,
+      "YesBalance": 227983407000,
+      "buy": 11214331000,
+      "date": "2025-07-24",
+      "name": "MarginPurchaseMoney",
+      "Return": 521383000,
+      "sell": 9449032000
+    },
+    {
+      "TodayBalance": 6879849,
+      "YesBalance": 6866114,
+      "buy": 218608,
+      "date": "2025-07-25",
+      "name": "MarginPurchase",
+      "Return": 7795,
+      "sell": 197078
+    },
+    {
+      "TodayBalance": 262676,
+      "YesBalance": 259799,
+      "buy": 14906,
+      "date": "2025-07-25",
+      "name": "ShortSale",
+      "Return": 2092,
+      "sell": 19875
+    },
+    {
+      "TodayBalance": 229580905000,
+      "YesBalance": 229227323000,
+      "buy": 8983205000,
+      "date": "2025-07-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 171153000,
+      "sell": 8458470000
+    },
+    {
+      "TodayBalance": 230048512000,
+      "YesBalance": 229580905000,
+      "buy": 11274656000,
+      "date": "2025-07-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 318137000,
+      "sell": 10488912000
+    },
+    {
+      "TodayBalance": 6877760,
+      "YesBalance": 6879839,
+      "buy": 234214,
+      "date": "2025-07-28",
+      "name": "MarginPurchase",
+      "Return": 23311,
+      "sell": 212982
+    },
+    {
+      "TodayBalance": 259572,
+      "YesBalance": 262676,
+      "buy": 12693,
+      "date": "2025-07-28",
+      "name": "ShortSale",
+      "Return": 8645,
+      "sell": 18234
+    },
+    {
+      "TodayBalance": 233568,
+      "YesBalance": 259572,
+      "buy": 22584,
+      "date": "2025-07-29",
+      "name": "ShortSale",
+      "Return": 24226,
+      "sell": 20806
+    },
+    {
+      "TodayBalance": 229520930000,
+      "YesBalance": 230048512000,
+      "buy": 11330244000,
+      "date": "2025-07-29",
+      "name": "MarginPurchaseMoney",
+      "Return": 340918000,
+      "sell": 11516908000
+    },
+    {
+      "TodayBalance": 6862271,
+      "YesBalance": 6878852,
+      "buy": 238312,
+      "date": "2025-07-29",
+      "name": "MarginPurchase",
+      "Return": 11818,
+      "sell": 243075
+    },
+    {
+      "TodayBalance": 6850445,
+      "YesBalance": 6862270,
+      "buy": 208947,
+      "date": "2025-07-30",
+      "name": "MarginPurchase",
+      "Return": 5906,
+      "sell": 214866
+    },
+    {
+      "TodayBalance": 248212,
+      "YesBalance": 233568,
+      "buy": 13725,
+      "date": "2025-07-30",
+      "name": "ShortSale",
+      "Return": 3743,
+      "sell": 32112
+    },
+    {
+      "TodayBalance": 229782020000,
+      "YesBalance": 229520930000,
+      "buy": 9628668000,
+      "date": "2025-07-30",
+      "name": "MarginPurchaseMoney",
+      "Return": 348716000,
+      "sell": 9018862000
+    },
+    {
+      "TodayBalance": 6908591,
+      "YesBalance": 6850443,
+      "buy": 297020,
+      "date": "2025-07-31",
+      "name": "MarginPurchase",
+      "Return": 5268,
+      "sell": 233604
+    },
+    {
+      "TodayBalance": 244106,
+      "YesBalance": 248212,
+      "buy": 26444,
+      "date": "2025-07-31",
+      "name": "ShortSale",
+      "Return": 1020,
+      "sell": 23358
+    },
+    {
+      "TodayBalance": 231315484000,
+      "YesBalance": 229782020000,
+      "buy": 13643502000,
+      "date": "2025-07-31",
+      "name": "MarginPurchaseMoney",
+      "Return": 276593000,
+      "sell": 11833445000
+    },
+    {
+      "TodayBalance": 232588286000,
+      "YesBalance": 231315484000,
+      "buy": 12889364000,
+      "date": "2025-08-01",
+      "name": "MarginPurchaseMoney",
+      "Return": 261159000,
+      "sell": 11355403000
+    },
+    {
+      "TodayBalance": 6916589,
+      "YesBalance": 6908585,
+      "buy": 244236,
+      "date": "2025-08-01",
+      "name": "MarginPurchase",
+      "Return": 4968,
+      "sell": 231264
+    },
+    {
+      "TodayBalance": 244032,
+      "YesBalance": 244106,
+      "buy": 19779,
+      "date": "2025-08-01",
+      "name": "ShortSale",
+      "Return": 1009,
+      "sell": 20714
+    },
+    {
+      "TodayBalance": 233410481000,
+      "YesBalance": 232588286000,
+      "buy": 11289478000,
+      "date": "2025-08-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 265711000,
+      "sell": 10201571000
+    },
+    {
+      "TodayBalance": 233876,
+      "YesBalance": 244032,
+      "buy": 25217,
+      "date": "2025-08-04",
+      "name": "ShortSale",
+      "Return": 1206,
+      "sell": 16267
+    },
+    {
+      "TodayBalance": 6908327,
+      "YesBalance": 6916584,
+      "buy": 238253,
+      "date": "2025-08-04",
+      "name": "MarginPurchase",
+      "Return": 9317,
+      "sell": 237193
+    },
+    {
+      "TodayBalance": 6940510,
+      "YesBalance": 6908324,
+      "buy": 275670,
+      "date": "2025-08-05",
+      "name": "MarginPurchase",
+      "Return": 3272,
+      "sell": 240212
+    },
+    {
+      "TodayBalance": 238525,
+      "YesBalance": 233876,
+      "buy": 14741,
+      "date": "2025-08-05",
+      "name": "ShortSale",
+      "Return": 1322,
+      "sell": 20712
+    },
+    {
+      "TodayBalance": 235386924000,
+      "YesBalance": 233410441000,
+      "buy": 13923259000,
+      "date": "2025-08-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 149230000,
+      "sell": 11797546000
+    },
+    {
+      "TodayBalance": 236036183000,
+      "YesBalance": 235386899000,
+      "buy": 12136811000,
+      "date": "2025-08-06",
+      "name": "MarginPurchaseMoney",
+      "Return": 271456000,
+      "sell": 11216071000
+    },
+    {
+      "TodayBalance": 6953218,
+      "YesBalance": 6940509,
+      "buy": 236442,
+      "date": "2025-08-06",
+      "name": "MarginPurchase",
+      "Return": 8655,
+      "sell": 215078
+    },
+    {
+      "TodayBalance": 242672,
+      "YesBalance": 238525,
+      "buy": 16020,
+      "date": "2025-08-06",
+      "name": "ShortSale",
+      "Return": 1185,
+      "sell": 21352
+    },
+    {
+      "TodayBalance": 250712,
+      "YesBalance": 242672,
+      "buy": 15667,
+      "date": "2025-08-07",
+      "name": "ShortSale",
+      "Return": 2708,
+      "sell": 26415
+    },
+    {
+      "TodayBalance": 237514928000,
+      "YesBalance": 236036507000,
+      "buy": 15798054000,
+      "date": "2025-08-07",
+      "name": "MarginPurchaseMoney",
+      "Return": 201851000,
+      "sell": 14117782000
+    },
+    {
+      "TodayBalance": 6956042,
+      "YesBalance": 6953221,
+      "buy": 271906,
+      "date": "2025-08-07",
+      "name": "MarginPurchase",
+      "Return": 6351,
+      "sell": 262734
+    },
+    {
+      "TodayBalance": 238613969000,
+      "YesBalance": 237514138000,
+      "buy": 14984928000,
+      "date": "2025-08-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 261863000,
+      "sell": 13623234000
+    },
+    {
+      "TodayBalance": 6964032,
+      "YesBalance": 6956025,
+      "buy": 283110,
+      "date": "2025-08-08",
+      "name": "MarginPurchase",
+      "Return": 4388,
+      "sell": 270715
+    },
+    {
+      "TodayBalance": 251486,
+      "YesBalance": 250710,
+      "buy": 21201,
+      "date": "2025-08-08",
+      "name": "ShortSale",
+      "Return": 896,
+      "sell": 22873
+    },
+    {
+      "TodayBalance": 7025082,
+      "YesBalance": 6964048,
+      "buy": 316900,
+      "date": "2025-08-11",
+      "name": "MarginPurchase",
+      "Return": 5087,
+      "sell": 250779
+    },
+    {
+      "TodayBalance": 254595,
+      "YesBalance": 251486,
+      "buy": 18843,
+      "date": "2025-08-11",
+      "name": "ShortSale",
+      "Return": 2379,
+      "sell": 24331
+    },
+    {
+      "TodayBalance": 242509549000,
+      "YesBalance": 238616660000,
+      "buy": 17620044000,
+      "date": "2025-08-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 204803000,
+      "sell": 13522352000
+    },
+    {
+      "TodayBalance": 7020599,
+      "YesBalance": 7025077,
+      "buy": 304688,
+      "date": "2025-08-12",
+      "name": "MarginPurchase",
+      "Return": 7336,
+      "sell": 301830
+    },
+    {
+      "TodayBalance": 262015,
+      "YesBalance": 254595,
+      "buy": 14805,
+      "date": "2025-08-12",
+      "name": "ShortSale",
+      "Return": 1195,
+      "sell": 23420
+    },
+    {
+      "TodayBalance": 243266443000,
+      "YesBalance": 242509549000,
+      "buy": 16414072000,
+      "date": "2025-08-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 376360000,
+      "sell": 15280818000
+    },
+    {
+      "TodayBalance": 262196,
+      "YesBalance": 262015,
+      "buy": 20994,
+      "date": "2025-08-13",
+      "name": "ShortSale",
+      "Return": 4274,
+      "sell": 25449
+    },
+    {
+      "TodayBalance": 242383930000,
+      "YesBalance": 243266413000,
+      "buy": 18450826000,
+      "date": "2025-08-13",
+      "name": "MarginPurchaseMoney",
+      "Return": 204832000,
+      "sell": 19128477000
+    },
+    {
+      "TodayBalance": 6999135,
+      "YesBalance": 7020598,
+      "buy": 357242,
+      "date": "2025-08-13",
+      "name": "MarginPurchase",
+      "Return": 4522,
+      "sell": 374183
+    },
+    {
+      "TodayBalance": 7024342,
+      "YesBalance": 6999127,
+      "buy": 327064,
+      "date": "2025-08-14",
+      "name": "MarginPurchase",
+      "Return": 4118,
+      "sell": 297731
+    },
+    {
+      "TodayBalance": 265817,
+      "YesBalance": 262196,
+      "buy": 16329,
+      "date": "2025-08-14",
+      "name": "ShortSale",
+      "Return": 2053,
+      "sell": 22003
+    },
+    {
+      "TodayBalance": 245037336000,
+      "YesBalance": 242381988000,
+      "buy": 17543129000,
+      "date": "2025-08-14",
+      "name": "MarginPurchaseMoney",
+      "Return": 177451000,
+      "sell": 14710330000
+    },
+    {
+      "TodayBalance": 7075184,
+      "YesBalance": 7024335,
+      "buy": 350853,
+      "date": "2025-08-15",
+      "name": "MarginPurchase",
+      "Return": 9915,
+      "sell": 290089
+    },
+    {
+      "TodayBalance": 273209,
+      "YesBalance": 265817,
+      "buy": 21121,
+      "date": "2025-08-15",
+      "name": "ShortSale",
+      "Return": 1693,
+      "sell": 30206
+    },
+    {
+      "TodayBalance": 248323607000,
+      "YesBalance": 245039278000,
+      "buy": 16972687000,
+      "date": "2025-08-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 277555000,
+      "sell": 13410803000
+    },
+    {
+      "TodayBalance": 249893217000,
+      "YesBalance": 248323823000,
+      "buy": 17748148000,
+      "date": "2025-08-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 312420000,
+      "sell": 15866334000
+    },
+    {
+      "TodayBalance": 7127670,
+      "YesBalance": 7075177,
+      "buy": 403656,
+      "date": "2025-08-18",
+      "name": "MarginPurchase",
+      "Return": 8266,
+      "sell": 342897
+    },
+    {
+      "TodayBalance": 282409,
+      "YesBalance": 273209,
+      "buy": 16752,
+      "date": "2025-08-18",
+      "name": "ShortSale",
+      "Return": 2976,
+      "sell": 28928
+    },
+    {
+      "TodayBalance": 280314,
+      "YesBalance": 282409,
+      "buy": 21824,
+      "date": "2025-08-19",
+      "name": "ShortSale",
+      "Return": 3215,
+      "sell": 22944
+    },
+    {
+      "TodayBalance": 250196431000,
+      "YesBalance": 249893217000,
+      "buy": 17749358000,
+      "date": "2025-08-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 295993000,
+      "sell": 17150151000
+    },
+    {
+      "TodayBalance": 7114832,
+      "YesBalance": 7127666,
+      "buy": 350945,
+      "date": "2025-08-19",
+      "name": "MarginPurchase",
+      "Return": 9384,
+      "sell": 354395
+    },
+    {
+      "TodayBalance": 7072613,
+      "YesBalance": 7114827,
+      "buy": 304329,
+      "date": "2025-08-20",
+      "name": "MarginPurchase",
+      "Return": 6037,
+      "sell": 340506
+    },
+    {
+      "TodayBalance": 259187,
+      "YesBalance": 280314,
+      "buy": 36976,
+      "date": "2025-08-20",
+      "name": "ShortSale",
+      "Return": 5860,
+      "sell": 21709
+    },
+    {
+      "TodayBalance": 248938691000,
+      "YesBalance": 250196431000,
+      "buy": 16291485000,
+      "date": "2025-08-20",
+      "name": "MarginPurchaseMoney",
+      "Return": 231911000,
+      "sell": 17317313000
+    },
+    {
+      "TodayBalance": 7099289,
+      "YesBalance": 7072608,
+      "buy": 311367,
+      "date": "2025-08-21",
+      "name": "MarginPurchase",
+      "Return": 8011,
+      "sell": 276675
+    },
+    {
+      "TodayBalance": 264293,
+      "YesBalance": 259187,
+      "buy": 15599,
+      "date": "2025-08-21",
+      "name": "ShortSale",
+      "Return": 2716,
+      "sell": 23421
+    },
+    {
+      "TodayBalance": 251706436000,
+      "YesBalance": 248938691000,
+      "buy": 14469809000,
+      "date": "2025-08-21",
+      "name": "MarginPurchaseMoney",
+      "Return": 291906000,
+      "sell": 11410158000
+    },
+    {
+      "TodayBalance": 251544566000,
+      "YesBalance": 251706436000,
+      "buy": 12051818000,
+      "date": "2025-08-22",
+      "name": "MarginPurchaseMoney",
+      "Return": 285278000,
+      "sell": 11928410000
+    },
+    {
+      "TodayBalance": 7078260,
+      "YesBalance": 7099282,
+      "buy": 260850,
+      "date": "2025-08-22",
+      "name": "MarginPurchase",
+      "Return": 5592,
+      "sell": 276280
+    },
+    {
+      "TodayBalance": 264434,
+      "YesBalance": 264283,
+      "buy": 18574,
+      "date": "2025-08-22",
+      "name": "ShortSale",
+      "Return": 3090,
+      "sell": 21815
+    },
+    {
+      "TodayBalance": 253933965000,
+      "YesBalance": 251544566000,
+      "buy": 18204399000,
+      "date": "2025-08-25",
+      "name": "MarginPurchaseMoney",
+      "Return": 174409000,
+      "sell": 15640591000
+    },
+    {
+      "TodayBalance": 283199,
+      "YesBalance": 264434,
+      "buy": 13247,
+      "date": "2025-08-25",
+      "name": "ShortSale",
+      "Return": 1487,
+      "sell": 33499
+    },
+    {
+      "TodayBalance": 7120916,
+      "YesBalance": 7097838,
+      "buy": 340417,
+      "date": "2025-08-25",
+      "name": "MarginPurchase",
+      "Return": 4030,
+      "sell": 313309
+    },
+    {
+      "TodayBalance": 7148622,
+      "YesBalance": 7120906,
+      "buy": 324171,
+      "date": "2025-08-26",
+      "name": "MarginPurchase",
+      "Return": 6204,
+      "sell": 290251
+    },
+    {
+      "TodayBalance": 290776,
+      "YesBalance": 283199,
+      "buy": 16732,
+      "date": "2025-08-26",
+      "name": "ShortSale",
+      "Return": 2898,
+      "sell": 27207
+    },
+    {
+      "TodayBalance": 255260819000,
+      "YesBalance": 253933965000,
+      "buy": 16234403000,
+      "date": "2025-08-26",
+      "name": "MarginPurchaseMoney",
+      "Return": 224860000,
+      "sell": 14682689000
+    },
+    {
+      "TodayBalance": 258305814000,
+      "YesBalance": 255260819000,
+      "buy": 19988719000,
+      "date": "2025-08-27",
+      "name": "MarginPurchaseMoney",
+      "Return": 186192000,
+      "sell": 16757532000
+    },
+    {
+      "TodayBalance": 7157587,
+      "YesBalance": 7148615,
+      "buy": 342359,
+      "date": "2025-08-27",
+      "name": "MarginPurchase",
+      "Return": 4306,
+      "sell": 329081
+    },
+    {
+      "TodayBalance": 284183,
+      "YesBalance": 290776,
+      "buy": 24196,
+      "date": "2025-08-27",
+      "name": "ShortSale",
+      "Return": 3650,
+      "sell": 21253
+    },
+    {
+      "TodayBalance": 283860,
+      "YesBalance": 284183,
+      "buy": 16230,
+      "date": "2025-08-28",
+      "name": "ShortSale",
+      "Return": 2138,
+      "sell": 18045
+    },
+    {
+      "TodayBalance": 260232173000,
+      "YesBalance": 258305814000,
+      "buy": 17781083000,
+      "date": "2025-08-28",
+      "name": "MarginPurchaseMoney",
+      "Return": 182196000,
+      "sell": 15672528000
+    },
+    {
+      "TodayBalance": 7187773,
+      "YesBalance": 7157581,
+      "buy": 338853,
+      "date": "2025-08-28",
+      "name": "MarginPurchase",
+      "Return": 3939,
+      "sell": 304722
+    },
+    {
+      "TodayBalance": 262327206000,
+      "YesBalance": 260232173000,
+      "buy": 19335876000,
+      "date": "2025-08-29",
+      "name": "MarginPurchaseMoney",
+      "Return": 284739000,
+      "sell": 16956104000
+    },
+    {
+      "TodayBalance": 7204181,
+      "YesBalance": 7187770,
+      "buy": 332929,
+      "date": "2025-08-29",
+      "name": "MarginPurchase",
+      "Return": 10437,
+      "sell": 306081
+    },
+    {
+      "TodayBalance": 287081,
+      "YesBalance": 283860,
+      "buy": 15057,
+      "date": "2025-08-29",
+      "name": "ShortSale",
+      "Return": 1670,
+      "sell": 19948
+    },
+    {
+      "TodayBalance": 7160345,
+      "YesBalance": 7204177,
+      "buy": 329944,
+      "date": "2025-09-01",
+      "name": "MarginPurchase",
+      "Return": 6662,
+      "sell": 367114
+    },
+    {
+      "TodayBalance": 284097,
+      "YesBalance": 287081,
+      "buy": 23882,
+      "date": "2025-09-01",
+      "name": "ShortSale",
+      "Return": 2450,
+      "sell": 23348
+    },
+    {
+      "TodayBalance": 259146921000,
+      "YesBalance": 262327206000,
+      "buy": 19463700000,
+      "date": "2025-09-01",
+      "name": "MarginPurchaseMoney",
+      "Return": 224381000,
+      "sell": 22419603000
+    },
+    {
+      "TodayBalance": 7142070,
+      "YesBalance": 7160339,
+      "buy": 273081,
+      "date": "2025-09-02",
+      "name": "MarginPurchase",
+      "Return": 4873,
+      "sell": 286477
+    },
+    {
+      "TodayBalance": 274300,
+      "YesBalance": 284097,
+      "buy": 25998,
+      "date": "2025-09-02",
+      "name": "ShortSale",
+      "Return": 3263,
+      "sell": 19464
+    },
+    {
+      "TodayBalance": 259012511000,
+      "YesBalance": 259146921000,
+      "buy": 14353736000,
+      "date": "2025-09-02",
+      "name": "MarginPurchaseMoney",
+      "Return": 183454000,
+      "sell": 14304692000
+    },
+    {
+      "TodayBalance": 284995,
+      "YesBalance": 274300,
+      "buy": 11567,
+      "date": "2025-09-03",
+      "name": "ShortSale",
+      "Return": 3007,
+      "sell": 25269
+    },
+    {
+      "TodayBalance": 261032905000,
+      "YesBalance": 259012527000,
+      "buy": 13600822000,
+      "date": "2025-09-03",
+      "name": "MarginPurchaseMoney",
+      "Return": 410678000,
+      "sell": 11169766000
+    },
+    {
+      "TodayBalance": 7173616,
+      "YesBalance": 7142068,
+      "buy": 264345,
+      "date": "2025-09-03",
+      "name": "MarginPurchase",
+      "Return": 9777,
+      "sell": 223020
+    },
+    {
+      "TodayBalance": 7190076,
+      "YesBalance": 7173613,
+      "buy": 352786,
+      "date": "2025-09-04",
+      "name": "MarginPurchase",
+      "Return": 17011,
+      "sell": 319312
+    },
+    {
+      "TodayBalance": 277151,
+      "YesBalance": 284995,
+      "buy": 26538,
+      "date": "2025-09-04",
+      "name": "ShortSale",
+      "Return": 2506,
+      "sell": 21200
+    },
+    {
+      "TodayBalance": 261541660000,
+      "YesBalance": 261032834000,
+      "buy": 16508517000,
+      "date": "2025-09-04",
+      "name": "MarginPurchaseMoney",
+      "Return": 309810000,
+      "sell": 15689881000
+    },
+    {
+      "TodayBalance": 7228105,
+      "YesBalance": 7190074,
+      "buy": 314657,
+      "date": "2025-09-05",
+      "name": "MarginPurchase",
+      "Return": 9604,
+      "sell": 267022
+    },
+    {
+      "TodayBalance": 283235,
+      "YesBalance": 277151,
+      "buy": 14787,
+      "date": "2025-09-05",
+      "name": "ShortSale",
+      "Return": 1862,
+      "sell": 22733
+    },
+    {
+      "TodayBalance": 264481986000,
+      "YesBalance": 261541660000,
+      "buy": 16674618000,
+      "date": "2025-09-05",
+      "name": "MarginPurchaseMoney",
+      "Return": 275991000,
+      "sell": 13458301000
+    },
+    {
+      "TodayBalance": 7273265,
+      "YesBalance": 7228685,
+      "buy": 389114,
+      "date": "2025-09-08",
+      "name": "MarginPurchase",
+      "Return": 14829,
+      "sell": 329705
+    },
+    {
+      "TodayBalance": 278076,
+      "YesBalance": 283235,
+      "buy": 19550,
+      "date": "2025-09-08",
+      "name": "ShortSale",
+      "Return": 5282,
+      "sell": 19673
+    },
+    {
+      "TodayBalance": 266510445000,
+      "YesBalance": 264502119000,
+      "buy": 18364086000,
+      "date": "2025-09-08",
+      "name": "MarginPurchaseMoney",
+      "Return": 495638000,
+      "sell": 15860122000
+    },
+    {
+      "TodayBalance": 267537039000,
+      "YesBalance": 266510445000,
+      "buy": 18379930000,
+      "date": "2025-09-09",
+      "name": "MarginPurchaseMoney",
+      "Return": 225675000,
+      "sell": 17127661000
+    },
+    {
+      "TodayBalance": 7273085,
+      "YesBalance": 7273259,
+      "buy": 339279,
+      "date": "2025-09-09",
+      "name": "MarginPurchase",
+      "Return": 7095,
+      "sell": 332358
+    },
+    {
+      "TodayBalance": 282463,
+      "YesBalance": 278076,
+      "buy": 16111,
+      "date": "2025-09-09",
+      "name": "ShortSale",
+      "Return": 1556,
+      "sell": 22054
+    },
+    {
+      "TodayBalance": 7315318,
+      "YesBalance": 7273076,
+      "buy": 389005,
+      "date": "2025-09-10",
+      "name": "MarginPurchase",
+      "Return": 8823,
+      "sell": 337940
+    },
+    {
+      "TodayBalance": 286959,
+      "YesBalance": 282463,
+      "buy": 17164,
+      "date": "2025-09-10",
+      "name": "ShortSale",
+      "Return": 1764,
+      "sell": 23424
+    },
+    {
+      "TodayBalance": 269963070000,
+      "YesBalance": 267536355000,
+      "buy": 20214431000,
+      "date": "2025-09-10",
+      "name": "MarginPurchaseMoney",
+      "Return": 399325000,
+      "sell": 17388390000
+    },
+    {
+      "TodayBalance": 7246251,
+      "YesBalance": 7315313,
+      "buy": 364756,
+      "date": "2025-09-11",
+      "name": "MarginPurchase",
+      "Return": 9335,
+      "sell": 424483
+    },
+    {
+      "TodayBalance": 290002,
+      "YesBalance": 286959,
+      "buy": 19965,
+      "date": "2025-09-11",
+      "name": "ShortSale",
+      "Return": 2122,
+      "sell": 25130
+    },
+    {
+      "TodayBalance": 265854797000,
+      "YesBalance": 269963070000,
+      "buy": 19027228000,
+      "date": "2025-09-11",
+      "name": "MarginPurchaseMoney",
+      "Return": 335018000,
+      "sell": 22800483000
+    },
+    {
+      "TodayBalance": 7271607,
+      "YesBalance": 7246246,
+      "buy": 332952,
+      "date": "2025-09-12",
+      "name": "MarginPurchase",
+      "Return": 8517,
+      "sell": 299074
+    },
+    {
+      "TodayBalance": 297663,
+      "YesBalance": 290002,
+      "buy": 18495,
+      "date": "2025-09-12",
+      "name": "ShortSale",
+      "Return": 1784,
+      "sell": 27940
+    },
+    {
+      "TodayBalance": 265614897000,
+      "YesBalance": 265854797000,
+      "buy": 16228196000,
+      "date": "2025-09-12",
+      "name": "MarginPurchaseMoney",
+      "Return": 373314000,
+      "sell": 16094782000
+    },
+    {
+      "TodayBalance": 7262270,
+      "YesBalance": 7267460,
+      "buy": 278893,
+      "date": "2025-09-15",
+      "name": "MarginPurchase",
+      "Return": 8446,
+      "sell": 275637
+    },
+    {
+      "TodayBalance": 294399,
+      "YesBalance": 297663,
+      "buy": 22440,
+      "date": "2025-09-15",
+      "name": "ShortSale",
+      "Return": 6412,
+      "sell": 25588
+    },
+    {
+      "TodayBalance": 264210665000,
+      "YesBalance": 265614872000,
+      "buy": 12797347000,
+      "date": "2025-09-15",
+      "name": "MarginPurchaseMoney",
+      "Return": 244529000,
+      "sell": 13957025000
+    },
+    {
+      "TodayBalance": 298612,
+      "YesBalance": 294399,
+      "buy": 21383,
+      "date": "2025-09-16",
+      "name": "ShortSale",
+      "Return": 5809,
+      "sell": 31405
+    },
+    {
+      "TodayBalance": 7274679,
+      "YesBalance": 7262258,
+      "buy": 284329,
+      "date": "2025-09-16",
+      "name": "MarginPurchase",
+      "Return": 5370,
+      "sell": 266538
+    },
+    {
+      "TodayBalance": 265856690000,
+      "YesBalance": 264210665000,
+      "buy": 14050642000,
+      "date": "2025-09-16",
+      "name": "MarginPurchaseMoney",
+      "Return": 401181000,
+      "sell": 12003436000
+    },
+    {
+      "TodayBalance": 319329,
+      "YesBalance": 298612,
+      "buy": 16633,
+      "date": "2025-09-17",
+      "name": "ShortSale",
+      "Return": 3822,
+      "sell": 41172
+    },
+    {
+      "TodayBalance": 7240060,
+      "YesBalance": 7274671,
+      "buy": 277624,
+      "date": "2025-09-17",
+      "name": "MarginPurchase",
+      "Return": 3364,
+      "sell": 308871
+    },
+    {
+      "TodayBalance": 264869230000,
+      "YesBalance": 265856690000,
+      "buy": 12719220000,
+      "date": "2025-09-17",
+      "name": "MarginPurchaseMoney",
+      "Return": 154968000,
+      "sell": 13551712000
+    },
+    {
+      "TodayBalance": 333640,
+      "YesBalance": 319329,
+      "buy": 21344,
+      "date": "2025-09-18",
+      "name": "ShortSale",
+      "Return": 3467,
+      "sell": 39122
+    },
+    {
+      "TodayBalance": 7252123,
+      "YesBalance": 7240062,
+      "buy": 345714,
+      "date": "2025-09-18",
+      "name": "MarginPurchase",
+      "Return": 16932,
+      "sell": 316721
+    },
+    {
+      "TodayBalance": 266808583000,
+      "YesBalance": 264869284000,
+      "buy": 15992474000,
+      "date": "2025-09-18",
+      "name": "MarginPurchaseMoney",
+      "Return": 435684000,
+      "sell": 13617491000
+    },
+    {
+      "TodayBalance": 336185,
+      "YesBalance": 333641,
+      "buy": 27946,
+      "date": "2025-09-19",
+      "name": "ShortSale",
+      "Return": 3381,
+      "sell": 33871
+    },
+    {
+      "TodayBalance": 7245469,
+      "YesBalance": 7252117,
+      "buy": 330287,
+      "date": "2025-09-19",
+      "name": "MarginPurchase",
+      "Return": 10566,
+      "sell": 326369
+    },
+    {
+      "TodayBalance": 268834779000,
+      "YesBalance": 266808583000,
+      "buy": 17343263000,
+      "date": "2025-09-19",
+      "name": "MarginPurchaseMoney",
+      "Return": 425868000,
+      "sell": 14891199000
+    }
+  ]
+}

@@ -1,0 +1,8754 @@
+{
+  "msg": "success",
+  "status": 200,
+  "data": [
+    {
+      "buy": 5803185391,
+      "date": "2024-09-23",
+      "name": "Dealer_self",
+      "sell": 2475416569
+    },
+    {
+      "buy": 0,
+      "date": "2024-09-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9235292993,
+      "date": "2024-09-23",
+      "name": "Dealer_Hedging",
+      "sell": 9663992750
+    },
+    {
+      "buy": 14022914700,
+      "date": "2024-09-23",
+      "name": "Investment_Trust",
+      "sell": 9722844092
+    },
+    {
+      "buy": 102398177937,
+      "date": "2024-09-23",
+      "name": "Foreign_Investor",
+      "sell": 90807864936
+    },
+    {
+      "buy": 131459571021,
+      "date": "2024-09-23",
+      "name": "total",
+      "sell": 112670118347
+    },
+    {
+      "buy": 154567122933,
+      "date": "2024-09-24",
+      "name": "total",
+      "sell": 140878100720
+    },
+    {
+      "buy": 124288107459,
+      "date": "2024-09-24",
+      "name": "Foreign_Investor",
+      "sell": 113741947360
+    },
+    {
+      "buy": 13227061797,
+      "date": "2024-09-24",
+      "name": "Investment_Trust",
+      "sell": 12504844749
+    },
+    {
+      "buy": 0,
+      "date": "2024-09-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4122964677,
+      "date": "2024-09-24",
+      "name": "Dealer_self",
+      "sell": 3113012575
+    },
+    {
+      "buy": 12928989000,
+      "date": "2024-09-24",
+      "name": "Dealer_Hedging",
+      "sell": 11518296036
+    },
+    {
+      "buy": 11319338084,
+      "date": "2024-09-25",
+      "name": "Dealer_self",
+      "sell": 3338539378
+    },
+    {
+      "buy": 0,
+      "date": "2024-09-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15343605864,
+      "date": "2024-09-25",
+      "name": "Dealer_Hedging",
+      "sell": 10503069802
+    },
+    {
+      "buy": 13059626286,
+      "date": "2024-09-25",
+      "name": "Investment_Trust",
+      "sell": 10914474781
+    },
+    {
+      "buy": 171310509835,
+      "date": "2024-09-25",
+      "name": "Foreign_Investor",
+      "sell": 136571247441
+    },
+    {
+      "buy": 211033080069,
+      "date": "2024-09-25",
+      "name": "total",
+      "sell": 161327331402
+    },
+    {
+      "buy": 200595301166,
+      "date": "2024-09-26",
+      "name": "total",
+      "sell": 173976843777
+    },
+    {
+      "buy": 163576189864,
+      "date": "2024-09-26",
+      "name": "Foreign_Investor",
+      "sell": 142366022339
+    },
+    {
+      "buy": 14190614054,
+      "date": "2024-09-26",
+      "name": "Investment_Trust",
+      "sell": 13652613274
+    },
+    {
+      "buy": 0,
+      "date": "2024-09-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8299981935,
+      "date": "2024-09-26",
+      "name": "Dealer_self",
+      "sell": 4709463541
+    },
+    {
+      "buy": 14528515313,
+      "date": "2024-09-26",
+      "name": "Dealer_Hedging",
+      "sell": 13248744623
+    },
+    {
+      "buy": 6228280979,
+      "date": "2024-09-27",
+      "name": "Dealer_self",
+      "sell": 4050520990
+    },
+    {
+      "buy": 0,
+      "date": "2024-09-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 16996863327,
+      "date": "2024-09-27",
+      "name": "Dealer_Hedging",
+      "sell": 14655822792
+    },
+    {
+      "buy": 9321269701,
+      "date": "2024-09-27",
+      "name": "Investment_Trust",
+      "sell": 8344267653
+    },
+    {
+      "buy": 163713451668,
+      "date": "2024-09-27",
+      "name": "Foreign_Investor",
+      "sell": 139063994040
+    },
+    {
+      "buy": 196259865675,
+      "date": "2024-09-27",
+      "name": "total",
+      "sell": 166114605475
+    },
+    {
+      "buy": 14564695569,
+      "date": "2024-09-30",
+      "name": "Dealer_Hedging",
+      "sell": 22818270099
+    },
+    {
+      "buy": 158470964306,
+      "date": "2024-09-30",
+      "name": "total",
+      "sell": 209163484964
+    },
+    {
+      "buy": 135364045207,
+      "date": "2024-09-30",
+      "name": "Foreign_Investor",
+      "sell": 175704682637
+    },
+    {
+      "buy": 0,
+      "date": "2024-09-30",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3682371093,
+      "date": "2024-09-30",
+      "name": "Dealer_self",
+      "sell": 4840163112
+    },
+    {
+      "buy": 4859852437,
+      "date": "2024-09-30",
+      "name": "Investment_Trust",
+      "sell": 5800369116
+    },
+    {
+      "buy": 88893481905,
+      "date": "2024-10-01",
+      "name": "Foreign_Investor",
+      "sell": 98201122967
+    },
+    {
+      "buy": 3572802012,
+      "date": "2024-10-01",
+      "name": "Dealer_self",
+      "sell": 4390740655
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-01",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9204621796,
+      "date": "2024-10-01",
+      "name": "Dealer_Hedging",
+      "sell": 14016674653
+    },
+    {
+      "buy": 11270879916,
+      "date": "2024-10-01",
+      "name": "Investment_Trust",
+      "sell": 9813071142
+    },
+    {
+      "buy": 112941785629,
+      "date": "2024-10-01",
+      "name": "total",
+      "sell": 126421609417
+    },
+    {
+      "buy": 190900054270,
+      "date": "2024-10-04",
+      "name": "total",
+      "sell": 213957468769
+    },
+    {
+      "buy": 10209136978,
+      "date": "2024-10-04",
+      "name": "Investment_Trust",
+      "sell": 6761797423
+    },
+    {
+      "buy": 156975347788,
+      "date": "2024-10-04",
+      "name": "Foreign_Investor",
+      "sell": 179294217230
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5073001645,
+      "date": "2024-10-04",
+      "name": "Dealer_self",
+      "sell": 6858838433
+    },
+    {
+      "buy": 18642567859,
+      "date": "2024-10-04",
+      "name": "Dealer_Hedging",
+      "sell": 21042615683
+    },
+    {
+      "buy": 7213362463,
+      "date": "2024-10-07",
+      "name": "Dealer_self",
+      "sell": 3628846634
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 17198803238,
+      "date": "2024-10-07",
+      "name": "Dealer_Hedging",
+      "sell": 17544326879
+    },
+    {
+      "buy": 9546424665,
+      "date": "2024-10-07",
+      "name": "Investment_Trust",
+      "sell": 4556486217
+    },
+    {
+      "buy": 143271123315,
+      "date": "2024-10-07",
+      "name": "Foreign_Investor",
+      "sell": 141524608189
+    },
+    {
+      "buy": 177229713681,
+      "date": "2024-10-07",
+      "name": "total",
+      "sell": 167254267919
+    },
+    {
+      "buy": 161840192512,
+      "date": "2024-10-08",
+      "name": "total",
+      "sell": 192553387475
+    },
+    {
+      "buy": 8593247312,
+      "date": "2024-10-08",
+      "name": "Investment_Trust",
+      "sell": 5440280647
+    },
+    {
+      "buy": 131550589443,
+      "date": "2024-10-08",
+      "name": "Foreign_Investor",
+      "sell": 156681286105
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3226600257,
+      "date": "2024-10-08",
+      "name": "Dealer_self",
+      "sell": 5342619343
+    },
+    {
+      "buy": 18469755500,
+      "date": "2024-10-08",
+      "name": "Dealer_Hedging",
+      "sell": 25089201380
+    },
+    {
+      "buy": 3859597305,
+      "date": "2024-10-09",
+      "name": "Dealer_self",
+      "sell": 5166870285
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13879313629,
+      "date": "2024-10-09",
+      "name": "Dealer_Hedging",
+      "sell": 18451352744
+    },
+    {
+      "buy": 7152022432,
+      "date": "2024-10-09",
+      "name": "Investment_Trust",
+      "sell": 4991235216
+    },
+    {
+      "buy": 145886618658,
+      "date": "2024-10-09",
+      "name": "Foreign_Investor",
+      "sell": 132566243916
+    },
+    {
+      "buy": 170777552024,
+      "date": "2024-10-09",
+      "name": "total",
+      "sell": 161175702161
+    },
+    {
+      "buy": 161243913288,
+      "date": "2024-10-11",
+      "name": "total",
+      "sell": 139110848266
+    },
+    {
+      "buy": 140509639142,
+      "date": "2024-10-11",
+      "name": "Foreign_Investor",
+      "sell": 118521110915
+    },
+    {
+      "buy": 5117040272,
+      "date": "2024-10-11",
+      "name": "Investment_Trust",
+      "sell": 2725500054
+    },
+    {
+      "buy": 11749717967,
+      "date": "2024-10-11",
+      "name": "Dealer_Hedging",
+      "sell": 14400104434
+    },
+    {
+      "buy": 3867515907,
+      "date": "2024-10-11",
+      "name": "Dealer_self",
+      "sell": 3464132863
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3793409157,
+      "date": "2024-10-14",
+      "name": "Dealer_self",
+      "sell": 2575147210
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 12024814574,
+      "date": "2024-10-14",
+      "name": "Dealer_Hedging",
+      "sell": 12968270733
+    },
+    {
+      "buy": 8866012075,
+      "date": "2024-10-14",
+      "name": "Investment_Trust",
+      "sell": 3594615422
+    },
+    {
+      "buy": 103596740999,
+      "date": "2024-10-14",
+      "name": "Foreign_Investor",
+      "sell": 105204440801
+    },
+    {
+      "buy": 128280976805,
+      "date": "2024-10-14",
+      "name": "total",
+      "sell": 124342474166
+    },
+    {
+      "buy": 190796605754,
+      "date": "2024-10-15",
+      "name": "total",
+      "sell": 153708788821
+    },
+    {
+      "buy": 165554978359,
+      "date": "2024-10-15",
+      "name": "Foreign_Investor",
+      "sell": 132126499025
+    },
+    {
+      "buy": 7429378596,
+      "date": "2024-10-15",
+      "name": "Investment_Trust",
+      "sell": 4640236079
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4961385303,
+      "date": "2024-10-15",
+      "name": "Dealer_self",
+      "sell": 3507001008
+    },
+    {
+      "buy": 12850863496,
+      "date": "2024-10-15",
+      "name": "Dealer_Hedging",
+      "sell": 13435052709
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7719552084,
+      "date": "2024-10-16",
+      "name": "Dealer_self",
+      "sell": 4613165521
+    },
+    {
+      "buy": 15109305856,
+      "date": "2024-10-16",
+      "name": "Dealer_Hedging",
+      "sell": 20735190918
+    },
+    {
+      "buy": 6822220357,
+      "date": "2024-10-16",
+      "name": "Investment_Trust",
+      "sell": 6836291353
+    },
+    {
+      "buy": 160695924034,
+      "date": "2024-10-16",
+      "name": "Foreign_Investor",
+      "sell": 194775903466
+    },
+    {
+      "buy": 190347002331,
+      "date": "2024-10-16",
+      "name": "total",
+      "sell": 226960551258
+    },
+    {
+      "buy": 128284374825,
+      "date": "2024-10-17",
+      "name": "Foreign_Investor",
+      "sell": 132200569732
+    },
+    {
+      "buy": 156620776819,
+      "date": "2024-10-17",
+      "name": "total",
+      "sell": 152823640496
+    },
+    {
+      "buy": 6702075182,
+      "date": "2024-10-17",
+      "name": "Investment_Trust",
+      "sell": 4966317046
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13470959653,
+      "date": "2024-10-17",
+      "name": "Dealer_Hedging",
+      "sell": 13501531672
+    },
+    {
+      "buy": 8163367159,
+      "date": "2024-10-17",
+      "name": "Dealer_self",
+      "sell": 2155222046
+    },
+    {
+      "buy": 9264701664,
+      "date": "2024-10-18",
+      "name": "Dealer_self",
+      "sell": 4313902149
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18259746454,
+      "date": "2024-10-18",
+      "name": "Dealer_Hedging",
+      "sell": 13551024927
+    },
+    {
+      "buy": 5508558763,
+      "date": "2024-10-18",
+      "name": "Investment_Trust",
+      "sell": 6162329649
+    },
+    {
+      "buy": 200630321684,
+      "date": "2024-10-18",
+      "name": "Foreign_Investor",
+      "sell": 144009367275
+    },
+    {
+      "buy": 233663328565,
+      "date": "2024-10-18",
+      "name": "total",
+      "sell": 168036624000
+    },
+    {
+      "buy": 168812284467,
+      "date": "2024-10-21",
+      "name": "total",
+      "sell": 146029304908
+    },
+    {
+      "buy": 142337257955,
+      "date": "2024-10-21",
+      "name": "Foreign_Investor",
+      "sell": 121221051752
+    },
+    {
+      "buy": 10227400414,
+      "date": "2024-10-21",
+      "name": "Investment_Trust",
+      "sell": 8071290404
+    },
+    {
+      "buy": 10195710767,
+      "date": "2024-10-21",
+      "name": "Dealer_Hedging",
+      "sell": 13602577600
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6051915331,
+      "date": "2024-10-21",
+      "name": "Dealer_self",
+      "sell": 3134385152
+    },
+    {
+      "buy": 3481609023,
+      "date": "2024-10-22",
+      "name": "Dealer_self",
+      "sell": 3402573163
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10413966040,
+      "date": "2024-10-22",
+      "name": "Dealer_Hedging",
+      "sell": 12562487086
+    },
+    {
+      "buy": 11541151512,
+      "date": "2024-10-22",
+      "name": "Investment_Trust",
+      "sell": 7668513372
+    },
+    {
+      "buy": 140639008830,
+      "date": "2024-10-22",
+      "name": "Foreign_Investor",
+      "sell": 132781713289
+    },
+    {
+      "buy": 166075735405,
+      "date": "2024-10-22",
+      "name": "total",
+      "sell": 156415286910
+    },
+    {
+      "buy": 126211652502,
+      "date": "2024-10-23",
+      "name": "total",
+      "sell": 141075042099
+    },
+    {
+      "buy": 108111685818,
+      "date": "2024-10-23",
+      "name": "Foreign_Investor",
+      "sell": 116004962335
+    },
+    {
+      "buy": 6717515700,
+      "date": "2024-10-23",
+      "name": "Investment_Trust",
+      "sell": 6950952607
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2346828199,
+      "date": "2024-10-23",
+      "name": "Dealer_self",
+      "sell": 5502031127
+    },
+    {
+      "buy": 9035622785,
+      "date": "2024-10-23",
+      "name": "Dealer_Hedging",
+      "sell": 12617096030
+    },
+    {
+      "buy": 118440825441,
+      "date": "2024-10-24",
+      "name": "Foreign_Investor",
+      "sell": 125126082782
+    },
+    {
+      "buy": 5302982751,
+      "date": "2024-10-24",
+      "name": "Investment_Trust",
+      "sell": 5012982236
+    },
+    {
+      "buy": 136425509539,
+      "date": "2024-10-24",
+      "name": "total",
+      "sell": 151185151680
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2663736242,
+      "date": "2024-10-24",
+      "name": "Dealer_self",
+      "sell": 6035221066
+    },
+    {
+      "buy": 10017965105,
+      "date": "2024-10-24",
+      "name": "Dealer_Hedging",
+      "sell": 15010865596
+    },
+    {
+      "buy": 2618160081,
+      "date": "2024-10-25",
+      "name": "Dealer_self",
+      "sell": 2933343343
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8404056922,
+      "date": "2024-10-25",
+      "name": "Dealer_Hedging",
+      "sell": 7505992097
+    },
+    {
+      "buy": 6588747276,
+      "date": "2024-10-25",
+      "name": "Investment_Trust",
+      "sell": 7857693782
+    },
+    {
+      "buy": 105360018783,
+      "date": "2024-10-25",
+      "name": "Foreign_Investor",
+      "sell": 87444896840
+    },
+    {
+      "buy": 122970983062,
+      "date": "2024-10-25",
+      "name": "total",
+      "sell": 105741926062
+    },
+    {
+      "buy": 131660067924,
+      "date": "2024-10-28",
+      "name": "total",
+      "sell": 125731369224
+    },
+    {
+      "buy": 4418499820,
+      "date": "2024-10-28",
+      "name": "Investment_Trust",
+      "sell": 4550389902
+    },
+    {
+      "buy": 112305686842,
+      "date": "2024-10-28",
+      "name": "Foreign_Investor",
+      "sell": 104299424502
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4939885851,
+      "date": "2024-10-28",
+      "name": "Dealer_self",
+      "sell": 3688176387
+    },
+    {
+      "buy": 9995995411,
+      "date": "2024-10-28",
+      "name": "Dealer_Hedging",
+      "sell": 13193378433
+    },
+    {
+      "buy": 129883788873,
+      "date": "2024-10-29",
+      "name": "total",
+      "sell": 169487315220
+    },
+    {
+      "buy": 103791918668,
+      "date": "2024-10-29",
+      "name": "Foreign_Investor",
+      "sell": 132961528427
+    },
+    {
+      "buy": 10855427822,
+      "date": "2024-10-29",
+      "name": "Investment_Trust",
+      "sell": 5095263014
+    },
+    {
+      "buy": 3739806323,
+      "date": "2024-10-29",
+      "name": "Dealer_self",
+      "sell": 7814457288
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-29",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11496636060,
+      "date": "2024-10-29",
+      "name": "Dealer_Hedging",
+      "sell": 23616066491
+    },
+    {
+      "buy": 3482917874,
+      "date": "2024-10-30",
+      "name": "Dealer_self",
+      "sell": 3484710305
+    },
+    {
+      "buy": 0,
+      "date": "2024-10-30",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9285257548,
+      "date": "2024-10-30",
+      "name": "Dealer_Hedging",
+      "sell": 13189127327
+    },
+    {
+      "buy": 6582983456,
+      "date": "2024-10-30",
+      "name": "Investment_Trust",
+      "sell": 3342989506
+    },
+    {
+      "buy": 128473113794,
+      "date": "2024-10-30",
+      "name": "Foreign_Investor",
+      "sell": 131298132469
+    },
+    {
+      "buy": 147824272672,
+      "date": "2024-10-30",
+      "name": "total",
+      "sell": 151314959607
+    },
+    {
+      "buy": 5707899019,
+      "date": "2024-11-01",
+      "name": "Dealer_self",
+      "sell": 6386363913
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-01",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14313918484,
+      "date": "2024-11-01",
+      "name": "Dealer_Hedging",
+      "sell": 20455589452
+    },
+    {
+      "buy": 8936689979,
+      "date": "2024-11-01",
+      "name": "Investment_Trust",
+      "sell": 3028145141
+    },
+    {
+      "buy": 172953995961,
+      "date": "2024-11-01",
+      "name": "Foreign_Investor",
+      "sell": 194291277242
+    },
+    {
+      "buy": 201912503443,
+      "date": "2024-11-01",
+      "name": "total",
+      "sell": 224161375748
+    },
+    {
+      "buy": 123305525497,
+      "date": "2024-11-04",
+      "name": "total",
+      "sell": 126948201993
+    },
+    {
+      "buy": 7618438953,
+      "date": "2024-11-04",
+      "name": "Investment_Trust",
+      "sell": 4066521360
+    },
+    {
+      "buy": 103595975232,
+      "date": "2024-11-04",
+      "name": "Foreign_Investor",
+      "sell": 105308713511
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3032936410,
+      "date": "2024-11-04",
+      "name": "Dealer_self",
+      "sell": 4034993434
+    },
+    {
+      "buy": 9058174902,
+      "date": "2024-11-04",
+      "name": "Dealer_Hedging",
+      "sell": 13537973688
+    },
+    {
+      "buy": 3138121557,
+      "date": "2024-11-05",
+      "name": "Dealer_self",
+      "sell": 4208592957
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10700876147,
+      "date": "2024-11-05",
+      "name": "Dealer_Hedging",
+      "sell": 14961211794
+    },
+    {
+      "buy": 8579982937,
+      "date": "2024-11-05",
+      "name": "Investment_Trust",
+      "sell": 3021162935
+    },
+    {
+      "buy": 112744324413,
+      "date": "2024-11-05",
+      "name": "Foreign_Investor",
+      "sell": 103429907533
+    },
+    {
+      "buy": 135163305054,
+      "date": "2024-11-05",
+      "name": "total",
+      "sell": 125620875219
+    },
+    {
+      "buy": 157330825194,
+      "date": "2024-11-06",
+      "name": "total",
+      "sell": 160538460000
+    },
+    {
+      "buy": 130586694642,
+      "date": "2024-11-06",
+      "name": "Foreign_Investor",
+      "sell": 132594607420
+    },
+    {
+      "buy": 8584300545,
+      "date": "2024-11-06",
+      "name": "Investment_Trust",
+      "sell": 4845274959
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4575027130,
+      "date": "2024-11-06",
+      "name": "Dealer_self",
+      "sell": 4280491821
+    },
+    {
+      "buy": 13584802877,
+      "date": "2024-11-06",
+      "name": "Dealer_Hedging",
+      "sell": 18818085800
+    },
+    {
+      "buy": 146739330673,
+      "date": "2024-11-07",
+      "name": "Foreign_Investor",
+      "sell": 141304212916
+    },
+    {
+      "buy": 6926357548,
+      "date": "2024-11-07",
+      "name": "Dealer_self",
+      "sell": 3617313043
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15277031106,
+      "date": "2024-11-07",
+      "name": "Dealer_Hedging",
+      "sell": 13416118090
+    },
+    {
+      "buy": 6516814375,
+      "date": "2024-11-07",
+      "name": "Investment_Trust",
+      "sell": 4442773982
+    },
+    {
+      "buy": 175459533702,
+      "date": "2024-11-07",
+      "name": "total",
+      "sell": 162780418031
+    },
+    {
+      "buy": 131310504898,
+      "date": "2024-11-08",
+      "name": "Foreign_Investor",
+      "sell": 131322776955
+    },
+    {
+      "buy": 158199612022,
+      "date": "2024-11-08",
+      "name": "total",
+      "sell": 154317933924
+    },
+    {
+      "buy": 7369565178,
+      "date": "2024-11-08",
+      "name": "Investment_Trust",
+      "sell": 4255021630
+    },
+    {
+      "buy": 6007623277,
+      "date": "2024-11-08",
+      "name": "Dealer_self",
+      "sell": 4357212476
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13511918669,
+      "date": "2024-11-08",
+      "name": "Dealer_Hedging",
+      "sell": 14382922863
+    },
+    {
+      "buy": 4186166606,
+      "date": "2024-11-11",
+      "name": "Dealer_self",
+      "sell": 7050661843
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10562321838,
+      "date": "2024-11-11",
+      "name": "Dealer_Hedging",
+      "sell": 16379797625
+    },
+    {
+      "buy": 7448966785,
+      "date": "2024-11-11",
+      "name": "Investment_Trust",
+      "sell": 4590629411
+    },
+    {
+      "buy": 123430237677,
+      "date": "2024-11-11",
+      "name": "Foreign_Investor",
+      "sell": 123603033469
+    },
+    {
+      "buy": 145627692906,
+      "date": "2024-11-11",
+      "name": "total",
+      "sell": 151624122348
+    },
+    {
+      "buy": 166559028098,
+      "date": "2024-11-12",
+      "name": "total",
+      "sell": 227951845339
+    },
+    {
+      "buy": 139716788352,
+      "date": "2024-11-12",
+      "name": "Foreign_Investor",
+      "sell": 187387963522
+    },
+    {
+      "buy": 10436314430,
+      "date": "2024-11-12",
+      "name": "Investment_Trust",
+      "sell": 3664421774
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4439289693,
+      "date": "2024-11-12",
+      "name": "Dealer_self",
+      "sell": 9187163715
+    },
+    {
+      "buy": 11966635623,
+      "date": "2024-11-12",
+      "name": "Dealer_Hedging",
+      "sell": 27712296328
+    },
+    {
+      "buy": 5240284605,
+      "date": "2024-11-13",
+      "name": "Dealer_self",
+      "sell": 8296033153
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10718913394,
+      "date": "2024-11-13",
+      "name": "Dealer_Hedging",
+      "sell": 17039858753
+    },
+    {
+      "buy": 10587230329,
+      "date": "2024-11-13",
+      "name": "Investment_Trust",
+      "sell": 4667767407
+    },
+    {
+      "buy": 119332271034,
+      "date": "2024-11-13",
+      "name": "Foreign_Investor",
+      "sell": 161851766325
+    },
+    {
+      "buy": 145878699362,
+      "date": "2024-11-13",
+      "name": "total",
+      "sell": 191855425638
+    },
+    {
+      "buy": 163774542172,
+      "date": "2024-11-14",
+      "name": "total",
+      "sell": 199823346616
+    },
+    {
+      "buy": 12620419267,
+      "date": "2024-11-14",
+      "name": "Investment_Trust",
+      "sell": 6885128242
+    },
+    {
+      "buy": 132160364677,
+      "date": "2024-11-14",
+      "name": "Foreign_Investor",
+      "sell": 157587516496
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5682878110,
+      "date": "2024-11-14",
+      "name": "Dealer_self",
+      "sell": 10994055986
+    },
+    {
+      "buy": 13310880118,
+      "date": "2024-11-14",
+      "name": "Dealer_Hedging",
+      "sell": 24356645892
+    },
+    {
+      "buy": 5457328009,
+      "date": "2024-11-15",
+      "name": "Dealer_self",
+      "sell": 6735509143
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11141396461,
+      "date": "2024-11-15",
+      "name": "Dealer_Hedging",
+      "sell": 16000566594
+    },
+    {
+      "buy": 4325086599,
+      "date": "2024-11-15",
+      "name": "Investment_Trust",
+      "sell": 12036889269
+    },
+    {
+      "buy": 152650753635,
+      "date": "2024-11-15",
+      "name": "Foreign_Investor",
+      "sell": 147522590603
+    },
+    {
+      "buy": 173574564704,
+      "date": "2024-11-15",
+      "name": "total",
+      "sell": 182295555609
+    },
+    {
+      "buy": 155270589414,
+      "date": "2024-11-18",
+      "name": "total",
+      "sell": 174946380839
+    },
+    {
+      "buy": 123804581723,
+      "date": "2024-11-18",
+      "name": "Foreign_Investor",
+      "sell": 134507975560
+    },
+    {
+      "buy": 16137603376,
+      "date": "2024-11-18",
+      "name": "Investment_Trust",
+      "sell": 12965589283
+    },
+    {
+      "buy": 10002067421,
+      "date": "2024-11-18",
+      "name": "Dealer_Hedging",
+      "sell": 20348166461
+    },
+    {
+      "buy": 5326336894,
+      "date": "2024-11-18",
+      "name": "Dealer_self",
+      "sell": 7124649535
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6544989926,
+      "date": "2024-11-19",
+      "name": "Dealer_self",
+      "sell": 3034489163
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11146566141,
+      "date": "2024-11-19",
+      "name": "Dealer_Hedging",
+      "sell": 12928699431
+    },
+    {
+      "buy": 20816661289,
+      "date": "2024-11-19",
+      "name": "Investment_Trust",
+      "sell": 15416418540
+    },
+    {
+      "buy": 139225397730,
+      "date": "2024-11-19",
+      "name": "Foreign_Investor",
+      "sell": 128573152429
+    },
+    {
+      "buy": 177733615086,
+      "date": "2024-11-19",
+      "name": "total",
+      "sell": 159952759563
+    },
+    {
+      "buy": 126906530054,
+      "date": "2024-11-20",
+      "name": "Foreign_Investor",
+      "sell": 159055343814
+    },
+    {
+      "buy": 164084127143,
+      "date": "2024-11-20",
+      "name": "total",
+      "sell": 193107295208
+    },
+    {
+      "buy": 19807024775,
+      "date": "2024-11-20",
+      "name": "Investment_Trust",
+      "sell": 14491037021
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6927884010,
+      "date": "2024-11-20",
+      "name": "Dealer_self",
+      "sell": 5015851331
+    },
+    {
+      "buy": 10442688304,
+      "date": "2024-11-20",
+      "name": "Dealer_Hedging",
+      "sell": 14545063042
+    },
+    {
+      "buy": 4355675659,
+      "date": "2024-11-21",
+      "name": "Dealer_self",
+      "sell": 2619724666
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8842212274,
+      "date": "2024-11-21",
+      "name": "Dealer_Hedging",
+      "sell": 12394112613
+    },
+    {
+      "buy": 21440042254,
+      "date": "2024-11-21",
+      "name": "Investment_Trust",
+      "sell": 12942627309
+    },
+    {
+      "buy": 115031254275,
+      "date": "2024-11-21",
+      "name": "Foreign_Investor",
+      "sell": 141383505908
+    },
+    {
+      "buy": 149669184462,
+      "date": "2024-11-21",
+      "name": "total",
+      "sell": 169339970496
+    },
+    {
+      "buy": 158846547244,
+      "date": "2024-11-22",
+      "name": "total",
+      "sell": 142668834976
+    },
+    {
+      "buy": 124450090135,
+      "date": "2024-11-22",
+      "name": "Foreign_Investor",
+      "sell": 116409181238
+    },
+    {
+      "buy": 17582230510,
+      "date": "2024-11-22",
+      "name": "Investment_Trust",
+      "sell": 12898119020
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5267484904,
+      "date": "2024-11-22",
+      "name": "Dealer_self",
+      "sell": 2504229219
+    },
+    {
+      "buy": 11546741695,
+      "date": "2024-11-22",
+      "name": "Dealer_Hedging",
+      "sell": 10857305499
+    },
+    {
+      "buy": 7461507086,
+      "date": "2024-11-25",
+      "name": "Dealer_self",
+      "sell": 2963989700
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10710315613,
+      "date": "2024-11-25",
+      "name": "Dealer_Hedging",
+      "sell": 11210023006
+    },
+    {
+      "buy": 13776768693,
+      "date": "2024-11-25",
+      "name": "Investment_Trust",
+      "sell": 7792726962
+    },
+    {
+      "buy": 242996036810,
+      "date": "2024-11-25",
+      "name": "Foreign_Investor",
+      "sell": 237780196769
+    },
+    {
+      "buy": 274944628202,
+      "date": "2024-11-25",
+      "name": "total",
+      "sell": 259746936437
+    },
+    {
+      "buy": 95747247930,
+      "date": "2024-11-26",
+      "name": "Foreign_Investor",
+      "sell": 125001867025
+    },
+    {
+      "buy": 116131212012,
+      "date": "2024-11-26",
+      "name": "total",
+      "sell": 149868129781
+    },
+    {
+      "buy": 9704880297,
+      "date": "2024-11-26",
+      "name": "Investment_Trust",
+      "sell": 6333711752
+    },
+    {
+      "buy": 2252931267,
+      "date": "2024-11-26",
+      "name": "Dealer_self",
+      "sell": 3955858722
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8426152518,
+      "date": "2024-11-26",
+      "name": "Dealer_Hedging",
+      "sell": 14576692282
+    },
+    {
+      "buy": 3070608788,
+      "date": "2024-11-27",
+      "name": "Dealer_self",
+      "sell": 6837913661
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10250007573,
+      "date": "2024-11-27",
+      "name": "Dealer_Hedging",
+      "sell": 20440034688
+    },
+    {
+      "buy": 8942685388,
+      "date": "2024-11-27",
+      "name": "Investment_Trust",
+      "sell": 6325147361
+    },
+    {
+      "buy": 94668354870,
+      "date": "2024-11-27",
+      "name": "Foreign_Investor",
+      "sell": 135729320743
+    },
+    {
+      "buy": 116931656619,
+      "date": "2024-11-27",
+      "name": "total",
+      "sell": 169332416453
+    },
+    {
+      "buy": 131352638227,
+      "date": "2024-11-28",
+      "name": "total",
+      "sell": 145680991062
+    },
+    {
+      "buy": 107856263410,
+      "date": "2024-11-28",
+      "name": "Foreign_Investor",
+      "sell": 117741739220
+    },
+    {
+      "buy": 8663066030,
+      "date": "2024-11-28",
+      "name": "Investment_Trust",
+      "sell": 4972143043
+    },
+    {
+      "buy": 4131355707,
+      "date": "2024-11-28",
+      "name": "Dealer_self",
+      "sell": 5090357850
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10701953080,
+      "date": "2024-11-28",
+      "name": "Dealer_Hedging",
+      "sell": 17876750949
+    },
+    {
+      "buy": 8719221043,
+      "date": "2024-11-29",
+      "name": "Investment_Trust",
+      "sell": 3956405042
+    },
+    {
+      "buy": 110927921091,
+      "date": "2024-11-29",
+      "name": "Foreign_Investor",
+      "sell": 137393007988
+    },
+    {
+      "buy": 133461626921,
+      "date": "2024-11-29",
+      "name": "total",
+      "sell": 157355009266
+    },
+    {
+      "buy": 9809552372,
+      "date": "2024-11-29",
+      "name": "Dealer_Hedging",
+      "sell": 11570717535
+    },
+    {
+      "buy": 4004932415,
+      "date": "2024-11-29",
+      "name": "Dealer_self",
+      "sell": 4434878701
+    },
+    {
+      "buy": 0,
+      "date": "2024-11-29",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4243570175,
+      "date": "2024-12-02",
+      "name": "Dealer_self",
+      "sell": 3676843535
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10347863047,
+      "date": "2024-12-02",
+      "name": "Dealer_Hedging",
+      "sell": 10636876066
+    },
+    {
+      "buy": 11989529278,
+      "date": "2024-12-02",
+      "name": "Investment_Trust",
+      "sell": 7262644569
+    },
+    {
+      "buy": 116032182892,
+      "date": "2024-12-02",
+      "name": "Foreign_Investor",
+      "sell": 100993206584
+    },
+    {
+      "buy": 142613145392,
+      "date": "2024-12-02",
+      "name": "total",
+      "sell": 122569570754
+    },
+    {
+      "buy": 5694036786,
+      "date": "2024-12-03",
+      "name": "Dealer_self",
+      "sell": 3561355643
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18748783974,
+      "date": "2024-12-03",
+      "name": "Dealer_Hedging",
+      "sell": 16376800388
+    },
+    {
+      "buy": 10793420282,
+      "date": "2024-12-03",
+      "name": "Investment_Trust",
+      "sell": 10463733675
+    },
+    {
+      "buy": 158759419528,
+      "date": "2024-12-03",
+      "name": "Foreign_Investor",
+      "sell": 130154322835
+    },
+    {
+      "buy": 193995660570,
+      "date": "2024-12-03",
+      "name": "total",
+      "sell": 160556212541
+    },
+    {
+      "buy": 139780240534,
+      "date": "2024-12-04",
+      "name": "Foreign_Investor",
+      "sell": 113920340169
+    },
+    {
+      "buy": 8209137371,
+      "date": "2024-12-04",
+      "name": "Investment_Trust",
+      "sell": 11090382349
+    },
+    {
+      "buy": 169773271190,
+      "date": "2024-12-04",
+      "name": "total",
+      "sell": 142576947866
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5750652671,
+      "date": "2024-12-04",
+      "name": "Dealer_self",
+      "sell": 3645824141
+    },
+    {
+      "buy": 16033240614,
+      "date": "2024-12-04",
+      "name": "Dealer_Hedging",
+      "sell": 13920401207
+    },
+    {
+      "buy": 5289439510,
+      "date": "2024-12-05",
+      "name": "Dealer_self",
+      "sell": 4003345035
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11804987091,
+      "date": "2024-12-05",
+      "name": "Dealer_Hedging",
+      "sell": 13630911258
+    },
+    {
+      "buy": 7920913002,
+      "date": "2024-12-05",
+      "name": "Investment_Trust",
+      "sell": 9136797513
+    },
+    {
+      "buy": 134914983043,
+      "date": "2024-12-05",
+      "name": "Foreign_Investor",
+      "sell": 130310287119
+    },
+    {
+      "buy": 159930322646,
+      "date": "2024-12-05",
+      "name": "total",
+      "sell": 157081340925
+    },
+    {
+      "buy": 144985088661,
+      "date": "2024-12-06",
+      "name": "total",
+      "sell": 147328135948
+    },
+    {
+      "buy": 120774626764,
+      "date": "2024-12-06",
+      "name": "Foreign_Investor",
+      "sell": 118772242907
+    },
+    {
+      "buy": 7933399238,
+      "date": "2024-12-06",
+      "name": "Investment_Trust",
+      "sell": 10515494091
+    },
+    {
+      "buy": 11741323631,
+      "date": "2024-12-06",
+      "name": "Dealer_Hedging",
+      "sell": 13949731013
+    },
+    {
+      "buy": 4535739028,
+      "date": "2024-12-06",
+      "name": "Dealer_self",
+      "sell": 4090667937
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3644493442,
+      "date": "2024-12-09",
+      "name": "Dealer_self",
+      "sell": 3895342331
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11495401794,
+      "date": "2024-12-09",
+      "name": "Dealer_Hedging",
+      "sell": 13959477441
+    },
+    {
+      "buy": 8079455910,
+      "date": "2024-12-09",
+      "name": "Investment_Trust",
+      "sell": 6958503353
+    },
+    {
+      "buy": 129826574749,
+      "date": "2024-12-09",
+      "name": "Foreign_Investor",
+      "sell": 125621180503
+    },
+    {
+      "buy": 153045925895,
+      "date": "2024-12-09",
+      "name": "total",
+      "sell": 150434503628
+    },
+    {
+      "buy": 124613544156,
+      "date": "2024-12-10",
+      "name": "Foreign_Investor",
+      "sell": 131628210059
+    },
+    {
+      "buy": 6426567421,
+      "date": "2024-12-10",
+      "name": "Investment_Trust",
+      "sell": 7857111839
+    },
+    {
+      "buy": 146402381858,
+      "date": "2024-12-10",
+      "name": "total",
+      "sell": 160584420966
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 12142968994,
+      "date": "2024-12-10",
+      "name": "Dealer_Hedging",
+      "sell": 16123443531
+    },
+    {
+      "buy": 3219301287,
+      "date": "2024-12-10",
+      "name": "Dealer_self",
+      "sell": 4975655537
+    },
+    {
+      "buy": 4290484114,
+      "date": "2024-12-11",
+      "name": "Dealer_self",
+      "sell": 5932331393
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9153416394,
+      "date": "2024-12-11",
+      "name": "Dealer_Hedging",
+      "sell": 15106370743
+    },
+    {
+      "buy": 11439687307,
+      "date": "2024-12-11",
+      "name": "Investment_Trust",
+      "sell": 7588416339
+    },
+    {
+      "buy": 103884556064,
+      "date": "2024-12-11",
+      "name": "Foreign_Investor",
+      "sell": 121528241029
+    },
+    {
+      "buy": 128768143879,
+      "date": "2024-12-11",
+      "name": "total",
+      "sell": 150155359504
+    },
+    {
+      "buy": 9842983799,
+      "date": "2024-12-12",
+      "name": "Investment_Trust",
+      "sell": 8775195873
+    },
+    {
+      "buy": 148420866772,
+      "date": "2024-12-12",
+      "name": "total",
+      "sell": 148208709231
+    },
+    {
+      "buy": 122472489257,
+      "date": "2024-12-12",
+      "name": "Foreign_Investor",
+      "sell": 124193013025
+    },
+    {
+      "buy": 12213918587,
+      "date": "2024-12-12",
+      "name": "Dealer_Hedging",
+      "sell": 11802839387
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3891475129,
+      "date": "2024-12-12",
+      "name": "Dealer_self",
+      "sell": 3437660946
+    },
+    {
+      "buy": 3370086366,
+      "date": "2024-12-13",
+      "name": "Dealer_self",
+      "sell": 6265406398
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9687541760,
+      "date": "2024-12-13",
+      "name": "Dealer_Hedging",
+      "sell": 15583545492
+    },
+    {
+      "buy": 11735231639,
+      "date": "2024-12-13",
+      "name": "Investment_Trust",
+      "sell": 9199558190
+    },
+    {
+      "buy": 115392640303,
+      "date": "2024-12-13",
+      "name": "Foreign_Investor",
+      "sell": 119426261179
+    },
+    {
+      "buy": 140185500068,
+      "date": "2024-12-13",
+      "name": "total",
+      "sell": 150474771259
+    },
+    {
+      "buy": 151983978193,
+      "date": "2024-12-16",
+      "name": "Foreign_Investor",
+      "sell": 136821201617
+    },
+    {
+      "buy": 13386166704,
+      "date": "2024-12-16",
+      "name": "Investment_Trust",
+      "sell": 11744766119
+    },
+    {
+      "buy": 181413926170,
+      "date": "2024-12-16",
+      "name": "total",
+      "sell": 174377350701
+    },
+    {
+      "buy": 11339564409,
+      "date": "2024-12-16",
+      "name": "Dealer_Hedging",
+      "sell": 18448053868
+    },
+    {
+      "buy": 4704216864,
+      "date": "2024-12-16",
+      "name": "Dealer_self",
+      "sell": 7363329097
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4982862281,
+      "date": "2024-12-17",
+      "name": "Dealer_self",
+      "sell": 4429866114
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 12838563251,
+      "date": "2024-12-17",
+      "name": "Dealer_Hedging",
+      "sell": 14174787833
+    },
+    {
+      "buy": 19431120219,
+      "date": "2024-12-17",
+      "name": "Investment_Trust",
+      "sell": 19749820644
+    },
+    {
+      "buy": 156861111607,
+      "date": "2024-12-17",
+      "name": "Foreign_Investor",
+      "sell": 153429670083
+    },
+    {
+      "buy": 194113657358,
+      "date": "2024-12-17",
+      "name": "total",
+      "sell": 191784144674
+    },
+    {
+      "buy": 195318456760,
+      "date": "2024-12-18",
+      "name": "total",
+      "sell": 188887393219
+    },
+    {
+      "buy": 159665462249,
+      "date": "2024-12-18",
+      "name": "Foreign_Investor",
+      "sell": 149241120769
+    },
+    {
+      "buy": 18672007149,
+      "date": "2024-12-18",
+      "name": "Investment_Trust",
+      "sell": 16966297355
+    },
+    {
+      "buy": 11288654739,
+      "date": "2024-12-18",
+      "name": "Dealer_Hedging",
+      "sell": 14106277381
+    },
+    {
+      "buy": 5692332623,
+      "date": "2024-12-18",
+      "name": "Dealer_self",
+      "sell": 8573697714
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5237936145,
+      "date": "2024-12-19",
+      "name": "Dealer_self",
+      "sell": 4425068375
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11158300417,
+      "date": "2024-12-19",
+      "name": "Dealer_Hedging",
+      "sell": 17686187013
+    },
+    {
+      "buy": 16616251991,
+      "date": "2024-12-19",
+      "name": "Investment_Trust",
+      "sell": 18956048422
+    },
+    {
+      "buy": 139403988990,
+      "date": "2024-12-19",
+      "name": "Foreign_Investor",
+      "sell": 172703856289
+    },
+    {
+      "buy": 172416477543,
+      "date": "2024-12-19",
+      "name": "total",
+      "sell": 213771160099
+    },
+    {
+      "buy": 218394106178,
+      "date": "2024-12-20",
+      "name": "total",
+      "sell": 273407876069
+    },
+    {
+      "buy": 34233348195,
+      "date": "2024-12-20",
+      "name": "Investment_Trust",
+      "sell": 33844204689
+    },
+    {
+      "buy": 170530275648,
+      "date": "2024-12-20",
+      "name": "Foreign_Investor",
+      "sell": 219207277490
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9470649294,
+      "date": "2024-12-20",
+      "name": "Dealer_Hedging",
+      "sell": 15316289476
+    },
+    {
+      "buy": 4159833041,
+      "date": "2024-12-20",
+      "name": "Dealer_self",
+      "sell": 5040104414
+    },
+    {
+      "buy": 139498877563,
+      "date": "2024-12-23",
+      "name": "Foreign_Investor",
+      "sell": 100071058060
+    },
+    {
+      "buy": 28651644695,
+      "date": "2024-12-23",
+      "name": "Investment_Trust",
+      "sell": 28516508697
+    },
+    {
+      "buy": 185882481560,
+      "date": "2024-12-23",
+      "name": "total",
+      "sell": 140598785211
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5243028941,
+      "date": "2024-12-23",
+      "name": "Dealer_self",
+      "sell": 2975504988
+    },
+    {
+      "buy": 12488930361,
+      "date": "2024-12-23",
+      "name": "Dealer_Hedging",
+      "sell": 9035713466
+    },
+    {
+      "buy": 3954817744,
+      "date": "2024-12-24",
+      "name": "Dealer_self",
+      "sell": 2680244462
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10204554041,
+      "date": "2024-12-24",
+      "name": "Dealer_Hedging",
+      "sell": 6774582181
+    },
+    {
+      "buy": 24341784933,
+      "date": "2024-12-24",
+      "name": "Investment_Trust",
+      "sell": 26139513456
+    },
+    {
+      "buy": 119255677204,
+      "date": "2024-12-24",
+      "name": "Foreign_Investor",
+      "sell": 105003445333
+    },
+    {
+      "buy": 157756833922,
+      "date": "2024-12-24",
+      "name": "total",
+      "sell": 140597785432
+    },
+    {
+      "buy": 87043440091,
+      "date": "2024-12-25",
+      "name": "Foreign_Investor",
+      "sell": 75927662607
+    },
+    {
+      "buy": 19908726861,
+      "date": "2024-12-25",
+      "name": "Investment_Trust",
+      "sell": 21412893524
+    },
+    {
+      "buy": 121584489721,
+      "date": "2024-12-25",
+      "name": "total",
+      "sell": 106008211945
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6218061112,
+      "date": "2024-12-25",
+      "name": "Dealer_self",
+      "sell": 2564982682
+    },
+    {
+      "buy": 8414261657,
+      "date": "2024-12-25",
+      "name": "Dealer_Hedging",
+      "sell": 6102673132
+    },
+    {
+      "buy": 3383285478,
+      "date": "2024-12-26",
+      "name": "Dealer_self",
+      "sell": 2210977967
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7791862183,
+      "date": "2024-12-26",
+      "name": "Dealer_Hedging",
+      "sell": 7065112942
+    },
+    {
+      "buy": 19683736107,
+      "date": "2024-12-26",
+      "name": "Investment_Trust",
+      "sell": 19527891963
+    },
+    {
+      "buy": 86149838811,
+      "date": "2024-12-26",
+      "name": "Foreign_Investor",
+      "sell": 82691023095
+    },
+    {
+      "buy": 117008722579,
+      "date": "2024-12-26",
+      "name": "total",
+      "sell": 111495005967
+    },
+    {
+      "buy": 103309412096,
+      "date": "2024-12-27",
+      "name": "total",
+      "sell": 98359253628
+    },
+    {
+      "buy": 84452889344,
+      "date": "2024-12-27",
+      "name": "Foreign_Investor",
+      "sell": 78977390130
+    },
+    {
+      "buy": 7542741522,
+      "date": "2024-12-27",
+      "name": "Investment_Trust",
+      "sell": 9339871746
+    },
+    {
+      "buy": 8490713990,
+      "date": "2024-12-27",
+      "name": "Dealer_Hedging",
+      "sell": 7015103336
+    },
+    {
+      "buy": 2823067240,
+      "date": "2024-12-27",
+      "name": "Dealer_self",
+      "sell": 3026888416
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 1795590670,
+      "date": "2024-12-30",
+      "name": "Dealer_self",
+      "sell": 3573936553
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-30",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8175412358,
+      "date": "2024-12-30",
+      "name": "Dealer_Hedging",
+      "sell": 9197119600
+    },
+    {
+      "buy": 12013713490,
+      "date": "2024-12-30",
+      "name": "Investment_Trust",
+      "sell": 13294763369
+    },
+    {
+      "buy": 87158020235,
+      "date": "2024-12-30",
+      "name": "Foreign_Investor",
+      "sell": 93643912484
+    },
+    {
+      "buy": 109142736753,
+      "date": "2024-12-30",
+      "name": "total",
+      "sell": 119709732006
+    },
+    {
+      "buy": 83133508606,
+      "date": "2024-12-31",
+      "name": "Foreign_Investor",
+      "sell": 101583967719
+    },
+    {
+      "buy": 13409730425,
+      "date": "2024-12-31",
+      "name": "Investment_Trust",
+      "sell": 14612501904
+    },
+    {
+      "buy": 107886054242,
+      "date": "2024-12-31",
+      "name": "total",
+      "sell": 130871407099
+    },
+    {
+      "buy": 0,
+      "date": "2024-12-31",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7906939980,
+      "date": "2024-12-31",
+      "name": "Dealer_Hedging",
+      "sell": 11173661351
+    },
+    {
+      "buy": 3435875231,
+      "date": "2024-12-31",
+      "name": "Dealer_self",
+      "sell": 3501276125
+    },
+    {
+      "buy": 4465988420,
+      "date": "2025-01-02",
+      "name": "Dealer_self",
+      "sell": 9601783327
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 16197840447,
+      "date": "2025-01-02",
+      "name": "Dealer_Hedging",
+      "sell": 18943634370
+    },
+    {
+      "buy": 17704696877,
+      "date": "2025-01-02",
+      "name": "Investment_Trust",
+      "sell": 19926783912
+    },
+    {
+      "buy": 96984497115,
+      "date": "2025-01-02",
+      "name": "Foreign_Investor",
+      "sell": 124382098217
+    },
+    {
+      "buy": 135353022859,
+      "date": "2025-01-02",
+      "name": "total",
+      "sell": 172854299826
+    },
+    {
+      "buy": 11274678554,
+      "date": "2025-01-03",
+      "name": "Investment_Trust",
+      "sell": 10343668429
+    },
+    {
+      "buy": 140346931960,
+      "date": "2025-01-03",
+      "name": "total",
+      "sell": 129065239915
+    },
+    {
+      "buy": 111929269350,
+      "date": "2025-01-03",
+      "name": "Foreign_Investor",
+      "sell": 102761140210
+    },
+    {
+      "buy": 12981346419,
+      "date": "2025-01-03",
+      "name": "Dealer_Hedging",
+      "sell": 11881741939
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4161637637,
+      "date": "2025-01-03",
+      "name": "Dealer_self",
+      "sell": 4078689337
+    },
+    {
+      "buy": 8408337334,
+      "date": "2025-01-06",
+      "name": "Dealer_self",
+      "sell": 3209729766
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 19873007958,
+      "date": "2025-01-06",
+      "name": "Dealer_Hedging",
+      "sell": 11611537830
+    },
+    {
+      "buy": 10451606549,
+      "date": "2025-01-06",
+      "name": "Investment_Trust",
+      "sell": 11548466877
+    },
+    {
+      "buy": 160139598588,
+      "date": "2025-01-06",
+      "name": "Foreign_Investor",
+      "sell": 108133186264
+    },
+    {
+      "buy": 198872550429,
+      "date": "2025-01-06",
+      "name": "total",
+      "sell": 134502920737
+    },
+    {
+      "buy": 157157485803,
+      "date": "2025-01-07",
+      "name": "Foreign_Investor",
+      "sell": 145837237615
+    },
+    {
+      "buy": 10445919447,
+      "date": "2025-01-07",
+      "name": "Investment_Trust",
+      "sell": 11335193496
+    },
+    {
+      "buy": 190448512321,
+      "date": "2025-01-07",
+      "name": "total",
+      "sell": 172967491917
+    },
+    {
+      "buy": 16789739825,
+      "date": "2025-01-07",
+      "name": "Dealer_Hedging",
+      "sell": 12155825574
+    },
+    {
+      "buy": 6055367246,
+      "date": "2025-01-07",
+      "name": "Dealer_self",
+      "sell": 3639235232
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4730926640,
+      "date": "2025-01-08",
+      "name": "Dealer_self",
+      "sell": 4286339621
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10769597448,
+      "date": "2025-01-08",
+      "name": "Dealer_Hedging",
+      "sell": 11981207672
+    },
+    {
+      "buy": 9412378752,
+      "date": "2025-01-08",
+      "name": "Investment_Trust",
+      "sell": 11450228484
+    },
+    {
+      "buy": 125533112827,
+      "date": "2025-01-08",
+      "name": "Foreign_Investor",
+      "sell": 141476554924
+    },
+    {
+      "buy": 150446015667,
+      "date": "2025-01-08",
+      "name": "total",
+      "sell": 169194330701
+    },
+    {
+      "buy": 129942040364,
+      "date": "2025-01-09",
+      "name": "total",
+      "sell": 173092708937
+    },
+    {
+      "buy": 111221053512,
+      "date": "2025-01-09",
+      "name": "Foreign_Investor",
+      "sell": 140364689182
+    },
+    {
+      "buy": 5190824570,
+      "date": "2025-01-09",
+      "name": "Investment_Trust",
+      "sell": 7980436161
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3805296686,
+      "date": "2025-01-09",
+      "name": "Dealer_self",
+      "sell": 6899671495
+    },
+    {
+      "buy": 9724865596,
+      "date": "2025-01-09",
+      "name": "Dealer_Hedging",
+      "sell": 17847912099
+    },
+    {
+      "buy": 3835752935,
+      "date": "2025-01-10",
+      "name": "Dealer_self",
+      "sell": 5949250451
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11126003960,
+      "date": "2025-01-10",
+      "name": "Dealer_Hedging",
+      "sell": 15712667821
+    },
+    {
+      "buy": 8631903581,
+      "date": "2025-01-10",
+      "name": "Investment_Trust",
+      "sell": 9544108036
+    },
+    {
+      "buy": 111301084476,
+      "date": "2025-01-10",
+      "name": "Foreign_Investor",
+      "sell": 128494036793
+    },
+    {
+      "buy": 134894744952,
+      "date": "2025-01-10",
+      "name": "total",
+      "sell": 159700063101
+    },
+    {
+      "buy": 142017873871,
+      "date": "2025-01-13",
+      "name": "Foreign_Investor",
+      "sell": 196453656626
+    },
+    {
+      "buy": 174976649579,
+      "date": "2025-01-13",
+      "name": "total",
+      "sell": 242841262367
+    },
+    {
+      "buy": 10028191803,
+      "date": "2025-01-13",
+      "name": "Investment_Trust",
+      "sell": 6504724190
+    },
+    {
+      "buy": 16043754040,
+      "date": "2025-01-13",
+      "name": "Dealer_Hedging",
+      "sell": 30104057153
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6886829865,
+      "date": "2025-01-13",
+      "name": "Dealer_self",
+      "sell": 9778824398
+    },
+    {
+      "buy": 2913122631,
+      "date": "2025-01-14",
+      "name": "Dealer_self",
+      "sell": 3292103503
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9157242583,
+      "date": "2025-01-14",
+      "name": "Dealer_Hedging",
+      "sell": 11776597888
+    },
+    {
+      "buy": 9690949506,
+      "date": "2025-01-14",
+      "name": "Investment_Trust",
+      "sell": 5263385250
+    },
+    {
+      "buy": 102634604431,
+      "date": "2025-01-14",
+      "name": "Foreign_Investor",
+      "sell": 115629638504
+    },
+    {
+      "buy": 124395919151,
+      "date": "2025-01-14",
+      "name": "total",
+      "sell": 135961725145
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3806474830,
+      "date": "2025-01-15",
+      "name": "Dealer_self",
+      "sell": 4901303992
+    },
+    {
+      "buy": 9845706379,
+      "date": "2025-01-15",
+      "name": "Dealer_Hedging",
+      "sell": 16379140724
+    },
+    {
+      "buy": 6388838711,
+      "date": "2025-01-15",
+      "name": "Investment_Trust",
+      "sell": 5040179086
+    },
+    {
+      "buy": 98892802667,
+      "date": "2025-01-15",
+      "name": "Foreign_Investor",
+      "sell": 128476003530
+    },
+    {
+      "buy": 118933822587,
+      "date": "2025-01-15",
+      "name": "total",
+      "sell": 154796627332
+    },
+    {
+      "buy": 128335850338,
+      "date": "2025-01-16",
+      "name": "Foreign_Investor",
+      "sell": 102983535244
+    },
+    {
+      "buy": 8954144549,
+      "date": "2025-01-16",
+      "name": "Investment_Trust",
+      "sell": 13095363392
+    },
+    {
+      "buy": 161613559554,
+      "date": "2025-01-16",
+      "name": "total",
+      "sell": 131446626486
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8970120637,
+      "date": "2025-01-16",
+      "name": "Dealer_self",
+      "sell": 3929969347
+    },
+    {
+      "buy": 15353444030,
+      "date": "2025-01-16",
+      "name": "Dealer_Hedging",
+      "sell": 11437758503
+    },
+    {
+      "buy": 3256100642,
+      "date": "2025-01-17",
+      "name": "Dealer_self",
+      "sell": 3057775384
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11778563694,
+      "date": "2025-01-17",
+      "name": "Dealer_Hedging",
+      "sell": 12733451760
+    },
+    {
+      "buy": 9984117163,
+      "date": "2025-01-17",
+      "name": "Investment_Trust",
+      "sell": 11565724095
+    },
+    {
+      "buy": 127712454943,
+      "date": "2025-01-17",
+      "name": "Foreign_Investor",
+      "sell": 114500669552
+    },
+    {
+      "buy": 152731236442,
+      "date": "2025-01-17",
+      "name": "total",
+      "sell": 141857620791
+    },
+    {
+      "buy": 120839258777,
+      "date": "2025-01-20",
+      "name": "total",
+      "sell": 106923938590
+    },
+    {
+      "buy": 99791728579,
+      "date": "2025-01-20",
+      "name": "Foreign_Investor",
+      "sell": 90632080742
+    },
+    {
+      "buy": 7342911013,
+      "date": "2025-01-20",
+      "name": "Investment_Trust",
+      "sell": 5015413279
+    },
+    {
+      "buy": 10564497196,
+      "date": "2025-01-20",
+      "name": "Dealer_Hedging",
+      "sell": 9029789845
+    },
+    {
+      "buy": 3140121989,
+      "date": "2025-01-20",
+      "name": "Dealer_self",
+      "sell": 2246654724
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2541264088,
+      "date": "2025-01-21",
+      "name": "Dealer_self",
+      "sell": 2378704875
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7312641129,
+      "date": "2025-01-21",
+      "name": "Dealer_Hedging",
+      "sell": 9677038463
+    },
+    {
+      "buy": 8136247744,
+      "date": "2025-01-21",
+      "name": "Investment_Trust",
+      "sell": 6810304807
+    },
+    {
+      "buy": 94004105075,
+      "date": "2025-01-21",
+      "name": "Foreign_Investor",
+      "sell": 93744955900
+    },
+    {
+      "buy": 111994258036,
+      "date": "2025-01-21",
+      "name": "total",
+      "sell": 112611004045
+    },
+    {
+      "buy": 145748677987,
+      "date": "2025-01-22",
+      "name": "Foreign_Investor",
+      "sell": 130129692253
+    },
+    {
+      "buy": 7973779817,
+      "date": "2025-01-22",
+      "name": "Investment_Trust",
+      "sell": 7206610233
+    },
+    {
+      "buy": 169540055707,
+      "date": "2025-01-22",
+      "name": "total",
+      "sell": 149163066349
+    },
+    {
+      "buy": 0,
+      "date": "2025-01-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10673083001,
+      "date": "2025-01-22",
+      "name": "Dealer_Hedging",
+      "sell": 9197719149
+    },
+    {
+      "buy": 5144514902,
+      "date": "2025-01-22",
+      "name": "Dealer_self",
+      "sell": 2629044714
+    },
+    {
+      "buy": 7641378132,
+      "date": "2025-02-03",
+      "name": "Dealer_self",
+      "sell": 9200386454
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18291592164,
+      "date": "2025-02-03",
+      "name": "Dealer_Hedging",
+      "sell": 37131145153
+    },
+    {
+      "buy": 19456488942,
+      "date": "2025-02-03",
+      "name": "Investment_Trust",
+      "sell": 9566389470
+    },
+    {
+      "buy": 188412849751,
+      "date": "2025-02-03",
+      "name": "Foreign_Investor",
+      "sell": 262792596516
+    },
+    {
+      "buy": 233802308989,
+      "date": "2025-02-03",
+      "name": "total",
+      "sell": 318690517593
+    },
+    {
+      "buy": 13072881010,
+      "date": "2025-02-04",
+      "name": "Investment_Trust",
+      "sell": 14887224626
+    },
+    {
+      "buy": 200582221827,
+      "date": "2025-02-04",
+      "name": "total",
+      "sell": 221552859087
+    },
+    {
+      "buy": 168349565721,
+      "date": "2025-02-04",
+      "name": "Foreign_Investor",
+      "sell": 183606034259
+    },
+    {
+      "buy": 14348452766,
+      "date": "2025-02-04",
+      "name": "Dealer_Hedging",
+      "sell": 17671274750
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4811322330,
+      "date": "2025-02-04",
+      "name": "Dealer_self",
+      "sell": 5388325452
+    },
+    {
+      "buy": 4666087955,
+      "date": "2025-02-05",
+      "name": "Dealer_self",
+      "sell": 3857899869
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13191648235,
+      "date": "2025-02-05",
+      "name": "Dealer_Hedging",
+      "sell": 11327084748
+    },
+    {
+      "buy": 11255424777,
+      "date": "2025-02-05",
+      "name": "Investment_Trust",
+      "sell": 6377634415
+    },
+    {
+      "buy": 150677794982,
+      "date": "2025-02-05",
+      "name": "Foreign_Investor",
+      "sell": 125274536459
+    },
+    {
+      "buy": 179790955949,
+      "date": "2025-02-05",
+      "name": "total",
+      "sell": 146837155491
+    },
+    {
+      "buy": 127469372536,
+      "date": "2025-02-06",
+      "name": "Foreign_Investor",
+      "sell": 124573288570
+    },
+    {
+      "buy": 8222212204,
+      "date": "2025-02-06",
+      "name": "Investment_Trust",
+      "sell": 5492065182
+    },
+    {
+      "buy": 151424493653,
+      "date": "2025-02-06",
+      "name": "total",
+      "sell": 144127599140
+    },
+    {
+      "buy": 10641460879,
+      "date": "2025-02-06",
+      "name": "Dealer_Hedging",
+      "sell": 10411634537
+    },
+    {
+      "buy": 5091448034,
+      "date": "2025-02-06",
+      "name": "Dealer_self",
+      "sell": 3650610851
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5162982488,
+      "date": "2025-02-07",
+      "name": "Dealer_self",
+      "sell": 3493530971
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13163186378,
+      "date": "2025-02-07",
+      "name": "Dealer_Hedging",
+      "sell": 8527795133
+    },
+    {
+      "buy": 7015436141,
+      "date": "2025-02-07",
+      "name": "Investment_Trust",
+      "sell": 5375997726
+    },
+    {
+      "buy": 128427453521,
+      "date": "2025-02-07",
+      "name": "Foreign_Investor",
+      "sell": 114261124370
+    },
+    {
+      "buy": 153769058528,
+      "date": "2025-02-07",
+      "name": "total",
+      "sell": 131658448200
+    },
+    {
+      "buy": 125995164275,
+      "date": "2025-02-10",
+      "name": "total",
+      "sell": 149980162302
+    },
+    {
+      "buy": 105182971186,
+      "date": "2025-02-10",
+      "name": "Foreign_Investor",
+      "sell": 124073791940
+    },
+    {
+      "buy": 7740581262,
+      "date": "2025-02-10",
+      "name": "Investment_Trust",
+      "sell": 7643979079
+    },
+    {
+      "buy": 9101162703,
+      "date": "2025-02-10",
+      "name": "Dealer_Hedging",
+      "sell": 13125635785
+    },
+    {
+      "buy": 3970449124,
+      "date": "2025-02-10",
+      "name": "Dealer_self",
+      "sell": 5136755498
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3468966129,
+      "date": "2025-02-11",
+      "name": "Dealer_self",
+      "sell": 4379489983
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9883427268,
+      "date": "2025-02-11",
+      "name": "Dealer_Hedging",
+      "sell": 9215194106
+    },
+    {
+      "buy": 8429985650,
+      "date": "2025-02-11",
+      "name": "Investment_Trust",
+      "sell": 5552888784
+    },
+    {
+      "buy": 120333835615,
+      "date": "2025-02-11",
+      "name": "Foreign_Investor",
+      "sell": 111031942231
+    },
+    {
+      "buy": 142116214662,
+      "date": "2025-02-11",
+      "name": "total",
+      "sell": 130179515104
+    },
+    {
+      "buy": 123881590866,
+      "date": "2025-02-12",
+      "name": "Foreign_Investor",
+      "sell": 121248442419
+    },
+    {
+      "buy": 6613239615,
+      "date": "2025-02-12",
+      "name": "Investment_Trust",
+      "sell": 10120834785
+    },
+    {
+      "buy": 144696992112,
+      "date": "2025-02-12",
+      "name": "total",
+      "sell": 145633028451
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4282540694,
+      "date": "2025-02-12",
+      "name": "Dealer_self",
+      "sell": 4415763870
+    },
+    {
+      "buy": 9919620937,
+      "date": "2025-02-12",
+      "name": "Dealer_Hedging",
+      "sell": 9847987377
+    },
+    {
+      "buy": 134129094585,
+      "date": "2025-02-13",
+      "name": "Foreign_Investor",
+      "sell": 133051299569
+    },
+    {
+      "buy": 8581146288,
+      "date": "2025-02-13",
+      "name": "Investment_Trust",
+      "sell": 7426845230
+    },
+    {
+      "buy": 163174146388,
+      "date": "2025-02-13",
+      "name": "total",
+      "sell": 155489506885
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6001320167,
+      "date": "2025-02-13",
+      "name": "Dealer_self",
+      "sell": 3334398132
+    },
+    {
+      "buy": 14462585348,
+      "date": "2025-02-13",
+      "name": "Dealer_Hedging",
+      "sell": 11676963954
+    },
+    {
+      "buy": 4481160794,
+      "date": "2025-02-14",
+      "name": "Dealer_self",
+      "sell": 4937299839
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11904457823,
+      "date": "2025-02-14",
+      "name": "Dealer_Hedging",
+      "sell": 14077901273
+    },
+    {
+      "buy": 6768897920,
+      "date": "2025-02-14",
+      "name": "Investment_Trust",
+      "sell": 9962537874
+    },
+    {
+      "buy": 125056967852,
+      "date": "2025-02-14",
+      "name": "Foreign_Investor",
+      "sell": 149649620832
+    },
+    {
+      "buy": 148211484389,
+      "date": "2025-02-14",
+      "name": "total",
+      "sell": 178627359818
+    },
+    {
+      "buy": 129604773128,
+      "date": "2025-02-17",
+      "name": "Foreign_Investor",
+      "sell": 104857924500
+    },
+    {
+      "buy": 13632950426,
+      "date": "2025-02-17",
+      "name": "Investment_Trust",
+      "sell": 8951098447
+    },
+    {
+      "buy": 162938443952,
+      "date": "2025-02-17",
+      "name": "total",
+      "sell": 130054282746
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4830874384,
+      "date": "2025-02-17",
+      "name": "Dealer_self",
+      "sell": 3883279054
+    },
+    {
+      "buy": 14869846014,
+      "date": "2025-02-17",
+      "name": "Dealer_Hedging",
+      "sell": 12361980745
+    },
+    {
+      "buy": 3919575859,
+      "date": "2025-02-18",
+      "name": "Dealer_self",
+      "sell": 3656521988
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13112534974,
+      "date": "2025-02-18",
+      "name": "Dealer_Hedging",
+      "sell": 11509173176
+    },
+    {
+      "buy": 8678155440,
+      "date": "2025-02-18",
+      "name": "Investment_Trust",
+      "sell": 10861057727
+    },
+    {
+      "buy": 111137643136,
+      "date": "2025-02-18",
+      "name": "Foreign_Investor",
+      "sell": 102970256356
+    },
+    {
+      "buy": 136847909409,
+      "date": "2025-02-18",
+      "name": "total",
+      "sell": 128997009247
+    },
+    {
+      "buy": 154356605347,
+      "date": "2025-02-19",
+      "name": "total",
+      "sell": 165897421783
+    },
+    {
+      "buy": 130835507726,
+      "date": "2025-02-19",
+      "name": "Foreign_Investor",
+      "sell": 133412663412
+    },
+    {
+      "buy": 4670465939,
+      "date": "2025-02-19",
+      "name": "Investment_Trust",
+      "sell": 10655187478
+    },
+    {
+      "buy": 13502536740,
+      "date": "2025-02-19",
+      "name": "Dealer_Hedging",
+      "sell": 13736183071
+    },
+    {
+      "buy": 5348094942,
+      "date": "2025-02-19",
+      "name": "Dealer_self",
+      "sell": 8093387822
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5728442478,
+      "date": "2025-02-20",
+      "name": "Dealer_self",
+      "sell": 3693325769
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11421476195,
+      "date": "2025-02-20",
+      "name": "Dealer_Hedging",
+      "sell": 14097122771
+    },
+    {
+      "buy": 4917728664,
+      "date": "2025-02-20",
+      "name": "Investment_Trust",
+      "sell": 11367350626
+    },
+    {
+      "buy": 117700740887,
+      "date": "2025-02-20",
+      "name": "Foreign_Investor",
+      "sell": 134498059190
+    },
+    {
+      "buy": 139768388224,
+      "date": "2025-02-20",
+      "name": "total",
+      "sell": 163655858356
+    },
+    {
+      "buy": 138373627059,
+      "date": "2025-02-21",
+      "name": "Foreign_Investor",
+      "sell": 120487089934
+    },
+    {
+      "buy": 5342119895,
+      "date": "2025-02-21",
+      "name": "Investment_Trust",
+      "sell": 10147384769
+    },
+    {
+      "buy": 161886034920,
+      "date": "2025-02-21",
+      "name": "total",
+      "sell": 144603828837
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13307905919,
+      "date": "2025-02-21",
+      "name": "Dealer_Hedging",
+      "sell": 10047862775
+    },
+    {
+      "buy": 4862382047,
+      "date": "2025-02-21",
+      "name": "Dealer_self",
+      "sell": 3921491359
+    },
+    {
+      "buy": 3607726453,
+      "date": "2025-02-24",
+      "name": "Dealer_self",
+      "sell": 4040455956
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11789783696,
+      "date": "2025-02-24",
+      "name": "Dealer_Hedging",
+      "sell": 15176045633
+    },
+    {
+      "buy": 10838350981,
+      "date": "2025-02-24",
+      "name": "Investment_Trust",
+      "sell": 8142382070
+    },
+    {
+      "buy": 117707073215,
+      "date": "2025-02-24",
+      "name": "Foreign_Investor",
+      "sell": 137235404537
+    },
+    {
+      "buy": 143942934345,
+      "date": "2025-02-24",
+      "name": "total",
+      "sell": 164594288196
+    },
+    {
+      "buy": 9582016820,
+      "date": "2025-02-25",
+      "name": "Investment_Trust",
+      "sell": 8460416744
+    },
+    {
+      "buy": 149606168312,
+      "date": "2025-02-25",
+      "name": "total",
+      "sell": 209216704148
+    },
+    {
+      "buy": 123577247236,
+      "date": "2025-02-25",
+      "name": "Foreign_Investor",
+      "sell": 174915768782
+    },
+    {
+      "buy": 11926553340,
+      "date": "2025-02-25",
+      "name": "Dealer_Hedging",
+      "sell": 18488114009
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4520350916,
+      "date": "2025-02-25",
+      "name": "Dealer_self",
+      "sell": 7352404613
+    },
+    {
+      "buy": 4155457804,
+      "date": "2025-02-26",
+      "name": "Dealer_self",
+      "sell": 3822083960
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11460506564,
+      "date": "2025-02-26",
+      "name": "Dealer_Hedging",
+      "sell": 15949941050
+    },
+    {
+      "buy": 7335194716,
+      "date": "2025-02-26",
+      "name": "Investment_Trust",
+      "sell": 9371679395
+    },
+    {
+      "buy": 144507960875,
+      "date": "2025-02-26",
+      "name": "Foreign_Investor",
+      "sell": 148299451679
+    },
+    {
+      "buy": 167459119959,
+      "date": "2025-02-26",
+      "name": "total",
+      "sell": 177443156084
+    },
+    {
+      "buy": 236076316904,
+      "date": "2025-02-27",
+      "name": "Foreign_Investor",
+      "sell": 281185626601
+    },
+    {
+      "buy": 6343947417,
+      "date": "2025-02-27",
+      "name": "Investment_Trust",
+      "sell": 14344475456
+    },
+    {
+      "buy": 260515042237,
+      "date": "2025-02-27",
+      "name": "total",
+      "sell": 320390329454
+    },
+    {
+      "buy": 12210287990,
+      "date": "2025-02-27",
+      "name": "Dealer_Hedging",
+      "sell": 19314032803
+    },
+    {
+      "buy": 5884489926,
+      "date": "2025-02-27",
+      "name": "Dealer_self",
+      "sell": 5546194594
+    },
+    {
+      "buy": 0,
+      "date": "2025-02-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5651883329,
+      "date": "2025-03-03",
+      "name": "Dealer_self",
+      "sell": 5158837699
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15484104683,
+      "date": "2025-03-03",
+      "name": "Dealer_Hedging",
+      "sell": 31333614739
+    },
+    {
+      "buy": 16029213043,
+      "date": "2025-03-03",
+      "name": "Investment_Trust",
+      "sell": 6744302930
+    },
+    {
+      "buy": 151762107412,
+      "date": "2025-03-03",
+      "name": "Foreign_Investor",
+      "sell": 208801618920
+    },
+    {
+      "buy": 188927308467,
+      "date": "2025-03-03",
+      "name": "total",
+      "sell": 252038374288
+    },
+    {
+      "buy": 165532761614,
+      "date": "2025-03-04",
+      "name": "total",
+      "sell": 221891843220
+    },
+    {
+      "buy": 129771466652,
+      "date": "2025-03-04",
+      "name": "Foreign_Investor",
+      "sell": 182236734571
+    },
+    {
+      "buy": 14285702788,
+      "date": "2025-03-04",
+      "name": "Investment_Trust",
+      "sell": 6815402321
+    },
+    {
+      "buy": 15460746124,
+      "date": "2025-03-04",
+      "name": "Dealer_Hedging",
+      "sell": 26572262902
+    },
+    {
+      "buy": 6014846050,
+      "date": "2025-03-04",
+      "name": "Dealer_self",
+      "sell": 6267443426
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4380787555,
+      "date": "2025-03-05",
+      "name": "Dealer_self",
+      "sell": 4407571764
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 12182460667,
+      "date": "2025-03-05",
+      "name": "Dealer_Hedging",
+      "sell": 17223970369
+    },
+    {
+      "buy": 9837245177,
+      "date": "2025-03-05",
+      "name": "Investment_Trust",
+      "sell": 6514810347
+    },
+    {
+      "buy": 125094184457,
+      "date": "2025-03-05",
+      "name": "Foreign_Investor",
+      "sell": 139163770851
+    },
+    {
+      "buy": 151494677856,
+      "date": "2025-03-05",
+      "name": "total",
+      "sell": 167310123331
+    },
+    {
+      "buy": 111460318873,
+      "date": "2025-03-06",
+      "name": "Foreign_Investor",
+      "sell": 137582559195
+    },
+    {
+      "buy": 9045838538,
+      "date": "2025-03-06",
+      "name": "Investment_Trust",
+      "sell": 6172858123
+    },
+    {
+      "buy": 135738552886,
+      "date": "2025-03-06",
+      "name": "total",
+      "sell": 164261380799
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11071124717,
+      "date": "2025-03-06",
+      "name": "Dealer_Hedging",
+      "sell": 16935967393
+    },
+    {
+      "buy": 4161270758,
+      "date": "2025-03-06",
+      "name": "Dealer_self",
+      "sell": 3569996088
+    },
+    {
+      "buy": 2808461828,
+      "date": "2025-03-07",
+      "name": "Dealer_self",
+      "sell": 3971139241
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8527186365,
+      "date": "2025-03-07",
+      "name": "Dealer_Hedging",
+      "sell": 18571410150
+    },
+    {
+      "buy": 10230087643,
+      "date": "2025-03-07",
+      "name": "Investment_Trust",
+      "sell": 7562479632
+    },
+    {
+      "buy": 120689296294,
+      "date": "2025-03-07",
+      "name": "Foreign_Investor",
+      "sell": 150191328457
+    },
+    {
+      "buy": 142255032130,
+      "date": "2025-03-07",
+      "name": "total",
+      "sell": 180296357480
+    },
+    {
+      "buy": 140934656241,
+      "date": "2025-03-10",
+      "name": "total",
+      "sell": 175388837198
+    },
+    {
+      "buy": 115879036796,
+      "date": "2025-03-10",
+      "name": "Foreign_Investor",
+      "sell": 144597526935
+    },
+    {
+      "buy": 10983322971,
+      "date": "2025-03-10",
+      "name": "Investment_Trust",
+      "sell": 6580628419
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3246355703,
+      "date": "2025-03-10",
+      "name": "Dealer_self",
+      "sell": 5394868533
+    },
+    {
+      "buy": 10825940771,
+      "date": "2025-03-10",
+      "name": "Dealer_Hedging",
+      "sell": 18815813311
+    },
+    {
+      "buy": 7948428998,
+      "date": "2025-03-11",
+      "name": "Dealer_self",
+      "sell": 12668635414
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15699863056,
+      "date": "2025-03-11",
+      "name": "Dealer_Hedging",
+      "sell": 32363833655
+    },
+    {
+      "buy": 13536322093,
+      "date": "2025-03-11",
+      "name": "Investment_Trust",
+      "sell": 7365359754
+    },
+    {
+      "buy": 134825791795,
+      "date": "2025-03-11",
+      "name": "Foreign_Investor",
+      "sell": 180887668141
+    },
+    {
+      "buy": 172010405942,
+      "date": "2025-03-11",
+      "name": "total",
+      "sell": 233285496964
+    },
+    {
+      "buy": 120043457745,
+      "date": "2025-03-12",
+      "name": "Foreign_Investor",
+      "sell": 137253717782
+    },
+    {
+      "buy": 148148553240,
+      "date": "2025-03-12",
+      "name": "total",
+      "sell": 165981690335
+    },
+    {
+      "buy": 13553520644,
+      "date": "2025-03-12",
+      "name": "Investment_Trust",
+      "sell": 7510850983
+    },
+    {
+      "buy": 9464415616,
+      "date": "2025-03-12",
+      "name": "Dealer_Hedging",
+      "sell": 14353480345
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5087159235,
+      "date": "2025-03-12",
+      "name": "Dealer_self",
+      "sell": 6863641225
+    },
+    {
+      "buy": 3623004521,
+      "date": "2025-03-13",
+      "name": "Dealer_self",
+      "sell": 4369442586
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11518272462,
+      "date": "2025-03-13",
+      "name": "Dealer_Hedging",
+      "sell": 17455692875
+    },
+    {
+      "buy": 10601809716,
+      "date": "2025-03-13",
+      "name": "Investment_Trust",
+      "sell": 8882884325
+    },
+    {
+      "buy": 115206042716,
+      "date": "2025-03-13",
+      "name": "Foreign_Investor",
+      "sell": 138781328492
+    },
+    {
+      "buy": 140949129415,
+      "date": "2025-03-13",
+      "name": "total",
+      "sell": 169489348278
+    },
+    {
+      "buy": 153377260301,
+      "date": "2025-03-14",
+      "name": "total",
+      "sell": 160851176084
+    },
+    {
+      "buy": 119655573922,
+      "date": "2025-03-14",
+      "name": "Foreign_Investor",
+      "sell": 130140959008
+    },
+    {
+      "buy": 14649128329,
+      "date": "2025-03-14",
+      "name": "Investment_Trust",
+      "sell": 7139743540
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4672074205,
+      "date": "2025-03-14",
+      "name": "Dealer_self",
+      "sell": 4199729510
+    },
+    {
+      "buy": 14400483845,
+      "date": "2025-03-14",
+      "name": "Dealer_Hedging",
+      "sell": 19370744026
+    },
+    {
+      "buy": 3080442519,
+      "date": "2025-03-17",
+      "name": "Dealer_self",
+      "sell": 3299221591
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10782486848,
+      "date": "2025-03-17",
+      "name": "Dealer_Hedging",
+      "sell": 15119133095
+    },
+    {
+      "buy": 14493936778,
+      "date": "2025-03-17",
+      "name": "Investment_Trust",
+      "sell": 6799909115
+    },
+    {
+      "buy": 111255243733,
+      "date": "2025-03-17",
+      "name": "Foreign_Investor",
+      "sell": 121560912294
+    },
+    {
+      "buy": 139612109878,
+      "date": "2025-03-17",
+      "name": "total",
+      "sell": 146779176095
+    },
+    {
+      "buy": 17882415445,
+      "date": "2025-03-18",
+      "name": "Investment_Trust",
+      "sell": 7038697530
+    },
+    {
+      "buy": 102308785726,
+      "date": "2025-03-18",
+      "name": "Foreign_Investor",
+      "sell": 106884368848
+    },
+    {
+      "buy": 133564140289,
+      "date": "2025-03-18",
+      "name": "total",
+      "sell": 131110822448
+    },
+    {
+      "buy": 10231862599,
+      "date": "2025-03-18",
+      "name": "Dealer_Hedging",
+      "sell": 14276309141
+    },
+    {
+      "buy": 3141076519,
+      "date": "2025-03-18",
+      "name": "Dealer_self",
+      "sell": 2911446929
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5202386491,
+      "date": "2025-03-19",
+      "name": "Dealer_self",
+      "sell": 7045079889
+    },
+    {
+      "buy": 12870208148,
+      "date": "2025-03-19",
+      "name": "Dealer_Hedging",
+      "sell": 16007443387
+    },
+    {
+      "buy": 6906201602,
+      "date": "2025-03-19",
+      "name": "Investment_Trust",
+      "sell": 6515438595
+    },
+    {
+      "buy": 102082723369,
+      "date": "2025-03-19",
+      "name": "Foreign_Investor",
+      "sell": 136328417727
+    },
+    {
+      "buy": 127061519610,
+      "date": "2025-03-19",
+      "name": "total",
+      "sell": 165896379598
+    },
+    {
+      "buy": 135689692003,
+      "date": "2025-03-20",
+      "name": "total",
+      "sell": 110876593651
+    },
+    {
+      "buy": 113160631553,
+      "date": "2025-03-20",
+      "name": "Foreign_Investor",
+      "sell": 91121608237
+    },
+    {
+      "buy": 6532368391,
+      "date": "2025-03-20",
+      "name": "Investment_Trust",
+      "sell": 6973793219
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4782650278,
+      "date": "2025-03-20",
+      "name": "Dealer_self",
+      "sell": 2703688849
+    },
+    {
+      "buy": 11214041781,
+      "date": "2025-03-20",
+      "name": "Dealer_Hedging",
+      "sell": 10077503346
+    },
+    {
+      "buy": 2589811241,
+      "date": "2025-03-21",
+      "name": "Dealer_self",
+      "sell": 2447368800
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8415765411,
+      "date": "2025-03-21",
+      "name": "Dealer_Hedging",
+      "sell": 11836058633
+    },
+    {
+      "buy": 16344712542,
+      "date": "2025-03-21",
+      "name": "Investment_Trust",
+      "sell": 13683491361
+    },
+    {
+      "buy": 151532047282,
+      "date": "2025-03-21",
+      "name": "Foreign_Investor",
+      "sell": 169216857148
+    },
+    {
+      "buy": 178882336476,
+      "date": "2025-03-21",
+      "name": "total",
+      "sell": 197183775942
+    },
+    {
+      "buy": 100644336661,
+      "date": "2025-03-24",
+      "name": "total",
+      "sell": 112549259471
+    },
+    {
+      "buy": 79791015648,
+      "date": "2025-03-24",
+      "name": "Foreign_Investor",
+      "sell": 91263402896
+    },
+    {
+      "buy": 10719650300,
+      "date": "2025-03-24",
+      "name": "Investment_Trust",
+      "sell": 7663141404
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2327290512,
+      "date": "2025-03-24",
+      "name": "Dealer_self",
+      "sell": 2871259974
+    },
+    {
+      "buy": 7806380201,
+      "date": "2025-03-24",
+      "name": "Dealer_Hedging",
+      "sell": 10751455197
+    },
+    {
+      "buy": 2857217895,
+      "date": "2025-03-25",
+      "name": "Dealer_self",
+      "sell": 2726936894
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9826262747,
+      "date": "2025-03-25",
+      "name": "Dealer_Hedging",
+      "sell": 9633282451
+    },
+    {
+      "buy": 10485490546,
+      "date": "2025-03-25",
+      "name": "Investment_Trust",
+      "sell": 7033199784
+    },
+    {
+      "buy": 97230328007,
+      "date": "2025-03-25",
+      "name": "Foreign_Investor",
+      "sell": 90821230316
+    },
+    {
+      "buy": 120399299195,
+      "date": "2025-03-25",
+      "name": "total",
+      "sell": 110214649445
+    },
+    {
+      "buy": 106596197965,
+      "date": "2025-03-26",
+      "name": "total",
+      "sell": 102448070884
+    },
+    {
+      "buy": 86238136803,
+      "date": "2025-03-26",
+      "name": "Foreign_Investor",
+      "sell": 86464265049
+    },
+    {
+      "buy": 9631677795,
+      "date": "2025-03-26",
+      "name": "Investment_Trust",
+      "sell": 6110418799
+    },
+    {
+      "buy": 7774294968,
+      "date": "2025-03-26",
+      "name": "Dealer_Hedging",
+      "sell": 8143116841
+    },
+    {
+      "buy": 2952088399,
+      "date": "2025-03-26",
+      "name": "Dealer_self",
+      "sell": 1730270195
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2524449295,
+      "date": "2025-03-27",
+      "name": "Dealer_self",
+      "sell": 3016141072
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10728916545,
+      "date": "2025-03-27",
+      "name": "Dealer_Hedging",
+      "sell": 16248214803
+    },
+    {
+      "buy": 11494579838,
+      "date": "2025-03-27",
+      "name": "Investment_Trust",
+      "sell": 6211112103
+    },
+    {
+      "buy": 92161839105,
+      "date": "2025-03-27",
+      "name": "Foreign_Investor",
+      "sell": 130949002382
+    },
+    {
+      "buy": 116909784783,
+      "date": "2025-03-27",
+      "name": "total",
+      "sell": 156424470360
+    },
+    {
+      "buy": 99866889479,
+      "date": "2025-03-28",
+      "name": "Foreign_Investor",
+      "sell": 133535459359
+    },
+    {
+      "buy": 124266443294,
+      "date": "2025-03-28",
+      "name": "total",
+      "sell": 170864682270
+    },
+    {
+      "buy": 8576338903,
+      "date": "2025-03-28",
+      "name": "Investment_Trust",
+      "sell": 5489425818
+    },
+    {
+      "buy": 12662844024,
+      "date": "2025-03-28",
+      "name": "Dealer_Hedging",
+      "sell": 25978940853
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3160370888,
+      "date": "2025-03-28",
+      "name": "Dealer_self",
+      "sell": 5860856240
+    },
+    {
+      "buy": 6701089416,
+      "date": "2025-03-31",
+      "name": "Dealer_self",
+      "sell": 10422567624
+    },
+    {
+      "buy": 0,
+      "date": "2025-03-31",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 19305443744,
+      "date": "2025-03-31",
+      "name": "Dealer_Hedging",
+      "sell": 37620676085
+    },
+    {
+      "buy": 14126687849,
+      "date": "2025-03-31",
+      "name": "Investment_Trust",
+      "sell": 5961351037
+    },
+    {
+      "buy": 149652071600,
+      "date": "2025-03-31",
+      "name": "Foreign_Investor",
+      "sell": 187506788804
+    },
+    {
+      "buy": 189785292609,
+      "date": "2025-03-31",
+      "name": "total",
+      "sell": 241511383550
+    },
+    {
+      "buy": 129292693756,
+      "date": "2025-04-01",
+      "name": "total",
+      "sell": 132247113059
+    },
+    {
+      "buy": 106001325080,
+      "date": "2025-04-01",
+      "name": "Foreign_Investor",
+      "sell": 110388216675
+    },
+    {
+      "buy": 9128500520,
+      "date": "2025-04-01",
+      "name": "Investment_Trust",
+      "sell": 3784423727
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-01",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3604963131,
+      "date": "2025-04-01",
+      "name": "Dealer_self",
+      "sell": 4930899586
+    },
+    {
+      "buy": 10557905025,
+      "date": "2025-04-01",
+      "name": "Dealer_Hedging",
+      "sell": 13143573071
+    },
+    {
+      "buy": 2471216690,
+      "date": "2025-04-02",
+      "name": "Dealer_self",
+      "sell": 3070567229
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9545035623,
+      "date": "2025-04-02",
+      "name": "Dealer_Hedging",
+      "sell": 12909078312
+    },
+    {
+      "buy": 4885990448,
+      "date": "2025-04-02",
+      "name": "Investment_Trust",
+      "sell": 2956914085
+    },
+    {
+      "buy": 97086493116,
+      "date": "2025-04-02",
+      "name": "Foreign_Investor",
+      "sell": 98135854734
+    },
+    {
+      "buy": 113988735877,
+      "date": "2025-04-02",
+      "name": "total",
+      "sell": 117072414360
+    },
+    {
+      "buy": 55203171585,
+      "date": "2025-04-07",
+      "name": "Foreign_Investor",
+      "sell": 38382148493
+    },
+    {
+      "buy": 66577351419,
+      "date": "2025-04-07",
+      "name": "total",
+      "sell": 50896437968
+    },
+    {
+      "buy": 10033060297,
+      "date": "2025-04-07",
+      "name": "Dealer_Hedging",
+      "sell": 10492188506
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 553623630,
+      "date": "2025-04-07",
+      "name": "Investment_Trust",
+      "sell": 790018240
+    },
+    {
+      "buy": 787495907,
+      "date": "2025-04-07",
+      "name": "Dealer_self",
+      "sell": 1232082729
+    },
+    {
+      "buy": 6745887372,
+      "date": "2025-04-08",
+      "name": "Dealer_self",
+      "sell": 6328215512
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 32203993695,
+      "date": "2025-04-08",
+      "name": "Dealer_Hedging",
+      "sell": 45293956166
+    },
+    {
+      "buy": 10528901379,
+      "date": "2025-04-08",
+      "name": "Investment_Trust",
+      "sell": 12237544474
+    },
+    {
+      "buy": 195100392247,
+      "date": "2025-04-08",
+      "name": "Foreign_Investor",
+      "sell": 229283393874
+    },
+    {
+      "buy": 244579174693,
+      "date": "2025-04-08",
+      "name": "total",
+      "sell": 293143110026
+    },
+    {
+      "buy": 245906398723,
+      "date": "2025-04-09",
+      "name": "total",
+      "sell": 292847421325
+    },
+    {
+      "buy": 195137530363,
+      "date": "2025-04-09",
+      "name": "Foreign_Investor",
+      "sell": 230778910360
+    },
+    {
+      "buy": 9191036294,
+      "date": "2025-04-09",
+      "name": "Investment_Trust",
+      "sell": 10171800253
+    },
+    {
+      "buy": 34557894064,
+      "date": "2025-04-09",
+      "name": "Dealer_Hedging",
+      "sell": 41383479450
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7019938002,
+      "date": "2025-04-09",
+      "name": "Dealer_self",
+      "sell": 10513231262
+    },
+    {
+      "buy": 2584479795,
+      "date": "2025-04-10",
+      "name": "Dealer_self",
+      "sell": 1272824625
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7210426312,
+      "date": "2025-04-10",
+      "name": "Dealer_Hedging",
+      "sell": 12341825730
+    },
+    {
+      "buy": 4496992543,
+      "date": "2025-04-10",
+      "name": "Investment_Trust",
+      "sell": 2186830791
+    },
+    {
+      "buy": 59364204043,
+      "date": "2025-04-10",
+      "name": "Foreign_Investor",
+      "sell": 65051099728
+    },
+    {
+      "buy": 73656102693,
+      "date": "2025-04-10",
+      "name": "total",
+      "sell": 80852580874
+    },
+    {
+      "buy": 273288957167,
+      "date": "2025-04-11",
+      "name": "total",
+      "sell": 241492426631
+    },
+    {
+      "buy": 230860683664,
+      "date": "2025-04-11",
+      "name": "Foreign_Investor",
+      "sell": 200344014849
+    },
+    {
+      "buy": 17974575887,
+      "date": "2025-04-11",
+      "name": "Investment_Trust",
+      "sell": 8133081571
+    },
+    {
+      "buy": 19031491711,
+      "date": "2025-04-11",
+      "name": "Dealer_Hedging",
+      "sell": 24905537818
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5422205905,
+      "date": "2025-04-11",
+      "name": "Dealer_self",
+      "sell": 8109792393
+    },
+    {
+      "buy": 3224950255,
+      "date": "2025-04-14",
+      "name": "Dealer_self",
+      "sell": 11444944474
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14763862371,
+      "date": "2025-04-14",
+      "name": "Dealer_Hedging",
+      "sell": 19800734172
+    },
+    {
+      "buy": 11765561558,
+      "date": "2025-04-14",
+      "name": "Investment_Trust",
+      "sell": 6922170931
+    },
+    {
+      "buy": 179725876121,
+      "date": "2025-04-14",
+      "name": "Foreign_Investor",
+      "sell": 198352904050
+    },
+    {
+      "buy": 209480250305,
+      "date": "2025-04-14",
+      "name": "total",
+      "sell": 236520753627
+    },
+    {
+      "buy": 134301350002,
+      "date": "2025-04-15",
+      "name": "total",
+      "sell": 139247527069
+    },
+    {
+      "buy": 115664482210,
+      "date": "2025-04-15",
+      "name": "Foreign_Investor",
+      "sell": 116154146903
+    },
+    {
+      "buy": 8166125519,
+      "date": "2025-04-15",
+      "name": "Investment_Trust",
+      "sell": 5617362444
+    },
+    {
+      "buy": 8312864121,
+      "date": "2025-04-15",
+      "name": "Dealer_Hedging",
+      "sell": 12715220974
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2157878152,
+      "date": "2025-04-15",
+      "name": "Dealer_self",
+      "sell": 4760796748
+    },
+    {
+      "buy": 2441597237,
+      "date": "2025-04-16",
+      "name": "Dealer_self",
+      "sell": 7930326093
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9300862322,
+      "date": "2025-04-16",
+      "name": "Dealer_Hedging",
+      "sell": 18046637263
+    },
+    {
+      "buy": 5492888430,
+      "date": "2025-04-16",
+      "name": "Investment_Trust",
+      "sell": 4747228820
+    },
+    {
+      "buy": 106779422813,
+      "date": "2025-04-16",
+      "name": "Foreign_Investor",
+      "sell": 127787212148
+    },
+    {
+      "buy": 124014770802,
+      "date": "2025-04-16",
+      "name": "total",
+      "sell": 158511404324
+    },
+    {
+      "buy": 110874212594,
+      "date": "2025-04-17",
+      "name": "total",
+      "sell": 129061397629
+    },
+    {
+      "buy": 95989336443,
+      "date": "2025-04-17",
+      "name": "Foreign_Investor",
+      "sell": 109610153246
+    },
+    {
+      "buy": 8816012360,
+      "date": "2025-04-17",
+      "name": "Dealer_Hedging",
+      "sell": 11709272836
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2149293291,
+      "date": "2025-04-17",
+      "name": "Dealer_self",
+      "sell": 2209538774
+    },
+    {
+      "buy": 3919570500,
+      "date": "2025-04-17",
+      "name": "Investment_Trust",
+      "sell": 5532432773
+    },
+    {
+      "buy": 1330894851,
+      "date": "2025-04-18",
+      "name": "Dealer_self",
+      "sell": 1755492401
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4683995330,
+      "date": "2025-04-18",
+      "name": "Dealer_Hedging",
+      "sell": 6984055507
+    },
+    {
+      "buy": 10679953227,
+      "date": "2025-04-18",
+      "name": "Investment_Trust",
+      "sell": 8711042187
+    },
+    {
+      "buy": 58140267902,
+      "date": "2025-04-18",
+      "name": "Foreign_Investor",
+      "sell": 73339682668
+    },
+    {
+      "buy": 74835111310,
+      "date": "2025-04-18",
+      "name": "total",
+      "sell": 90790272763
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 1218903670,
+      "date": "2025-04-21",
+      "name": "Dealer_self",
+      "sell": 2786826421
+    },
+    {
+      "buy": 8670582505,
+      "date": "2025-04-21",
+      "name": "Dealer_Hedging",
+      "sell": 13763706854
+    },
+    {
+      "buy": 9388718420,
+      "date": "2025-04-21",
+      "name": "Investment_Trust",
+      "sell": 6923911028
+    },
+    {
+      "buy": 63514730968,
+      "date": "2025-04-21",
+      "name": "Foreign_Investor",
+      "sell": 65465265780
+    },
+    {
+      "buy": 82792935563,
+      "date": "2025-04-21",
+      "name": "total",
+      "sell": 88939710083
+    },
+    {
+      "buy": 9113507216,
+      "date": "2025-04-22",
+      "name": "Investment_Trust",
+      "sell": 9627223916
+    },
+    {
+      "buy": 9853989164,
+      "date": "2025-04-22",
+      "name": "Dealer_Hedging",
+      "sell": 14979143587
+    },
+    {
+      "buy": 85636459462,
+      "date": "2025-04-22",
+      "name": "Foreign_Investor",
+      "sell": 90879588471
+    },
+    {
+      "buy": 1895445208,
+      "date": "2025-04-22",
+      "name": "Dealer_self",
+      "sell": 2405730233
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 106499401050,
+      "date": "2025-04-22",
+      "name": "total",
+      "sell": 117891686207
+    },
+    {
+      "buy": 115296000658,
+      "date": "2025-04-23",
+      "name": "Foreign_Investor",
+      "sell": 88925748984
+    },
+    {
+      "buy": 138113140231,
+      "date": "2025-04-23",
+      "name": "total",
+      "sell": 108625844355
+    },
+    {
+      "buy": 9866422520,
+      "date": "2025-04-23",
+      "name": "Investment_Trust",
+      "sell": 6877791604
+    },
+    {
+      "buy": 2412227440,
+      "date": "2025-04-23",
+      "name": "Dealer_self",
+      "sell": 2931595600
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10538489613,
+      "date": "2025-04-23",
+      "name": "Dealer_Hedging",
+      "sell": 9890708167
+    },
+    {
+      "buy": 1394893849,
+      "date": "2025-04-24",
+      "name": "Dealer_self",
+      "sell": 2666872099
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6622091141,
+      "date": "2025-04-24",
+      "name": "Dealer_Hedging",
+      "sell": 8927442436
+    },
+    {
+      "buy": 7833151514,
+      "date": "2025-04-24",
+      "name": "Investment_Trust",
+      "sell": 5859830328
+    },
+    {
+      "buy": 93542765468,
+      "date": "2025-04-24",
+      "name": "Foreign_Investor",
+      "sell": 99751602784
+    },
+    {
+      "buy": 109392901972,
+      "date": "2025-04-24",
+      "name": "total",
+      "sell": 117205747647
+    },
+    {
+      "buy": 136511546912,
+      "date": "2025-04-25",
+      "name": "total",
+      "sell": 115054685944
+    },
+    {
+      "buy": 114160206161,
+      "date": "2025-04-25",
+      "name": "Foreign_Investor",
+      "sell": 99592011832
+    },
+    {
+      "buy": 9650003746,
+      "date": "2025-04-25",
+      "name": "Investment_Trust",
+      "sell": 5500342004
+    },
+    {
+      "buy": 10537012349,
+      "date": "2025-04-25",
+      "name": "Dealer_Hedging",
+      "sell": 7994695049
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2164324656,
+      "date": "2025-04-25",
+      "name": "Dealer_self",
+      "sell": 1967637059
+    },
+    {
+      "buy": 1564861999,
+      "date": "2025-04-28",
+      "name": "Dealer_self",
+      "sell": 1589433971
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6313842017,
+      "date": "2025-04-28",
+      "name": "Dealer_Hedging",
+      "sell": 6662545542
+    },
+    {
+      "buy": 6347593416,
+      "date": "2025-04-28",
+      "name": "Investment_Trust",
+      "sell": 3995814715
+    },
+    {
+      "buy": 82429894425,
+      "date": "2025-04-28",
+      "name": "Foreign_Investor",
+      "sell": 76563219135
+    },
+    {
+      "buy": 96656191857,
+      "date": "2025-04-28",
+      "name": "total",
+      "sell": 88811013363
+    },
+    {
+      "buy": 114529272438,
+      "date": "2025-04-29",
+      "name": "total",
+      "sell": 105306252320
+    },
+    {
+      "buy": 101143999135,
+      "date": "2025-04-29",
+      "name": "Foreign_Investor",
+      "sell": 91762450847
+    },
+    {
+      "buy": 3964546756,
+      "date": "2025-04-29",
+      "name": "Investment_Trust",
+      "sell": 3779021847
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-29",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2080723072,
+      "date": "2025-04-29",
+      "name": "Dealer_self",
+      "sell": 1623434568
+    },
+    {
+      "buy": 7340003475,
+      "date": "2025-04-29",
+      "name": "Dealer_Hedging",
+      "sell": 8141345058
+    },
+    {
+      "buy": 1486053349,
+      "date": "2025-04-30",
+      "name": "Dealer_self",
+      "sell": 4559582224
+    },
+    {
+      "buy": 0,
+      "date": "2025-04-30",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6066759119,
+      "date": "2025-04-30",
+      "name": "Dealer_Hedging",
+      "sell": 11172761181
+    },
+    {
+      "buy": 5094761321,
+      "date": "2025-04-30",
+      "name": "Investment_Trust",
+      "sell": 5195645405
+    },
+    {
+      "buy": 112057530835,
+      "date": "2025-04-30",
+      "name": "Foreign_Investor",
+      "sell": 113714427811
+    },
+    {
+      "buy": 124705104624,
+      "date": "2025-04-30",
+      "name": "total",
+      "sell": 134642416621
+    },
+    {
+      "buy": 10610023605,
+      "date": "2025-05-02",
+      "name": "Dealer_Hedging",
+      "sell": 11502664990
+    },
+    {
+      "buy": 157199451331,
+      "date": "2025-05-02",
+      "name": "total",
+      "sell": 118615235600
+    },
+    {
+      "buy": 138446958431,
+      "date": "2025-05-02",
+      "name": "Foreign_Investor",
+      "sell": 99673944869
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2231388859,
+      "date": "2025-05-02",
+      "name": "Dealer_self",
+      "sell": 2395784725
+    },
+    {
+      "buy": 5911080436,
+      "date": "2025-05-02",
+      "name": "Investment_Trust",
+      "sell": 5042841016
+    },
+    {
+      "buy": 159277329362,
+      "date": "2025-05-05",
+      "name": "Foreign_Investor",
+      "sell": 134836472700
+    },
+    {
+      "buy": 2523799889,
+      "date": "2025-05-05",
+      "name": "Dealer_self",
+      "sell": 6023296604
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11609523722,
+      "date": "2025-05-05",
+      "name": "Dealer_Hedging",
+      "sell": 19272797916
+    },
+    {
+      "buy": 5450005308,
+      "date": "2025-05-05",
+      "name": "Investment_Trust",
+      "sell": 6673732726
+    },
+    {
+      "buy": 178860658281,
+      "date": "2025-05-05",
+      "name": "total",
+      "sell": 166806299946
+    },
+    {
+      "buy": 136365143204,
+      "date": "2025-05-06",
+      "name": "Foreign_Investor",
+      "sell": 120611168050
+    },
+    {
+      "buy": 155591741638,
+      "date": "2025-05-06",
+      "name": "total",
+      "sell": 150749403444
+    },
+    {
+      "buy": 8177815093,
+      "date": "2025-05-06",
+      "name": "Investment_Trust",
+      "sell": 7294099078
+    },
+    {
+      "buy": 1393648224,
+      "date": "2025-05-06",
+      "name": "Dealer_self",
+      "sell": 5805486720
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9655135117,
+      "date": "2025-05-06",
+      "name": "Dealer_Hedging",
+      "sell": 17038649596
+    },
+    {
+      "buy": 1345890734,
+      "date": "2025-05-07",
+      "name": "Dealer_self",
+      "sell": 4840130381
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6511685965,
+      "date": "2025-05-07",
+      "name": "Dealer_Hedging",
+      "sell": 13012422906
+    },
+    {
+      "buy": 4005389625,
+      "date": "2025-05-07",
+      "name": "Investment_Trust",
+      "sell": 6905240092
+    },
+    {
+      "buy": 118753966762,
+      "date": "2025-05-07",
+      "name": "Foreign_Investor",
+      "sell": 105108675829
+    },
+    {
+      "buy": 130616933086,
+      "date": "2025-05-07",
+      "name": "total",
+      "sell": 129866469208
+    },
+    {
+      "buy": 113661920208,
+      "date": "2025-05-08",
+      "name": "total",
+      "sell": 112913800866
+    },
+    {
+      "buy": 100149686478,
+      "date": "2025-05-08",
+      "name": "Foreign_Investor",
+      "sell": 98665276760
+    },
+    {
+      "buy": 5122934535,
+      "date": "2025-05-08",
+      "name": "Investment_Trust",
+      "sell": 4334669459
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 1909602135,
+      "date": "2025-05-08",
+      "name": "Dealer_self",
+      "sell": 2049252161
+    },
+    {
+      "buy": 6479697060,
+      "date": "2025-05-08",
+      "name": "Dealer_Hedging",
+      "sell": 7864602486
+    },
+    {
+      "buy": 1886007771,
+      "date": "2025-05-09",
+      "name": "Dealer_self",
+      "sell": 2106951725
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9282651256,
+      "date": "2025-05-09",
+      "name": "Dealer_Hedging",
+      "sell": 9462980153
+    },
+    {
+      "buy": 5463059616,
+      "date": "2025-05-09",
+      "name": "Investment_Trust",
+      "sell": 4053150556
+    },
+    {
+      "buy": 126036956104,
+      "date": "2025-05-09",
+      "name": "Foreign_Investor",
+      "sell": 103304680703
+    },
+    {
+      "buy": 142668674747,
+      "date": "2025-05-09",
+      "name": "total",
+      "sell": 118927763137
+    },
+    {
+      "buy": 100837509197,
+      "date": "2025-05-12",
+      "name": "Foreign_Investor",
+      "sell": 84219027048
+    },
+    {
+      "buy": 118069417027,
+      "date": "2025-05-12",
+      "name": "total",
+      "sell": 100922516764
+    },
+    {
+      "buy": 6999563203,
+      "date": "2025-05-12",
+      "name": "Investment_Trust",
+      "sell": 4366675296
+    },
+    {
+      "buy": 2948174584,
+      "date": "2025-05-12",
+      "name": "Dealer_self",
+      "sell": 3129337949
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7284170043,
+      "date": "2025-05-12",
+      "name": "Dealer_Hedging",
+      "sell": 9207476471
+    },
+    {
+      "buy": 5105587566,
+      "date": "2025-05-13",
+      "name": "Dealer_self",
+      "sell": 3762977850
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11244356518,
+      "date": "2025-05-13",
+      "name": "Dealer_Hedging",
+      "sell": 10288667939
+    },
+    {
+      "buy": 7254797871,
+      "date": "2025-05-13",
+      "name": "Investment_Trust",
+      "sell": 5927733728
+    },
+    {
+      "buy": 160624248622,
+      "date": "2025-05-13",
+      "name": "Foreign_Investor",
+      "sell": 145467665555
+    },
+    {
+      "buy": 184228990577,
+      "date": "2025-05-13",
+      "name": "total",
+      "sell": 165447045072
+    },
+    {
+      "buy": 215209401319,
+      "date": "2025-05-14",
+      "name": "total",
+      "sell": 153115493549
+    },
+    {
+      "buy": 178285958410,
+      "date": "2025-05-14",
+      "name": "Foreign_Investor",
+      "sell": 133593625011
+    },
+    {
+      "buy": 9203481920,
+      "date": "2025-05-14",
+      "name": "Investment_Trust",
+      "sell": 6011096192
+    },
+    {
+      "buy": 9231098424,
+      "date": "2025-05-14",
+      "name": "Dealer_self",
+      "sell": 2515061210
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18488862565,
+      "date": "2025-05-14",
+      "name": "Dealer_Hedging",
+      "sell": 10995711136
+    },
+    {
+      "buy": 136177152185,
+      "date": "2025-05-15",
+      "name": "Foreign_Investor",
+      "sell": 128666320619
+    },
+    {
+      "buy": 154553409185,
+      "date": "2025-05-15",
+      "name": "total",
+      "sell": 145542839545
+    },
+    {
+      "buy": 6553600167,
+      "date": "2025-05-15",
+      "name": "Investment_Trust",
+      "sell": 4670131992
+    },
+    {
+      "buy": 2588428743,
+      "date": "2025-05-15",
+      "name": "Dealer_self",
+      "sell": 2500390819
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9234228090,
+      "date": "2025-05-15",
+      "name": "Dealer_Hedging",
+      "sell": 9705996115
+    },
+    {
+      "buy": 3514759640,
+      "date": "2025-05-16",
+      "name": "Dealer_self",
+      "sell": 2546105764
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9701399197,
+      "date": "2025-05-16",
+      "name": "Dealer_Hedging",
+      "sell": 11277103650
+    },
+    {
+      "buy": 6570440764,
+      "date": "2025-05-16",
+      "name": "Investment_Trust",
+      "sell": 9765540400
+    },
+    {
+      "buy": 121802749894,
+      "date": "2025-05-16",
+      "name": "Foreign_Investor",
+      "sell": 106113032868
+    },
+    {
+      "buy": 141589349495,
+      "date": "2025-05-16",
+      "name": "total",
+      "sell": 129701782682
+    },
+    {
+      "buy": 128037881107,
+      "date": "2025-05-19",
+      "name": "total",
+      "sell": 144751150547
+    },
+    {
+      "buy": 9603655703,
+      "date": "2025-05-19",
+      "name": "Investment_Trust",
+      "sell": 9250838906
+    },
+    {
+      "buy": 107266914159,
+      "date": "2025-05-19",
+      "name": "Foreign_Investor",
+      "sell": 120316929605
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2462196255,
+      "date": "2025-05-19",
+      "name": "Dealer_self",
+      "sell": 2891577426
+    },
+    {
+      "buy": 8705114990,
+      "date": "2025-05-19",
+      "name": "Dealer_Hedging",
+      "sell": 12291804610
+    },
+    {
+      "buy": 3680845077,
+      "date": "2025-05-20",
+      "name": "Dealer_self",
+      "sell": 2087521735
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7280001391,
+      "date": "2025-05-20",
+      "name": "Dealer_Hedging",
+      "sell": 7464808299
+    },
+    {
+      "buy": 9617761880,
+      "date": "2025-05-20",
+      "name": "Investment_Trust",
+      "sell": 9228364583
+    },
+    {
+      "buy": 105538551249,
+      "date": "2025-05-20",
+      "name": "Foreign_Investor",
+      "sell": 100183598958
+    },
+    {
+      "buy": 126117159597,
+      "date": "2025-05-20",
+      "name": "total",
+      "sell": 118964293575
+    },
+    {
+      "buy": 127308629038,
+      "date": "2025-05-21",
+      "name": "Foreign_Investor",
+      "sell": 97076704795
+    },
+    {
+      "buy": 156257879672,
+      "date": "2025-05-21",
+      "name": "total",
+      "sell": 117384613758
+    },
+    {
+      "buy": 12119646583,
+      "date": "2025-05-21",
+      "name": "Investment_Trust",
+      "sell": 7073400542
+    },
+    {
+      "buy": 3695251725,
+      "date": "2025-05-21",
+      "name": "Dealer_self",
+      "sell": 3094262895
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13134352326,
+      "date": "2025-05-21",
+      "name": "Dealer_Hedging",
+      "sell": 10140245526
+    },
+    {
+      "buy": 1562129604,
+      "date": "2025-05-22",
+      "name": "Dealer_self",
+      "sell": 3471469363
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 8904410238,
+      "date": "2025-05-22",
+      "name": "Dealer_Hedging",
+      "sell": 11550192329
+    },
+    {
+      "buy": 15979284517,
+      "date": "2025-05-22",
+      "name": "Investment_Trust",
+      "sell": 11364462944
+    },
+    {
+      "buy": 100960995806,
+      "date": "2025-05-22",
+      "name": "Foreign_Investor",
+      "sell": 98520269923
+    },
+    {
+      "buy": 127406820165,
+      "date": "2025-05-22",
+      "name": "total",
+      "sell": 124906394559
+    },
+    {
+      "buy": 1982691082,
+      "date": "2025-05-23",
+      "name": "Dealer_self",
+      "sell": 3857753567
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6357846806,
+      "date": "2025-05-23",
+      "name": "Dealer_Hedging",
+      "sell": 11311344625
+    },
+    {
+      "buy": 16423266226,
+      "date": "2025-05-23",
+      "name": "Investment_Trust",
+      "sell": 10018321243
+    },
+    {
+      "buy": 103565336320,
+      "date": "2025-05-23",
+      "name": "Foreign_Investor",
+      "sell": 106597385949
+    },
+    {
+      "buy": 128329140434,
+      "date": "2025-05-23",
+      "name": "total",
+      "sell": 131784805384
+    },
+    {
+      "buy": 123393721264,
+      "date": "2025-05-26",
+      "name": "Foreign_Investor",
+      "sell": 110127365085
+    },
+    {
+      "buy": 15542574928,
+      "date": "2025-05-26",
+      "name": "Investment_Trust",
+      "sell": 13012519284
+    },
+    {
+      "buy": 146842225473,
+      "date": "2025-05-26",
+      "name": "total",
+      "sell": 142875076762
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 1750298331,
+      "date": "2025-05-26",
+      "name": "Dealer_self",
+      "sell": 6924592348
+    },
+    {
+      "buy": 6155630950,
+      "date": "2025-05-26",
+      "name": "Dealer_Hedging",
+      "sell": 12810600045
+    },
+    {
+      "buy": 145213308256,
+      "date": "2025-05-27",
+      "name": "total",
+      "sell": 163931899012
+    },
+    {
+      "buy": 119128941752,
+      "date": "2025-05-27",
+      "name": "Foreign_Investor",
+      "sell": 129399891561
+    },
+    {
+      "buy": 17810483429,
+      "date": "2025-05-27",
+      "name": "Investment_Trust",
+      "sell": 13605938351
+    },
+    {
+      "buy": 1797389965,
+      "date": "2025-05-27",
+      "name": "Dealer_self",
+      "sell": 7846607838
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6476493110,
+      "date": "2025-05-27",
+      "name": "Dealer_Hedging",
+      "sell": 13079461262
+    },
+    {
+      "buy": 1783591947,
+      "date": "2025-05-28",
+      "name": "Dealer_self",
+      "sell": 2890855849
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6468705801,
+      "date": "2025-05-28",
+      "name": "Dealer_Hedging",
+      "sell": 8031153132
+    },
+    {
+      "buy": 18834406463,
+      "date": "2025-05-28",
+      "name": "Investment_Trust",
+      "sell": 17035709687
+    },
+    {
+      "buy": 133426921675,
+      "date": "2025-05-28",
+      "name": "Foreign_Investor",
+      "sell": 134213815347
+    },
+    {
+      "buy": 160513625886,
+      "date": "2025-05-28",
+      "name": "total",
+      "sell": 162171534015
+    },
+    {
+      "buy": 5561632778,
+      "date": "2025-05-29",
+      "name": "Dealer_self",
+      "sell": 1893614155
+    },
+    {
+      "buy": 0,
+      "date": "2025-05-29",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11104171260,
+      "date": "2025-05-29",
+      "name": "Dealer_Hedging",
+      "sell": 8688710776
+    },
+    {
+      "buy": 29178999764,
+      "date": "2025-05-29",
+      "name": "Investment_Trust",
+      "sell": 21364646999
+    },
+    {
+      "buy": 251178183007,
+      "date": "2025-05-29",
+      "name": "Foreign_Investor",
+      "sell": 271844078212
+    },
+    {
+      "buy": 297022986809,
+      "date": "2025-05-29",
+      "name": "total",
+      "sell": 303791050142
+    },
+    {
+      "buy": 124865685445,
+      "date": "2025-06-02",
+      "name": "Foreign_Investor",
+      "sell": 178735149065
+    },
+    {
+      "buy": 28765189459,
+      "date": "2025-06-02",
+      "name": "Investment_Trust",
+      "sell": 19055515868
+    },
+    {
+      "buy": 165522192653,
+      "date": "2025-06-02",
+      "name": "total",
+      "sell": 220221428426
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9341389860,
+      "date": "2025-06-02",
+      "name": "Dealer_Hedging",
+      "sell": 17377874323
+    },
+    {
+      "buy": 2549927889,
+      "date": "2025-06-02",
+      "name": "Dealer_self",
+      "sell": 5052889170
+    },
+    {
+      "buy": 3214591671,
+      "date": "2025-06-03",
+      "name": "Dealer_self",
+      "sell": 2922843714
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10095478180,
+      "date": "2025-06-03",
+      "name": "Dealer_Hedging",
+      "sell": 10847054462
+    },
+    {
+      "buy": 45032539128,
+      "date": "2025-06-03",
+      "name": "Investment_Trust",
+      "sell": 32400272898
+    },
+    {
+      "buy": 132092237621,
+      "date": "2025-06-03",
+      "name": "Foreign_Investor",
+      "sell": 145338455992
+    },
+    {
+      "buy": 190434846600,
+      "date": "2025-06-03",
+      "name": "total",
+      "sell": 191508627066
+    },
+    {
+      "buy": 37950954230,
+      "date": "2025-06-04",
+      "name": "Investment_Trust",
+      "sell": 33164523930
+    },
+    {
+      "buy": 218790889512,
+      "date": "2025-06-04",
+      "name": "total",
+      "sell": 189950243446
+    },
+    {
+      "buy": 163945768067,
+      "date": "2025-06-04",
+      "name": "Foreign_Investor",
+      "sell": 143608244595
+    },
+    {
+      "buy": 12088305946,
+      "date": "2025-06-04",
+      "name": "Dealer_Hedging",
+      "sell": 10312906373
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4805861269,
+      "date": "2025-06-04",
+      "name": "Dealer_self",
+      "sell": 2864568548
+    },
+    {
+      "buy": 4109034531,
+      "date": "2025-06-05",
+      "name": "Dealer_self",
+      "sell": 3839031658
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10132290838,
+      "date": "2025-06-05",
+      "name": "Dealer_Hedging",
+      "sell": 14419714083
+    },
+    {
+      "buy": 25016279884,
+      "date": "2025-06-05",
+      "name": "Investment_Trust",
+      "sell": 27377600500
+    },
+    {
+      "buy": 132842271634,
+      "date": "2025-06-05",
+      "name": "Foreign_Investor",
+      "sell": 132775946200
+    },
+    {
+      "buy": 172099876887,
+      "date": "2025-06-05",
+      "name": "total",
+      "sell": 178412292441
+    },
+    {
+      "buy": 105294985195,
+      "date": "2025-06-06",
+      "name": "Foreign_Investor",
+      "sell": 118968461214
+    },
+    {
+      "buy": 137069015695,
+      "date": "2025-06-06",
+      "name": "total",
+      "sell": 149470024810
+    },
+    {
+      "buy": 21671941988,
+      "date": "2025-06-06",
+      "name": "Investment_Trust",
+      "sell": 17944243868
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2191018256,
+      "date": "2025-06-06",
+      "name": "Dealer_self",
+      "sell": 2456025047
+    },
+    {
+      "buy": 7911070256,
+      "date": "2025-06-06",
+      "name": "Dealer_Hedging",
+      "sell": 10101294681
+    },
+    {
+      "buy": 104801505195,
+      "date": "2025-06-09",
+      "name": "Foreign_Investor",
+      "sell": 104870606631
+    },
+    {
+      "buy": 21205022152,
+      "date": "2025-06-09",
+      "name": "Investment_Trust",
+      "sell": 17772925497
+    },
+    {
+      "buy": 137749596944,
+      "date": "2025-06-09",
+      "name": "total",
+      "sell": 134273636827
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3279005350,
+      "date": "2025-06-09",
+      "name": "Dealer_self",
+      "sell": 2334254686
+    },
+    {
+      "buy": 8464064247,
+      "date": "2025-06-09",
+      "name": "Dealer_Hedging",
+      "sell": 9295850013
+    },
+    {
+      "buy": 7358592918,
+      "date": "2025-06-10",
+      "name": "Dealer_self",
+      "sell": 3520130645
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 16230038485,
+      "date": "2025-06-10",
+      "name": "Dealer_Hedging",
+      "sell": 11117326013
+    },
+    {
+      "buy": 19791179956,
+      "date": "2025-06-10",
+      "name": "Investment_Trust",
+      "sell": 16566831832
+    },
+    {
+      "buy": 161535100080,
+      "date": "2025-06-10",
+      "name": "Foreign_Investor",
+      "sell": 121609398012
+    },
+    {
+      "buy": 204914911439,
+      "date": "2025-06-10",
+      "name": "total",
+      "sell": 152813686502
+    },
+    {
+      "buy": 155405466283,
+      "date": "2025-06-11",
+      "name": "Foreign_Investor",
+      "sell": 147475597526
+    },
+    {
+      "buy": 26493294003,
+      "date": "2025-06-11",
+      "name": "Investment_Trust",
+      "sell": 21843095034
+    },
+    {
+      "buy": 197366571165,
+      "date": "2025-06-11",
+      "name": "total",
+      "sell": 182645319095
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4227696095,
+      "date": "2025-06-11",
+      "name": "Dealer_self",
+      "sell": 3349494741
+    },
+    {
+      "buy": 11240114784,
+      "date": "2025-06-11",
+      "name": "Dealer_Hedging",
+      "sell": 9977131794
+    },
+    {
+      "buy": 4272417912,
+      "date": "2025-06-12",
+      "name": "Dealer_self",
+      "sell": 2608070396
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10251317039,
+      "date": "2025-06-12",
+      "name": "Dealer_Hedging",
+      "sell": 11526076043
+    },
+    {
+      "buy": 18307340930,
+      "date": "2025-06-12",
+      "name": "Investment_Trust",
+      "sell": 21358341849
+    },
+    {
+      "buy": 123808161683,
+      "date": "2025-06-12",
+      "name": "Foreign_Investor",
+      "sell": 123453740496
+    },
+    {
+      "buy": 156639237564,
+      "date": "2025-06-12",
+      "name": "total",
+      "sell": 158946228784
+    },
+    {
+      "buy": 162390455130,
+      "date": "2025-06-13",
+      "name": "total",
+      "sell": 171730916982
+    },
+    {
+      "buy": 128547049643,
+      "date": "2025-06-13",
+      "name": "Foreign_Investor",
+      "sell": 129343644642
+    },
+    {
+      "buy": 16658938989,
+      "date": "2025-06-13",
+      "name": "Investment_Trust",
+      "sell": 11678558270
+    },
+    {
+      "buy": 13499127811,
+      "date": "2025-06-13",
+      "name": "Dealer_Hedging",
+      "sell": 21239347747
+    },
+    {
+      "buy": 3685338687,
+      "date": "2025-06-13",
+      "name": "Dealer_self",
+      "sell": 9469366323
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3776905513,
+      "date": "2025-06-16",
+      "name": "Dealer_self",
+      "sell": 3054229008
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9983002024,
+      "date": "2025-06-16",
+      "name": "Dealer_Hedging",
+      "sell": 16455247929
+    },
+    {
+      "buy": 12291496986,
+      "date": "2025-06-16",
+      "name": "Investment_Trust",
+      "sell": 9551906127
+    },
+    {
+      "buy": 103856916097,
+      "date": "2025-06-16",
+      "name": "Foreign_Investor",
+      "sell": 103844001618
+    },
+    {
+      "buy": 129908320620,
+      "date": "2025-06-16",
+      "name": "total",
+      "sell": 132905384682
+    },
+    {
+      "buy": 133024097163,
+      "date": "2025-06-17",
+      "name": "Foreign_Investor",
+      "sell": 126805684702
+    },
+    {
+      "buy": 22808796548,
+      "date": "2025-06-17",
+      "name": "Investment_Trust",
+      "sell": 14491747549
+    },
+    {
+      "buy": 172384985134,
+      "date": "2025-06-17",
+      "name": "total",
+      "sell": 168027541310
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10880947022,
+      "date": "2025-06-17",
+      "name": "Dealer_Hedging",
+      "sell": 19024369187
+    },
+    {
+      "buy": 5671144401,
+      "date": "2025-06-17",
+      "name": "Dealer_self",
+      "sell": 7705739872
+    },
+    {
+      "buy": 7186744520,
+      "date": "2025-06-18",
+      "name": "Dealer_self",
+      "sell": 9023258891
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 16210412719,
+      "date": "2025-06-18",
+      "name": "Dealer_Hedging",
+      "sell": 15594665695
+    },
+    {
+      "buy": 15286426415,
+      "date": "2025-06-18",
+      "name": "Investment_Trust",
+      "sell": 13388178715
+    },
+    {
+      "buy": 146579957236,
+      "date": "2025-06-18",
+      "name": "Foreign_Investor",
+      "sell": 134968521821
+    },
+    {
+      "buy": 185263540890,
+      "date": "2025-06-18",
+      "name": "total",
+      "sell": 172974625122
+    },
+    {
+      "buy": 11327655954,
+      "date": "2025-06-19",
+      "name": "Investment_Trust",
+      "sell": 13403065708
+    },
+    {
+      "buy": 127498998618,
+      "date": "2025-06-19",
+      "name": "total",
+      "sell": 156167355150
+    },
+    {
+      "buy": 102076849712,
+      "date": "2025-06-19",
+      "name": "Foreign_Investor",
+      "sell": 123375397994
+    },
+    {
+      "buy": 9603676973,
+      "date": "2025-06-19",
+      "name": "Dealer_Hedging",
+      "sell": 12945145497
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4490815979,
+      "date": "2025-06-19",
+      "name": "Dealer_self",
+      "sell": 6443745951
+    },
+    {
+      "buy": 3428501717,
+      "date": "2025-06-20",
+      "name": "Dealer_self",
+      "sell": 4730839456
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9269054369,
+      "date": "2025-06-20",
+      "name": "Dealer_Hedging",
+      "sell": 13795797538
+    },
+    {
+      "buy": 31591193246,
+      "date": "2025-06-20",
+      "name": "Investment_Trust",
+      "sell": 30338236029
+    },
+    {
+      "buy": 217697555282,
+      "date": "2025-06-20",
+      "name": "Foreign_Investor",
+      "sell": 222612301599
+    },
+    {
+      "buy": 261986304614,
+      "date": "2025-06-20",
+      "name": "total",
+      "sell": 271477174622
+    },
+    {
+      "buy": 106267513187,
+      "date": "2025-06-23",
+      "name": "Foreign_Investor",
+      "sell": 121150277128
+    },
+    {
+      "buy": 21456682541,
+      "date": "2025-06-23",
+      "name": "Investment_Trust",
+      "sell": 18480609720
+    },
+    {
+      "buy": 143003094100,
+      "date": "2025-06-23",
+      "name": "total",
+      "sell": 156249584481
+    },
+    {
+      "buy": 11765728839,
+      "date": "2025-06-23",
+      "name": "Dealer_Hedging",
+      "sell": 13507758195
+    },
+    {
+      "buy": 3513169533,
+      "date": "2025-06-23",
+      "name": "Dealer_self",
+      "sell": 3110939438
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5101957934,
+      "date": "2025-06-24",
+      "name": "Dealer_self",
+      "sell": 4197588766
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14696231898,
+      "date": "2025-06-24",
+      "name": "Dealer_Hedging",
+      "sell": 11287591363
+    },
+    {
+      "buy": 27806760158,
+      "date": "2025-06-24",
+      "name": "Investment_Trust",
+      "sell": 27352465154
+    },
+    {
+      "buy": 152501337881,
+      "date": "2025-06-24",
+      "name": "Foreign_Investor",
+      "sell": 123235898134
+    },
+    {
+      "buy": 200106287871,
+      "date": "2025-06-24",
+      "name": "total",
+      "sell": 166073543417
+    },
+    {
+      "buy": 203030214340,
+      "date": "2025-06-25",
+      "name": "total",
+      "sell": 160264010718
+    },
+    {
+      "buy": 158900898575,
+      "date": "2025-06-25",
+      "name": "Foreign_Investor",
+      "sell": 123304342101
+    },
+    {
+      "buy": 27756105174,
+      "date": "2025-06-25",
+      "name": "Investment_Trust",
+      "sell": 22407267061
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3807520860,
+      "date": "2025-06-25",
+      "name": "Dealer_self",
+      "sell": 3216481010
+    },
+    {
+      "buy": 12565689731,
+      "date": "2025-06-25",
+      "name": "Dealer_Hedging",
+      "sell": 11335920546
+    },
+    {
+      "buy": 3608493984,
+      "date": "2025-06-26",
+      "name": "Dealer_self",
+      "sell": 6983391520
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10312904613,
+      "date": "2025-06-26",
+      "name": "Dealer_Hedging",
+      "sell": 17927196276
+    },
+    {
+      "buy": 26620315041,
+      "date": "2025-06-26",
+      "name": "Investment_Trust",
+      "sell": 30503102817
+    },
+    {
+      "buy": 169204266963,
+      "date": "2025-06-26",
+      "name": "Foreign_Investor",
+      "sell": 135352472162
+    },
+    {
+      "buy": 209745980601,
+      "date": "2025-06-26",
+      "name": "total",
+      "sell": 190766162775
+    },
+    {
+      "buy": 153062895740,
+      "date": "2025-06-27",
+      "name": "Foreign_Investor",
+      "sell": 119689605338
+    },
+    {
+      "buy": 186821633793,
+      "date": "2025-06-27",
+      "name": "total",
+      "sell": 166093531212
+    },
+    {
+      "buy": 21042713195,
+      "date": "2025-06-27",
+      "name": "Investment_Trust",
+      "sell": 18408109272
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9818162473,
+      "date": "2025-06-27",
+      "name": "Dealer_Hedging",
+      "sell": 17660634582
+    },
+    {
+      "buy": 2897862385,
+      "date": "2025-06-27",
+      "name": "Dealer_self",
+      "sell": 10335182020
+    },
+    {
+      "buy": 4071187223,
+      "date": "2025-06-30",
+      "name": "Dealer_self",
+      "sell": 5960286428
+    },
+    {
+      "buy": 0,
+      "date": "2025-06-30",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10867005031,
+      "date": "2025-06-30",
+      "name": "Dealer_Hedging",
+      "sell": 9649658089
+    },
+    {
+      "buy": 24967999050,
+      "date": "2025-06-30",
+      "name": "Investment_Trust",
+      "sell": 25830412161
+    },
+    {
+      "buy": 137398249245,
+      "date": "2025-06-30",
+      "name": "Foreign_Investor",
+      "sell": 139817015444
+    },
+    {
+      "buy": 177304440549,
+      "date": "2025-06-30",
+      "name": "total",
+      "sell": 181257372122
+    },
+    {
+      "buy": 226878836270,
+      "date": "2025-07-01",
+      "name": "total",
+      "sell": 174325803681
+    },
+    {
+      "buy": 178301376951,
+      "date": "2025-07-01",
+      "name": "Foreign_Investor",
+      "sell": 130050094306
+    },
+    {
+      "buy": 25191809520,
+      "date": "2025-07-01",
+      "name": "Investment_Trust",
+      "sell": 29884082704
+    },
+    {
+      "buy": 17279100306,
+      "date": "2025-07-01",
+      "name": "Dealer_Hedging",
+      "sell": 10825093945
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-01",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6106549493,
+      "date": "2025-07-01",
+      "name": "Dealer_self",
+      "sell": 3566532726
+    },
+    {
+      "buy": 3016894220,
+      "date": "2025-07-02",
+      "name": "Dealer_self",
+      "sell": 3175414923
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 7747520781,
+      "date": "2025-07-02",
+      "name": "Dealer_Hedging",
+      "sell": 6445804784
+    },
+    {
+      "buy": 17930756118,
+      "date": "2025-07-02",
+      "name": "Investment_Trust",
+      "sell": 19247078014
+    },
+    {
+      "buy": 116979300039,
+      "date": "2025-07-02",
+      "name": "Foreign_Investor",
+      "sell": 110879200144
+    },
+    {
+      "buy": 145674471158,
+      "date": "2025-07-02",
+      "name": "total",
+      "sell": 139747497865
+    },
+    {
+      "buy": 181909593599,
+      "date": "2025-07-03",
+      "name": "total",
+      "sell": 152149323458
+    },
+    {
+      "buy": 146567724776,
+      "date": "2025-07-03",
+      "name": "Foreign_Investor",
+      "sell": 116944245637
+    },
+    {
+      "buy": 18353837191,
+      "date": "2025-07-03",
+      "name": "Investment_Trust",
+      "sell": 23562200438
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4677893020,
+      "date": "2025-07-03",
+      "name": "Dealer_self",
+      "sell": 4444969514
+    },
+    {
+      "buy": 12310138612,
+      "date": "2025-07-03",
+      "name": "Dealer_Hedging",
+      "sell": 7197907869
+    },
+    {
+      "buy": 3264067035,
+      "date": "2025-07-04",
+      "name": "Dealer_self",
+      "sell": 3579338163
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9308492441,
+      "date": "2025-07-04",
+      "name": "Dealer_Hedging",
+      "sell": 8791711417
+    },
+    {
+      "buy": 17466430317,
+      "date": "2025-07-04",
+      "name": "Investment_Trust",
+      "sell": 22084800900
+    },
+    {
+      "buy": 109465313930,
+      "date": "2025-07-04",
+      "name": "Foreign_Investor",
+      "sell": 108910537067
+    },
+    {
+      "buy": 139504303723,
+      "date": "2025-07-04",
+      "name": "total",
+      "sell": 143366387547
+    },
+    {
+      "buy": 11836550096,
+      "date": "2025-07-07",
+      "name": "Dealer_Hedging",
+      "sell": 10196825259
+    },
+    {
+      "buy": 125498112940,
+      "date": "2025-07-07",
+      "name": "total",
+      "sell": 131239634723
+    },
+    {
+      "buy": 93454837612,
+      "date": "2025-07-07",
+      "name": "Foreign_Investor",
+      "sell": 99033853476
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3021706810,
+      "date": "2025-07-07",
+      "name": "Dealer_self",
+      "sell": 2437195753
+    },
+    {
+      "buy": 17185018422,
+      "date": "2025-07-07",
+      "name": "Investment_Trust",
+      "sell": 19571760235
+    },
+    {
+      "buy": 106598768206,
+      "date": "2025-07-08",
+      "name": "Foreign_Investor",
+      "sell": 105959975764
+    },
+    {
+      "buy": 3787415773,
+      "date": "2025-07-08",
+      "name": "Dealer_self",
+      "sell": 2676430305
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11837935176,
+      "date": "2025-07-08",
+      "name": "Dealer_Hedging",
+      "sell": 8469709056
+    },
+    {
+      "buy": 9767482261,
+      "date": "2025-07-08",
+      "name": "Investment_Trust",
+      "sell": 9901184637
+    },
+    {
+      "buy": 131991601416,
+      "date": "2025-07-08",
+      "name": "total",
+      "sell": 127007299762
+    },
+    {
+      "buy": 119703311184,
+      "date": "2025-07-09",
+      "name": "Foreign_Investor",
+      "sell": 111453987525
+    },
+    {
+      "buy": 150010858547,
+      "date": "2025-07-09",
+      "name": "total",
+      "sell": 139256424269
+    },
+    {
+      "buy": 15293785081,
+      "date": "2025-07-09",
+      "name": "Investment_Trust",
+      "sell": 15591016867
+    },
+    {
+      "buy": 3750933812,
+      "date": "2025-07-09",
+      "name": "Dealer_self",
+      "sell": 3569575854
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11262828470,
+      "date": "2025-07-09",
+      "name": "Dealer_Hedging",
+      "sell": 8641844023
+    },
+    {
+      "buy": 3200102691,
+      "date": "2025-07-10",
+      "name": "Dealer_self",
+      "sell": 4936711114
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11743691211,
+      "date": "2025-07-10",
+      "name": "Dealer_Hedging",
+      "sell": 9887338662
+    },
+    {
+      "buy": 10821237050,
+      "date": "2025-07-10",
+      "name": "Investment_Trust",
+      "sell": 10748462845
+    },
+    {
+      "buy": 119554009453,
+      "date": "2025-07-10",
+      "name": "Foreign_Investor",
+      "sell": 109441824991
+    },
+    {
+      "buy": 145319040405,
+      "date": "2025-07-10",
+      "name": "total",
+      "sell": 135014337612
+    },
+    {
+      "buy": 166397208230,
+      "date": "2025-07-11",
+      "name": "total",
+      "sell": 148744027649
+    },
+    {
+      "buy": 140825809935,
+      "date": "2025-07-11",
+      "name": "Foreign_Investor",
+      "sell": 123770476610
+    },
+    {
+      "buy": 11501825539,
+      "date": "2025-07-11",
+      "name": "Investment_Trust",
+      "sell": 13704139431
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3489558357,
+      "date": "2025-07-11",
+      "name": "Dealer_self",
+      "sell": 3444544464
+    },
+    {
+      "buy": 10580014399,
+      "date": "2025-07-11",
+      "name": "Dealer_Hedging",
+      "sell": 7824867144
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2388567371,
+      "date": "2025-07-14",
+      "name": "Dealer_self",
+      "sell": 9950611454
+    },
+    {
+      "buy": 9479835756,
+      "date": "2025-07-14",
+      "name": "Dealer_Hedging",
+      "sell": 9653083769
+    },
+    {
+      "buy": 8867250995,
+      "date": "2025-07-14",
+      "name": "Investment_Trust",
+      "sell": 9857610153
+    },
+    {
+      "buy": 95554395495,
+      "date": "2025-07-14",
+      "name": "Foreign_Investor",
+      "sell": 98300157755
+    },
+    {
+      "buy": 116290049617,
+      "date": "2025-07-14",
+      "name": "total",
+      "sell": 127761463131
+    },
+    {
+      "buy": 114251108062,
+      "date": "2025-07-15",
+      "name": "Foreign_Investor",
+      "sell": 95698773715
+    },
+    {
+      "buy": 137856167900,
+      "date": "2025-07-15",
+      "name": "total",
+      "sell": 116383141805
+    },
+    {
+      "buy": 5519217793,
+      "date": "2025-07-15",
+      "name": "Investment_Trust",
+      "sell": 5969731557
+    },
+    {
+      "buy": 3896683333,
+      "date": "2025-07-15",
+      "name": "Dealer_self",
+      "sell": 4603609024
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14189158712,
+      "date": "2025-07-15",
+      "name": "Dealer_Hedging",
+      "sell": 10111027509
+    },
+    {
+      "buy": 6200916305,
+      "date": "2025-07-16",
+      "name": "Dealer_self",
+      "sell": 5800225997
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18053225938,
+      "date": "2025-07-16",
+      "name": "Dealer_Hedging",
+      "sell": 10593353591
+    },
+    {
+      "buy": 15964117594,
+      "date": "2025-07-16",
+      "name": "Investment_Trust",
+      "sell": 13432481053
+    },
+    {
+      "buy": 136924940946,
+      "date": "2025-07-16",
+      "name": "Foreign_Investor",
+      "sell": 123020485319
+    },
+    {
+      "buy": 177143200783,
+      "date": "2025-07-16",
+      "name": "total",
+      "sell": 152846545960
+    },
+    {
+      "buy": 155560382191,
+      "date": "2025-07-17",
+      "name": "total",
+      "sell": 145632142374
+    },
+    {
+      "buy": 122266113585,
+      "date": "2025-07-17",
+      "name": "Foreign_Investor",
+      "sell": 121774655234
+    },
+    {
+      "buy": 11939899831,
+      "date": "2025-07-17",
+      "name": "Investment_Trust",
+      "sell": 12814270195
+    },
+    {
+      "buy": 5111025391,
+      "date": "2025-07-17",
+      "name": "Dealer_self",
+      "sell": 2657211813
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 16243343384,
+      "date": "2025-07-17",
+      "name": "Dealer_Hedging",
+      "sell": 8386005132
+    },
+    {
+      "buy": 141274313480,
+      "date": "2025-07-18",
+      "name": "Foreign_Investor",
+      "sell": 110266763229
+    },
+    {
+      "buy": 174716716656,
+      "date": "2025-07-18",
+      "name": "total",
+      "sell": 132816284558
+    },
+    {
+      "buy": 12230521683,
+      "date": "2025-07-18",
+      "name": "Investment_Trust",
+      "sell": 8854528194
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5256656316,
+      "date": "2025-07-18",
+      "name": "Dealer_self",
+      "sell": 3747600719
+    },
+    {
+      "buy": 15955225177,
+      "date": "2025-07-18",
+      "name": "Dealer_Hedging",
+      "sell": 9947392416
+    },
+    {
+      "buy": 2813951652,
+      "date": "2025-07-21",
+      "name": "Dealer_self",
+      "sell": 2538180013
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 11046187101,
+      "date": "2025-07-21",
+      "name": "Dealer_Hedging",
+      "sell": 9235734851
+    },
+    {
+      "buy": 9722364591,
+      "date": "2025-07-21",
+      "name": "Investment_Trust",
+      "sell": 12609653174
+    },
+    {
+      "buy": 106091109741,
+      "date": "2025-07-21",
+      "name": "Foreign_Investor",
+      "sell": 101961464446
+    },
+    {
+      "buy": 129673613085,
+      "date": "2025-07-21",
+      "name": "total",
+      "sell": 126345032484
+    },
+    {
+      "buy": 13318593547,
+      "date": "2025-07-22",
+      "name": "Investment_Trust",
+      "sell": 15839616011
+    },
+    {
+      "buy": 4284791893,
+      "date": "2025-07-22",
+      "name": "Dealer_self",
+      "sell": 4530084590
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 17109556679,
+      "date": "2025-07-22",
+      "name": "Dealer_Hedging",
+      "sell": 12567972857
+    },
+    {
+      "buy": 145020285184,
+      "date": "2025-07-22",
+      "name": "Foreign_Investor",
+      "sell": 134995798730
+    },
+    {
+      "buy": 179733227303,
+      "date": "2025-07-22",
+      "name": "total",
+      "sell": 167933472188
+    },
+    {
+      "buy": 154637250873,
+      "date": "2025-07-23",
+      "name": "total",
+      "sell": 136681487392
+    },
+    {
+      "buy": 7468924368,
+      "date": "2025-07-23",
+      "name": "Investment_Trust",
+      "sell": 8661084852
+    },
+    {
+      "buy": 123378151446,
+      "date": "2025-07-23",
+      "name": "Foreign_Investor",
+      "sell": 114946462596
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-23",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9156226260,
+      "date": "2025-07-23",
+      "name": "Dealer_self",
+      "sell": 4302560147
+    },
+    {
+      "buy": 14633948799,
+      "date": "2025-07-23",
+      "name": "Dealer_Hedging",
+      "sell": 8771379797
+    },
+    {
+      "buy": 143131329356,
+      "date": "2025-07-24",
+      "name": "total",
+      "sell": 130421307267
+    },
+    {
+      "buy": 122222803205,
+      "date": "2025-07-24",
+      "name": "Foreign_Investor",
+      "sell": 112069957216
+    },
+    {
+      "buy": 6478978806,
+      "date": "2025-07-24",
+      "name": "Investment_Trust",
+      "sell": 7234440116
+    },
+    {
+      "buy": 4036672718,
+      "date": "2025-07-24",
+      "name": "Dealer_self",
+      "sell": 2635805844
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-24",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10392874627,
+      "date": "2025-07-24",
+      "name": "Dealer_Hedging",
+      "sell": 8481104091
+    },
+    {
+      "buy": 3007103676,
+      "date": "2025-07-25",
+      "name": "Dealer_self",
+      "sell": 4101611965
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 10717303679,
+      "date": "2025-07-25",
+      "name": "Dealer_Hedging",
+      "sell": 8535555226
+    },
+    {
+      "buy": 8758780778,
+      "date": "2025-07-25",
+      "name": "Investment_Trust",
+      "sell": 6727750257
+    },
+    {
+      "buy": 102529626873,
+      "date": "2025-07-25",
+      "name": "Foreign_Investor",
+      "sell": 95168421631
+    },
+    {
+      "buy": 125012815006,
+      "date": "2025-07-25",
+      "name": "total",
+      "sell": 114533339079
+    },
+    {
+      "buy": 106988875510,
+      "date": "2025-07-28",
+      "name": "Foreign_Investor",
+      "sell": 102313484880
+    },
+    {
+      "buy": 3468149004,
+      "date": "2025-07-28",
+      "name": "Dealer_self",
+      "sell": 2437621858
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 12578694193,
+      "date": "2025-07-28",
+      "name": "Dealer_Hedging",
+      "sell": 8284568640
+    },
+    {
+      "buy": 10263654248,
+      "date": "2025-07-28",
+      "name": "Investment_Trust",
+      "sell": 6814870002
+    },
+    {
+      "buy": 133299372955,
+      "date": "2025-07-28",
+      "name": "total",
+      "sell": 119850545380
+    },
+    {
+      "buy": 121140414232,
+      "date": "2025-07-29",
+      "name": "Foreign_Investor",
+      "sell": 137673633543
+    },
+    {
+      "buy": 156070241876,
+      "date": "2025-07-29",
+      "name": "total",
+      "sell": 162196780928
+    },
+    {
+      "buy": 12670019227,
+      "date": "2025-07-29",
+      "name": "Investment_Trust",
+      "sell": 8832159871
+    },
+    {
+      "buy": 17209553512,
+      "date": "2025-07-29",
+      "name": "Dealer_Hedging",
+      "sell": 12037568349
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-29",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5050254905,
+      "date": "2025-07-29",
+      "name": "Dealer_self",
+      "sell": 3653419165
+    },
+    {
+      "buy": 4793726681,
+      "date": "2025-07-30",
+      "name": "Dealer_self",
+      "sell": 3476899126
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-30",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14833994796,
+      "date": "2025-07-30",
+      "name": "Dealer_Hedging",
+      "sell": 10777055233
+    },
+    {
+      "buy": 7738218313,
+      "date": "2025-07-30",
+      "name": "Investment_Trust",
+      "sell": 6301013112
+    },
+    {
+      "buy": 118926391095,
+      "date": "2025-07-30",
+      "name": "Foreign_Investor",
+      "sell": 104814187005
+    },
+    {
+      "buy": 146292330885,
+      "date": "2025-07-30",
+      "name": "total",
+      "sell": 125369154476
+    },
+    {
+      "buy": 6791157240,
+      "date": "2025-07-31",
+      "name": "Dealer_self",
+      "sell": 3994661296
+    },
+    {
+      "buy": 0,
+      "date": "2025-07-31",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 17131101610,
+      "date": "2025-07-31",
+      "name": "Dealer_Hedging",
+      "sell": 11528460155
+    },
+    {
+      "buy": 9010987356,
+      "date": "2025-07-31",
+      "name": "Investment_Trust",
+      "sell": 8993161828
+    },
+    {
+      "buy": 153878480798,
+      "date": "2025-07-31",
+      "name": "Foreign_Investor",
+      "sell": 144489908990
+    },
+    {
+      "buy": 186811727004,
+      "date": "2025-07-31",
+      "name": "total",
+      "sell": 169006192269
+    },
+    {
+      "buy": 132685102928,
+      "date": "2025-08-01",
+      "name": "Foreign_Investor",
+      "sell": 139718341436
+    },
+    {
+      "buy": 7475037546,
+      "date": "2025-08-01",
+      "name": "Investment_Trust",
+      "sell": 6674313287
+    },
+    {
+      "buy": 159529998370,
+      "date": "2025-08-01",
+      "name": "total",
+      "sell": 165390638028
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-01",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4675138744,
+      "date": "2025-08-01",
+      "name": "Dealer_self",
+      "sell": 3713545163
+    },
+    {
+      "buy": 14694719152,
+      "date": "2025-08-01",
+      "name": "Dealer_Hedging",
+      "sell": 15284438142
+    },
+    {
+      "buy": 2543279995,
+      "date": "2025-08-04",
+      "name": "Dealer_self",
+      "sell": 6278197418
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9653685053,
+      "date": "2025-08-04",
+      "name": "Dealer_Hedging",
+      "sell": 15771347583
+    },
+    {
+      "buy": 8896728257,
+      "date": "2025-08-04",
+      "name": "Investment_Trust",
+      "sell": 6591525469
+    },
+    {
+      "buy": 118075293850,
+      "date": "2025-08-04",
+      "name": "Foreign_Investor",
+      "sell": 106771659171
+    },
+    {
+      "buy": 139168987155,
+      "date": "2025-08-04",
+      "name": "total",
+      "sell": 135412729641
+    },
+    {
+      "buy": 157175093524,
+      "date": "2025-08-05",
+      "name": "total",
+      "sell": 137495039867
+    },
+    {
+      "buy": 129855434027,
+      "date": "2025-08-05",
+      "name": "Foreign_Investor",
+      "sell": 118367653847
+    },
+    {
+      "buy": 9552204415,
+      "date": "2025-08-05",
+      "name": "Investment_Trust",
+      "sell": 5885366002
+    },
+    {
+      "buy": 14143479202,
+      "date": "2025-08-05",
+      "name": "Dealer_Hedging",
+      "sell": 8861170336
+    },
+    {
+      "buy": 3623975880,
+      "date": "2025-08-05",
+      "name": "Dealer_self",
+      "sell": 4380849682
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3329344363,
+      "date": "2025-08-06",
+      "name": "Dealer_self",
+      "sell": 4295431682
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-06",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 9173866426,
+      "date": "2025-08-06",
+      "name": "Dealer_Hedging",
+      "sell": 10693924059
+    },
+    {
+      "buy": 8496076537,
+      "date": "2025-08-06",
+      "name": "Investment_Trust",
+      "sell": 6687036292
+    },
+    {
+      "buy": 113634081606,
+      "date": "2025-08-06",
+      "name": "Foreign_Investor",
+      "sell": 124454654067
+    },
+    {
+      "buy": 134633368932,
+      "date": "2025-08-06",
+      "name": "total",
+      "sell": 146131046100
+    },
+    {
+      "buy": 7340719605,
+      "date": "2025-08-07",
+      "name": "Investment_Trust",
+      "sell": 6224113427
+    },
+    {
+      "buy": 17225800280,
+      "date": "2025-08-07",
+      "name": "Dealer_Hedging",
+      "sell": 12148683243
+    },
+    {
+      "buy": 171678008052,
+      "date": "2025-08-07",
+      "name": "Foreign_Investor",
+      "sell": 128438523996
+    },
+    {
+      "buy": 4983650225,
+      "date": "2025-08-07",
+      "name": "Dealer_self",
+      "sell": 4542116733
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-07",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 201228178162,
+      "date": "2025-08-07",
+      "name": "total",
+      "sell": 151353437399
+    },
+    {
+      "buy": 136766499223,
+      "date": "2025-08-08",
+      "name": "Foreign_Investor",
+      "sell": 140022737409
+    },
+    {
+      "buy": 160608182828,
+      "date": "2025-08-08",
+      "name": "total",
+      "sell": 164433730927
+    },
+    {
+      "buy": 7687232539,
+      "date": "2025-08-08",
+      "name": "Investment_Trust",
+      "sell": 9549092167
+    },
+    {
+      "buy": 12498246283,
+      "date": "2025-08-08",
+      "name": "Dealer_Hedging",
+      "sell": 11041543873
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3656204783,
+      "date": "2025-08-08",
+      "name": "Dealer_self",
+      "sell": 3820357478
+    },
+    {
+      "buy": 5698997041,
+      "date": "2025-08-11",
+      "name": "Dealer_self",
+      "sell": 3407839929
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13756403041,
+      "date": "2025-08-11",
+      "name": "Dealer_Hedging",
+      "sell": 12473063410
+    },
+    {
+      "buy": 10535341151,
+      "date": "2025-08-11",
+      "name": "Investment_Trust",
+      "sell": 10106444589
+    },
+    {
+      "buy": 123708305856,
+      "date": "2025-08-11",
+      "name": "Foreign_Investor",
+      "sell": 127693808415
+    },
+    {
+      "buy": 153699047089,
+      "date": "2025-08-11",
+      "name": "total",
+      "sell": 153681156343
+    },
+    {
+      "buy": 158633127823,
+      "date": "2025-08-12",
+      "name": "total",
+      "sell": 163947205841
+    },
+    {
+      "buy": 131675118393,
+      "date": "2025-08-12",
+      "name": "Foreign_Investor",
+      "sell": 137406224545
+    },
+    {
+      "buy": 9547125375,
+      "date": "2025-08-12",
+      "name": "Investment_Trust",
+      "sell": 9608736220
+    },
+    {
+      "buy": 12935460354,
+      "date": "2025-08-12",
+      "name": "Dealer_Hedging",
+      "sell": 12490867864
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4475423701,
+      "date": "2025-08-12",
+      "name": "Dealer_self",
+      "sell": 4441377212
+    },
+    {
+      "buy": 6515996403,
+      "date": "2025-08-13",
+      "name": "Dealer_self",
+      "sell": 6562574634
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-13",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18070593322,
+      "date": "2025-08-13",
+      "name": "Dealer_Hedging",
+      "sell": 15146961029
+    },
+    {
+      "buy": 9683106582,
+      "date": "2025-08-13",
+      "name": "Investment_Trust",
+      "sell": 11185506445
+    },
+    {
+      "buy": 184723121441,
+      "date": "2025-08-13",
+      "name": "Foreign_Investor",
+      "sell": 177686541030
+    },
+    {
+      "buy": 218992817748,
+      "date": "2025-08-13",
+      "name": "total",
+      "sell": 210581583138
+    },
+    {
+      "buy": 186277803337,
+      "date": "2025-08-14",
+      "name": "total",
+      "sell": 188898812175
+    },
+    {
+      "buy": 157845783328,
+      "date": "2025-08-14",
+      "name": "Foreign_Investor",
+      "sell": 162305892837
+    },
+    {
+      "buy": 7952016969,
+      "date": "2025-08-14",
+      "name": "Investment_Trust",
+      "sell": 9997100678
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-14",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5801826555,
+      "date": "2025-08-14",
+      "name": "Dealer_self",
+      "sell": 4351421843
+    },
+    {
+      "buy": 14678176485,
+      "date": "2025-08-14",
+      "name": "Dealer_Hedging",
+      "sell": 12244396817
+    },
+    {
+      "buy": 6349939884,
+      "date": "2025-08-15",
+      "name": "Dealer_self",
+      "sell": 4481953569
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13283820013,
+      "date": "2025-08-15",
+      "name": "Dealer_Hedging",
+      "sell": 12576739657
+    },
+    {
+      "buy": 6945324095,
+      "date": "2025-08-15",
+      "name": "Investment_Trust",
+      "sell": 10302183227
+    },
+    {
+      "buy": 146884640095,
+      "date": "2025-08-15",
+      "name": "Foreign_Investor",
+      "sell": 141510793980
+    },
+    {
+      "buy": 173463724087,
+      "date": "2025-08-15",
+      "name": "total",
+      "sell": 168871670433
+    },
+    {
+      "buy": 13572149142,
+      "date": "2025-08-18",
+      "name": "Dealer_Hedging",
+      "sell": 14549924418
+    },
+    {
+      "buy": 181886238105,
+      "date": "2025-08-18",
+      "name": "total",
+      "sell": 175507747053
+    },
+    {
+      "buy": 151764583834,
+      "date": "2025-08-18",
+      "name": "Foreign_Investor",
+      "sell": 147125633741
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5338920312,
+      "date": "2025-08-18",
+      "name": "Dealer_self",
+      "sell": 4353277070
+    },
+    {
+      "buy": 11210584817,
+      "date": "2025-08-18",
+      "name": "Investment_Trust",
+      "sell": 9478911824
+    },
+    {
+      "buy": 148108426785,
+      "date": "2025-08-19",
+      "name": "Foreign_Investor",
+      "sell": 159116092331
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4429793600,
+      "date": "2025-08-19",
+      "name": "Dealer_self",
+      "sell": 6123532217
+    },
+    {
+      "buy": 11219235177,
+      "date": "2025-08-19",
+      "name": "Dealer_Hedging",
+      "sell": 15634533419
+    },
+    {
+      "buy": 8628468591,
+      "date": "2025-08-19",
+      "name": "Investment_Trust",
+      "sell": 10270882807
+    },
+    {
+      "buy": 172385924153,
+      "date": "2025-08-19",
+      "name": "total",
+      "sell": 191145040774
+    },
+    {
+      "buy": 169752648536,
+      "date": "2025-08-20",
+      "name": "Foreign_Investor",
+      "sell": 232421220469
+    },
+    {
+      "buy": 209077413007,
+      "date": "2025-08-20",
+      "name": "total",
+      "sell": 278105550644
+    },
+    {
+      "buy": 6520858548,
+      "date": "2025-08-20",
+      "name": "Investment_Trust",
+      "sell": 9255595214
+    },
+    {
+      "buy": 10284851484,
+      "date": "2025-08-20",
+      "name": "Dealer_self",
+      "sell": 8369484379
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-20",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 22519054439,
+      "date": "2025-08-20",
+      "name": "Dealer_Hedging",
+      "sell": 28059250582
+    },
+    {
+      "buy": 4455919157,
+      "date": "2025-08-21",
+      "name": "Dealer_self",
+      "sell": 3356688925
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-21",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14074449883,
+      "date": "2025-08-21",
+      "name": "Dealer_Hedging",
+      "sell": 12767151522
+    },
+    {
+      "buy": 10000225500,
+      "date": "2025-08-21",
+      "name": "Investment_Trust",
+      "sell": 8396169145
+    },
+    {
+      "buy": 141597260341,
+      "date": "2025-08-21",
+      "name": "Foreign_Investor",
+      "sell": 151676170889
+    },
+    {
+      "buy": 170127854881,
+      "date": "2025-08-21",
+      "name": "total",
+      "sell": 176196180481
+    },
+    {
+      "buy": 132221948958,
+      "date": "2025-08-22",
+      "name": "total",
+      "sell": 150810472427
+    },
+    {
+      "buy": 112904760366,
+      "date": "2025-08-22",
+      "name": "Foreign_Investor",
+      "sell": 129302754053
+    },
+    {
+      "buy": 6001001194,
+      "date": "2025-08-22",
+      "name": "Investment_Trust",
+      "sell": 7164085833
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-22",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 2615748283,
+      "date": "2025-08-22",
+      "name": "Dealer_self",
+      "sell": 3189383622
+    },
+    {
+      "buy": 10700439115,
+      "date": "2025-08-22",
+      "name": "Dealer_Hedging",
+      "sell": 11154248919
+    },
+    {
+      "buy": 4576641724,
+      "date": "2025-08-25",
+      "name": "Dealer_self",
+      "sell": 3192037486
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-25",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15136763152,
+      "date": "2025-08-25",
+      "name": "Dealer_Hedging",
+      "sell": 10787367464
+    },
+    {
+      "buy": 8802192387,
+      "date": "2025-08-25",
+      "name": "Investment_Trust",
+      "sell": 5570586137
+    },
+    {
+      "buy": 146520044567,
+      "date": "2025-08-25",
+      "name": "Foreign_Investor",
+      "sell": 122405252653
+    },
+    {
+      "buy": 175035641830,
+      "date": "2025-08-25",
+      "name": "total",
+      "sell": 141955243740
+    },
+    {
+      "buy": 226449298069,
+      "date": "2025-08-26",
+      "name": "Foreign_Investor",
+      "sell": 240957398933
+    },
+    {
+      "buy": 250708717040,
+      "date": "2025-08-26",
+      "name": "total",
+      "sell": 264318218877
+    },
+    {
+      "buy": 7019389469,
+      "date": "2025-08-26",
+      "name": "Investment_Trust",
+      "sell": 9444616297
+    },
+    {
+      "buy": 4270376113,
+      "date": "2025-08-26",
+      "name": "Dealer_self",
+      "sell": 3935083459
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-26",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 12969653389,
+      "date": "2025-08-26",
+      "name": "Dealer_Hedging",
+      "sell": 9981120188
+    },
+    {
+      "buy": 6347559119,
+      "date": "2025-08-27",
+      "name": "Dealer_self",
+      "sell": 3532299759
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-27",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18365036433,
+      "date": "2025-08-27",
+      "name": "Dealer_Hedging",
+      "sell": 10115589410
+    },
+    {
+      "buy": 5638915677,
+      "date": "2025-08-27",
+      "name": "Investment_Trust",
+      "sell": 7286507099
+    },
+    {
+      "buy": 139443813547,
+      "date": "2025-08-27",
+      "name": "Foreign_Investor",
+      "sell": 141391384436
+    },
+    {
+      "buy": 169795324776,
+      "date": "2025-08-27",
+      "name": "total",
+      "sell": 162325780704
+    },
+    {
+      "buy": 157494972905,
+      "date": "2025-08-28",
+      "name": "total",
+      "sell": 171124426645
+    },
+    {
+      "buy": 133386790013,
+      "date": "2025-08-28",
+      "name": "Foreign_Investor",
+      "sell": 142907321062
+    },
+    {
+      "buy": 6064175950,
+      "date": "2025-08-28",
+      "name": "Investment_Trust",
+      "sell": 8824211642
+    },
+    {
+      "buy": 4472865346,
+      "date": "2025-08-28",
+      "name": "Dealer_self",
+      "sell": 4709981274
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-28",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 13571141596,
+      "date": "2025-08-28",
+      "name": "Dealer_Hedging",
+      "sell": 14682912667
+    },
+    {
+      "buy": 146452766819,
+      "date": "2025-08-29",
+      "name": "Foreign_Investor",
+      "sell": 155087769157
+    },
+    {
+      "buy": 174610560685,
+      "date": "2025-08-29",
+      "name": "total",
+      "sell": 183246925704
+    },
+    {
+      "buy": 7938739424,
+      "date": "2025-08-29",
+      "name": "Investment_Trust",
+      "sell": 8273848597
+    },
+    {
+      "buy": 14796889021,
+      "date": "2025-08-29",
+      "name": "Dealer_Hedging",
+      "sell": 14906307501
+    },
+    {
+      "buy": 0,
+      "date": "2025-08-29",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5422165421,
+      "date": "2025-08-29",
+      "name": "Dealer_self",
+      "sell": 4979000449
+    },
+    {
+      "buy": 4721212999,
+      "date": "2025-09-01",
+      "name": "Dealer_self",
+      "sell": 7472646876
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-01",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14513209171,
+      "date": "2025-09-01",
+      "name": "Dealer_Hedging",
+      "sell": 22628890035
+    },
+    {
+      "buy": 11406233619,
+      "date": "2025-09-01",
+      "name": "Investment_Trust",
+      "sell": 14466076406
+    },
+    {
+      "buy": 150380109319,
+      "date": "2025-09-01",
+      "name": "Foreign_Investor",
+      "sell": 158047009615
+    },
+    {
+      "buy": 181020765108,
+      "date": "2025-09-01",
+      "name": "total",
+      "sell": 202614622932
+    },
+    {
+      "buy": 4170055075,
+      "date": "2025-09-02",
+      "name": "Dealer_self",
+      "sell": 5247603107
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-02",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14922296217,
+      "date": "2025-09-02",
+      "name": "Dealer_Hedging",
+      "sell": 14431405290
+    },
+    {
+      "buy": 7868517023,
+      "date": "2025-09-02",
+      "name": "Investment_Trust",
+      "sell": 13971200493
+    },
+    {
+      "buy": 137930528990,
+      "date": "2025-09-02",
+      "name": "Foreign_Investor",
+      "sell": 130144289460
+    },
+    {
+      "buy": 164891397305,
+      "date": "2025-09-02",
+      "name": "total",
+      "sell": 163794498350
+    },
+    {
+      "buy": 126143916576,
+      "date": "2025-09-03",
+      "name": "Foreign_Investor",
+      "sell": 117944154540
+    },
+    {
+      "buy": 6838314912,
+      "date": "2025-09-03",
+      "name": "Investment_Trust",
+      "sell": 7476014737
+    },
+    {
+      "buy": 149913234594,
+      "date": "2025-09-03",
+      "name": "total",
+      "sell": 139930364095
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-03",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3577206341,
+      "date": "2025-09-03",
+      "name": "Dealer_self",
+      "sell": 2982782066
+    },
+    {
+      "buy": 13353796765,
+      "date": "2025-09-03",
+      "name": "Dealer_Hedging",
+      "sell": 11527412752
+    },
+    {
+      "buy": 4846804237,
+      "date": "2025-09-04",
+      "name": "Dealer_self",
+      "sell": 5068300370
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-04",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 14850415158,
+      "date": "2025-09-04",
+      "name": "Dealer_Hedging",
+      "sell": 13257767703
+    },
+    {
+      "buy": 6599860316,
+      "date": "2025-09-04",
+      "name": "Investment_Trust",
+      "sell": 8145313895
+    },
+    {
+      "buy": 146420983028,
+      "date": "2025-09-04",
+      "name": "Foreign_Investor",
+      "sell": 134612846903
+    },
+    {
+      "buy": 172718062739,
+      "date": "2025-09-04",
+      "name": "total",
+      "sell": 161084228871
+    },
+    {
+      "buy": 173892069709,
+      "date": "2025-09-05",
+      "name": "total",
+      "sell": 140867258987
+    },
+    {
+      "buy": 148732666847,
+      "date": "2025-09-05",
+      "name": "Foreign_Investor",
+      "sell": 120451549938
+    },
+    {
+      "buy": 6958899870,
+      "date": "2025-09-05",
+      "name": "Investment_Trust",
+      "sell": 7392875478
+    },
+    {
+      "buy": 13154079436,
+      "date": "2025-09-05",
+      "name": "Dealer_Hedging",
+      "sell": 9966813559
+    },
+    {
+      "buy": 5046423556,
+      "date": "2025-09-05",
+      "name": "Dealer_self",
+      "sell": 3056020012
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-05",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 4391189521,
+      "date": "2025-09-08",
+      "name": "Dealer_self",
+      "sell": 4243166751
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-08",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15465388075,
+      "date": "2025-09-08",
+      "name": "Dealer_Hedging",
+      "sell": 13015198585
+    },
+    {
+      "buy": 5960733306,
+      "date": "2025-09-08",
+      "name": "Investment_Trust",
+      "sell": 7180859377
+    },
+    {
+      "buy": 146233644681,
+      "date": "2025-09-08",
+      "name": "Foreign_Investor",
+      "sell": 131615119465
+    },
+    {
+      "buy": 172050955583,
+      "date": "2025-09-08",
+      "name": "total",
+      "sell": 156054344178
+    },
+    {
+      "buy": 185461047499,
+      "date": "2025-09-09",
+      "name": "Foreign_Investor",
+      "sell": 149807352540
+    },
+    {
+      "buy": 6212764700,
+      "date": "2025-09-09",
+      "name": "Investment_Trust",
+      "sell": 7994831931
+    },
+    {
+      "buy": 215288960620,
+      "date": "2025-09-09",
+      "name": "total",
+      "sell": 176762066777
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-09",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 18208802880,
+      "date": "2025-09-09",
+      "name": "Dealer_Hedging",
+      "sell": 12960235465
+    },
+    {
+      "buy": 5406345541,
+      "date": "2025-09-09",
+      "name": "Dealer_self",
+      "sell": 5999646841
+    },
+    {
+      "buy": 7410176167,
+      "date": "2025-09-10",
+      "name": "Dealer_self",
+      "sell": 6001641066
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-10",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 23468575154,
+      "date": "2025-09-10",
+      "name": "Dealer_Hedging",
+      "sell": 13423624955
+    },
+    {
+      "buy": 6121870834,
+      "date": "2025-09-10",
+      "name": "Investment_Trust",
+      "sell": 8849256074
+    },
+    {
+      "buy": 196817152317,
+      "date": "2025-09-10",
+      "name": "Foreign_Investor",
+      "sell": 147869208034
+    },
+    {
+      "buy": 233817774472,
+      "date": "2025-09-10",
+      "name": "total",
+      "sell": 176143730129
+    },
+    {
+      "buy": 6121937472,
+      "date": "2025-09-11",
+      "name": "Investment_Trust",
+      "sell": 12393593973
+    },
+    {
+      "buy": 250319631815,
+      "date": "2025-09-11",
+      "name": "total",
+      "sell": 221818340787
+    },
+    {
+      "buy": 214586290615,
+      "date": "2025-09-11",
+      "name": "Foreign_Investor",
+      "sell": 181586628884
+    },
+    {
+      "buy": 23832576898,
+      "date": "2025-09-11",
+      "name": "Dealer_Hedging",
+      "sell": 18766074089
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-11",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 5778826830,
+      "date": "2025-09-11",
+      "name": "Dealer_self",
+      "sell": 9072043841
+    },
+    {
+      "buy": 6303371417,
+      "date": "2025-09-12",
+      "name": "Dealer_self",
+      "sell": 5082962805
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-12",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 16913595824,
+      "date": "2025-09-12",
+      "name": "Dealer_Hedging",
+      "sell": 13192010743
+    },
+    {
+      "buy": 4643778791,
+      "date": "2025-09-12",
+      "name": "Investment_Trust",
+      "sell": 10453850825
+    },
+    {
+      "buy": 173785310222,
+      "date": "2025-09-12",
+      "name": "Foreign_Investor",
+      "sell": 147246810215
+    },
+    {
+      "buy": 201646056254,
+      "date": "2025-09-12",
+      "name": "total",
+      "sell": 175975634588
+    },
+    {
+      "buy": 138267824909,
+      "date": "2025-09-15",
+      "name": "Foreign_Investor",
+      "sell": 135721576320
+    },
+    {
+      "buy": 3729987381,
+      "date": "2025-09-15",
+      "name": "Investment_Trust",
+      "sell": 11976816473
+    },
+    {
+      "buy": 160690999491,
+      "date": "2025-09-15",
+      "name": "total",
+      "sell": 165394836715
+    },
+    {
+      "buy": 14153700691,
+      "date": "2025-09-15",
+      "name": "Dealer_Hedging",
+      "sell": 12880250035
+    },
+    {
+      "buy": 4539486510,
+      "date": "2025-09-15",
+      "name": "Dealer_self",
+      "sell": 4816193887
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-15",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 3452555441,
+      "date": "2025-09-16",
+      "name": "Dealer_self",
+      "sell": 5004421528
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-16",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 15028982230,
+      "date": "2025-09-16",
+      "name": "Dealer_Hedging",
+      "sell": 12375569840
+    },
+    {
+      "buy": 11189637449,
+      "date": "2025-09-16",
+      "name": "Investment_Trust",
+      "sell": 15703428144
+    },
+    {
+      "buy": 170110803690,
+      "date": "2025-09-16",
+      "name": "Foreign_Investor",
+      "sell": 143107272628
+    },
+    {
+      "buy": 199781978810,
+      "date": "2025-09-16",
+      "name": "total",
+      "sell": 176190692140
+    },
+    {
+      "buy": 183536739140,
+      "date": "2025-09-17",
+      "name": "total",
+      "sell": 195171398323
+    },
+    {
+      "buy": 158949127114,
+      "date": "2025-09-17",
+      "name": "Foreign_Investor",
+      "sell": 164683139172
+    },
+    {
+      "buy": 4989297557,
+      "date": "2025-09-17",
+      "name": "Investment_Trust",
+      "sell": 10303574836
+    },
+    {
+      "buy": 14877151760,
+      "date": "2025-09-17",
+      "name": "Dealer_Hedging",
+      "sell": 14828876625
+    },
+    {
+      "buy": 4721162709,
+      "date": "2025-09-17",
+      "name": "Dealer_self",
+      "sell": 5355807690
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-17",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 6975748946,
+      "date": "2025-09-18",
+      "name": "Dealer_self",
+      "sell": 3125173528
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-18",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 17247818362,
+      "date": "2025-09-18",
+      "name": "Dealer_Hedging",
+      "sell": 11035911169
+    },
+    {
+      "buy": 6575147307,
+      "date": "2025-09-18",
+      "name": "Investment_Trust",
+      "sell": 11562942372
+    },
+    {
+      "buy": 164917830748,
+      "date": "2025-09-18",
+      "name": "Foreign_Investor",
+      "sell": 152764110032
+    },
+    {
+      "buy": 195716545363,
+      "date": "2025-09-18",
+      "name": "total",
+      "sell": 178488137101
+    },
+    {
+      "buy": 16150637773,
+      "date": "2025-09-19",
+      "name": "Investment_Trust",
+      "sell": 18087965578
+    },
+    {
+      "buy": 19692415555,
+      "date": "2025-09-19",
+      "name": "Dealer_Hedging",
+      "sell": 15623729568
+    },
+    {
+      "buy": 255834137935,
+      "date": "2025-09-19",
+      "name": "Foreign_Investor",
+      "sell": 271579174378
+    },
+    {
+      "buy": 5972014864,
+      "date": "2025-09-19",
+      "name": "Dealer_self",
+      "sell": 4625993727
+    },
+    {
+      "buy": 0,
+      "date": "2025-09-19",
+      "name": "Foreign_Dealer_Self",
+      "sell": 0
+    },
+    {
+      "buy": 297649206127,
+      "date": "2025-09-19",
+      "name": "total",
+      "sell": 309916863251
+    }
+  ]
+}
