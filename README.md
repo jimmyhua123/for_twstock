@@ -41,19 +41,17 @@ pip install pandas requests pyarrow
 
 ```bash
 python main.py \
-  --token <你的 FinMind token> \
-  --stocks 2330,2317,2454 \
-  --start 2024-01-01 \
+  --tickers 2330,2317,2454 \
+  --since 2024-01-01 \
   --end 2024-12-31 \
-  --datasets TaiwanStockPrice,TaiwanStockInstitutionalInvestorsBuySell \
   --outdir ./output \
-  --merge
+  --finmind-token "$FINMIND_TOKEN"
 ```
 
 完成後會生成下列檔案：
 
 * `output/_merged.csv`
-* `output/_clean_daily_wide.csv`
+* `output/_clean_daily_wide.csv`（含 `MA10Y` 欄位，預設由調整股價計算）
 * `output/_clean_daily_wide_min.csv`
 
 ### 3. 擴充基本面與市場熱度欄位（選用）
@@ -65,6 +63,40 @@ python -m finmind_fetch \
   --since 2024-01-01 \
   --finmind-token $FINMIND_TOKEN
 ```
+
+上述流程將優先採用 `FINMIND_TOKEN` 環境變數。若 CLI 未提供或傳入空白 token，也會自動回退至環境變數；當兩者皆缺少時，流程仍會執行，僅使用註冊等級可存取的資料集。
+
+## 🖥️ CLI 使用範例
+
+### PowerShell（支援反引號換行）
+
+```powershell
+$env:FINMIND_TOKEN = "<YOUR_TOKEN>"
+python .\main.py `
+  --tickers 1519,2379,2383,2454,3035,3293,6231,6643,8358,8932 `
+  --since 2024-01-01 `
+  --end 2024-12-31 `
+  --outdir .\finmind_out
+```
+
+### 啟用十年線 API（需 Sponsor，失敗時自動改用股價計算）
+
+```powershell
+python .\main.py `
+  --tickers 2454 `
+  --since 2014-01-01 `
+  --use-10y-api `
+  --outdir .\finmind_out
+```
+
+### Windows CMD（單行，不建議換行）
+
+```cmd
+set FINMIND_TOKEN=<YOUR_TOKEN>
+python main.py --tickers 2454 --since 2014-01-01 --outdir finmind_out
+```
+
+> 預設不呼叫 `TaiwanStock10Year` dataset；若加上 `--use-10y-api` 但權限不足，程式會於 log 中提示並回退至依股價推估的十年線 (`MA10Y`)。
 
 執行後將透過 FinMind API 取得月營收與財報資料，自動計算 `revenue_yoy`、`revenue_mom`、`eps`、`eps_ttm` 等基本面欄位，以及 `turnover_rank_pct`、`volume_rank_pct`、`volume_ratio`、`turnover_change_5d`、`transactions_change_5d` 等資金熱度指標。結果會回寫至 `_clean_daily_wide.csv` 與 `_clean_daily_wide_min.csv`。
 

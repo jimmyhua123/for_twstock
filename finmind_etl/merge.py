@@ -92,6 +92,7 @@ def build_minimal_view(df: pd.DataFrame) -> pd.DataFrame:
         "high",
         "low",
         "close",
+        "MA10Y",
         "volume",
         "turnover",
         "return",

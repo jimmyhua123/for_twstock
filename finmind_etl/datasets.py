@@ -648,15 +648,6 @@ TECHNICAL_SPECS: List[DatasetSpec] = [
         description="Total return index",
     ),
     DatasetSpec(
-        name="TaiwanStock10Year",
-        category="technical",
-        cleaner=_clean_stock_10year,
-        numeric_fields=("avg_price_10y",),
-        forward_fill=True,
-        required_fields=("date", "stock_id"),
-        description="Ten year moving averages",
-    ),
-    DatasetSpec(
         name="TaiwanStockKBar",
         category="technical",
         include_in_wide=False,
