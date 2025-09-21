@@ -85,10 +85,6 @@ NEED_ID = [
     "TaiwanStockDividend",
     "TaiwanStockDividendResult",
     "TaiwanStockMonthRevenue",
-    "TaiwanStockCapitalReductionReferencePrice",
-    "TaiwanStockDelisting",
-    "TaiwanStockSplitPrice",
-    "TaiwanStockParValueChange",
 ]
 
 # 4) 報酬指數（需 data_id，但不是個股）：TAIEX / TPEx
