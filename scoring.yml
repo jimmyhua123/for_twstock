@@ -23,21 +23,23 @@ rounding:
 
 features:
   tech:
-    - score_tech_ret_5d
     - score_tech_ret_20d
+    - score_tech_excess_ret_20d
+    - score_tech_sma20_gap_pct
+    - score_tech_sma60_gap_pct
+    - score_tech_sma120_gap_pct
     - score_tech_rsi14
-    - score_tech_breakout_20d
-    - score_tech_turnover_rate_20d
+    - score_tech_vol_mult_20d
   chip:
-    - score_chip_inst_net_buy_5d_ratio
-    - score_chip_inst_consistency_20d
-    - score_chip_margin_short_ratio_5d
-    - score_chip_borrow_balance_chg_5d
+    - score_chip_chip_net5_sum
+    - score_chip_chip_net20_sum
+    - score_chip_foreign_ratio_5d_chg
+    - score_chip_foreign_ratio_20d_chg
+    - score_chip_margin_delta_5d_sum
+    - score_chip_margin_delta_20d_sum
   fund:
-    - score_fund_revenue_yoy
-    - score_fund_gross_margin_ttm
-    - score_fund_roe_ttm
-    - score_fund_op_margin_ttm
+    - score_fund_revenue_mom
+    - score_fund_pe
+    - score_fund_pb
   risk:
-    - score_risk_volatility_20d
-    - score_risk_drawdown_60d
+    - score_risk_rolling_vol_20d_w

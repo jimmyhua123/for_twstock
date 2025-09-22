@@ -40,7 +40,18 @@ def build_four_pillars_from_prepercentile(df: pd.DataFrame, cfg: dict) -> pd.Dat
     out = df.copy()
     for pillar in ("tech","chip","fund","risk"):
         cols = feats.get(pillar, [])
-        out[f"{pillar}_score"] = _mean_ignore_all_nan(out, cols)
+        if cols:
+            series = _mean_ignore_all_nan(out, cols)
+        else:
+            series = pd.Series(np.nan, index=out.index)
+
+        if series.isna().all():
+            for fallback_col in (f"score_{pillar}", f"{pillar}_score"):
+                if fallback_col in out.columns:
+                    series = pd.to_numeric(out[fallback_col], errors="coerce")
+                    break
+
+        out[f"{pillar}_score"] = series
     return out
 
 
