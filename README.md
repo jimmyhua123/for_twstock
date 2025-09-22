@@ -137,3 +137,12 @@ python -m finmind_etl scan-market --features finmind_out/features_snapshot.csv -
 python -m finmind_etl report-watchlist --features finmind_out/features_snapshot.csv --watchlist watchlist.csv --output finmind_out/watchlist_deep
 ```
 - `watchlist.csv` 需要一欄 `stock_id`
+
+### 分數計算模式
+- `use_prepercentiled=true`：`features` 直接提供 `score_*`（0–100）欄位，四大面向個別取平均後，再由**動態權重**合成總分（僅針對有值的面向重新正規化權重）。
+- `use_prepercentiled=false`：以原始特徵跑 winsorize →（選擇性）產業中性化 → percentile → 面向平均 → 動態權重總分，與舊版流程兼容。
+- 產業欄位由 `industry_col` 指定；若該欄不存在會改用 `industry` 或 `industry_category` 自動對齊。
+
+### NaN 處理
+- 單一面向缺值時，該面向的分數顯示為 NaN，總分會依照其他有值的面向重新正規化權重後加總，不會整列 NaN。
+- 報表會同時輸出 `_diag_missing_features.csv`，列出每個面向缺少的欄位與缺失率，方便追蹤資料品質。
