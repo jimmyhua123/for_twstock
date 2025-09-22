@@ -53,29 +53,6 @@ python -m finmind_etl report-watchlist `
 ---
 
 
-1.
-python main.py --token <你的Token> --stocks 2330,2317,2454 --start 2024-01-01 --end 2025-09-21 --datasets TaiwanStockPrice,TaiwanStockInstitutionalInvestorsBuySell --outdir finmind_raw --merge
-
-2.
-python finmind_clean_standardize.py
-# 或
-python finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
-
-3.
-
-python finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores
-python finmind_features_scoring.py --asof 2025-09-19
-python finmind_features_scoring.py --full-daily
-
-4.
-
-python -m finmind_etl scan-market --features finmind_out/features_snapshot.csv --output finmind_out/market_scan
-
-5.
-
-python -m finmind_etl report-watchlist --features finmind_out/features_snapshot.csv --watchlist watchlist.csv --output finmind_out/watchlist_deep
-
-
 
 1) 先看 scores_watchlist.csv：排序 + 分級
 
