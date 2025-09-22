@@ -1,35 +1,81 @@
+# 0) 若還沒做過，把 TaiwanStockInfo 轉成批次（已做過就略過）
+python .\tools\make_universe_all.py --input finmind_raw\TaiwanStockInfo.json --out finmind_in --batch-size 200
+
+# 1) 逐批抓 RAW（價量/法人等 main.py 內建的資料；main.py 不需 --datasets）
+$Batches = Get-ChildItem .\finmind_in\batches\batch_*.csv | Sort-Object Name
+foreach ($b in $Batches) {
+  Write-Host "Fetching $($b.Name) ..."
+  python .\main.py `
+    --ids-file $b.FullName `
+    --since 2024-01-01 `
+    --until 2025-09-21 `
+    --outdir finmind_raw `
+    --sleep 0.3 `
+    --to-csv
+  Start-Sleep -Seconds 2
+}
+
+# 2) 清理 → 標準化
+python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
+
+# 3) 產出 features / 打分
+python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
 
 
-# 基本用法（過去一年、RAW JSON）
-python main.py
+python - <<'PY'
+import pandas as pd
+p="finmind_scores/features_snapshot_20250919.csv"
+df=pd.read_csv(p)
+if "industry" not in df.columns and "industry_category" in df.columns:
+    df["industry"]=df["industry_category"]
+df.to_csv("finmind_scores/features_snapshot_fixed.csv", index=False, encoding="utf-8")
+print("OK -> finmind_scores/features_snapshot_fixed.csv")
+PY
 
-# 指定期間 + 同步輸出 CSV（需 pandas）
-python main.py --since 2024-01-01 --until 2025-09-21 --to-csv
+python -m finmind_etl scan-market `
+  --features finmind_scores\features_snapshot_20250919.csv `
+  --output   finmind_reports\market_scan
 
-# 全市場（較久，建議加點延遲）
-python main.py --all-market --sleep 0.1
+# 先從粗篩結果取 Top N 做 watchlist.csv
+python - <<'PY'
+import pandas as pd
+df=pd.read_csv("finmind_reports/market_scan/market_scan_scores.csv").dropna(subset=["score_total"])
+df.sort_values("score_total", ascending=False).head(50)[["stock_id"]].to_csv("watchlist.csv", index=False, encoding="utf-8")
+print("OK -> watchlist.csv")
+PY
 
-# 安裝需求
-pip install pandas numpy
+# 再輸出自選深度報告
+python -m finmind_etl report-watchlist `
+  --features  finmind_scores\features_snapshot_20250919.csv `
+  --watchlist .\watchlist.csv `
+  --output    finmind_reports\watchlist_deep
 
-# 執行（預設讀 finmind_raw/，輸出到 finmind_out/）
+---
+
+
+1.
+python main.py --token <你的Token> --stocks 2330,2317,2454 --start 2024-01-01 --end 2025-09-21 --datasets TaiwanStockPrice,TaiwanStockInstitutionalInvestorsBuySell --outdir finmind_raw --merge
+
+2.
 python finmind_clean_standardize.py
+# 或
+python finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
 
-# 指定路徑
-python finmind_clean_standardize.py --raw-dir path/to/finmind_raw --out-dir path/to/finmind_out
+3.
 
-# 安裝需求
-pip install pandas numpy
-
-# 預設讀 clean 目錄（上一支輸出）：finmind_out/
-# 可選：讀 raw 的 TaiwanStockPER.json 來補估值
-python finmind_features_scoring.py   --clean-dir finmind_out   --raw-dir finmind_raw   --out-dir finmind_scores
-
-# 指定評分日期（YYYY-MM-DD），不指定則用 price 的最新交易日
+python finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores
 python finmind_features_scoring.py --asof 2025-09-19
-
-# 產出整段期間的每日特徵（檔案較大）
 python finmind_features_scoring.py --full-daily
+
+4.
+
+python -m finmind_etl scan-market --features finmind_out/features_snapshot.csv --output finmind_out/market_scan
+
+5.
+
+python -m finmind_etl report-watchlist --features finmind_out/features_snapshot.csv --watchlist watchlist.csv --output finmind_out/watchlist_deep
+
+
 
 1) 先看 scores_watchlist.csv：排序 + 分級
 
@@ -120,23 +166,6 @@ rolling_vol_20d > 你群組的 80 分位 → 高波動名單
 vol_mult_20d > 2 且 excess_ret_20d < 0 → 放量下跌，列入觀察/排除
 
 
-# 典型條件（和我們先前建議一致）
-python filter_watchlist.py --min-total 70 --min-tech 60 --min-chip 60 --min-risk 40 --excess-positive --top 20
-
-# 指定某天（若你想回看 2025-09-19）
-python filter_watchlist.py --asof 2025-09-19 --min-total 70 --excess-positive
-
-# 只做去重 + 指定日期，不限制分數
-python filter_watchlist.py --asof 2025-09-19 --min-total 0 --min-tech 0 --min-chip 0 --min-risk 0
-
-### 混合資料源與兩份報告
-- 設定檔：`sources.yml`、`scoring.yml`
-- 產出指令：
-```bash
-python -m finmind_etl scan-market --features finmind_out/features_snapshot.csv --output finmind_out/market_scan
-python -m finmind_etl report-watchlist --features finmind_out/features_snapshot.csv --watchlist watchlist.csv --output finmind_out/watchlist_deep
-```
-- `watchlist.csv` 需要一欄 `stock_id`
 
 ### 分數計算模式
 - `use_prepercentiled=true`：`features` 直接提供 `score_*`（0–100）欄位，四大面向個別取平均後，再由**動態權重**合成總分（僅針對有值的面向重新正規化權重）。

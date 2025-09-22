@@ -1,9 +1,879 @@
 {
   "dataset": "TaiwanStockTotalReturnIndex",
-  "start_date": "2024-09-22",
-  "end_date": "2025-09-22",
-  "count": 486,
+  "start_date": "2024-01-01",
+  "end_date": "2025-09-21",
+  "count": 834,
   "data": [
+    {
+      "price": 38475.17,
+      "stock_id": "TAIEX",
+      "date": "2024-01-02"
+    },
+    {
+      "price": 37840.62,
+      "stock_id": "TAIEX",
+      "date": "2024-01-03"
+    },
+    {
+      "price": 37846.73,
+      "stock_id": "TAIEX",
+      "date": "2024-01-04"
+    },
+    {
+      "price": 37780.93,
+      "stock_id": "TAIEX",
+      "date": "2024-01-05"
+    },
+    {
+      "price": 37896.36,
+      "stock_id": "TAIEX",
+      "date": "2024-01-08"
+    },
+    {
+      "price": 37816.2,
+      "stock_id": "TAIEX",
+      "date": "2024-01-09"
+    },
+    {
+      "price": 37665.54,
+      "stock_id": "TAIEX",
+      "date": "2024-01-10"
+    },
+    {
+      "price": 37837.4,
+      "stock_id": "TAIEX",
+      "date": "2024-01-11"
+    },
+    {
+      "price": 37767.32,
+      "stock_id": "TAIEX",
+      "date": "2024-01-12"
+    },
+    {
+      "price": 37840.64,
+      "stock_id": "TAIEX",
+      "date": "2024-01-15"
+    },
+    {
+      "price": 37409.42,
+      "stock_id": "TAIEX",
+      "date": "2024-01-16"
+    },
+    {
+      "price": 37010.29,
+      "stock_id": "TAIEX",
+      "date": "2024-01-17"
+    },
+    {
+      "price": 37152.63,
+      "stock_id": "TAIEX",
+      "date": "2024-01-18"
+    },
+    {
+      "price": 38131.13,
+      "stock_id": "TAIEX",
+      "date": "2024-01-19"
+    },
+    {
+      "price": 38419.19,
+      "stock_id": "TAIEX",
+      "date": "2024-01-22"
+    },
+    {
+      "price": 38547.48,
+      "stock_id": "TAIEX",
+      "date": "2024-01-23"
+    },
+    {
+      "price": 38550.16,
+      "stock_id": "TAIEX",
+      "date": "2024-01-24"
+    },
+    {
+      "price": 38823.59,
+      "stock_id": "TAIEX",
+      "date": "2024-01-25"
+    },
+    {
+      "price": 38807.22,
+      "stock_id": "TAIEX",
+      "date": "2024-01-26"
+    },
+    {
+      "price": 39075.93,
+      "stock_id": "TAIEX",
+      "date": "2024-01-29"
+    },
+    {
+      "price": 38892.62,
+      "stock_id": "TAIEX",
+      "date": "2024-01-30"
+    },
+    {
+      "price": 38579.77,
+      "stock_id": "TAIEX",
+      "date": "2024-01-31"
+    },
+    {
+      "price": 38749.16,
+      "stock_id": "TAIEX",
+      "date": "2024-02-01"
+    },
+    {
+      "price": 38947.18,
+      "stock_id": "TAIEX",
+      "date": "2024-02-02"
+    },
+    {
+      "price": 39025.11,
+      "stock_id": "TAIEX",
+      "date": "2024-02-05"
+    },
+    {
+      "price": 40207.99,
+      "stock_id": "TAIEX",
+      "date": "2024-02-15"
+    },
+    {
+      "price": 40127.51,
+      "stock_id": "TAIEX",
+      "date": "2024-02-16"
+    },
+    {
+      "price": 40189.07,
+      "stock_id": "TAIEX",
+      "date": "2024-02-19"
+    },
+    {
+      "price": 40442.16,
+      "stock_id": "TAIEX",
+      "date": "2024-02-20"
+    },
+    {
+      "price": 40276.45,
+      "stock_id": "TAIEX",
+      "date": "2024-02-21"
+    },
+    {
+      "price": 40657.0,
+      "stock_id": "TAIEX",
+      "date": "2024-02-22"
+    },
+    {
+      "price": 40735.52,
+      "stock_id": "TAIEX",
+      "date": "2024-02-23"
+    },
+    {
+      "price": 40862.45,
+      "stock_id": "TAIEX",
+      "date": "2024-02-26"
+    },
+    {
+      "price": 40660.52,
+      "stock_id": "TAIEX",
+      "date": "2024-02-27"
+    },
+    {
+      "price": 40902.82,
+      "stock_id": "TAIEX",
+      "date": "2024-02-29"
+    },
+    {
+      "price": 40836.31,
+      "stock_id": "TAIEX",
+      "date": "2024-03-01"
+    },
+    {
+      "price": 41632.9,
+      "stock_id": "TAIEX",
+      "date": "2024-03-04"
+    },
+    {
+      "price": 41808.91,
+      "stock_id": "TAIEX",
+      "date": "2024-03-05"
+    },
+    {
+      "price": 42051.58,
+      "stock_id": "TAIEX",
+      "date": "2024-03-06"
+    },
+    {
+      "price": 42470.1,
+      "stock_id": "TAIEX",
+      "date": "2024-03-07"
+    },
+    {
+      "price": 42668.07,
+      "stock_id": "TAIEX",
+      "date": "2024-03-08"
+    },
+    {
+      "price": 42540.32,
+      "stock_id": "TAIEX",
+      "date": "2024-03-11"
+    },
+    {
+      "price": 42946.76,
+      "stock_id": "TAIEX",
+      "date": "2024-03-12"
+    },
+    {
+      "price": 42976.87,
+      "stock_id": "TAIEX",
+      "date": "2024-03-13"
+    },
+    {
+      "price": 42998.03,
+      "stock_id": "TAIEX",
+      "date": "2024-03-14"
+    },
+    {
+      "price": 42447.2,
+      "stock_id": "TAIEX",
+      "date": "2024-03-15"
+    },
+    {
+      "price": 42935.74,
+      "stock_id": "TAIEX",
+      "date": "2024-03-18"
+    },
+    {
+      "price": 42887.08,
+      "stock_id": "TAIEX",
+      "date": "2024-03-19"
+    },
+    {
+      "price": 42729.97,
+      "stock_id": "TAIEX",
+      "date": "2024-03-20"
+    },
+    {
+      "price": 43630.49,
+      "stock_id": "TAIEX",
+      "date": "2024-03-21"
+    },
+    {
+      "price": 43697.33,
+      "stock_id": "TAIEX",
+      "date": "2024-03-22"
+    },
+    {
+      "price": 43619.26,
+      "stock_id": "TAIEX",
+      "date": "2024-03-25"
+    },
+    {
+      "price": 43477.8,
+      "stock_id": "TAIEX",
+      "date": "2024-03-26"
+    },
+    {
+      "price": 43641.03,
+      "stock_id": "TAIEX",
+      "date": "2024-03-27"
+    },
+    {
+      "price": 43534.18,
+      "stock_id": "TAIEX",
+      "date": "2024-03-28"
+    },
+    {
+      "price": 43858.44,
+      "stock_id": "TAIEX",
+      "date": "2024-03-29"
+    },
+    {
+      "price": 43702.62,
+      "stock_id": "TAIEX",
+      "date": "2024-04-01"
+    },
+    {
+      "price": 44230.9,
+      "stock_id": "TAIEX",
+      "date": "2024-04-02"
+    },
+    {
+      "price": 43952.45,
+      "stock_id": "TAIEX",
+      "date": "2024-04-03"
+    },
+    {
+      "price": 44125.6,
+      "stock_id": "TAIEX",
+      "date": "2024-04-08"
+    },
+    {
+      "price": 44943.61,
+      "stock_id": "TAIEX",
+      "date": "2024-04-09"
+    },
+    {
+      "price": 44872.99,
+      "stock_id": "TAIEX",
+      "date": "2024-04-10"
+    },
+    {
+      "price": 44856.39,
+      "stock_id": "TAIEX",
+      "date": "2024-04-11"
+    },
+    {
+      "price": 44844.18,
+      "stock_id": "TAIEX",
+      "date": "2024-04-12"
+    },
+    {
+      "price": 44223.94,
+      "stock_id": "TAIEX",
+      "date": "2024-04-15"
+    },
+    {
+      "price": 43039.29,
+      "stock_id": "TAIEX",
+      "date": "2024-04-16"
+    },
+    {
+      "price": 43712.64,
+      "stock_id": "TAIEX",
+      "date": "2024-04-17"
+    },
+    {
+      "price": 43903.96,
+      "stock_id": "TAIEX",
+      "date": "2024-04-18"
+    },
+    {
+      "price": 42230.39,
+      "stock_id": "TAIEX",
+      "date": "2024-04-19"
+    },
+    {
+      "price": 41979.74,
+      "stock_id": "TAIEX",
+      "date": "2024-04-22"
+    },
+    {
+      "price": 42386.44,
+      "stock_id": "TAIEX",
+      "date": "2024-04-23"
+    },
+    {
+      "price": 43537.96,
+      "stock_id": "TAIEX",
+      "date": "2024-04-24"
+    },
+    {
+      "price": 42946.11,
+      "stock_id": "TAIEX",
+      "date": "2024-04-25"
+    },
+    {
+      "price": 43515.12,
+      "stock_id": "TAIEX",
+      "date": "2024-04-26"
+    },
+    {
+      "price": 44326.15,
+      "stock_id": "TAIEX",
+      "date": "2024-04-29"
+    },
+    {
+      "price": 44112.21,
+      "stock_id": "TAIEX",
+      "date": "2024-04-30"
+    },
+    {
+      "price": 43735.55,
+      "stock_id": "TAIEX",
+      "date": "2024-05-02"
+    },
+    {
+      "price": 43968.87,
+      "stock_id": "TAIEX",
+      "date": "2024-05-03"
+    },
+    {
+      "price": 44386.24,
+      "stock_id": "TAIEX",
+      "date": "2024-05-06"
+    },
+    {
+      "price": 44667.87,
+      "stock_id": "TAIEX",
+      "date": "2024-05-07"
+    },
+    {
+      "price": 44769.5,
+      "stock_id": "TAIEX",
+      "date": "2024-05-08"
+    },
+    {
+      "price": 44467.27,
+      "stock_id": "TAIEX",
+      "date": "2024-05-09"
+    },
+    {
+      "price": 44787.5,
+      "stock_id": "TAIEX",
+      "date": "2024-05-10"
+    },
+    {
+      "price": 45109.46,
+      "stock_id": "TAIEX",
+      "date": "2024-05-13"
+    },
+    {
+      "price": 45386.61,
+      "stock_id": "TAIEX",
+      "date": "2024-05-14"
+    },
+    {
+      "price": 45735.57,
+      "stock_id": "TAIEX",
+      "date": "2024-05-15"
+    },
+    {
+      "price": 46075.24,
+      "stock_id": "TAIEX",
+      "date": "2024-05-16"
+    },
+    {
+      "price": 45976.31,
+      "stock_id": "TAIEX",
+      "date": "2024-05-17"
+    },
+    {
+      "price": 46004.77,
+      "stock_id": "TAIEX",
+      "date": "2024-05-20"
+    },
+    {
+      "price": 45929.33,
+      "stock_id": "TAIEX",
+      "date": "2024-05-21"
+    },
+    {
+      "price": 46610.76,
+      "stock_id": "TAIEX",
+      "date": "2024-05-22"
+    },
+    {
+      "price": 46731.01,
+      "stock_id": "TAIEX",
+      "date": "2024-05-23"
+    },
+    {
+      "price": 46639.97,
+      "stock_id": "TAIEX",
+      "date": "2024-05-24"
+    },
+    {
+      "price": 47155.74,
+      "stock_id": "TAIEX",
+      "date": "2024-05-27"
+    },
+    {
+      "price": 47273.9,
+      "stock_id": "TAIEX",
+      "date": "2024-05-28"
+    },
+    {
+      "price": 46850.42,
+      "stock_id": "TAIEX",
+      "date": "2024-05-29"
+    },
+    {
+      "price": 46207.63,
+      "stock_id": "TAIEX",
+      "date": "2024-05-30"
+    },
+    {
+      "price": 45797.29,
+      "stock_id": "TAIEX",
+      "date": "2024-05-31"
+    },
+    {
+      "price": 46583.96,
+      "stock_id": "TAIEX",
+      "date": "2024-06-03"
+    },
+    {
+      "price": 46196.03,
+      "stock_id": "TAIEX",
+      "date": "2024-06-04"
+    },
+    {
+      "price": 46477.92,
+      "stock_id": "TAIEX",
+      "date": "2024-06-05"
+    },
+    {
+      "price": 47384.11,
+      "stock_id": "TAIEX",
+      "date": "2024-06-06"
+    },
+    {
+      "price": 47289.2,
+      "stock_id": "TAIEX",
+      "date": "2024-06-07"
+    },
+    {
+      "price": 47151.88,
+      "stock_id": "TAIEX",
+      "date": "2024-06-11"
+    },
+    {
+      "price": 47711.37,
+      "stock_id": "TAIEX",
+      "date": "2024-06-12"
+    },
+    {
+      "price": 48348.58,
+      "stock_id": "TAIEX",
+      "date": "2024-06-13"
+    },
+    {
+      "price": 48767.02,
+      "stock_id": "TAIEX",
+      "date": "2024-06-14"
+    },
+    {
+      "price": 48750.2,
+      "stock_id": "TAIEX",
+      "date": "2024-06-17"
+    },
+    {
+      "price": 49339.22,
+      "stock_id": "TAIEX",
+      "date": "2024-06-18"
+    },
+    {
+      "price": 50321.38,
+      "stock_id": "TAIEX",
+      "date": "2024-06-19"
+    },
+    {
+      "price": 50772.22,
+      "stock_id": "TAIEX",
+      "date": "2024-06-20"
+    },
+    {
+      "price": 50445.25,
+      "stock_id": "TAIEX",
+      "date": "2024-06-21"
+    },
+    {
+      "price": 49505.93,
+      "stock_id": "TAIEX",
+      "date": "2024-06-24"
+    },
+    {
+      "price": 49650.53,
+      "stock_id": "TAIEX",
+      "date": "2024-06-25"
+    },
+    {
+      "price": 49896.81,
+      "stock_id": "TAIEX",
+      "date": "2024-06-26"
+    },
+    {
+      "price": 49769.18,
+      "stock_id": "TAIEX",
+      "date": "2024-06-27"
+    },
+    {
+      "price": 50048.9,
+      "stock_id": "TAIEX",
+      "date": "2024-06-28"
+    },
+    {
+      "price": 50159.02,
+      "stock_id": "TAIEX",
+      "date": "2024-07-01"
+    },
+    {
+      "price": 49852.62,
+      "stock_id": "TAIEX",
+      "date": "2024-07-02"
+    },
+    {
+      "price": 50501.99,
+      "stock_id": "TAIEX",
+      "date": "2024-07-03"
+    },
+    {
+      "price": 51339.0,
+      "stock_id": "TAIEX",
+      "date": "2024-07-04"
+    },
+    {
+      "price": 51415.47,
+      "stock_id": "TAIEX",
+      "date": "2024-07-05"
+    },
+    {
+      "price": 52135.78,
+      "stock_id": "TAIEX",
+      "date": "2024-07-08"
+    },
+    {
+      "price": 52209.5,
+      "stock_id": "TAIEX",
+      "date": "2024-07-09"
+    },
+    {
+      "price": 52479.11,
+      "stock_id": "TAIEX",
+      "date": "2024-07-10"
+    },
+    {
+      "price": 53330.65,
+      "stock_id": "TAIEX",
+      "date": "2024-07-11"
+    },
+    {
+      "price": 52302.48,
+      "stock_id": "TAIEX",
+      "date": "2024-07-12"
+    },
+    {
+      "price": 52248.36,
+      "stock_id": "TAIEX",
+      "date": "2024-07-15"
+    },
+    {
+      "price": 52529.47,
+      "stock_id": "TAIEX",
+      "date": "2024-07-16"
+    },
+    {
+      "price": 52045.59,
+      "stock_id": "TAIEX",
+      "date": "2024-07-17"
+    },
+    {
+      "price": 51266.41,
+      "stock_id": "TAIEX",
+      "date": "2024-07-18"
+    },
+    {
+      "price": 50130.36,
+      "stock_id": "TAIEX",
+      "date": "2024-07-19"
+    },
+    {
+      "price": 48792.77,
+      "stock_id": "TAIEX",
+      "date": "2024-07-22"
+    },
+    {
+      "price": 50151.75,
+      "stock_id": "TAIEX",
+      "date": "2024-07-23"
+    },
+    {
+      "price": 48539.19,
+      "stock_id": "TAIEX",
+      "date": "2024-07-26"
+    },
+    {
+      "price": 48644.25,
+      "stock_id": "TAIEX",
+      "date": "2024-07-29"
+    },
+    {
+      "price": 48777.14,
+      "stock_id": "TAIEX",
+      "date": "2024-07-30"
+    },
+    {
+      "price": 48730.19,
+      "stock_id": "TAIEX",
+      "date": "2024-07-31"
+    },
+    {
+      "price": 49729.5,
+      "stock_id": "TAIEX",
+      "date": "2024-08-01"
+    },
+    {
+      "price": 47524.87,
+      "stock_id": "TAIEX",
+      "date": "2024-08-02"
+    },
+    {
+      "price": 43565.81,
+      "stock_id": "TAIEX",
+      "date": "2024-08-05"
+    },
+    {
+      "price": 45043.44,
+      "stock_id": "TAIEX",
+      "date": "2024-08-06"
+    },
+    {
+      "price": 46789.33,
+      "stock_id": "TAIEX",
+      "date": "2024-08-07"
+    },
+    {
+      "price": 45880.56,
+      "stock_id": "TAIEX",
+      "date": "2024-08-08"
+    },
+    {
+      "price": 47197.17,
+      "stock_id": "TAIEX",
+      "date": "2024-08-09"
+    },
+    {
+      "price": 47867.63,
+      "stock_id": "TAIEX",
+      "date": "2024-08-12"
+    },
+    {
+      "price": 47931.29,
+      "stock_id": "TAIEX",
+      "date": "2024-08-13"
+    },
+    {
+      "price": 48445.96,
+      "stock_id": "TAIEX",
+      "date": "2024-08-14"
+    },
+    {
+      "price": 48167.04,
+      "stock_id": "TAIEX",
+      "date": "2024-08-15"
+    },
+    {
+      "price": 49168.48,
+      "stock_id": "TAIEX",
+      "date": "2024-08-16"
+    },
+    {
+      "price": 49305.49,
+      "stock_id": "TAIEX",
+      "date": "2024-08-19"
+    },
+    {
+      "price": 49349.07,
+      "stock_id": "TAIEX",
+      "date": "2024-08-20"
+    },
+    {
+      "price": 48929.24,
+      "stock_id": "TAIEX",
+      "date": "2024-08-21"
+    },
+    {
+      "price": 48743.9,
+      "stock_id": "TAIEX",
+      "date": "2024-08-22"
+    },
+    {
+      "price": 48766.18,
+      "stock_id": "TAIEX",
+      "date": "2024-08-23"
+    },
+    {
+      "price": 48951.57,
+      "stock_id": "TAIEX",
+      "date": "2024-08-26"
+    },
+    {
+      "price": 48839.28,
+      "stock_id": "TAIEX",
+      "date": "2024-08-27"
+    },
+    {
+      "price": 49252.17,
+      "stock_id": "TAIEX",
+      "date": "2024-08-28"
+    },
+    {
+      "price": 48885.27,
+      "stock_id": "TAIEX",
+      "date": "2024-08-29"
+    },
+    {
+      "price": 49032.31,
+      "stock_id": "TAIEX",
+      "date": "2024-08-30"
+    },
+    {
+      "price": 48960.74,
+      "stock_id": "TAIEX",
+      "date": "2024-09-02"
+    },
+    {
+      "price": 48647.56,
+      "stock_id": "TAIEX",
+      "date": "2024-09-03"
+    },
+    {
+      "price": 46447.84,
+      "stock_id": "TAIEX",
+      "date": "2024-09-04"
+    },
+    {
+      "price": 46663.02,
+      "stock_id": "TAIEX",
+      "date": "2024-09-05"
+    },
+    {
+      "price": 47208.33,
+      "stock_id": "TAIEX",
+      "date": "2024-09-06"
+    },
+    {
+      "price": 46568.93,
+      "stock_id": "TAIEX",
+      "date": "2024-09-09"
+    },
+    {
+      "price": 46391.97,
+      "stock_id": "TAIEX",
+      "date": "2024-09-10"
+    },
+    {
+      "price": 46319.12,
+      "stock_id": "TAIEX",
+      "date": "2024-09-11"
+    },
+    {
+      "price": 47767.18,
+      "stock_id": "TAIEX",
+      "date": "2024-09-12"
+    },
+    {
+      "price": 48002.35,
+      "stock_id": "TAIEX",
+      "date": "2024-09-13"
+    },
+    {
+      "price": 48201.91,
+      "stock_id": "TAIEX",
+      "date": "2024-09-16"
+    },
+    {
+      "price": 47824.16,
+      "stock_id": "TAIEX",
+      "date": "2024-09-18"
+    },
+    {
+      "price": 48627.23,
+      "stock_id": "TAIEX",
+      "date": "2024-09-19"
+    },
+    {
+      "price": 48884.73,
+      "stock_id": "TAIEX",
+      "date": "2024-09-20"
+    },
     {
       "price": 49162.92,
       "stock_id": "TAIEX",
@@ -1218,6 +2088,876 @@
       "price": 58108.3,
       "stock_id": "TAIEX",
       "date": "2025-09-19"
+    },
+    {
+      "price": 403.66,
+      "stock_id": "TPEx",
+      "date": "2024-01-02"
+    },
+    {
+      "price": 399.9,
+      "stock_id": "TPEx",
+      "date": "2024-01-03"
+    },
+    {
+      "price": 397.1,
+      "stock_id": "TPEx",
+      "date": "2024-01-04"
+    },
+    {
+      "price": 399.14,
+      "stock_id": "TPEx",
+      "date": "2024-01-05"
+    },
+    {
+      "price": 399.06,
+      "stock_id": "TPEx",
+      "date": "2024-01-08"
+    },
+    {
+      "price": 397.19,
+      "stock_id": "TPEx",
+      "date": "2024-01-09"
+    },
+    {
+      "price": 397.06,
+      "stock_id": "TPEx",
+      "date": "2024-01-10"
+    },
+    {
+      "price": 401.05,
+      "stock_id": "TPEx",
+      "date": "2024-01-11"
+    },
+    {
+      "price": 398.92,
+      "stock_id": "TPEx",
+      "date": "2024-01-12"
+    },
+    {
+      "price": 403.36,
+      "stock_id": "TPEx",
+      "date": "2024-01-15"
+    },
+    {
+      "price": 401.92,
+      "stock_id": "TPEx",
+      "date": "2024-01-16"
+    },
+    {
+      "price": 395.66,
+      "stock_id": "TPEx",
+      "date": "2024-01-17"
+    },
+    {
+      "price": 394.95,
+      "stock_id": "TPEx",
+      "date": "2024-01-18"
+    },
+    {
+      "price": 398.71,
+      "stock_id": "TPEx",
+      "date": "2024-01-19"
+    },
+    {
+      "price": 403.5,
+      "stock_id": "TPEx",
+      "date": "2024-01-22"
+    },
+    {
+      "price": 406.35,
+      "stock_id": "TPEx",
+      "date": "2024-01-23"
+    },
+    {
+      "price": 407.16,
+      "stock_id": "TPEx",
+      "date": "2024-01-24"
+    },
+    {
+      "price": 405.99,
+      "stock_id": "TPEx",
+      "date": "2024-01-25"
+    },
+    {
+      "price": 405.87,
+      "stock_id": "TPEx",
+      "date": "2024-01-26"
+    },
+    {
+      "price": 409.11,
+      "stock_id": "TPEx",
+      "date": "2024-01-29"
+    },
+    {
+      "price": 409.98,
+      "stock_id": "TPEx",
+      "date": "2024-01-30"
+    },
+    {
+      "price": 410.8,
+      "stock_id": "TPEx",
+      "date": "2024-01-31"
+    },
+    {
+      "price": 411.28,
+      "stock_id": "TPEx",
+      "date": "2024-02-01"
+    },
+    {
+      "price": 414.34,
+      "stock_id": "TPEx",
+      "date": "2024-02-02"
+    },
+    {
+      "price": 413.55,
+      "stock_id": "TPEx",
+      "date": "2024-02-05"
+    },
+    {
+      "price": 420.22,
+      "stock_id": "TPEx",
+      "date": "2024-02-15"
+    },
+    {
+      "price": 422.98,
+      "stock_id": "TPEx",
+      "date": "2024-02-16"
+    },
+    {
+      "price": 424.71,
+      "stock_id": "TPEx",
+      "date": "2024-02-19"
+    },
+    {
+      "price": 425.34,
+      "stock_id": "TPEx",
+      "date": "2024-02-20"
+    },
+    {
+      "price": 425.3,
+      "stock_id": "TPEx",
+      "date": "2024-02-21"
+    },
+    {
+      "price": 428.08,
+      "stock_id": "TPEx",
+      "date": "2024-02-22"
+    },
+    {
+      "price": 427.28,
+      "stock_id": "TPEx",
+      "date": "2024-02-23"
+    },
+    {
+      "price": 429.68,
+      "stock_id": "TPEx",
+      "date": "2024-02-26"
+    },
+    {
+      "price": 427.4,
+      "stock_id": "TPEx",
+      "date": "2024-02-27"
+    },
+    {
+      "price": 432.26,
+      "stock_id": "TPEx",
+      "date": "2024-02-29"
+    },
+    {
+      "price": 435.58,
+      "stock_id": "TPEx",
+      "date": "2024-03-01"
+    },
+    {
+      "price": 437.95,
+      "stock_id": "TPEx",
+      "date": "2024-03-04"
+    },
+    {
+      "price": 438.58,
+      "stock_id": "TPEx",
+      "date": "2024-03-05"
+    },
+    {
+      "price": 439.95,
+      "stock_id": "TPEx",
+      "date": "2024-03-06"
+    },
+    {
+      "price": 438.26,
+      "stock_id": "TPEx",
+      "date": "2024-03-07"
+    },
+    {
+      "price": 428.79,
+      "stock_id": "TPEx",
+      "date": "2024-03-08"
+    },
+    {
+      "price": 430.87,
+      "stock_id": "TPEx",
+      "date": "2024-03-11"
+    },
+    {
+      "price": 436.86,
+      "stock_id": "TPEx",
+      "date": "2024-03-12"
+    },
+    {
+      "price": 431.88,
+      "stock_id": "TPEx",
+      "date": "2024-03-13"
+    },
+    {
+      "price": 429.73,
+      "stock_id": "TPEx",
+      "date": "2024-03-14"
+    },
+    {
+      "price": 426.98,
+      "stock_id": "TPEx",
+      "date": "2024-03-15"
+    },
+    {
+      "price": 432.63,
+      "stock_id": "TPEx",
+      "date": "2024-03-18"
+    },
+    {
+      "price": 435.02,
+      "stock_id": "TPEx",
+      "date": "2024-03-19"
+    },
+    {
+      "price": 434.25,
+      "stock_id": "TPEx",
+      "date": "2024-03-20"
+    },
+    {
+      "price": 437.13,
+      "stock_id": "TPEx",
+      "date": "2024-03-21"
+    },
+    {
+      "price": 435.45,
+      "stock_id": "TPEx",
+      "date": "2024-03-22"
+    },
+    {
+      "price": 437.35,
+      "stock_id": "TPEx",
+      "date": "2024-03-25"
+    },
+    {
+      "price": 430.81,
+      "stock_id": "TPEx",
+      "date": "2024-03-26"
+    },
+    {
+      "price": 435.09,
+      "stock_id": "TPEx",
+      "date": "2024-03-27"
+    },
+    {
+      "price": 434.71,
+      "stock_id": "TPEx",
+      "date": "2024-03-28"
+    },
+    {
+      "price": 437.45,
+      "stock_id": "TPEx",
+      "date": "2024-03-29"
+    },
+    {
+      "price": 440.79,
+      "stock_id": "TPEx",
+      "date": "2024-04-01"
+    },
+    {
+      "price": 442.16,
+      "stock_id": "TPEx",
+      "date": "2024-04-02"
+    },
+    {
+      "price": 442.46,
+      "stock_id": "TPEx",
+      "date": "2024-04-03"
+    },
+    {
+      "price": 444.2,
+      "stock_id": "TPEx",
+      "date": "2024-04-08"
+    },
+    {
+      "price": 442.47,
+      "stock_id": "TPEx",
+      "date": "2024-04-09"
+    },
+    {
+      "price": 444.23,
+      "stock_id": "TPEx",
+      "date": "2024-04-10"
+    },
+    {
+      "price": 442.14,
+      "stock_id": "TPEx",
+      "date": "2024-04-11"
+    },
+    {
+      "price": 445.21,
+      "stock_id": "TPEx",
+      "date": "2024-04-12"
+    },
+    {
+      "price": 438.38,
+      "stock_id": "TPEx",
+      "date": "2024-04-15"
+    },
+    {
+      "price": 426.28,
+      "stock_id": "TPEx",
+      "date": "2024-04-16"
+    },
+    {
+      "price": 434.65,
+      "stock_id": "TPEx",
+      "date": "2024-04-17"
+    },
+    {
+      "price": 435.46,
+      "stock_id": "TPEx",
+      "date": "2024-04-18"
+    },
+    {
+      "price": 421.15,
+      "stock_id": "TPEx",
+      "date": "2024-04-19"
+    },
+    {
+      "price": 411.26,
+      "stock_id": "TPEx",
+      "date": "2024-04-22"
+    },
+    {
+      "price": 415.66,
+      "stock_id": "TPEx",
+      "date": "2024-04-23"
+    },
+    {
+      "price": 425.51,
+      "stock_id": "TPEx",
+      "date": "2024-04-24"
+    },
+    {
+      "price": 421.57,
+      "stock_id": "TPEx",
+      "date": "2024-04-25"
+    },
+    {
+      "price": 426.27,
+      "stock_id": "TPEx",
+      "date": "2024-04-26"
+    },
+    {
+      "price": 432.11,
+      "stock_id": "TPEx",
+      "date": "2024-04-29"
+    },
+    {
+      "price": 431.77,
+      "stock_id": "TPEx",
+      "date": "2024-04-30"
+    },
+    {
+      "price": 434.68,
+      "stock_id": "TPEx",
+      "date": "2024-05-02"
+    },
+    {
+      "price": 434.33,
+      "stock_id": "TPEx",
+      "date": "2024-05-03"
+    },
+    {
+      "price": 435.7,
+      "stock_id": "TPEx",
+      "date": "2024-05-06"
+    },
+    {
+      "price": 435.5,
+      "stock_id": "TPEx",
+      "date": "2024-05-07"
+    },
+    {
+      "price": 435.37,
+      "stock_id": "TPEx",
+      "date": "2024-05-08"
+    },
+    {
+      "price": 429.89,
+      "stock_id": "TPEx",
+      "date": "2024-05-09"
+    },
+    {
+      "price": 430.25,
+      "stock_id": "TPEx",
+      "date": "2024-05-10"
+    },
+    {
+      "price": 429.33,
+      "stock_id": "TPEx",
+      "date": "2024-05-13"
+    },
+    {
+      "price": 430.78,
+      "stock_id": "TPEx",
+      "date": "2024-05-14"
+    },
+    {
+      "price": 431.49,
+      "stock_id": "TPEx",
+      "date": "2024-05-15"
+    },
+    {
+      "price": 434.99,
+      "stock_id": "TPEx",
+      "date": "2024-05-16"
+    },
+    {
+      "price": 436.65,
+      "stock_id": "TPEx",
+      "date": "2024-05-17"
+    },
+    {
+      "price": 436.34,
+      "stock_id": "TPEx",
+      "date": "2024-05-20"
+    },
+    {
+      "price": 436.57,
+      "stock_id": "TPEx",
+      "date": "2024-05-21"
+    },
+    {
+      "price": 441.1,
+      "stock_id": "TPEx",
+      "date": "2024-05-22"
+    },
+    {
+      "price": 437.97,
+      "stock_id": "TPEx",
+      "date": "2024-05-23"
+    },
+    {
+      "price": 442.59,
+      "stock_id": "TPEx",
+      "date": "2024-05-24"
+    },
+    {
+      "price": 446.47,
+      "stock_id": "TPEx",
+      "date": "2024-05-27"
+    },
+    {
+      "price": 450.85,
+      "stock_id": "TPEx",
+      "date": "2024-05-28"
+    },
+    {
+      "price": 451.57,
+      "stock_id": "TPEx",
+      "date": "2024-05-29"
+    },
+    {
+      "price": 448.38,
+      "stock_id": "TPEx",
+      "date": "2024-05-30"
+    },
+    {
+      "price": 448.25,
+      "stock_id": "TPEx",
+      "date": "2024-05-31"
+    },
+    {
+      "price": 452.8,
+      "stock_id": "TPEx",
+      "date": "2024-06-03"
+    },
+    {
+      "price": 450.63,
+      "stock_id": "TPEx",
+      "date": "2024-06-04"
+    },
+    {
+      "price": 451.08,
+      "stock_id": "TPEx",
+      "date": "2024-06-05"
+    },
+    {
+      "price": 451.09,
+      "stock_id": "TPEx",
+      "date": "2024-06-06"
+    },
+    {
+      "price": 454.6,
+      "stock_id": "TPEx",
+      "date": "2024-06-07"
+    },
+    {
+      "price": 454.58,
+      "stock_id": "TPEx",
+      "date": "2024-06-11"
+    },
+    {
+      "price": 459.43,
+      "stock_id": "TPEx",
+      "date": "2024-06-12"
+    },
+    {
+      "price": 463.09,
+      "stock_id": "TPEx",
+      "date": "2024-06-13"
+    },
+    {
+      "price": 464.44,
+      "stock_id": "TPEx",
+      "date": "2024-06-14"
+    },
+    {
+      "price": 465.8,
+      "stock_id": "TPEx",
+      "date": "2024-06-17"
+    },
+    {
+      "price": 468.3,
+      "stock_id": "TPEx",
+      "date": "2024-06-18"
+    },
+    {
+      "price": 467.65,
+      "stock_id": "TPEx",
+      "date": "2024-06-19"
+    },
+    {
+      "price": 473.13,
+      "stock_id": "TPEx",
+      "date": "2024-06-20"
+    },
+    {
+      "price": 471.65,
+      "stock_id": "TPEx",
+      "date": "2024-06-21"
+    },
+    {
+      "price": 466.19,
+      "stock_id": "TPEx",
+      "date": "2024-06-24"
+    },
+    {
+      "price": 467.53,
+      "stock_id": "TPEx",
+      "date": "2024-06-25"
+    },
+    {
+      "price": 472.75,
+      "stock_id": "TPEx",
+      "date": "2024-06-26"
+    },
+    {
+      "price": 470.09,
+      "stock_id": "TPEx",
+      "date": "2024-06-27"
+    },
+    {
+      "price": 477.12,
+      "stock_id": "TPEx",
+      "date": "2024-06-28"
+    },
+    {
+      "price": 481.13,
+      "stock_id": "TPEx",
+      "date": "2024-07-01"
+    },
+    {
+      "price": 482.23,
+      "stock_id": "TPEx",
+      "date": "2024-07-02"
+    },
+    {
+      "price": 483.14,
+      "stock_id": "TPEx",
+      "date": "2024-07-03"
+    },
+    {
+      "price": 485.49,
+      "stock_id": "TPEx",
+      "date": "2024-07-04"
+    },
+    {
+      "price": 491.36,
+      "stock_id": "TPEx",
+      "date": "2024-07-05"
+    },
+    {
+      "price": 488.12,
+      "stock_id": "TPEx",
+      "date": "2024-07-08"
+    },
+    {
+      "price": 487.32,
+      "stock_id": "TPEx",
+      "date": "2024-07-09"
+    },
+    {
+      "price": 490.93,
+      "stock_id": "TPEx",
+      "date": "2024-07-10"
+    },
+    {
+      "price": 493.63,
+      "stock_id": "TPEx",
+      "date": "2024-07-11"
+    },
+    {
+      "price": 488.63,
+      "stock_id": "TPEx",
+      "date": "2024-07-12"
+    },
+    {
+      "price": 489.26,
+      "stock_id": "TPEx",
+      "date": "2024-07-15"
+    },
+    {
+      "price": 491.45,
+      "stock_id": "TPEx",
+      "date": "2024-07-16"
+    },
+    {
+      "price": 493.9,
+      "stock_id": "TPEx",
+      "date": "2024-07-17"
+    },
+    {
+      "price": 486.96,
+      "stock_id": "TPEx",
+      "date": "2024-07-18"
+    },
+    {
+      "price": 477.69,
+      "stock_id": "TPEx",
+      "date": "2024-07-19"
+    },
+    {
+      "price": 464.66,
+      "stock_id": "TPEx",
+      "date": "2024-07-22"
+    },
+    {
+      "price": 470.77,
+      "stock_id": "TPEx",
+      "date": "2024-07-23"
+    },
+    {
+      "price": 466.32,
+      "stock_id": "TPEx",
+      "date": "2024-07-26"
+    },
+    {
+      "price": 458.91,
+      "stock_id": "TPEx",
+      "date": "2024-07-29"
+    },
+    {
+      "price": 464.77,
+      "stock_id": "TPEx",
+      "date": "2024-07-30"
+    },
+    {
+      "price": 462.91,
+      "stock_id": "TPEx",
+      "date": "2024-07-31"
+    },
+    {
+      "price": 471.46,
+      "stock_id": "TPEx",
+      "date": "2024-08-01"
+    },
+    {
+      "price": 455.42,
+      "stock_id": "TPEx",
+      "date": "2024-08-02"
+    },
+    {
+      "price": 419.64,
+      "stock_id": "TPEx",
+      "date": "2024-08-05"
+    },
+    {
+      "price": 416.12,
+      "stock_id": "TPEx",
+      "date": "2024-08-06"
+    },
+    {
+      "price": 437.92,
+      "stock_id": "TPEx",
+      "date": "2024-08-07"
+    },
+    {
+      "price": 436.01,
+      "stock_id": "TPEx",
+      "date": "2024-08-08"
+    },
+    {
+      "price": 445.87,
+      "stock_id": "TPEx",
+      "date": "2024-08-09"
+    },
+    {
+      "price": 451.61,
+      "stock_id": "TPEx",
+      "date": "2024-08-12"
+    },
+    {
+      "price": 454.23,
+      "stock_id": "TPEx",
+      "date": "2024-08-13"
+    },
+    {
+      "price": 459.99,
+      "stock_id": "TPEx",
+      "date": "2024-08-14"
+    },
+    {
+      "price": 463.63,
+      "stock_id": "TPEx",
+      "date": "2024-08-15"
+    },
+    {
+      "price": 470.71,
+      "stock_id": "TPEx",
+      "date": "2024-08-16"
+    },
+    {
+      "price": 475.38,
+      "stock_id": "TPEx",
+      "date": "2024-08-19"
+    },
+    {
+      "price": 477.54,
+      "stock_id": "TPEx",
+      "date": "2024-08-20"
+    },
+    {
+      "price": 474.55,
+      "stock_id": "TPEx",
+      "date": "2024-08-21"
+    },
+    {
+      "price": 477.06,
+      "stock_id": "TPEx",
+      "date": "2024-08-22"
+    },
+    {
+      "price": 480.51,
+      "stock_id": "TPEx",
+      "date": "2024-08-23"
+    },
+    {
+      "price": 477.05,
+      "stock_id": "TPEx",
+      "date": "2024-08-26"
+    },
+    {
+      "price": 481.92,
+      "stock_id": "TPEx",
+      "date": "2024-08-27"
+    },
+    {
+      "price": 482.34,
+      "stock_id": "TPEx",
+      "date": "2024-08-28"
+    },
+    {
+      "price": 483.76,
+      "stock_id": "TPEx",
+      "date": "2024-08-29"
+    },
+    {
+      "price": 486.04,
+      "stock_id": "TPEx",
+      "date": "2024-08-30"
+    },
+    {
+      "price": 482.48,
+      "stock_id": "TPEx",
+      "date": "2024-09-02"
+    },
+    {
+      "price": 479.47,
+      "stock_id": "TPEx",
+      "date": "2024-09-03"
+    },
+    {
+      "price": 463.95,
+      "stock_id": "TPEx",
+      "date": "2024-09-04"
+    },
+    {
+      "price": 462.5,
+      "stock_id": "TPEx",
+      "date": "2024-09-05"
+    },
+    {
+      "price": 463.58,
+      "stock_id": "TPEx",
+      "date": "2024-09-06"
+    },
+    {
+      "price": 461.48,
+      "stock_id": "TPEx",
+      "date": "2024-09-09"
+    },
+    {
+      "price": 453.36,
+      "stock_id": "TPEx",
+      "date": "2024-09-10"
+    },
+    {
+      "price": 455.15,
+      "stock_id": "TPEx",
+      "date": "2024-09-11"
+    },
+    {
+      "price": 464.19,
+      "stock_id": "TPEx",
+      "date": "2024-09-12"
+    },
+    {
+      "price": 468.07,
+      "stock_id": "TPEx",
+      "date": "2024-09-13"
+    },
+    {
+      "price": 469.5,
+      "stock_id": "TPEx",
+      "date": "2024-09-16"
+    },
+    {
+      "price": 465.82,
+      "stock_id": "TPEx",
+      "date": "2024-09-18"
+    },
+    {
+      "price": 474.27,
+      "stock_id": "TPEx",
+      "date": "2024-09-19"
+    },
+    {
+      "price": 472.95,
+      "stock_id": "TPEx",
+      "date": "2024-09-20"
     },
     {
       "price": 473.59,
