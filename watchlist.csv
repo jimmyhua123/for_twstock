@@ -1,13 +1,15 @@
 stock_id
 2344
-2308
-6231
 3535
+6231
+2308
 3035
-8358
-2383
-3293
 2454
+3293
 2379
+8358
 6643
+2383
 8932
+git config --global user.email "jimmy0624062461@gmail.com"
+git config --global user.name "jimmyhua123"
