@@ -7,7 +7,8 @@ KEEP = ["stock_id","stock_name","industry","score_total","tech_score","chip_scor
 
 def run_watchlist_report(features_df: pd.DataFrame, config: dict, out_dir: str) -> dict:
     outdir = Path(out_dir); outdir.mkdir(parents=True, exist_ok=True)
-    scored = build_scores(features_df.copy(), config, universe="watchlist")
+    uni = config.get("universe", "watchlist")
+    scored = build_scores(features_df.copy(), config, universe=uni)
     csv_path = outdir / "watchlist_scores.csv"
     cols = [c for c in KEEP if c in scored.columns]
     scored.loc[:, cols].sort_values("score_total", ascending=False).to_csv(csv_path, index=False, encoding="utf-8")

@@ -5,10 +5,11 @@ from ..scoring_core import build_scores
 
 KEEP = ["stock_id","stock_name","industry","score_total","tech_score","chip_score","fund_score","risk_score"]
 
-def run_market_scan(features_df: pd.DataFrame, config: dict, universe: str, out_dir: str) -> dict:
+def run_market_scan(features_df: pd.DataFrame, config: dict, universe: str | None, out_dir: str) -> dict:
     outdir = Path(out_dir); outdir.mkdir(parents=True, exist_ok=True)
     feats = features_df.copy()
-    scored = build_scores(feats, config, universe=universe)
+    uni = universe or config.get("universe", "market_neutralized_by_industry")
+    scored = build_scores(feats, config, universe=uni)
     # 輸出
     csv_path = outdir / "market_scan_scores.csv"
     cols = [c for c in KEEP if c in scored.columns]
