@@ -152,3 +152,64 @@ vol_mult_20d > 2 且 excess_ret_20d < 0 → 放量下跌，列入觀察/排除
 ### NaN 處理
 - 單一面向缺值時，該面向的分數顯示為 NaN，總分會依照其他有值的面向重新正規化權重後加總，不會整列 NaN。
 - 報表會同時輸出 `_diag_missing_features.csv`，列出每個面向缺少的欄位與缺失率，方便追蹤資料品質。
+
+### 零超限版流程：粗篩用 TWSE/TPEx，精算才用 FinMind
+
+**A. 由 TaiwanStockInfo 產生全市場名單（只做一次）**
+```powershell
+python .\tools\make_universe_all.py --input finmind_raw\TaiwanStockInfo.json --out finmind_in --batch-size 200
+```
+
+**B. 建立全市場粗篩 features（只用官方來源，近一年）**
+
+```powershell
+$since = (Get-Date).AddDays(-365).ToString('yyyy-MM-dd')
+$until = (Get-Date).ToString('yyyy-MM-dd')
+python -m finmind_etl build-coarse `
+  --universe finmind_in\universe_all.csv `
+  --since $since `
+  --until $until `
+  --out-features finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv
+```
+
+**C. 粗篩報告（profile=coarse）**
+
+```powershell
+python -m finmind_etl scan-market `
+  --features finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
+  --profile coarse `
+  --output  finmind_reports\market_scan
+```
+
+**D. 取 Top N 生成 watchlist.csv**
+
+```powershell
+python - <<'PY'
+import pandas as pd
+df=pd.read_csv(r"finmind_reports/market_scan/market_scan_scores.csv").dropna(subset=["score_total"])
+df.sort_values("score_total", ascending=False).head(50)[["stock_id"]].to_csv("watchlist.csv", index=False, encoding="utf-8")
+print("OK -> watchlist.csv")
+PY
+```
+
+**E. 精算（只對 Top N 用 FinMind 抓重欄位 → 清理 → 特徵 → 報告）**
+
+```powershell
+# 1) 針對 watchlist 抓 FinMind（低頻重欄位），main.py 用 --ids-file
+python .\main.py --ids-file .\watchlist.csv --since $since --until $until --outdir finmind_raw --sleep 0.3 --to-csv
+
+# 2) 清理 + 特徵（會把 fund/chip/risk 填齊）
+python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
+python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
+
+# 3) 自選精算報告（profile=fine）
+python -m finmind_etl report-watchlist `
+  --features  finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
+  --watchlist .\watchlist.csv `
+  --profile   fine `
+  --output    finmind_reports\watchlist_deep
+```
+
+> 備註：粗篩/精算都會輸出 `_diag_missing_features.csv`，可以快速看到每一面向缺欄與缺值比。
+
+---
