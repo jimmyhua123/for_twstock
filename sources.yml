@@ -1,0 +1,28 @@
+providers:
+  twse:
+    base_url: "https://www.twse.com.tw"
+    datasets:
+      stock_day: "/exchangeReport/STOCK_DAY"           # params: response=json&date=YYYYMMDD&stockNo=2330
+      inst_investors: "/fund/T86"                     # params: response=json&date=YYYYMMDD&selectType=ALL
+      margin_short: "/rwd/zh/marginTrading/TWT93U"    # (參考) 以官方回應格式為準
+  tpex:
+    base_url: "https://www.tpex.org.tw"
+    datasets:
+      stock_day_csv: "/web/stock/aftertrading/daily_trading_info/st43_result.php"  # params: l=zh-tw&d=YYY/MM&stkno=xxx
+  finmind:
+    base_url: "https://api.finmindtrade.com/api/v4"
+    token_env: "FINMIND_TOKEN"
+    datasets:
+      price: "TaiwanStockPrice"
+      institutional: "TaiwanStockInstitutionalInvestors"
+      margin_short: "TaiwanStockMarginPurchaseShortSale"
+      foreign_holding: "TaiwanStockShareholding"
+      dividend: "TaiwanStockDividend"
+      revenue: "TaiwanStockMonthRevenue"
+      balance_sheet: "TaiwanStockBalanceSheet"
+      income_statement: "TaiwanStockFinancialStatements"
+      cashflow: "TaiwanStockCashFlowsStatement"
+cache:
+  dir: "finmind_out/_cache"
+  key_fields: [dataset, stock_id, date]
+  format: "parquet"   # 或 csv

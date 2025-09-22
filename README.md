@@ -128,3 +128,12 @@ python filter_watchlist.py --asof 2025-09-19 --min-total 70 --excess-positive
 
 # 只做去重 + 指定日期，不限制分數
 python filter_watchlist.py --asof 2025-09-19 --min-total 0 --min-tech 0 --min-chip 0 --min-risk 0
+
+### 混合資料源與兩份報告
+- 設定檔：`sources.yml`、`scoring.yml`
+- 產出指令：
+```bash
+python -m finmind_etl scan-market --features finmind_out/features_snapshot.csv --output finmind_out/market_scan
+python -m finmind_etl report-watchlist --features finmind_out/features_snapshot.csv --watchlist watchlist.csv --output finmind_out/watchlist_deep
+```
+- `watchlist.csv` 需要一欄 `stock_id`
