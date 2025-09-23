@@ -12,6 +12,8 @@
 python -m pip install --upgrade pip
 python -m pip install PyYAML pandas requests pyarrow lxml beautifulsoup4 html5lib
 $env:FINMIND_TOKEN = "<你的 FinMind Token>"  # 精算階段才會用到
+
+$env:FINMIND_TOKEN = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wOS0yMCAxNDoxNzoyMiIsInVzZXJfaWQiOiJqaW1teWh1YSIsImlwIjoiMTE4LjIzMi4xODkuODUifQ.KAa_-B7uhD39eOBLZsmX8KQn87GSt1T4eZbxA3gUdfE
 ```
 
 ### 1) 由 TaiwanStockInfo 產出「全市場宇宙」名單（只做一次）
@@ -64,7 +66,7 @@ PY
 
 輸出：`watchlist.csv`
 
-### 5) 精算抓取（fetch-fine：含配額追蹤與整點續跑）
+### 5) 精算抓取（fetch-fine：含配額追蹤與整點續跑） 之後你重跑同一條 fetch-fine 指令就好
 
 > 只抓 fine profile 需要的 **低頻重欄位**（營收、三表、外資持股、融資券…），並追蹤 600/hr。
 
