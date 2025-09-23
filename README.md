@@ -71,8 +71,8 @@ PY
 > 只抓 fine profile 需要的 **低頻重欄位**（營收、三表、外資持股、融資券…），並追蹤 600/hr。
 
 ```powershell
-# 三表 TTM 建議用 2 年窗（≈ 800 天），其餘會由程式自動縮到最短需求
-$since = (Get-Date).AddDays(-800).ToString('yyyy-MM-dd')
+# 三表 TTM 建議用 2 年窗（≈ 800 天 8季），其餘會由程式自動縮到最短需求
+$since = (Get-Date).AddDays(-600).ToString('yyyy-MM-dd')
 $until = (Get-Date).ToString('yyyy-MM-dd')
 python -m finmind_etl fetch-fine `
   --watchlist .\watchlist.csv `
@@ -82,6 +82,18 @@ python -m finmind_etl fetch-fine `
   --sleep-ms 900 `
   --limit-per-hour 600 `
   --max-requests 550
+```
+#### 分段更省：先抓三表，再抓營收/籌碼
+```
+# 先三表（600天）
+python -m finmind_etl fetch-fine --watchlist .\watchlist.csv --since (Get-Date).AddDays(-600).ToString('yyyy-MM-dd') --until $until --datasets TaiwanStockBalanceSheet,TaiwanStockFinancialStatements,TaiwanStockCashFlowsStatement
+
+# 再營收（400天就夠）
+python -m finmind_etl fetch-fine --watchlist .\watchlist.csv --since (Get-Date).AddDays(-420).ToString('yyyy-MM-dd') --until $until --datasets TaiwanStockMonthRevenue
+
+# 最後外資/融資（90/60天）
+python -m finmind_etl fetch-fine --watchlist .\watchlist.csv --since (Get-Date).AddDays(-100).ToString('yyyy-MM-dd') --until $until --datasets TaiwanStockShareholding,TaiwanStockMarginPurchaseShortSale
+
 ```
 
 * 達上限會寫 `finmind_raw/_quota/finmind_quota.json`，包含 `resume_at`，下個整點直接重跑同一條指令即可續抓；已抓過的 `(dataset, stock_id, 區間)` 會被跳過，不會重複請求。
