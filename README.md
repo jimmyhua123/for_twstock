@@ -153,6 +153,11 @@ vol_mult_20d > 2 且 excess_ret_20d < 0 → 放量下跌，列入觀察/排除
 - 單一面向缺值時，該面向的分數顯示為 NaN，總分會依照其他有值的面向重新正規化權重後加總，不會整列 NaN。
 - 報表會同時輸出 `_diag_missing_features.csv`，列出每個面向缺少的欄位與缺失率，方便追蹤資料品質。
 
+
+
+
+
+
 ### 零超限版流程：粗篩用 TWSE/TPEx，精算才用 FinMind
 
 **A. 由 TaiwanStockInfo 產生全市場名單（只做一次）**
@@ -163,7 +168,7 @@ python .\tools\make_universe_all.py --input finmind_raw\TaiwanStockInfo.json --o
 **B. 建立全市場粗篩 features（只用官方來源，近一年）**
 
 ```powershell
-$since = (Get-Date).AddDays(-365).ToString('yyyy-MM-dd')
+$since = (Get-Date).AddDays(-90).ToString('yyyy-MM-dd')
 $until = (Get-Date).ToString('yyyy-MM-dd')
 python -m finmind_etl build-coarse `
   --universe finmind_in\universe_all.csv `
