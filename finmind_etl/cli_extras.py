@@ -4,6 +4,7 @@ from pathlib import Path
 from .reports.market_scan import run_market_scan
 from .reports.watchlist_deep import run_watchlist_report
 from .official_coarse.build_coarse_features import build_from_official
+from .fetch_fine import run_fetch_fine
 
 DEFAULT_FEATURES = "finmind_out/features_snapshot.csv"
 
@@ -22,7 +23,13 @@ def _diag_missing(features_df: pd.DataFrame, config: dict, out_dir: str):
     pd.DataFrame(recs).to_csv(out/"_diag_missing_features.csv", index=False, encoding="utf-8")
 
 def cmd_build_coarse(args: argparse.Namespace):
-    out = build_from_official(args.universe, args.since, args.until, args.out_features, sleep_ms=args.sleep_ms)
+    out = build_from_official(
+        args.universe,
+        args.since,
+        args.until,
+        args.out_features,
+        sleep_ms=getattr(args, "sleep_ms", 250),
+    )
     print(f"[OK] coarse features -> {out}")
 
 def cmd_scan_market(args: argparse.Namespace):
@@ -45,6 +52,24 @@ def cmd_report_watchlist(args: argparse.Namespace):
     feats = feats[feats["stock_id"].astype(str).isin(wl)].copy()
     _diag_missing(feats, cfg, args.output)
     run_watchlist_report(feats, cfg, args.output)
+
+
+def cmd_fetch_fine(args: argparse.Namespace):
+    datasets = None
+    if args.datasets:
+        datasets = [x.strip() for x in args.datasets.split(",") if x.strip()]
+    res = run_fetch_fine(
+        watchlist_csv=args.watchlist,
+        since=args.since,
+        until=args.until,
+        outdir=args.outdir,
+        sleep_ms=args.sleep_ms,
+        limit_per_hour=args.limit_per_hour,
+        max_requests=args.max_requests,
+        state_file=args.state_file,
+        datasets=datasets,
+    )
+    print("[FETCH-FINE DONE]", res)
 
 def register_subcommands(subparsers):
     sp0 = subparsers.add_parser("build-coarse", help="用 TWSE/TPEx 建全市場粗篩 features")
@@ -69,3 +94,15 @@ def register_subcommands(subparsers):
     sp2.add_argument("--profile", default="fine", choices=["coarse","fine"])
     sp2.add_argument("--output", default="finmind_out/watchlist_deep")
     sp2.set_defaults(func=cmd_report_watchlist)
+
+    sp3 = subparsers.add_parser("fetch-fine", help="抓精算用 FinMind 資料（含配額追蹤、整點續跑）")
+    sp3.add_argument("--watchlist", required=True)
+    sp3.add_argument("--since", required=True)
+    sp3.add_argument("--until", required=True)
+    sp3.add_argument("--outdir", default="finmind_raw")
+    sp3.add_argument("--sleep-ms", type=int, default=900)
+    sp3.add_argument("--limit-per-hour", type=int, default=600)
+    sp3.add_argument("--max-requests", type=int, default=550)
+    sp3.add_argument("--state-file", default="finmind_raw/_quota/finmind_quota.json")
+    sp3.add_argument("--datasets", help="僅抓這些 dataset，逗號分隔；預設抓內建 plan")
+    sp3.set_defaults(func=cmd_fetch_fine)
