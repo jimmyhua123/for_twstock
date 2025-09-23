@@ -1,0 +1,9 @@
+pillar,column,exists,missing_rate
+tech,ret_5d,True,0.0009
+tech,ret_20d,True,0.0056
+tech,rsi_14,True,0.0056
+tech,breakout_20d,True,0.0056
+tech,volatility_20d,True,0.0056
+tech,volume_ratio_20d,True,0.0
+chip,inst_net_buy_5d_ratio,True,0.0386
+chip,inst_consistency_20d,True,0.0056
