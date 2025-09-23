@@ -169,7 +169,8 @@ python -m finmind_etl build-coarse `
   --universe finmind_in\universe_all.csv `
   --since $since `
   --until $until `
-  --out-features finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv
+  --out-features finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
+  --sleep-ms 250
 ```
 
 **C. 粗篩報告（profile=coarse）**

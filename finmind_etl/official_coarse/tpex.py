@@ -1,25 +1,24 @@
 from __future__ import annotations
-import io, pandas as pd
+import pandas as pd
 from .utils import Http, Cache, parse_date_auto
 
 BASE = "https://www.tpex.org.tw"
+HEADERS = {"Referer": "https://www.tpex.org.tw/web/stock/aftertrading/daily_trading_info/"}
 
-def fetch_stock_day_month_csv(stock_id: str, roc_yyy: int, mm: int) -> pd.DataFrame:
-    # /web/stock/aftertrading/daily_trading_info/st43_result.php?l=zh-tw&d=YYY/MM&stkno=xxxx
+def fetch_stock_day_month_csv(stock_id: str, roc_yyy: int, mm: int, sleep_ms: int = 250) -> pd.DataFrame:
     url = f"{BASE}/web/stock/aftertrading/daily_trading_info/st43_result.php"
     params = {"l":"zh-tw","d":f"{roc_yyy:03d}/{mm:02d}","stkno": stock_id}
     key = f"TPEX_ST43::{stock_id}::{roc_yyy:03d}{mm:02d}"
     c = Cache(); hit = c.load(key)
     if hit is not None: return hit
-    r = Http().get(url, params=params)
-    # 回傳是 HTML 內嵌表格或 CSV 字串，盡力解析：
-    text = r.text
-    # 嘗試以 pandas 直接讀 HTML 表：
-    tables = pd.read_html(text, flavor="bs4")
+    r = Http().get(url, params=params, headers=HEADERS, sleep_ms=sleep_ms)
+    try:
+        tables = pd.read_html(r.text, flavor="bs4")
+    except Exception:
+        tables = []
     if not tables:
         return pd.DataFrame(columns=["date","stock_id","open","high","low","close","volume"])
     t = tables[0]
-    # 嘗試常見標題：日期, 成交股數, 成交金額, 開盤, 最高, 最低, 收盤, 漲跌, 成交筆數
     cols = {c:str(c) for c in t.columns}
     t.columns = list(cols.values())
     def to_num(x):
@@ -37,11 +36,7 @@ def fetch_stock_day_month_csv(stock_id: str, roc_yyy: int, mm: int) -> pd.DataFr
             "close":to_num(row[t.columns[6]]),
             "volume": int(float(str(row[t.columns[1]]).replace(",","") or 0)),
         })
-    df = pd.DataFrame(out)
-    c.save(key, df)
-    return df
+    df = pd.DataFrame(out); c.save(key, df); return df
 
 def fetch_inst_daily_placeholder(*args, **kwargs) -> pd.DataFrame:
-    # TPEx 三大法人官方頁面格式多變；粗篩可暫以 TWSE 覆蓋上市，
-    # 上櫃先不計法人（或待後續實作），避免阻塞。
     return pd.DataFrame(columns=["date","stock_id","inst_net"])

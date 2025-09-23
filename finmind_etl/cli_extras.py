@@ -22,7 +22,7 @@ def _diag_missing(features_df: pd.DataFrame, config: dict, out_dir: str):
     pd.DataFrame(recs).to_csv(out/"_diag_missing_features.csv", index=False, encoding="utf-8")
 
 def cmd_build_coarse(args: argparse.Namespace):
-    out = build_from_official(args.universe, args.since, args.until, args.out_features)
+    out = build_from_official(args.universe, args.since, args.until, args.out_features, sleep_ms=args.sleep_ms)
     print(f"[OK] coarse features -> {out}")
 
 def cmd_scan_market(args: argparse.Namespace):
@@ -52,6 +52,7 @@ def register_subcommands(subparsers):
     sp0.add_argument("--since", required=True)
     sp0.add_argument("--until", required=True)
     sp0.add_argument("--out-features", required=True)
+    sp0.add_argument("--sleep-ms", type=int, default=250)
     sp0.set_defaults(func=cmd_build_coarse)
 
     sp = subparsers.add_parser("scan-market", help="全市場粗篩報告")
