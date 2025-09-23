@@ -134,11 +134,71 @@ print("OK -> watchlist.csv")
 PY
 ```
 
+## 精算階段：fetch-fine（含配額追蹤與整點續跑）
+
+`fetch-fine` 專抓 **fine profile** 需要的 FinMind 低頻重欄位（營收、三表、外資持股、融資券…），
+並追蹤 600/hr（可改）配額：達上限會寫入 `finmind_raw/_quota/finmind_quota.json` 的 `resume_at`，
+下個整點再執行即可「無縫續跑」。
+
+> 需要先把環境變數 `FINMIND_TOKEN` 設好。
+
+### 指令
+```powershell
+$since = (Get-Date).AddDays(-800).ToString('yyyy-MM-dd')  # 三表TTM/2年
+$until = (Get-Date).ToString('yyyy-MM-dd')
+python -m finmind_etl fetch-fine \
+  --watchlist .\watchlist.csv \
+  --since $since \
+  --until $until \
+  --outdir finmind_raw \
+  --sleep-ms 900 \
+  --limit-per-hour 600 \
+  --max-requests 550
+```
+
+### 觀察與續跑
+
+* 每次請求會更新 `finmind_raw/_quota/finmind_quota.json`：
+
+  ```json
+  {
+    "per_hour": {"2025-09-24T14:00": 548},
+    "last": "2025-09-24T14:53:10",
+    "hit_limit": true,
+    "resume_at": "2025-09-24T15:00:00",
+    "used_this_hour": 600,
+    "limit_per_hour": 600,
+    "dataset": "TaiwanStockShareholding",
+    "last_stock": "2454"
+  }
+  ```
+* 若看到 `hit_limit: true`，等到 `resume_at` 後再執行同一條指令即可「接著抓」。
+* 由於 raw 以 `(dataset/stock_id/期間)` 落檔，已完成的請求會被跳過，不會重抓。
+
+### 與零超限流程整合
+
+* **粗篩**：`build-coarse` 產出全市場 `features_snapshot_YYYYMMDD.csv`（不使用 FinMind）。
+* **取 Top N**：生成 `watchlist.csv`。
+* **精算**：執行 `fetch-fine`（可多次、跨小時續跑），完成後再跑：
+
+  ```powershell
+  python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
+  python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
+  python -m finmind_etl report-watchlist --features finmind_scores\features_snapshot_YYYYMMDD.csv --watchlist .\watchlist.csv --profile fine --output finmind_reports\watchlist_deep
+  ```
+
 **E. 精算（只對 Top N 用 FinMind 抓重欄位 → 清理 → 特徵 → 報告）**
 
 ```powershell
-# 1) 針對 watchlist 抓 FinMind（低頻重欄位），main.py 用 --ids-file
-python .\main.py --ids-file .\watchlist.csv --since $since --until $until --outdir finmind_raw --sleep 0.3 --to-csv
+# 1) 針對 watchlist 抓 FinMind（低頻重欄位），依上方 fetch-fine 指令（可跨整點續跑）
+python -m finmind_etl fetch-fine \
+  --watchlist .\watchlist.csv \
+  --since $since \
+  --until $until \
+  --outdir finmind_raw \
+  --sleep-ms 900 \
+  --limit-per-hour 600 \
+  --max-requests 550
 
 # 2) 清理 + 特徵（會把 fund/chip/risk 填齊）
 python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
