@@ -1,0 +1,35 @@
+{
+  "config": {
+    "since": "2023-07-17",
+    "until": "2025-09-24",
+    "datasets": [
+      "TaiwanStockPrice",
+      "TaiwanStockPER",
+      "TaiwanStockDayTrading",
+      "TaiwanStockMarginPurchaseShortSale",
+      "TaiwanStockInstitutionalInvestorsBuySell",
+      "TaiwanStockShareholding",
+      "TaiwanStockSecuritiesLending",
+      "TaiwanStockMarginShortSaleSuspension",
+      "TaiwanDailyShortSaleBalances",
+      "TaiwanStockFinancialStatements",
+      "TaiwanStockBalanceSheet",
+      "TaiwanStockCashFlowsStatement",
+      "TaiwanStockDividend",
+      "TaiwanStockDividendResult",
+      "TaiwanStockMonthRevenue",
+      "TaiwanStockInfo",
+      "TaiwanStockTradingDate",
+      "TaiwanStockTotalReturnIndex"
+    ],
+    "watchlist_md5": "5869984fb63c41caf15dddecb16c0693"
+  },
+  "progress": {
+    "dataset_idx": 18,
+    "id_idx": 0
+  },
+  "used_calls": 301,
+  "stopped": false,
+  "stopped_reason": null,
+  "last_msg": null
+}

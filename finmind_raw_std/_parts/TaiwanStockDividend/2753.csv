@@ -1,0 +1,5 @@
+date,stock_id,year,StockEarningsDistribution,StockStatutorySurplus,StockExDividendTradingDate,TotalEmployeeStockDividend,TotalEmployeeStockDividendAmount,RatioOfEmployeeStockDividendOfTotal,RatioOfEmployeeStockDividend,CashEarningsDistribution,CashStatutorySurplus,CashExDividendTradingDate,CashDividendPaymentDate,TotalEmployeeCashDividend,TotalNumberOfCashCapitalIncrease,CashIncreaseSubscriptionRate,CashIncreaseSubscriptionpRrice,RemunerationOfDirectorsAndSupervisors,ParticipateDistributionOfTotalShares,AnnouncementDate,AnnouncementTime
+2023-12-29,2753,112年前半年度,0.0,0.0,,0.0,0.0,0.0,0.0,1.99548836,0.0,2023-12-21,2024-01-19,0.0,0.0,0.0,0.0,0.0,66494796.0,2023-12-06,14:40:24
+2024-06-26,2753,112年後半年度,0.0,0.0,,0.0,0.0,0.0,0.0,5.00451164,0.0,2024-06-20,2024-07-17,0.0,0.0,0.0,0.0,0.0,66494796.0,2024-06-04,15:35:47
+2024-12-25,2753,113年前半年度,0.0,0.0,,0.0,0.0,0.0,0.0,1.99549852,0.0,2024-12-19,2025-01-16,0.0,0.0,0.0,0.0,0.0,66644796.0,2024-12-04,16:44:18
+2025-06-29,2753,113年後半年度,0.0,0.0,,0.0,0.0,0.0,0.0,6.00450148,0.0,2025-06-23,2025-07-18,0.0,0.0,0.0,0.0,0.0,66644796.0,2025-06-06,18:08:11

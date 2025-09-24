@@ -67,24 +67,6 @@ PY
 輸出：`watchlist.csv`
 
 ### 5) 精算抓取（fetch-fine：含配額追蹤與整點續跑） 之後你重跑同一條 fetch-fine 指令就好
-<!-- 
-> 只抓 fine profile 需要的 **低頻重欄位**（營收、三表、外資持股、融資券…），並追蹤 600/hr。
-
-```powershell
-# 三表 TTM 建議用 2 年窗（≈ 800 天），其餘會由程式自動縮到最短需求  這些是抓單獨csv 還需整理
-$since = (Get-Date).AddDays(-800).ToString('yyyy-MM-dd')
-$until = (Get-Date).ToString('yyyy-MM-dd')
-python -m finmind_etl fetch-fine `
-  --watchlist .\watchlist.csv `
-  --since $since `
-  --until $until `
-  --outdir finmind_raw_0924 `
-  --sleep-ms 900 `
-  --limit-per-hour 600 `
-  --max-requests 550
-```
-* 達上限會寫 `finmind_raw/_quota/finmind_quota.json` -->
-* # >= 13 個月，建議 18~24 個月
 ```
 $since = (Get-Date).AddDays(-800).ToString('yyyy-MM-dd')   
 $until = (Get-Date).ToString('yyyy-MM-dd')
@@ -95,6 +77,8 @@ python .\fetch_standard_raw.py `
   --until $until `
   --outdir finmind_raw_std `
   --sleep-ms 500
+
+  --no-resume
 ```
 
 ### 6) 清理 → 特徵 → 自選深度報告（profile=fine）

@@ -1,0 +1,3 @@
+date,stock_id,before_price,after_price,stock_and_cache_dividend,stock_or_cache_dividend,max_price,min_price,open_price,reference_price
+2024-07-16,8046,187.5,182.0,5.5,息,200.0,164.0,182.0,182.0
+2025-07-03,8046,114.0,113.0,1.0,息,124.0,102.0,113.0,113.0
