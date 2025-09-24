@@ -13,10 +13,10 @@ python -m pip install --upgrade pip
 python -m pip install PyYAML pandas requests pyarrow lxml beautifulsoup4 html5lib
 $env:FINMIND_TOKEN = "<你的 FinMind Token>"  # 精算階段才會用到
 
-$env:FINMIND_TOKEN = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wOS0yMCAxNDoxNzoyMiIsInVzZXJfaWQiOiJqaW1teWh1YSIsImlwIjoiMTE4LjIzMi4xODkuODUifQ.KAa_-B7uhD39eOBLZsmX8KQn87GSt1T4eZbxA3gUdfE
+$env:FINMIND_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wOS0yMCAxNDoxNzoyMiIsInVzZXJfaWQiOiJqaW1teWh1YSIsImlwIjoiMTE4LjIzMi4xODkuODUifQ.KAa_-B7uhD39eOBLZsmX8KQn87GSt1T4eZbxA3gUdfE"
 ```
 
-### 1) 由 TaiwanStockInfo 產出「全市場宇宙」名單（只做一次）
+### 1) 由 TaiwanStockInfo 產出「全市場」名單（只做一次） no 興櫃
 
 ```powershell
 python .\tools\make_universe_all.py --input finmind_raw\TaiwanStockInfo.json --out finmind_in --batch-size 200
@@ -35,6 +35,7 @@ python -m finmind_etl build-coarse `
   --until $until `
   --out-features finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
   --sleep-ms 250
+
 ```
 
 輸出：`finmind_scores/features_snapshot_YYYYMMDD.csv`
@@ -46,6 +47,8 @@ python -m finmind_etl scan-market `
   --features finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
   --profile coarse `
   --output  finmind_reports\market_scan
+
+
 ```
 
 輸出：`finmind_reports/market_scan/market_scan_scores.csv`、`_diag_missing_features.csv`、報告 `.md`
@@ -62,6 +65,8 @@ out=df.head(N)[['stock_id']]
 out.to_csv('watchlist.csv', index=False, encoding='utf-8')
 print('OK -> watchlist.csv (Top',N,')')
 PY
+
+
 ```
 
 輸出：`watchlist.csv`
@@ -83,24 +88,26 @@ python -m finmind_etl fetch-fine `
   --limit-per-hour 600 `
   --max-requests 550
 ```
-#### 分段更省：先抓三表，再抓營收/籌碼
-```
-# 先三表（600天）
-python -m finmind_etl fetch-fine --watchlist .\watchlist.csv --since (Get-Date).AddDays(-600).ToString('yyyy-MM-dd') --until $until --datasets TaiwanStockBalanceSheet,TaiwanStockFinancialStatements,TaiwanStockCashFlowsStatement
+# new  設時間窗（建議 600~800 天，有三表 TTM 的餘裕）
+$since = (Get-Date).AddDays(-600).ToString('yyyy-MM-dd')
+$until = (Get-Date).ToString('yyyy-MM-dd')
 
-# 再營收（400天就夠）
-python -m finmind_etl fetch-fine --watchlist .\watchlist.csv --since (Get-Date).AddDays(-420).ToString('yyyy-MM-dd') --until $until --datasets TaiwanStockMonthRevenue
-
-# 最後外資/融資（90/60天）
-python -m finmind_etl fetch-fine --watchlist .\watchlist.csv --since (Get-Date).AddDays(-100).ToString('yyyy-MM-dd') --until $until --datasets TaiwanStockShareholding,TaiwanStockMarginPurchaseShortSale
-
-```
+# 重新執行「精算抓取」：可選 datasets、可自動續跑
+python -m finmind_etl fetch-fine `
+  --watchlist .\watchlist.csv `
+  --since $since --until $until `
+  --outdir finmind_raw `
+  --sleep-ms 900 --limit-per-hour 600 --max-requests 550 `
+  --datasets TaiwanStockMonthRevenue,TaiwanStockFinancialStatements,TaiwanStockBalanceSheet,TaiwanStockCashFlowsStatement,TaiwanStockShareholding,TaiwanStockMarginPurchaseShortSale `
+  --auto-resume
 
 * 達上限會寫 `finmind_raw/_quota/finmind_quota.json`，包含 `resume_at`，下個整點直接重跑同一條指令即可續抓；已抓過的 `(dataset, stock_id, 區間)` 會被跳過，不會重複請求。
 
 ### 6) 清理 → 特徵 → 自選深度報告（profile=fine）
 
 ```powershell
+$until = '2025-09-23'
+
 python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
 python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
 python -m finmind_etl report-watchlist `
@@ -110,9 +117,46 @@ python -m finmind_etl report-watchlist `
   --output    finmind_reports\watchlist_deep
 ```
 
+## new
+```
+python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
+python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
+python -m finmind_etl report-watchlist `
+  --features  (Get-ChildItem finmind_scores\features_snapshot_*.csv | Sort-Object LastWriteTime -Desc | Select-Object -First 1).FullName `
+  --watchlist .\watchlist.csv `
+  --profile   fine `
+  --output    finmind_reports\watchlist_deep
+
+```
+
 輸出：`finmind_reports/watchlist_deep/watchlist_scores.csv`、`_diag_missing_features.csv`、報告 `.md`
 
 ---
+
+
+
+
+30 秒自查：我現在拿的是 coarse 還是 fine 檔？
+```
+python - <<'PY'
+import pandas as pd, glob, os
+p = sorted(glob.glob("finmind_scores/features_snapshot_*.csv"), key=os.path.getmtime)[-1]
+df = pd.read_csv(p, nrows=3)
+cols = set(df.columns)
+print("FILE:", p)
+print("has raw tech?", all(c in cols for c in ["rsi_14","breakout_20d","volatility_20d","volume_ratio_20d"]))
+print("has score_* ?", any(c.startswith("score_") for c in cols))
+print("has fund raw?", all(c in cols for c in ["revenue_yoy","gross_margin_ttm","roe_ttm","op_margin_ttm"]))
+PY
+```
+
+
+---
+
+
+
+
+
 
 ## 流程設計理念
 

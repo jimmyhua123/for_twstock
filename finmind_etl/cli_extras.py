@@ -105,4 +105,28 @@ def register_subcommands(subparsers):
     sp3.add_argument("--max-requests", type=int, default=550)
     sp3.add_argument("--state-file", default="finmind_raw/_quota/finmind_quota.json")
     sp3.add_argument("--datasets", help="僅抓這些 dataset，逗號分隔；預設抓內建 plan")
+    sp3.add_argument("--auto-resume", action="store_true", help="若 quota 尚未到期則睡到 resume_at 再繼續")
+    def _cmd_fetch_fine(args):
+        ds = [s for s in args.datasets.split(",") if s.strip()] or None
+        stat = run_fetch_fine(args.watchlist, args.since, args.until, args.outdir,
+                            sleep_ms=args.sleep_ms, limit_per_hour=args.limit_per_hour,
+                            max_requests=args.max_requests, datasets=ds)
+        print("[FETCH-FINE DONE]", stat)
+        # 若設定 auto-resume 且被 quota 擋住，就睡到時間到再繼續
+        if args.auto_resume and stat.get("stopped") and "resume at" in (stat.get("reason") or ""):
+            import time, datetime as dt
+            ra_txt = (stat.get("reason") or "").split("resume at")[-1].strip()
+            try:
+                ra = dt.datetime.fromisoformat(ra_txt)
+                now = dt.datetime.now(ra.tzinfo)
+                wait = max(0, (ra - now).total_seconds())
+                print(f"[AUTO-RESUME] sleeping {int(wait)}s until {ra.isoformat()} ...")
+                time.sleep(wait+3)
+                # 再跑一次
+                stat2 = run_fetch_fine(args.watchlist, args.since, args.until, args.outdir,
+                                    sleep_ms=args.sleep_ms, limit_per_hour=args.limit_per_hour,
+                                    max_requests=args.max_requests, datasets=ds)
+                print("[FETCH-FINE DONE 2nd]", stat2)
+            except Exception:
+                pass
     sp3.set_defaults(func=cmd_fetch_fine)
