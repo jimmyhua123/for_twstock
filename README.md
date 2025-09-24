@@ -13,7 +13,7 @@ python -m pip install --upgrade pip
 python -m pip install PyYAML pandas requests pyarrow lxml beautifulsoup4 html5lib
 $env:FINMIND_TOKEN = "<你的 FinMind Token>"  # 精算階段才會用到
 
-$env:FINMIND_TOKEN = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wOS0yMCAxNDoxNzoyMiIsInVzZXJfaWQiOiJqaW1teWh1YSIsImlwIjoiMTE4LjIzMi4xODkuODUifQ.KAa_-B7uhD39eOBLZsmX8KQn87GSt1T4eZbxA3gUdfE
+$env:FINMIND_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wOS0yMCAxNDoxNzoyMiIsInVzZXJfaWQiOiJqaW1teWh1YSIsImlwIjoiMTE4LjIzMi4xODkuODUifQ.KAa_-B7uhD39eOBLZsmX8KQn87GSt1T4eZbxA3gUdfE"
 ```
 
 ### 1) 由 TaiwanStockInfo 產出「全市場宇宙」名單（只做一次）
@@ -91,8 +91,10 @@ python -m finmind_etl fetch-fine `
 ```powershell
 python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
 python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
+
+$until ='20250923'
 python -m finmind_etl report-watchlist `
-  --features  finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
+  --features  finmind_scores\features_snapshot_fine_$($until.Replace('-',''))`.csv `
   --watchlist .\watchlist.csv `
   --profile   fine `
   --output    finmind_reports\watchlist_deep

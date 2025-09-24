@@ -1,0 +1,17 @@
+pillar,column,exists,missing_rate
+tech,ret_5d,True,0.0
+tech,ret_20d,True,0.0
+tech,rsi_14,False,1.0
+tech,breakout_20d,False,1.0
+tech,volatility_20d,False,1.0
+tech,volume_ratio_20d,False,1.0
+chip,inst_net_buy_5d_ratio,False,1.0
+chip,inst_consistency_20d,False,1.0
+chip,margin_short_ratio_5d,False,1.0
+chip,borrow_balance_chg_5d,False,1.0
+fund,revenue_yoy,True,1.0
+fund,gross_margin_ttm,False,1.0
+fund,roe_ttm,False,1.0
+fund,op_margin_ttm,False,1.0
+risk,volatility_20d,False,1.0
+risk,drawdown_60d,False,1.0

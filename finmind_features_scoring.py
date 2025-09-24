@@ -417,9 +417,13 @@ def build_features(clean_dir: Path, raw_dir: Optional[Path]) -> pd.DataFrame:
         return feats
 
 
+# def score_snapshot(feats: pd.DataFrame, asof: Optional[str], out_dir: Path,
+#                    w_tech=0.3, w_chip=0.3, w_fund=0.3, w_risk=0.1,
+#                    focus_ids: Optional[list] = None) -> None:
 def score_snapshot(feats: pd.DataFrame, asof: Optional[str], out_dir: Path,
                    w_tech=0.3, w_chip=0.3, w_fund=0.3, w_risk=0.1,
-                   focus_ids: Optional[list] = None) -> None:
+                   focus_ids: Optional[list] = None,
+                   snapshot_suffix: str = "") -> None:    
     """以 as-of 日期做同業標準化打分，輸出三個檔：scores_watchlist / breakdown / features_snapshot"""
     # 取評分日期
     if asof:
@@ -563,7 +567,9 @@ def score_snapshot(feats: pd.DataFrame, asof: Optional[str], out_dir: Path,
     # 輸出（BOM）
     out_watch   = out_dir / f"scores_watchlist_{stamp}.csv"
     out_break   = out_dir / f"scores_breakdown_{stamp}.csv"
-    out_snapshot= out_dir / f"features_snapshot_{stamp}.csv"
+    # out_snapshot= out_dir / f"features_snapshot_{stamp}.csv"
+    tag         = f"_{snapshot_suffix}" if snapshot_suffix else ""
+    out_snapshot= out_dir / f"features_snapshot{tag}_{stamp}.csv"    
 
     watch.to_csv(out_watch, index=False, encoding="utf-8-sig")
     breakdown.to_csv(out_break, index=False, encoding="utf-8-sig")
@@ -586,7 +592,10 @@ def main():
     ap.add_argument("--raw-dir", type=str, default="finmind_raw", help="raw JSON 目錄（用於讀取 TaiwanStockPER.json）")
     ap.add_argument("--out-dir", type=str, default="finmind_scores", help="輸出目錄（預設：finmind_scores）")
     ap.add_argument("--asof", type=str, default=None, help="評分日期 YYYY-MM-DD（不給則取最新交易日）")
+    # ap.add_argument("--full-daily", action="store_true", help="輸出整段期間的每日特徵（檔案較大）")
     ap.add_argument("--full-daily", action="store_true", help="輸出整段期間的每日特徵（檔案較大）")
+    ap.add_argument("--outfile-suffix", type=str, default="fine",
+                    help="features 快照檔名尾碼（預設 fine → features_snapshot_fine_YYYYMMDD.csv；留空則不加尾碼）")
     ap.add_argument("--w-tech", type=float, default=0.3, help="技術面權重（預設 0.3）")
     ap.add_argument("--w-chip", type=float, default=0.3, help="籌碼面權重（預設 0.3）")
     ap.add_argument("--w-fund", type=float, default=0.3, help="基本面權重（預設 0.3）")
@@ -615,9 +624,15 @@ def main():
         if s not in seen:
             ordered_focus.append(s); seen.add(s)
 
-    score_snapshot(feats, args.asof, out_dir, args.w_tech, args.w_chip, args.w_fund, args.w_risk,
-                   focus_ids=ordered_focus if ordered_focus else None)
-    
+    # score_snapshot(feats, args.asof, out_dir, args.w_tech, args.w_chip, args.w_fund, args.w_risk,
+    #                focus_ids=ordered_focus if ordered_focus else None)
+    score_snapshot(
+        feats, args.asof, out_dir,
+        args.w_tech, args.w_chip, args.w_fund, args.w_risk,
+        focus_ids=ordered_focus if ordered_focus else None,
+        snapshot_suffix=(args.outfile_suffix or "")
+    )
+
     if args.full_daily:
         export_full_daily(feats, out_dir)
 
