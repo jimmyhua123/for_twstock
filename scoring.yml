@@ -1,55 +1,8 @@
-universe:
-  default: market_neutralized_by_industry
-  alternatives: [industry, watchlist, market]
-  min_universe_size: 25
-  fallback_hierarchy: [subindustry, industry, sector, market]
-
-use_prepercentiled: true
-industry_col: industry_category   # 你現有 features 常見的欄名；若未來改回 industry 再調整
-
-normalization:
-  method: industry_median_mad_then_market_rank
-  winsorize_pct: [0.01, 0.99]
-
-weights:
-  tech: 0.3
-  chip: 0.3
-  fund: 0.3
-  risk: 0.1
-
-rounding:
-  subscore_decimals: 1
-  total_decimals: 0
-
-features:
-  tech:
-    - score_tech_ret_20d
-    - score_tech_excess_ret_20d
-    - score_tech_sma20_gap_pct
-    - score_tech_sma60_gap_pct
-    - score_tech_sma120_gap_pct
-    - score_tech_rsi14
-    - score_tech_vol_mult_20d
-  chip:
-    - score_chip_chip_net5_sum
-    - score_chip_chip_net20_sum
-    - score_chip_foreign_ratio_5d_chg
-    - score_chip_foreign_ratio_20d_chg
-    - score_chip_margin_delta_5d_sum
-    - score_chip_margin_delta_20d_sum
-  fund:
-    - score_fund_revenue_mom
-    - score_fund_pe
-    - score_fund_pb
-  risk:
-    - score_risk_rolling_vol_20d_w
+industry_col: industry_category
 
 profiles:
-  coarse:   # 粗篩（只用官方來源能算出的輕特徵）
+  coarse:
     use_prepercentiled: false
-    universe: market_neutralized_by_industry
-    normalization:
-      winsorize_pct: [0.01, 0.99]
     features:
       tech: [ret_5d, ret_20d, rsi_14, breakout_20d, volatility_20d, volume_ratio_20d]
       chip: [inst_net_buy_5d_ratio, inst_consistency_20d]
@@ -57,11 +10,8 @@ profiles:
       risk: []
     weights: {tech: 0.7, chip: 0.3, fund: 0.0, risk: 0.0}
 
-  fine:     # 精算（Top N 再用 FinMind 補齊）
+  fine:
     use_prepercentiled: false
-    universe: market_neutralized_by_industry
-    normalization:
-      winsorize_pct: [0.01, 0.99]
     features:
       tech: [ret_5d, ret_20d, rsi_14, breakout_20d, volatility_20d, volume_ratio_20d]
       chip: [inst_net_buy_5d_ratio, inst_consistency_20d, margin_short_ratio_5d, borrow_balance_chg_5d]

@@ -6,10 +6,46 @@ from .reports.watchlist_deep import run_watchlist_report
 from .official_coarse.build_coarse_features import build_from_official
 from .fetch_fine import run_fetch_fine
 
-DEFAULT_FEATURES = "finmind_out/features_snapshot.csv"
+DEFAULT_SCORES_DIR = Path("finmind_scores")
+COARSE_PATTERN = "features_snapshot_coarse_*.csv"
+FINE_PATTERN = "features_snapshot_fine_*.csv"
+LEGACY_COARSE = Path("finmind_out/features_snapshot.csv")
 
 def _load_yaml(p: str) -> dict:
     return yaml.safe_load(Path(p).read_text(encoding="utf-8"))
+
+
+def _latest_features(pattern: str, candidates: list[Path]) -> Path | None:
+    for base in candidates:
+        base = base.expanduser()
+        if not base.exists():
+            continue
+        matches = sorted(base.glob(pattern), key=lambda p: p.stat().st_mtime, reverse=True)
+        if matches:
+            return matches[0]
+    return None
+
+
+def _resolve_features_path(profile: str, provided: str | None) -> Path:
+    pattern = COARSE_PATTERN if profile == "coarse" else FINE_PATTERN
+    if provided:
+        path = Path(provided)
+        if path.is_dir():
+            found = _latest_features(pattern, [path])
+            if found:
+                return found
+        if path.exists():
+            return path
+    search_dirs = []
+    if provided:
+        search_dirs.append(Path(provided).parent)
+    search_dirs.extend([DEFAULT_SCORES_DIR, Path(".")])
+    found = _latest_features(pattern, search_dirs)
+    if found:
+        return found
+    if profile == "coarse" and LEGACY_COARSE.exists():
+        return LEGACY_COARSE
+    raise SystemExit(f"找不到 {profile} features 檔案，請使用 --features 指定正確的 CSV。")
 
 def _diag_missing(features_df: pd.DataFrame, config: dict, out_dir: str):
     feats_cfg = config.get("features", {}) or config.get("profiles",{}).get("coarse",{}).get("features",{})
@@ -23,11 +59,21 @@ def _diag_missing(features_df: pd.DataFrame, config: dict, out_dir: str):
     pd.DataFrame(recs).to_csv(out/"_diag_missing_features.csv", index=False, encoding="utf-8")
 
 def cmd_build_coarse(args: argparse.Namespace):
+    stamp = pd.to_datetime(args.until).strftime("%Y%m%d")
+    desired = f"features_snapshot_coarse_{stamp}.csv"
+    out_arg = Path(args.out_features)
+    if out_arg.is_dir() or not out_arg.suffix:
+        target = out_arg / desired
+    elif out_arg.name != desired:
+        target = out_arg.parent / desired
+    else:
+        target = out_arg
+    target.parent.mkdir(parents=True, exist_ok=True)
     out = build_from_official(
         args.universe,
         args.since,
         args.until,
-        args.out_features,
+        str(target),
         sleep_ms=getattr(args, "sleep_ms", 250),
     )
     print(f"[OK] coarse features -> {out}")
@@ -36,9 +82,8 @@ def cmd_scan_market(args: argparse.Namespace):
     cfg_all = _load_yaml(args.scoring)
     profile = args.profile or "coarse"
     cfg = (cfg_all.get("profiles", {}).get(profile, {})) | {"industry_col": cfg_all.get("industry_col", "industry")}
-    feats_path = Path(args.features or DEFAULT_FEATURES)
-    if not feats_path.exists():
-        raise SystemExit(f"features 檔不存在：{feats_path}")
+    feats_path = _resolve_features_path(profile, args.features)
+    print(f"[INFO] 使用 features 檔案：{feats_path}")
     feats = pd.read_csv(feats_path)
     _diag_missing(feats, cfg, args.output)
     run_market_scan(feats, cfg, cfg.get("universe","market_neutralized_by_industry"), args.output)
@@ -59,29 +104,13 @@ def cmd_report_watchlist(args):
     cfg = (cfg_all.get("profiles", {}).get(profile, {})) | {
         "industry_col": cfg_all.get("industry_col", "industry")
     }
-    feats = pd.read_csv(args.features)
+    feats_path = _resolve_features_path(profile, args.features)
+    print(f"[INFO] 使用 features 檔案：{feats_path}")
+    feats = pd.read_csv(feats_path)
     wl = set(pd.read_csv(args.watchlist)["stock_id"].astype(str))
     feats = feats[feats["stock_id"].astype(str).isin(wl)].copy()
     _diag_missing(feats, cfg, args.output)
     run_watchlist_report(feats, cfg, args.output)
-
-
-# def cmd_fetch_fine(args: argparse.Namespace):
-    datasets = None
-    if args.datasets:
-        datasets = [x.strip() for x in args.datasets.split(",") if x.strip()]
-    res = run_fetch_fine(
-        watchlist_csv=args.watchlist,
-        since=args.since,
-        until=args.until,
-        outdir=args.outdir,
-        sleep_ms=args.sleep_ms,
-        limit_per_hour=args.limit_per_hour,
-        max_requests=args.max_requests,
-        state_file=args.state_file,
-        datasets=datasets,
-    )
-    print("[FETCH-FINE DONE]", res)
 
 
 def _cmd_fetch_fine(args):
@@ -118,14 +147,14 @@ def register_subcommands(subparsers):
     sp0.set_defaults(func=cmd_build_coarse)
 
     sp = subparsers.add_parser("scan-market", help="全市場粗篩報告")
-    sp.add_argument("--features", default=DEFAULT_FEATURES)
+    sp.add_argument("--features")
     sp.add_argument("--scoring", default="scoring.yml")
     sp.add_argument("--profile", default="coarse", choices=["coarse","fine"])
     sp.add_argument("--output", default="finmind_out/market_scan")
     sp.set_defaults(func=cmd_scan_market)
 
     sp2 = subparsers.add_parser("report-watchlist", help="自選清單深度報告")
-    sp2.add_argument("--features", required=True)
+    sp2.add_argument("--features")
     sp2.add_argument("--watchlist", required=True)  # CSV with stock_id column
     sp2.add_argument("--scoring", default="scoring.yml")
     sp2.add_argument("--profile", default="fine", choices=["coarse","fine"])

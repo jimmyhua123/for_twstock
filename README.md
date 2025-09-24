@@ -105,13 +105,21 @@ python -m finmind_etl fetch-fine `
 
 ### 6) 清理 → 特徵 → 自選深度報告（profile=fine）
 
+A) `fetch-fine --auto-resume`（同上步驟）
+
+B) 清理 → 產出 fine 原始特徵
+
+```powershell
+python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
+python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores
+```
+
+C) 產出 watchlist 深度報告（指定 fine 檔與 profile）
+
 ```powershell
 $until = '2025-09-23'
-
-python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
-python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
 python -m finmind_etl report-watchlist `
-  --features  finmind_scores\features_snapshot_$($until.Replace('-',''))`.csv `
+  --features  finmind_scores\features_snapshot_fine_$($until.Replace('-',''))`.csv `
   --watchlist .\watchlist.csv `
   --profile   fine `
   --output    finmind_reports\watchlist_deep
@@ -120,9 +128,9 @@ python -m finmind_etl report-watchlist `
 ## new
 ```
 python .\finmind_clean_standardize.py --raw-dir finmind_raw --out-dir finmind_out
-python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores --full-daily
+python .\finmind_features_scoring.py --clean-dir finmind_out --raw-dir finmind_raw --out-dir finmind_scores
 python -m finmind_etl report-watchlist `
-  --features  (Get-ChildItem finmind_scores\features_snapshot_*.csv | Sort-Object LastWriteTime -Desc | Select-Object -First 1).FullName `
+  --features  (Get-ChildItem finmind_scores\features_snapshot_fine_*.csv | Sort-Object LastWriteTime -Desc | Select-Object -First 1).FullName `
   --watchlist .\watchlist.csv `
   --profile   fine `
   --output    finmind_reports\watchlist_deep
@@ -136,17 +144,23 @@ python -m finmind_etl report-watchlist `
 
 
 
-30 秒自查：我現在拿的是 coarse 還是 fine 檔？
+10 秒自查：我現在拿的是 fine 原始欄位嗎？
 ```
 python - <<'PY'
 import pandas as pd, glob, os
-p = sorted(glob.glob("finmind_scores/features_snapshot_*.csv"), key=os.path.getmtime)[-1]
-df = pd.read_csv(p, nrows=3)
-cols = set(df.columns)
+files = sorted(glob.glob("finmind_scores/features_snapshot_fine_*.csv"), key=os.path.getmtime)
+if not files:
+    raise SystemExit("找不到 features_snapshot_fine_*.csv")
+p = files[-1]
+df = pd.read_csv(p, nrows=3); cols=set(df.columns)
 print("FILE:", p)
-print("has raw tech?", all(c in cols for c in ["rsi_14","breakout_20d","volatility_20d","volume_ratio_20d"]))
-print("has score_* ?", any(c.startswith("score_") for c in cols))
-print("has fund raw?", all(c in cols for c in ["revenue_yoy","gross_margin_ttm","roe_ttm","op_margin_ttm"]))
+def chk(xs):
+    miss=[c for c in xs if c not in cols]
+    print("need:", xs, "missing:", miss)
+chk(["rsi_14","breakout_20d","volatility_20d","volume_ratio_20d"])
+chk(["revenue_yoy","gross_margin_ttm","roe_ttm","op_margin_ttm"])
+chk(["inst_net_buy_5d_ratio","inst_consistency_20d","margin_short_ratio_5d","borrow_balance_chg_5d"])
+chk(["drawdown_60d"])
 PY
 ```
 

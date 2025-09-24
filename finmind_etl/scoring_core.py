@@ -28,46 +28,46 @@ def _mean_ignore_all_nan(df: pd.DataFrame, cols: List[str]) -> pd.Series:
     cols = [c for c in cols if c in df.columns]
     if not cols:
         return pd.Series(np.nan, index=df.index)
-    # 全 NaN → 結果 NaN；否則平均非 NaN 值
-    s = df[cols].mean(axis=1, skipna=True)
-    all_nan_mask = df[cols].isna().all(axis=1)
-    s[all_nan_mask] = np.nan
-    return s
+    arr = df[cols].to_numpy(dtype=float)
+    cnt = np.sum(~np.isnan(arr), axis=1)
+    s = np.nansum(arr, axis=1)
+    out = np.full(arr.shape[0], np.nan, dtype=float)
+    mask = cnt > 0
+    out[mask] = s[mask] / cnt[mask]
+    return pd.Series(out, index=df.index)
+
+
+def combine_pillars(df: pd.DataFrame, pillars: Dict[str, List[str]], weights: Dict[str, float]) -> pd.DataFrame:
+    pillar_scores = {}
+    ordered: List[str] = []
+    for name, cols in pillars.items():
+        pillar_scores[f"{name}_score"] = _mean_ignore_all_nan(df, cols)
+        ordered.append(name)
+    out = pd.DataFrame(pillar_scores, index=df.index)
+    if not ordered:
+        out["score_total"] = np.nan
+        return out
+    score_matrix = np.vstack([
+        out.get(f"{name}_score", pd.Series(np.nan, index=df.index)).to_numpy(dtype=float)
+        for name in ordered
+    ])
+    weight_vec = np.array([weights.get(name, 0.0) for name in ordered], dtype=float)
+    valid_mask = ~np.isnan(score_matrix)
+    weight_adj = weight_vec[:, None] * valid_mask
+    denom = weight_adj.sum(axis=0)
+    numer = np.nansum(score_matrix * weight_vec[:, None], axis=0)
+    total = np.full(df.shape[0], np.nan, dtype=float)
+    ok = denom > 0
+    total[ok] = numer[ok] / denom[ok]
+    out["score_total"] = total
+    return out
 
 
 def build_four_pillars_from_prepercentile(df: pd.DataFrame, cfg: dict) -> pd.DataFrame:
     feats = cfg.get("features", {})
     out = df.copy()
-    for pillar in ("tech","chip","fund","risk"):
-        cols = feats.get(pillar, [])
-        if cols:
-            series = _mean_ignore_all_nan(out, cols)
-        else:
-            series = pd.Series(np.nan, index=out.index)
-
-        if series.isna().all():
-            for fallback_col in (f"score_{pillar}", f"{pillar}_score"):
-                if fallback_col in out.columns:
-                    series = pd.to_numeric(out[fallback_col], errors="coerce")
-                    break
-
-        out[f"{pillar}_score"] = series
-    return out
-
-
-def dynamic_weighted_total(df: pd.DataFrame, weights: Dict[str,float]) -> pd.Series:
-    # 對每一列：只對非 NaN 面向做加權，並把權重正規化到 1
-    pillars = ["tech","chip","fund","risk"]
-    w = np.array([weights.get(p, 0.0) for p in pillars], dtype=float)
-    mat = np.vstack([df[f"{p}_score"].to_numpy(dtype=float) for p in pillars])  # shape (4, N)
-    nan_mask = np.isnan(mat)
-    w_broadcast = w[:, None] * (~nan_mask)
-    denom = w_broadcast.sum(axis=0)
-    numer = np.nansum(mat * w[:, None], axis=0)
-    out = np.full_like(numer, np.nan)
-    nonzero = denom > 0
-    out[nonzero] = numer[nonzero] / denom[nonzero]
-    return pd.Series(out, index=df.index)
+    scores = combine_pillars(out, feats, cfg.get("weights", {}))
+    return pd.concat([out, scores], axis=1)
 
 # ---- optional raw→percentile 路徑（保留既有流程）----
 
@@ -134,12 +134,13 @@ def build_four_pillars_from_raw(df: pd.DataFrame, cfg: dict, universe: str) -> p
         out = to_percentile(out, all_cols, by=None)
         pct_cols = [c + "_pct" for c in all_cols]
 
-    # 以 _pct 欄位平均成面向分數
-    for pillar in ("tech","chip","fund","risk"):
-        cols = [c + ("_adj_pct" if universe == "market_neutralized_by_industry" else "_pct") for c in feats_cfg.get(pillar, [])]
-        cols = [c for c in cols if c in out.columns]
-        out[f"{pillar}_score"] = _mean_ignore_all_nan(out, cols)
-    return out
+    suffix = "_adj_pct" if universe == "market_neutralized_by_industry" else "_pct"
+    pillar_pct = {
+        pillar: [f"{c}{suffix}" for c in feats_cfg.get(pillar, []) if f"{c}{suffix}" in out.columns]
+        for pillar in ("tech", "chip", "fund", "risk")
+    }
+    scores = combine_pillars(out, pillar_pct, cfg.get("weights", {}))
+    return pd.concat([out, scores], axis=1)
 
 # ---- 統一入口 ----
 
@@ -151,5 +152,4 @@ def build_scores(df: pd.DataFrame, cfg: dict, universe: str = "market_neutralize
         out = build_four_pillars_from_prepercentile(out, cfg)
     else:
         out = build_four_pillars_from_raw(out, cfg, universe)
-    out["score_total"] = dynamic_weighted_total(out, cfg.get("weights", {}))
     return out
