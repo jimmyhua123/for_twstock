@@ -43,10 +43,22 @@ def cmd_scan_market(args: argparse.Namespace):
     _diag_missing(feats, cfg, args.output)
     run_market_scan(feats, cfg, cfg.get("universe","market_neutralized_by_industry"), args.output)
 
-def cmd_report_watchlist(args: argparse.Namespace):
+# def cmd_report_watchlist(args: argparse.Namespace):
+#     cfg_all = _load_yaml(args.scoring)
+#     profile = args.profile or "fine"
+#     cfg = (cfg_all.get("profiles", {}).get(profile, {})) | {"industry_col": cfg_all.get("industry_col", "industry")}
+#     feats = pd.read_csv(args.features)
+#     wl = set(pd.read_csv(args.watchlist)["stock_id"].astype(str))
+#     feats = feats[feats["stock_id"].astype(str).isin(wl)].copy()
+#     _diag_missing(feats, cfg, args.output)
+#     run_watchlist_report(feats, cfg, args.output)
+
+def cmd_report_watchlist(args):
     cfg_all = _load_yaml(args.scoring)
     profile = args.profile or "fine"
-    cfg = (cfg_all.get("profiles", {}).get(profile, {})) | {"industry_col": cfg_all.get("industry_col", "industry")}
+    cfg = (cfg_all.get("profiles", {}).get(profile, {})) | {
+        "industry_col": cfg_all.get("industry_col", "industry")
+    }
     feats = pd.read_csv(args.features)
     wl = set(pd.read_csv(args.watchlist)["stock_id"].astype(str))
     feats = feats[feats["stock_id"].astype(str).isin(wl)].copy()
@@ -54,7 +66,7 @@ def cmd_report_watchlist(args: argparse.Namespace):
     run_watchlist_report(feats, cfg, args.output)
 
 
-def cmd_fetch_fine(args: argparse.Namespace):
+# def cmd_fetch_fine(args: argparse.Namespace):
     datasets = None
     if args.datasets:
         datasets = [x.strip() for x in args.datasets.split(",") if x.strip()]
@@ -70,6 +82,31 @@ def cmd_fetch_fine(args: argparse.Namespace):
         datasets=datasets,
     )
     print("[FETCH-FINE DONE]", res)
+
+
+def _cmd_fetch_fine(args):
+        ds = [s for s in args.datasets.split(",") if s.strip()] or None
+        stat = run_fetch_fine(args.watchlist, args.since, args.until, args.outdir,
+                            sleep_ms=args.sleep_ms, limit_per_hour=args.limit_per_hour,
+                            max_requests=args.max_requests, datasets=ds)
+        print("[FETCH-FINE DONE]", stat)
+        # 若設定 auto-resume 且被 quota 擋住，就睡到時間到再繼續
+        if args.auto_resume and stat.get("stopped") and "resume at" in (stat.get("reason") or ""):
+            import time, datetime as dt
+            ra_txt = (stat.get("reason") or "").split("resume at")[-1].strip()
+            try:
+                ra = dt.datetime.fromisoformat(ra_txt)
+                now = dt.datetime.now(ra.tzinfo)
+                wait = max(0, (ra - now).total_seconds())
+                print(f"[AUTO-RESUME] sleeping {int(wait)}s until {ra.isoformat()} ...")
+                time.sleep(wait+3)
+                # 再跑一次
+                stat2 = run_fetch_fine(args.watchlist, args.since, args.until, args.outdir,
+                                    sleep_ms=args.sleep_ms, limit_per_hour=args.limit_per_hour,
+                                    max_requests=args.max_requests, datasets=ds)
+                print("[FETCH-FINE DONE 2nd]", stat2)
+            except Exception:
+                pass
 
 def register_subcommands(subparsers):
     sp0 = subparsers.add_parser("build-coarse", help="用 TWSE/TPEx 建全市場粗篩 features")
@@ -106,27 +143,5 @@ def register_subcommands(subparsers):
     sp3.add_argument("--state-file", default="finmind_raw/_quota/finmind_quota.json")
     sp3.add_argument("--datasets", help="僅抓這些 dataset，逗號分隔；預設抓內建 plan")
     sp3.add_argument("--auto-resume", action="store_true", help="若 quota 尚未到期則睡到 resume_at 再繼續")
-    def _cmd_fetch_fine(args):
-        ds = [s for s in args.datasets.split(",") if s.strip()] or None
-        stat = run_fetch_fine(args.watchlist, args.since, args.until, args.outdir,
-                            sleep_ms=args.sleep_ms, limit_per_hour=args.limit_per_hour,
-                            max_requests=args.max_requests, datasets=ds)
-        print("[FETCH-FINE DONE]", stat)
-        # 若設定 auto-resume 且被 quota 擋住，就睡到時間到再繼續
-        if args.auto_resume and stat.get("stopped") and "resume at" in (stat.get("reason") or ""):
-            import time, datetime as dt
-            ra_txt = (stat.get("reason") or "").split("resume at")[-1].strip()
-            try:
-                ra = dt.datetime.fromisoformat(ra_txt)
-                now = dt.datetime.now(ra.tzinfo)
-                wait = max(0, (ra - now).total_seconds())
-                print(f"[AUTO-RESUME] sleeping {int(wait)}s until {ra.isoformat()} ...")
-                time.sleep(wait+3)
-                # 再跑一次
-                stat2 = run_fetch_fine(args.watchlist, args.since, args.until, args.outdir,
-                                    sleep_ms=args.sleep_ms, limit_per_hour=args.limit_per_hour,
-                                    max_requests=args.max_requests, datasets=ds)
-                print("[FETCH-FINE DONE 2nd]", stat2)
-            except Exception:
-                pass
-    sp3.set_defaults(func=cmd_fetch_fine)
+
+    sp3.set_defaults(func=_cmd_fetch_fine)
