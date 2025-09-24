@@ -19,7 +19,7 @@ $env:FINMIND_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wO
 ### 1) 由 TaiwanStockInfo 產出「全市場宇宙」名單（只做一次）
 
 ```powershell
-python .\tools\make_universe_all.py --input finmind_raw\TaiwanStockInfo.json --out finmind_in --batch-size 200
+python .\tools\make_universe_all.py --input fTaiwanStockInfo.json --out finmind_in --batch-size 200
 ```
 
 輸出：`finmind_in/universe_all.csv`、`finmind_in/batches/*.csv`。
