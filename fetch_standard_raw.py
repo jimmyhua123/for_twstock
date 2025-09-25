@@ -140,7 +140,7 @@ def main():
         # 其他（一次性）
         "TaiwanStockInfo": False,
         "TaiwanStockTradingDate": False,
-        "TaiwanStockTotalReturnIndex": False,
+        "TaiwanStockTotalReturnIndex": True,
     }
 
     # 根目錄輸出檔名（清理腳本會找這些）
@@ -156,6 +156,11 @@ def main():
     ds_start_idx = int(st["progress"].get("dataset_idx", 0))
     id_start_idx = int(st["progress"].get("id_idx", 0))
     sleep_s = max(0.0, args.sleep_ms / 1000.0)
+
+    # 特例：需要自訂的 data_id 清單（非股票代碼）
+    special_ids: Dict[str, List[str]] = {
+        "TaiwanStockTotalReturnIndex": ["TAIEX", "TPEx"],
+    }
 
     for ds_i in range(ds_start_idx, len(args.datasets)):
         ds = args.datasets[ds_i]
@@ -194,10 +199,16 @@ def main():
             continue
 
         # 需 data_id → 逐檔
-        for j in range(id_start_idx, len(ids)):
-            sid = ids[j]
+        # for j in range(id_start_idx, len(ids)):
+        #     sid = ids[j]
+        # 需 data_id → 逐檔（若在 special_ids，使用其專屬 ID 清單）
+        id_pool = special_ids.get(ds, ids)
+        for j in range(id_start_idx, len(id_pool)):
+            sid = id_pool[j]
+
             part_file = parts_dir / f"{sid}.csv"
             if part_file.exists() and part_file.stat().st_size > 0:
+                # st.update({"progress": {"dataset_idx": ds_i, "id_idx": j + 1}, "used_calls": used_calls})
                 st.update({"progress": {"dataset_idx": ds_i, "id_idx": j + 1}, "used_calls": used_calls})
                 save_state(state_path, st); continue
 

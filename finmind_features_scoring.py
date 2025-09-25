@@ -64,10 +64,11 @@ def read_csv(path: Path) -> pd.DataFrame:
 #     return df
 
 def read_per_from_raw(raw_dir: Path) -> pd.DataFrame:
-    """讀 raw/TaiwanStockPER.json，回傳每檔最新 pe/pb（自動兼容欄名：PE/PER/PE_ratio、PB/PBR/PB_ratio）。"""
+    """讀 raw/TaiwanStockPER.json，保留 (stock_id, date) 明細以便後續 as-of 合併。"""
     src = raw_dir / "TaiwanStockPER.json"
     if not src.exists():
         return pd.DataFrame()
+
     with open(src, "r", encoding="utf-8") as f:
         obj = json.load(f)
     data = obj.get("data", []) if isinstance(obj, dict) else obj
@@ -75,11 +76,11 @@ def read_per_from_raw(raw_dir: Path) -> pd.DataFrame:
     if df.empty:
         return df
 
-    # 統一 stock_id 型別
+    # 正規化
     if "stock_id" in df.columns:
         df["stock_id"] = df["stock_id"].astype(str).str.strip()
 
-    # 可能的欄名對應（大小寫/不同寫法）
+    # 欄名對齊
     rename_map = {}
     for c in df.columns:
         lc = c.lower()
@@ -87,21 +88,22 @@ def read_per_from_raw(raw_dir: Path) -> pd.DataFrame:
             rename_map[c] = "pe"
         if lc in {"pb", "pbr", "pb_ratio"}:
             rename_map[c] = "pb"
+        if lc in {"date"}:
+            rename_map[c] = "date"
     if rename_map:
         df = df.rename(columns=rename_map)
 
-    # 只保留需要欄（若沒抓到也會留空）
-    keep = ["stock_id"] + [c for c in ("pe","pb","dividend_yield") if c in df.columns]
+    keep = ["stock_id"] + [c for c in ("date", "pe", "pb", "dividend_yield") if c in df.columns]
+    df = df[[c for c in keep if c in df.columns]].copy()
 
-    df = df[keep].copy()
-
-    # 取每檔最新一筆（若 PER 檔有 date 欄位）
+    # date 轉型 + 去重成 (stock_id, date) 唯一
     if "date" in df.columns:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
-        df = df.sort_values(["stock_id", "date"]).drop_duplicates("stock_id", keep="last")
+        df = (df.sort_values(["stock_id", "date"])
+                .drop_duplicates(["stock_id", "date"], keep="last"))
 
-    # 轉數值
-    for col in ["pe", "pb"]:
+    # 數值型
+    for col in ("pe", "pb", "dividend_yield"):
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
 
@@ -378,24 +380,49 @@ def build_features(clean_dir: Path, raw_dir: Optional[Path]) -> pd.DataFrame:
             if "dividend_yield" not in feats.columns:
                 feats["dividend_yield"] = np.nan
     
-        # 估值：PE / PB（用 raw 最新值）
-        # 這段是安全版：只有左右表都有 'stock_id' 才併；否則補 NaN
+        # 估值：PE / PB（as-of 併入；若無 date 則退回單檔最新值）
         per_cols = []
         if not per_df.empty:
             if "stock_id" in per_df.columns:
                 per_df["stock_id"] = per_df["stock_id"].astype(str).str.strip()
             per_cols = [c for c in ["pe", "pb", "dividend_yield"] if c in per_df.columns]
 
-        # 只有當 feats、per_df 都有 'stock_id' 且有可併欄位時才併
-        if ("stock_id" in feats.columns) and (not per_df.empty) and ("stock_id" in per_df.columns) and per_cols:
-            feats = feats.merge(per_df[["stock_id"] + per_cols], on="stock_id", how="left")
-            for col in per_cols:
-                feats[col] = feats.groupby("stock_id")[col].ffill()
+        if ("stock_id" in feats.columns) and per_cols and (not per_df.empty) and ("stock_id" in per_df.columns):
+            if "date" in per_df.columns and pd.api.types.is_datetime64_any_dtype(per_df["date"]):
+                # 逐檔 as-of：對每支股票用「截至當日最近一筆」PER/PBR
+                feats = feats.sort_values(["stock_id", "date"])
+                per_df = (per_df
+                          .dropna(subset=["stock_id", "date"])
+                          .sort_values(["stock_id", "date"])
+                          .drop_duplicates(["stock_id", "date"], keep="last"))
+
+                merged_parts = []
+                for sid, left_g in feats.groupby("stock_id", sort=False):
+                    right_g = per_df[per_df["stock_id"] == sid].drop(columns=["stock_id"])
+                    if right_g.empty:
+                        merged_parts.append(left_g.assign(**{c: np.nan for c in per_cols}))
+                        continue
+                    mg = pd.merge_asof(
+                        left_g.sort_values("date"),
+                        right_g.sort_values("date"),
+                        on="date",
+                        direction="backward",
+                        allow_exact_matches=True
+                    )
+                    merged_parts.append(mg)
+                feats = pd.concat(merged_parts, ignore_index=True)
+            else:
+                # 沒有 date 欄（或格式不對）→ 退回每檔最新一筆再用 stock_id 併入
+                per_latest = (per_df
+                              .sort_values(list(per_df.columns))
+                              .drop_duplicates(["stock_id"], keep="last"))
+                feats = feats.merge(per_latest[["stock_id"] + per_cols], on="stock_id", how="left")
         else:
-            # 沒法併就保證欄位存在，避免後面引用出錯
+            # 保證欄位存在，避免後續引用報錯
             for c in ("pe", "pb", "dividend_yield"):
                 if c not in feats.columns:
                     feats[c] = np.nan
+
 
 
         # 附加維度：產業

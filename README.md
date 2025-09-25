@@ -87,7 +87,7 @@ python .\fetch_standard_raw.py `
 python .\finmind_clean_standardize.py --raw-dir finmind_raw_std --out-dir finmind_out_std
 python .\finmind_features_scoring.py --clean-dir finmind_out_std --raw-dir finmind_raw_std --out-dir finmind_scores --full-daily
 
-# $until ='20250923'
+$until ='20250924'
 python -m finmind_etl report-watchlist `
   --features  finmind_scores\features_snapshot_fine_$($until.Replace('-',''))`.csv `
   --watchlist .\watchlist.csv `
